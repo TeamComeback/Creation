@@ -1,0 +1,42 @@
+# Render blueprint. Push this repo to GitHub, then:
+#   Render -> New -> Blueprint -> pick the repo.
+# The cron job hits /api/scan every weekday at 6:30am Central (11:30 UTC).
+services:
+  - type: web
+    name: tx-job-scanner
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DB_PATH
+        value: /var/data/jobscan.db
+      - key: ADZUNA_APP_ID
+        sync: false
+      - key: ADZUNA_APP_KEY
+        sync: false
+      - key: RAPIDAPI_KEY
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: DIGEST_TO
+        sync: false
+      - key: CRON_TOKEN
+        sync: false
+    disk:
+      name: jobscan-data
+      mountPath: /var/data
+      sizeGB: 1
+
+  - type: cron
+    name: tx-job-scanner-daily
+    runtime: python
+    plan: free
+    schedule: "30 11 * * 1-5"
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -c "import os,urllib.request;urllib.request.urlopen(urllib.request.Request(os.environ['SCAN_URL'],method='POST'),timeout=280)"
+    envVars:
+      - key: SCAN_URL
+        sync: false
