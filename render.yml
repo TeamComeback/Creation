@@ -1,0 +1,36 @@
+# Render blueprint (free tier).
+#   Render -> New -> Blueprint -> pick the repo.
+#
+# Two free-tier constraints shape this file:
+#   * No persistent disks, so the SQLite database lives in /tmp and resets
+#     whenever the service restarts. The daily digest email is your durable
+#     record; the board is a rolling view.
+#   * No cron services, so scheduling happens outside Render. Point a free
+#     scheduler (cron-job.org, UptimeRobot) at:
+#       https://YOUR-APP.onrender.com/api/scan?token=YOUR_CRON_TOKEN
+#     A POST every weekday at 11:30 UTC (6:30am Central) reproduces the
+#     original schedule, and the same ping keeps the service from sleeping.
+services:
+  - type: web
+    name: tx-job-scanner
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DB_PATH
+        value: /tmp/jobscan.db
+      - key: ADZUNA_APP_ID
+        sync: false
+      - key: ADZUNA_APP_KEY
+        sync: false
+      - key: RAPIDAPI_KEY
+        sync: false
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: DIGEST_TO
+        sync: false
+      - key: CRON_TOKEN
+        sync: false
