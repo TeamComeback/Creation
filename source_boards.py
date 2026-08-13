@@ -35,12 +35,7 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 COMPANY_BOARDS = {
     "greenhouse": [
-        "rackspace",
-        "cloudflare",       # has TX presence
-        "hebdigital",
-    ],
-    "lever": [
-        "credithuman",
+     
     ],
 }
 
