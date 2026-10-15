@@ -16,7 +16,7 @@ import json
 import os
 import sqlite3
 from contextlib import contextmanager
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Iterable
 
 from scoring import Job
@@ -109,6 +109,23 @@ def upsert_jobs(jobs: Iterable[Job]) -> int:
             )
             new += 1
     return new
+
+
+def purge_stale(days: int = 14) -> int:
+    """Drop postings that have stopped showing up in scans.
+
+    A posting that no longer appears in search results is almost always
+    filled or pulled, and a dead link that still scores 70 crowds out a live
+    one that scores 55. Anything the user acted on is kept regardless --
+    'saved' and 'applied' are their record, not the scanner's.
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat(timespec="seconds")
+    with conn() as c:
+        cur = c.execute(
+            "DELETE FROM jobs WHERE last_seen < ? AND status IN ('new', 'dismissed')",
+            (cutoff,),
+        )
+        return cur.rowcount or 0
 
 
 def get_jobs(status: str | None = None, metro: str | None = None,

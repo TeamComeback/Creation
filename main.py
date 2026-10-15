@@ -92,14 +92,37 @@ def api_set_status(key: str, status: str) -> dict:
     return {"ok": True, "key": key, "status": status}
 
 
+def _scan_then_digest() -> None:
+    """Background worker: scan, then mail whatever cleared the threshold."""
+    try:
+        scanner.run_scan()
+        scanner.send_digest()
+    except Exception:  # noqa: BLE001 -- a background crash must reach the logs
+        logging.exception("background scan failed")
+
+
 @app.post("/api/scan")
-def api_scan(background: BackgroundTasks, token: str = "") -> dict:
-    """Cron target. Set CRON_TOKEN so a stranger can't burn your API quota."""
+def api_scan(background: BackgroundTasks, token: str = "", wait: bool = False) -> dict:
+    """Cron target. Set CRON_TOKEN so a stranger can't burn your API quota.
+
+    Returns immediately by default: a full scan is ~24 upstream calls, and on
+    a cold free-tier instance that can outlast a scheduler's request timeout,
+    which gets logged as a failed run even though the scan completed. The
+    numbers land in /health as last_scan.
+
+    Pass wait=true to block and get the counts back in the response -- handy
+    from /docs when you want to see found/kept/new right now.
+    """
     if CRON_TOKEN and token != CRON_TOKEN:
         raise HTTPException(401, "bad token")
-    result = scanner.run_scan()
-    background.add_task(scanner.send_digest)
-    return result
+
+    if wait:
+        result = scanner.run_scan()
+        background.add_task(scanner.send_digest)
+        return result
+
+    background.add_task(_scan_then_digest)
+    return {"status": "scan started", "check": "/health for last_scan results"}
 
 
 @app.post("/api/digest")

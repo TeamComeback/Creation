@@ -91,6 +91,22 @@ touch the scoring code.
 - **Move the money targets** → `SALARY_FLOOR` / `SALARY_TARGET` / `SALARY_STRETCH`
 - **Drop a metro or add Austin** → `METROS`
 
+## Scan behavior
+
+`POST /api/scan` returns immediately and runs the scan in the background, so a
+cold free-tier start can't outlast a scheduler's request timeout and get logged
+as a failed run. The counts land in `/health` under `last_scan`. Add
+`?wait=true` to block and get `found` / `kept` / `new` / `purged` back in the
+response — that's the one to use from `/docs` when you want to watch it work.
+
+Postings not seen in a scan for 14 days are deleted, so dead links stop
+outranking live ones. Anything you marked **saved** or **applied** is kept no
+matter how old — that's your record, not the scanner's. Change the window with
+`STALE_AFTER_DAYS`.
+
+Age is scored, not just stored: under 48 hours is worth +10, under a week +5,
+over three weeks −8. A posting whose source didn't report a date is neutral.
+
 ## Known limitations
 
 - **The Greenhouse and Lever slugs in `source_boards.py` are unverified.**
