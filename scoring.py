@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field, asdict
+from datetime import datetime, timezone
 from typing import Optional
 
 from job_profile import (
@@ -172,6 +173,52 @@ def _disqualifier_points(text: str) -> tuple[float, list[str]]:
     return pts, flags
 
 
+def age_in_days(job: Job) -> Optional[float]:
+    """Days since the posting went up, or None when the source didn't say.
+
+    Sources format posted_at inconsistently (Adzuna sends ISO with no zone,
+    JSearch sends ISO with Z, boards send epoch-ish strings), so anything
+    unparseable is treated as unknown rather than guessed at.
+    """
+    raw = (job.posted_at or "").strip()
+    if not raw:
+        return None
+
+    candidate = raw.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(candidate)
+    except ValueError:
+        return None
+
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+
+    delta = datetime.now(timezone.utc) - parsed
+    days = delta.total_seconds() / 86400
+    return days if days >= 0 else 0.0
+
+
+def _recency_points(job: Job) -> tuple[float, list[str], list[str]]:
+    """Fresh postings win.
+
+    Applying inside the first couple of days is the difference between being
+    read and being #400 in the pile, so age is scored, not just displayed.
+    An unknown date is neutral -- never penalized, since most board adapters
+    don't report one.
+    """
+    days = age_in_days(job)
+    if days is None:
+        return 0.0, [], []
+
+    if days <= 2:
+        return 10.0, ["posted in the last 48 hours — apply now"], []
+    if days <= 7:
+        return 5.0, [f"posted {int(days)} days ago"], []
+    if days <= 21:
+        return 0.0, [], []
+    return -8.0, [], [f"posting is {int(days)} days old — may be filled"]
+
+
 def score_job(job: Job) -> Job:
     """Attach a 0-100 score plus human-readable reasons and flags."""
     text = _haystack(job)
@@ -196,6 +243,11 @@ def score_job(job: Job) -> Job:
     pts, why = _sector_points(text)
     total += pts
     reasons += why
+
+    pts, why, warn = _recency_points(job)
+    total += pts
+    reasons += why
+    flags += warn
 
     pts, warn = _disqualifier_points(text)
     total += pts
