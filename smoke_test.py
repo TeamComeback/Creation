@@ -11,8 +11,10 @@ import os
 
 os.environ.setdefault("DB_PATH", "/tmp/jobscan_smoke.db")
 
-from scoring import Job, rank          # noqa: E402
-import store                      # noqa: E402
+from datetime import datetime, timedelta, timezone   # noqa: E402
+
+from scoring import Job, rank, score_job             # noqa: E402
+import store                                         # noqa: E402
 
 MOCK = [
     Job(source="mock", external_id="1", track="direct", metro="tampa",
@@ -108,6 +110,50 @@ def main() -> None:
     again = store.upsert_jobs(ranked)   # must be 0 -- dedupe check
     print(f"stored: {new} new on first pass, {again} new on second pass (dedupe works if 0)")
     print("top of board:", [j["title"] for j in store.get_jobs(limit=3)])
+
+    check_recency()
+    check_purge()
+
+
+def check_recency() -> None:
+    """A fresh posting must outscore the same posting gone stale."""
+    def aged(days: int) -> Job:
+        stamp = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+        return Job(source="mock", external_id=f"age{days}", track="direct",
+                   metro="san_antonio", title="Accounts Receivable Specialist",
+                   company="Frost Bank", location="San Antonio, TX",
+                   url="https://example.com/age", salary_min=52000, salary_max=64000,
+                   posted_at=stamp,
+                   description="Cash application, posting payments, reconciliation.")
+
+    fresh, week, stale = (score_job(aged(d)).score for d in (1, 5, 40))
+
+    undated = aged(1)
+    undated.posted_at = "not a real date"
+    unparseable = score_job(undated).score
+
+    print("\nrecency:")
+    print(f"   1 day old  {fresh:5.1f}")
+    print(f"   5 days old {week:5.1f}")
+    print(f"  40 days old {stale:5.1f}")
+    assert fresh > week > stale, "fresher postings must score higher"
+    assert unparseable == score_job(aged(60)).score + 8.0, "bad dates must be neutral"
+    print("  unparseable date is neutral, not penalized — ok")
+
+
+def check_purge() -> None:
+    """Stale rows go; anything the user acted on stays."""
+    old = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat(timespec="seconds")
+    with store.conn() as c:
+        keys = [r["key"] for r in c.execute("SELECT key FROM jobs LIMIT 3").fetchall()]
+        for k in keys:
+            c.execute("UPDATE jobs SET last_seen = ? WHERE key = ?", (old, k))
+        c.execute("UPDATE jobs SET status = 'applied' WHERE key = ?", (keys[0],))
+
+    purged = store.purge_stale(14)
+    survived = [j["status"] for j in store.get_jobs(limit=50)]
+    print(f"\npurge: removed {purged} stale rows, kept {survived.count('applied')} applied")
+    assert "applied" in survived, "applied jobs must never be purged"
 
 
 if __name__ == "__main__":

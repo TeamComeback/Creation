@@ -33,6 +33,7 @@ log = logging.getLogger(__name__)
 QUERIES_PER_RUN = int(os.getenv("QUERIES_PER_RUN", "2"))
 MIN_SCORE = float(os.getenv("MIN_SCORE", "35"))
 DIGEST_MIN_SCORE = float(os.getenv("DIGEST_MIN_SCORE", "45"))
+STALE_AFTER_DAYS = int(os.getenv("STALE_AFTER_DAYS", "14"))
 
 
 def _rotating_slice(items: list[str], n: int) -> list[str]:
@@ -48,6 +49,22 @@ def run_scan() -> dict:
     store.init_db()
     collected: list[Job] = []
     errors: list[str] = []
+
+    # Say out loud which sources are off BEFORE the loop. The warning inside
+    # each adapter's fetch() can never fire, because run_scan checks
+    # available() first and skips the call -- so a missing API key used to
+    # produce a silent "found: 0" with nothing in the logs to explain it.
+    active = []
+    for name, module in (("adzuna", adzuna), ("jsearch", jsearch)):
+        if module.available():
+            active.append(name)
+        else:
+            msg = f"{name}: no credentials configured, skipping"
+            log.warning(msg)
+            errors.append(msg)
+
+    if not active:
+        log.error("no job sources are configured — scan will return nothing")
 
     for track, cfg in SEARCH_TRACKS.items():
         queries = _rotating_slice(cfg["queries"], QUERIES_PER_RUN)
@@ -76,10 +93,20 @@ def run_scan() -> dict:
         unique.append(j)
 
     new_count = store.upsert_jobs(unique)
+    purged = store.purge_stale(STALE_AFTER_DAYS)
     store.log_scan("all", found, len(unique), new_count, "; ".join(errors))
 
-    log.info("scan complete: %d found, %d kept, %d new", found, len(unique), new_count)
-    return {"found": found, "kept": len(unique), "new": new_count}
+    log.info(
+        "scan complete: %d found, %d kept, %d new, %d purged (sources: %s)",
+        found, len(unique), new_count, purged, ", ".join(active) or "none",
+    )
+    return {
+        "found": found,
+        "kept": len(unique),
+        "new": new_count,
+        "purged": purged,
+        "sources": active,
+    }
 
 
 # ---------------------------------------------------------------------------
