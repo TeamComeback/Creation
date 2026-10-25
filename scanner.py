@@ -5,9 +5,13 @@ One scan = every track x every query x every metro, across whichever sources
 have credentials. Results are scored, deduped, stored, and the best unseen
 ones go out in one email.
 
-Budget note: free API tiers are small. QUERIES_PER_RUN rotates through the
-query list so a week of daily scans covers everything without burning quota
-in a single morning.
+Budget note: free API tiers are small. Adzuna's free tier is about 1,000
+calls a month, and one scan costs  metros x tracks x QUERIES_PER_RUN  calls.
+With four metros and three tracks that's 12 calls per query slot, so the
+default of 2 keeps a scan at 24 calls -- the same cost as the old two-metro
+setup at 4 -- and ~720 calls/month on a daily schedule. QUERIES_PER_RUN
+rotates through each track's query list by day, so every query still gets
+covered every five days.
 """
 
 from __future__ import annotations
@@ -26,7 +30,7 @@ from source_boards import COMPANY_BOARDS, fetch_greenhouse, fetch_lever
 
 log = logging.getLogger(__name__)
 
-QUERIES_PER_RUN = int(os.getenv("QUERIES_PER_RUN", "4"))
+QUERIES_PER_RUN = int(os.getenv("QUERIES_PER_RUN", "2"))
 MIN_SCORE = float(os.getenv("MIN_SCORE", "35"))
 DIGEST_MIN_SCORE = float(os.getenv("DIGEST_MIN_SCORE", "45"))
 
@@ -130,7 +134,8 @@ def send_digest() -> dict:
                        max-width:640px;margin:0 auto;padding:16px">
       <h2 style="color:#1f3864;margin-bottom:4px">{len(jobs)} new matches</h2>
       <div style="color:#666;font-size:13px;margin-bottom:16px">
-        Tampa Bay &amp; Jacksonville &middot; {date.today():%B %d, %Y}
+        {" &middot; ".join(m["label"].replace(", FL", "") for m in METROS.values())}
+        &middot; {date.today():%B %d, %Y}
       </div>
       <table style="width:100%;border-collapse:collapse">{rows}</table>
       <p style="color:#999;font-size:11px;margin-top:20px">

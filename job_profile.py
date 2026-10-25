@@ -25,6 +25,20 @@ METROS = {
         "radius_km": 50,
         "priority": 0.9,          # secondary target
     },
+    "orlando": {
+        "label": "Orlando, FL",
+        "adzuna_where": "Orlando, FL",
+        "jsearch_query_suffix": "in Orlando, FL",
+        "radius_km": 50,          # Orlando, Kissimmee, Sanford, Winter Park
+        "priority": 0.9,
+    },
+    "tallahassee": {
+        "label": "Tallahassee, FL",
+        "adzuna_where": "Tallahassee, FL",
+        "jsearch_query_suffix": "in Tallahassee, FL",
+        "radius_km": 40,          # smaller market; state government + FSU anchor it
+        "priority": 0.8,
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -160,7 +174,21 @@ SECTOR_BONUS = {
     "mayo clinic": 6,
     "baptist health": 5,
     "deutsche bank": 6,
-    # either metro
+    # Orlando
+    "orlando health": 7,
+    "walt disney": 6,
+    "universal orlando": 6,
+    "darden": 6,
+    "lockheed martin": 6,
+    "fairwinds": 6,
+    "addition financial": 6,
+    # Tallahassee
+    "state of florida": 6,
+    "florida state university": 6,
+    "tallahassee memorial": 6,
+    "capital city bank": 7,
+    "fsu credit union": 5,
+    # any metro
     "credit union": 5,
     "health system": 6,
     "baptist": 4,
@@ -213,4 +241,6 @@ SALARY_STRETCH = 75_000      # top of the realistic band for these tracks
 COL_INDEX = {
     "tampa": 0.99,
     "jacksonville": 0.94,
+    "orlando": 0.99,
+    "tallahassee": 0.90,
 }

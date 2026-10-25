@@ -41,17 +41,28 @@ COMPANY_BOARDS = {
 
 TAMPA_HINTS = ("tampa", "st. petersburg", "st petersburg", "clearwater", "brandon", "largo", "wesley chapel", "lakeland")
 JAX_HINTS = ("jacksonville", "orange park", "ponte vedra", "st. augustine", "fernandina")
+ORLANDO_HINTS = ("orlando", "kissimmee", "sanford", "winter park", "altamonte", "lake mary", "oviedo")
+TLH_HINTS = ("tallahassee",)
+
+# Checked in order; Tampa is last so it stays the fallback for a bare ", FL".
+METRO_HINTS = (
+    ("jacksonville", JAX_HINTS),
+    ("orlando", ORLANDO_HINTS),
+    ("tallahassee", TLH_HINTS),
+    ("tampa", TAMPA_HINTS),
+)
 
 
 def _is_target_location(text: str) -> bool:
     t = (text or "").lower()
-    return any(h in t for h in TAMPA_HINTS + JAX_HINTS)
+    return any(h in t for _, hints in METRO_HINTS for h in hints)
 
 
 def _metro_of(text: str) -> str:
     t = (text or "").lower()
-    if any(h in t for h in JAX_HINTS):
-        return "jacksonville"
+    for metro, hints in METRO_HINTS:
+        if any(h in t for h in hints):
+            return metro
     return "tampa"
 
 

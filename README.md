@@ -1,6 +1,7 @@
 # Florida Job Scanner
 
-A daily job scanner for the Tampa Bay and Jacksonville markets, scored against your
+A daily job scanner for the Tampa Bay, Jacksonville, Orlando and Tallahassee markets,
+scored against your
 resume. Runs itself on a schedule, emails you a ranked digest, and gives you a
 phone-sized board to triage what it found.
 
@@ -24,7 +25,8 @@ in a growing part of the metro. Phrases like "CPA required" or "10+ years" subtr
 Anything under 35 never reaches you.
 
 Pay is cost-of-living adjusted before scoring, because $58K in Jacksonville is not
-$58K in Albany. Tampa Bay is indexed at 0.99, Jacksonville at 0.94.
+$58K in Albany. Tampa Bay and Orlando are indexed at 0.99, Jacksonville at 0.94,
+Tallahassee at 0.90.
 
 ## Setup
 
@@ -101,8 +103,10 @@ touch the scoring code.
   alerts on their careers pages directly as a backstop.
 - **No LinkedIn scraping.** It violates their terms and gets accounts restricted.
   JSearch reaches LinkedIn postings legitimately.
-- **Free-tier quota is the real constraint.** `QUERIES_PER_RUN=4` rotates through the
-  query list by day, so a week of scans covers every query without exhausting the
-  month in one morning. Raise it only if you upgrade a plan.
+- **Free-tier quota is the real constraint.** A scan costs metros × tracks ×
+  `QUERIES_PER_RUN` calls. With four metros the default is 2, which keeps a scan at
+  24 calls (~720/month daily) against Adzuna's ~1,000/month free tier. Queries
+  rotate by day, so every query is still covered every five days. Adding a metro
+  or raising this number means checking that math first.
 - **Render's free web tier sleeps.** First load after idle takes ~30 seconds. The
   cron still fires regardless.
