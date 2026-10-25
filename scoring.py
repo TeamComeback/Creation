@@ -96,7 +96,7 @@ def _salary_points(job: Job) -> tuple[float, list[str], list[str]]:
         reasons.append(f"pay clears the ${SALARY_TARGET:,} target (${top:,.0f})")
         return 18.0, reasons, flags
     if effective >= SALARY_FLOOR:
-        reasons.append(f"pay is a lateral-to-modest step (${top:,.0f})")
+        reasons.append(f"pay clears your ${SALARY_FLOOR:,} floor (${top:,.0f})")
         return 9.0, reasons, flags
 
     flags.append(f"below floor (${top:,.0f})")

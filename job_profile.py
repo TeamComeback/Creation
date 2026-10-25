@@ -312,11 +312,11 @@ DISQUALIFIERS = {
 # ---------------------------------------------------------------------------
 # Compensation
 # ---------------------------------------------------------------------------
-# Current comp is the floor, not the target. A move should buy either money or
-# time back -- ideally both. Anything at or under the floor is flagged, not hidden,
-# because a 5-day week at equal pay is still a raise per hour.
+# The floor sits below current comp on purpose: changing sectors may mean an
+# entry role, and a $45K job with paid training and weekends off can beat $50K
+# over six days. Anything under the floor is flagged, not hidden.
 
-SALARY_FLOOR = 50_000        # do not go backwards
+SALARY_FLOOR = 45_000        # entry roles in a new sector are acceptable
 SALARY_TARGET = 62_000       # the number that makes the move clearly worth it
 SALARY_STRETCH = 75_000      # top of the realistic band for these tracks
 
