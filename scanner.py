@@ -130,7 +130,7 @@ def send_digest() -> dict:
                        max-width:640px;margin:0 auto;padding:16px">
       <h2 style="color:#1f3864;margin-bottom:4px">{len(jobs)} new matches</h2>
       <div style="color:#666;font-size:13px;margin-bottom:16px">
-        San Antonio &amp; Dallas &middot; {date.today():%B %d, %Y}
+        Tampa Bay &amp; Jacksonville &middot; {date.today():%B %d, %Y}
       </div>
       <table style="width:100%;border-collapse:collapse">{rows}</table>
       <p style="color:#999;font-size:11px;margin-top:20px">
@@ -139,7 +139,7 @@ def send_digest() -> dict:
     </body></html>"""
 
     msg = EmailMessage()
-    msg["Subject"] = f"{len(jobs)} job matches — TX scan {date.today():%b %d}"
+    msg["Subject"] = f"{len(jobs)} job matches — FL scan {date.today():%b %d}"
     msg["From"] = SMTP_USER
     msg["To"] = DIGEST_TO
     msg.set_content(

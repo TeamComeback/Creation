@@ -11,18 +11,18 @@ scoring.py.
 # ---------------------------------------------------------------------------
 
 METROS = {
-    "san_antonio": {
-        "label": "San Antonio, TX",
-        "adzuna_where": "San Antonio, TX",
-        "jsearch_query_suffix": "in San Antonio, TX",
-        "radius_km": 40,
+    "tampa": {
+        "label": "Tampa Bay, FL",
+        "adzuna_where": "Tampa, FL",
+        "jsearch_query_suffix": "in Tampa, FL",
+        "radius_km": 50,          # Tampa, St. Petersburg, Clearwater, Brandon
         "priority": 1.0,          # primary target
     },
-    "dallas": {
-        "label": "Dallas-Fort Worth, TX",
-        "adzuna_where": "Dallas, TX",
-        "jsearch_query_suffix": "in Dallas, TX",
-        "radius_km": 60,
+    "jacksonville": {
+        "label": "Jacksonville, FL",
+        "adzuna_where": "Jacksonville, FL",
+        "jsearch_query_suffix": "in Jacksonville, FL",
+        "radius_km": 50,
         "priority": 0.9,          # secondary target
     },
 }
@@ -142,15 +142,27 @@ SKILL_KEYWORDS = {
 # Sector tailwind: employers/industries growing in the target metros.
 # Matched against company name + description.
 SECTOR_BONUS = {
-    "usaa": 8,
-    "frost bank": 8,
-    "h-e-b": 6,
-    "heb": 5,
-    "rackspace": 6,
-    "toyota": 6,
+    # Tampa Bay
+    "raymond james": 8,
+    "citigroup": 5,
+    "jabil": 6,
+    "baycare": 6,
+    "moffitt": 5,
+    "adventhealth": 5,
+    "publix": 6,
+    "suncoast credit union": 6,
+    # Jacksonville
+    "fis global": 7,
+    "fidelity national": 7,
+    "vystar": 7,
+    "florida blue": 7,
+    "csx": 6,
+    "mayo clinic": 6,
+    "baptist health": 5,
+    "deutsche bank": 6,
+    # either metro
     "credit union": 5,
     "health system": 6,
-    "methodist": 5,
     "baptist": 4,
     "medical center": 5,
     "hospital": 4,
@@ -197,8 +209,8 @@ SALARY_TARGET = 62_000       # the number that makes the move clearly worth it
 SALARY_STRETCH = 75_000      # top of the realistic band for these tracks
 
 # Cost-of-living adjustment vs. Albany, NY (approximate, directional only).
-# San Antonio is materially cheaper; Dallas is closer to par.
+# Tampa Bay runs close to par; Jacksonville is somewhat cheaper.
 COL_INDEX = {
-    "san_antonio": 0.88,
-    "dallas": 0.97,
+    "tampa": 0.99,
+    "jacksonville": 0.94,
 }

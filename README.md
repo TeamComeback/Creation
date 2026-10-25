@@ -1,6 +1,6 @@
-# Texas Job Scanner
+# Florida Job Scanner
 
-A daily job scanner for the San Antonio and Dallas markets, scored against your
+A daily job scanner for the Tampa Bay and Jacksonville markets, scored against your
 resume. Runs itself on a schedule, emails you a ranked digest, and gives you a
 phone-sized board to triage what it found.
 
@@ -23,8 +23,8 @@ your background, title match, pay against your floor, and whether the employer s
 in a growing part of the metro. Phrases like "CPA required" or "10+ years" subtract.
 Anything under 35 never reaches you.
 
-Pay is cost-of-living adjusted before scoring, because $58K in San Antonio is not
-$58K in Albany. San Antonio is indexed at 0.88, Dallas at 0.97.
+Pay is cost-of-living adjusted before scoring, because $58K in Jacksonville is not
+$58K in Albany. Tampa Bay is indexed at 0.99, Jacksonville at 0.94.
 
 ## Setup
 
@@ -96,7 +96,7 @@ touch the scoring code.
 - **The Greenhouse and Lever slugs in `source_boards.py` are unverified.**
   Open `https://boards-api.greenhouse.io/v1/boards/{slug}/jobs` in a browser; if you
   get JSON, the slug is good. Delete what 404s. Bad slugs are logged and skipped.
-- **USAA, Frost Bank, and H-E-B run on Workday**, whose endpoints are per-tenant and
+- **Raymond James, Publix, and Florida Blue run on Workday**, whose endpoints are per-tenant and
   unstable. They're the three biggest employers on your target list, so set up email
   alerts on their careers pages directly as a backstop.
 - **No LinkedIn scraping.** It violates their terms and gets accounts restricted.

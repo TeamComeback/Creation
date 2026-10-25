@@ -97,7 +97,7 @@ def _salary_points(job: Job) -> tuple[float, list[str], list[str]]:
         flags.append("no salary posted")
         return 6.0, reasons, flags
 
-    # Adjust for cost of living so Albany dollars and Texas dollars compare.
+    # Adjust for cost of living so Albany dollars and Florida dollars compare.
     col = COL_INDEX.get(job.metro, 1.0)
     effective = top / col
 

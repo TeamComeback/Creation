@@ -14,7 +14,7 @@ company's own chosen handle and are not guessable with confidence. Anything
 that 404s is logged and skipped, so a wrong slug costs you nothing but a line
 in the log.
 
-Big Texas employers on Workday (USAA, Frost, H-E-B) are not covered here;
+Big Florida employers on Workday (Raymond James, Publix, Florida Blue, FIS) are not covered here;
 Workday's endpoints are per-tenant and change. Use their careers pages plus
 an email alert for those, or add a Workday adapter later.
 """
@@ -39,19 +39,20 @@ COMPANY_BOARDS = {
     ],
 }
 
-TX_HINTS = ("san antonio", "dallas", "fort worth", "plano", "irving", "texas", ", tx")
+TAMPA_HINTS = ("tampa", "st. petersburg", "st petersburg", "clearwater", "brandon", "largo", "wesley chapel", "lakeland")
+JAX_HINTS = ("jacksonville", "orange park", "ponte vedra", "st. augustine", "fernandina")
 
 
 def _is_target_location(text: str) -> bool:
     t = (text or "").lower()
-    return any(h in t for h in TX_HINTS)
+    return any(h in t for h in TAMPA_HINTS + JAX_HINTS)
 
 
 def _metro_of(text: str) -> str:
     t = (text or "").lower()
-    if "san antonio" in t:
-        return "san_antonio"
-    return "dallas"
+    if any(h in t for h in JAX_HINTS):
+        return "jacksonville"
+    return "tampa"
 
 
 def fetch_greenhouse(slug: str, track: str = "direct") -> list[Job]:
@@ -83,7 +84,7 @@ def fetch_greenhouse(slug: str, track: str = "direct") -> list[Job]:
                 track=track,
             )
         )
-    log.info("Greenhouse %s -> %d TX results", slug, len(jobs))
+    log.info("Greenhouse %s -> %d FL results", slug, len(jobs))
     return jobs
 
 
@@ -116,5 +117,5 @@ def fetch_lever(slug: str, track: str = "direct") -> list[Job]:
                 track=track,
             )
         )
-    log.info("Lever %s -> %d TX results", slug, len(jobs))
+    log.info("Lever %s -> %d FL results", slug, len(jobs))
     return jobs
