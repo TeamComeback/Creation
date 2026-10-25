@@ -15,57 +15,57 @@ from scoring import Job, rank          # noqa: E402
 import store                      # noqa: E402
 
 MOCK = [
-    Job(source="mock", external_id="1", track="direct", metro="san_antonio",
+    Job(source="mock", external_id="1", track="direct", metro="tampa",
         title="Accounts Receivable Specialist",
-        company="Frost Bank",
-        location="San Antonio, TX",
+        company="Raymond James",
+        location="Tampa, FL",
         url="https://example.com/1",
         salary_min=52000, salary_max=64000,
         description=("Responsible for cash application, posting payments, account "
                      "reconciliation, aging report review and resolving invoice "
                      "disputes with high volume customer service. Excel required.")),
 
-    Job(source="mock", external_id="2", track="stretch", metro="san_antonio",
+    Job(source="mock", external_id="2", track="stretch", metro="tampa",
         title="BSA/AML Analyst I",
-        company="Credit Human Federal Credit Union",
-        location="San Antonio, TX",
+        company="Suncoast Credit Union",
+        location="Tampa, FL",
         url="https://example.com/2",
         salary_min=58000, salary_max=72000,
         description=("Perform AML alert reviews, KYC verification, and document "
                      "suspicious activity. Banking or branch experience preferred. "
                      "Compliance and risk exposure a plus.")),
 
-    Job(source="mock", external_id="3", track="direct", metro="dallas",
+    Job(source="mock", external_id="3", track="direct", metro="jacksonville",
         title="Will Call Coordinator",
-        company="Sysco Dallas",
-        location="Dallas, TX",
+        company="Sysco Jacksonville",
+        location="Jacksonville, FL",
         url="https://example.com/3",
         salary_min=46000, salary_max=51000,
         description=("Manage will call counter, receiving paperwork, order selection "
                      "and warehouse coordination for distribution customers.")),
 
-    Job(source="mock", external_id="4", track="stretch", metro="dallas",
+    Job(source="mock", external_id="4", track="stretch", metro="jacksonville",
         title="Director of Accounts Receivable",
         company="Regional Health System",
-        location="Dallas, TX",
+        location="Jacksonville, FL",
         url="https://example.com/4",
         salary_min=120000, salary_max=150000,
         description=("Lead the AR function. CPA required. 10+ years of progressive "
                      "accounting leadership experience.")),
 
-    Job(source="mock", external_id="5", track="growth", metro="san_antonio",
+    Job(source="mock", external_id="5", track="growth", metro="tampa",
         title="Patient Financial Services Representative",
-        company="Methodist Healthcare",
-        location="San Antonio, TX",
+        company="BayCare Health System",
+        location="Tampa, FL",
         url="https://example.com/5",
         salary_min=38000, salary_max=44000,
         description=("Billing, collections and insurance follow-up for hospital "
                      "accounts. Customer service focus.")),
 
-    Job(source="mock", external_id="6", track="growth", metro="san_antonio",
+    Job(source="mock", external_id="6", track="growth", metro="tampa",
         title="Warehouse Associate",
         company="Local Distributor",
-        location="San Antonio, TX",
+        location="Tampa, FL",
         url="https://example.com/6",
         salary_min=34000, salary_max=38000,
         description="Pick and pack orders. Must have own vehicle. Commission only bonus."),

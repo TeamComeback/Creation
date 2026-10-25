@@ -29,7 +29,7 @@ import source_adzuna, source_jsearch
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
-app = FastAPI(title="TX Job Scanner", version="1.0")
+app = FastAPI(title="FL Job Scanner", version="1.0")
 CRON_TOKEN = os.getenv("CRON_TOKEN", "")
 
 
@@ -117,7 +117,7 @@ PAGE = """<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>TX Job Board</title>
+<title>FL Job Board</title>
 <style>
   :root{
     --ink:#10202E; --paper:#F2F4F6; --card:#FFFFFF; --line:#DDE3E8;
@@ -170,15 +170,15 @@ PAGE = """<!doctype html>
 </style></head>
 <body>
 <header>
-  <h1>Texas Job Board</h1>
+  <h1>Florida Job Board</h1>
   <div class="sub" id="stamp">loading</div>
 </header>
 <div class="bar" id="filters">
   <button class="chip" data-f="status" data-v="new" aria-pressed="true">New</button>
   <button class="chip" data-f="status" data-v="saved" aria-pressed="false">Saved</button>
   <button class="chip" data-f="status" data-v="applied" aria-pressed="false">Applied</button>
-  <button class="chip" data-f="metro" data-v="san_antonio" aria-pressed="false">San Antonio</button>
-  <button class="chip" data-f="metro" data-v="dallas" aria-pressed="false">Dallas</button>
+  <button class="chip" data-f="metro" data-v="tampa" aria-pressed="false">Tampa Bay</button>
+  <button class="chip" data-f="metro" data-v="jacksonville" aria-pressed="false">Jacksonville</button>
   <button class="chip" data-f="track" data-v="direct" aria-pressed="false">Direct</button>
   <button class="chip" data-f="track" data-v="stretch" aria-pressed="false">Stretch</button>
   <button class="chip" data-f="track" data-v="growth" aria-pressed="false">Growth</button>
