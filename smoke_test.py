@@ -69,6 +69,24 @@ MOCK = [
         url="https://example.com/6",
         salary_min=34000, salary_max=38000,
         description="Pick and pack orders. Must have own vehicle. Commission only bonus."),
+
+    Job(source="mock", external_id="7", track="direct", metro="orlando",
+        title="Cash Application Specialist",
+        company="Orlando Health",
+        location="Orlando, FL",
+        url="https://example.com/7",
+        salary_min=50000, salary_max=58000,
+        description=("Apply incoming payments, research unapplied cash, "
+                     "reconciliation and aging report review. Excel required.")),
+
+    Job(source="mock", external_id="8", track="direct", metro="tallahassee",
+        title="Relationship Banker",
+        company="Capital City Bank",
+        location="Tallahassee, FL",
+        url="https://example.com/8",
+        salary_min=42000, salary_max=50000,
+        description=("Account opening, consumer banking, client relationship "
+                     "management and fraud awareness in a branch setting.")),
 ]
 
 

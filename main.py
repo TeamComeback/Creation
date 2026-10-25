@@ -179,6 +179,8 @@ PAGE = """<!doctype html>
   <button class="chip" data-f="status" data-v="applied" aria-pressed="false">Applied</button>
   <button class="chip" data-f="metro" data-v="tampa" aria-pressed="false">Tampa Bay</button>
   <button class="chip" data-f="metro" data-v="jacksonville" aria-pressed="false">Jacksonville</button>
+  <button class="chip" data-f="metro" data-v="orlando" aria-pressed="false">Orlando</button>
+  <button class="chip" data-f="metro" data-v="tallahassee" aria-pressed="false">Tallahassee</button>
   <button class="chip" data-f="track" data-v="direct" aria-pressed="false">Direct</button>
   <button class="chip" data-f="track" data-v="stretch" aria-pressed="false">Stretch</button>
   <button class="chip" data-f="track" data-v="growth" aria-pressed="false">Growth</button>
