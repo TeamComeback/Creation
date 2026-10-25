@@ -207,6 +207,8 @@ PAGE = """<!doctype html>
   <button class="chip" data-f="track" data-v="direct" aria-pressed="false">Direct</button>
   <button class="chip" data-f="track" data-v="stretch" aria-pressed="false">Stretch</button>
   <button class="chip" data-f="track" data-v="growth" aria-pressed="false">Growth</button>
+  <button class="chip" data-f="track" data-v="operations" aria-pressed="false">Warehouse</button>
+  <button class="chip" data-f="track" data-v="trades" aria-pressed="false">Trades</button>
 </div>
 <main id="list"></main>
 

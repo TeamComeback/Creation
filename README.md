@@ -18,6 +18,11 @@ Every weekday morning it queries job APIs across three tracks:
 | **Direct** | AR specialist, cash application, billing, finance associate, banker, will call | Your resume already wins these |
 | **Stretch** | BSA/AML analyst, fraud, KYC, credit analyst, treasury ops, revenue cycle | One credible step up — your banking history gets you screened in, and the pay ceiling is higher |
 | **Growth** | Healthcare revenue cycle, GRC/compliance, supply chain, claims, insurance ops | Sectors projected to expand in these metros that your transferable skills reach |
+| **Warehouse** (`operations`) | Warehouse supervisor/lead, inventory control, shipping & receiving, logistics coordinator, dispatcher, forklift, paid CDL training | The Will Call half of the Sysco job is direct experience here |
+| **Trades** | HVAC, electrician, plumber and lineworker apprenticeships, solar, industrial and facilities maintenance, fiber, aircraft maintenance trainee | Paid training, no degree, rising pay ceiling, and Florida's growth keeps demand high |
+
+Postings are also scored on **schedule**: Monday–Friday, weekends off or 4×10 language
+adds points; "six days a week" or mandatory weekends subtracts them.
 
 Each posting gets a 0–100 fit score from four inputs — skill keyword overlap with
 your background, title match, pay against your floor, and whether the employer sits
@@ -119,10 +124,11 @@ over three weeks −8. A posting whose source didn't report a date is neutral.
   alerts on their careers pages directly as a backstop.
 - **No LinkedIn scraping.** It violates their terms and gets accounts restricted.
   JSearch reaches LinkedIn postings legitimately.
-- **Free-tier quota is the real constraint.** A scan costs metros × tracks ×
-  `QUERIES_PER_RUN` calls. With four metros the default is 2, which keeps a scan at
-  24 calls (~720/month daily) against Adzuna's ~1,000/month free tier. Queries
-  rotate by day, so every query is still covered every five days. Adding a metro
-  or raising this number means checking that math first.
+- **Free-tier quota is the real constraint.** Every track × query × metro
+  combination is one API call — about 200 of them now. A scan spends a fixed budget,
+  `CALLS_PER_RUN` (default 24, ~720/month daily, against Adzuna's ~1,000/month free
+  tier), on a rotating window of that list. The window is interleaved so each day
+  mixes tracks and metros, and the full list comes around every 9 days. Adding
+  tracks or metros lengthens the cycle; it never raises the bill.
 - **Render's free web tier sleeps.** First load after idle takes ~30 seconds. The
   cron still fires regardless.

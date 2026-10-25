@@ -81,6 +81,34 @@ MOCK = [
         description=("Apply incoming payments, research unapplied cash, "
                      "reconciliation and aging report review. Excel required.")),
 
+    Job(source="mock", external_id="9", track="operations", metro="orlando",
+        title="Warehouse Supervisor",
+        company="Publix Distribution",
+        location="Orlando, FL",
+        url="https://example.com/9",
+        salary_min=52000, salary_max=61000,
+        description=("Lead the receiving and shipping crew, cycle count and "
+                     "inventory accuracy, forklift certified. Monday-Friday "
+                     "day shift.")),
+
+    Job(source="mock", external_id="10", track="trades", metro="jacksonville",
+        title="HVAC Apprentice",
+        company="Comfort Air Services",
+        location="Jacksonville, FL",
+        url="https://example.com/10",
+        salary_min=40000, salary_max=52000,
+        description=("Paid training and apprenticeship, certification provided. "
+                     "No experience required. Weekends off.")),
+
+    Job(source="mock", external_id="11", track="operations", metro="tampa",
+        title="Shipping and Receiving Clerk",
+        company="Regional Freight",
+        location="Tampa, FL",
+        url="https://example.com/11",
+        salary_min=36000, salary_max=40000,
+        description=("Shipping, receiving, loading dock. Mandatory weekends, "
+                     "6 days a week during peak.")),
+
     Job(source="mock", external_id="8", track="direct", metro="tallahassee",
         title="Relationship Banker",
         company="Capital City Bank",
@@ -111,6 +139,8 @@ def main() -> None:
     print(f"stored: {new} new on first pass, {again} new on second pass (dedupe works if 0)")
     print("top of board:", [j["title"] for j in store.get_jobs(limit=3)])
 
+    check_schedule()
+    check_budget()
     check_recency()
     check_purge()
 
@@ -154,6 +184,39 @@ def check_purge() -> None:
     survived = [j["status"] for j in store.get_jobs(limit=50)]
     print(f"\npurge: removed {purged} stale rows, kept {survived.count('applied')} applied")
     assert "applied" in survived, "applied jobs must never be purged"
+
+
+
+def check_schedule() -> None:
+    """Weekends off must beat a six-day week, all else equal."""
+    def posting(desc: str) -> Job:
+        return Job(source="mock", external_id="sched", track="operations",
+                   metro="tampa", title="Warehouse Lead", company="Co",
+                   location="Tampa, FL", url="https://example.com/s",
+                   salary_min=50000, salary_max=55000, description=desc)
+
+    off = score_job(posting("Inventory and shipping. Monday-Friday, weekends off.")).score
+    plain = score_job(posting("Inventory and shipping.")).score
+    six = score_job(posting("Inventory and shipping. 6 days a week.")).score
+    print(f"\nschedule: weekends off {off:.1f} > unstated {plain:.1f} > six days {six:.1f}")
+    assert off > plain > six, "schedule language must move the score"
+
+
+def check_budget() -> None:
+    """A scan spends exactly the budget, and the window mixes tracks and metros."""
+    import scanner
+    from job_profile import METROS, SEARCH_TRACKS
+
+    total = len(scanner._all_searches())
+    today = scanner.todays_searches()
+    tracks = {t for t, _, _ in today}
+    metros = {m for _, _, m in today}
+    days = -(-total // scanner.CALLS_PER_RUN)
+    print(f"budget: {len(today)} calls/scan of {total} combos, full cycle every {days} days")
+    print(f"        today covers {len(tracks)}/{len(SEARCH_TRACKS)} tracks, "
+          f"{len(metros)}/{len(METROS)} metros")
+    assert len(today) == scanner.CALLS_PER_RUN, "scan must spend exactly the budget"
+    assert len(metros) == len(METROS), "every window should touch every metro"
 
 
 if __name__ == "__main__":

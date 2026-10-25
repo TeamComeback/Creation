@@ -87,14 +87,63 @@ SEARCH_TRACKS = {
             "grc analyst entry level",
             "security compliance analyst",
             "supply chain analyst",
-            "logistics coordinator",
             "procurement specialist",
             "vendor management analyst",
             "insurance operations specialist",
             "claims analyst",
         ],
     },
+    # OPERATIONS : warehouse, distribution and logistics floor work. The Will
+    #              Call half of the Sysco job -- receiving paperwork, order
+    #              selection, customer pickup -- is direct experience here.
+    "operations": {
+        "weight": 1.05,
+        "queries": [
+            "warehouse supervisor",
+            "warehouse lead",
+            "inventory control specialist",
+            "shipping and receiving clerk",
+            "logistics coordinator",
+            "dispatcher",
+            "distribution center associate",
+            "forklift operator",
+            "material handler",
+            "paid cdl training",
+        ],
+    },
+    # TRADES     : hands-on work with paid training and a rising pay ceiling.
+    #              Florida's population growth keeps demand for these high,
+    #              and most start as paid apprenticeships -- no degree needed.
+    "trades": {
+        "weight": 1.05,
+        "queries": [
+            "hvac apprentice",
+            "electrician apprentice",
+            "solar installer",
+            "industrial maintenance technician",
+            "lineworker apprentice",
+            "plumber apprentice",
+            "fiber optic technician",
+            "aircraft maintenance technician trainee",
+            "facilities maintenance technician",
+            "apprenticeship paid training",
+        ],
+    },
 }
+
+# Job titles that map straight onto a track get a flat bump in scoring.
+TITLE_TOKENS = (
+    # finance + banking
+    "accounts receivable", "cash application", "billing", "finance associate",
+    "banker", "branch operations", "aml", "bsa", "fraud", "kyc",
+    "revenue cycle", "credit analyst", "operations analyst",
+    # warehouse + logistics
+    "will call", "warehouse", "inventory", "shipping", "receiving",
+    "logistics", "dispatcher", "distribution", "forklift", "material handler",
+    # trades
+    "apprentice", "hvac", "electrician", "solar", "maintenance technician",
+    "lineworker", "lineman", "plumber", "fiber",
+)
 
 # ---------------------------------------------------------------------------
 # Skill keywords -- matched against title + description.
@@ -151,6 +200,41 @@ SKILL_KEYWORDS = {
     "detail-oriented": 2,
     "bilingual": 4,
     "french": 6,
+
+    # warehouse + logistics floor
+    "forklift": 6,
+    "pallet jack": 4,
+    "cycle count": 6,
+    "shipping": 5,
+    "dispatch": 5,
+    "warehouse management system": 5,
+    "osha": 4,
+    "loading dock": 4,
+
+    # trades + on-ramps -- signals the employer will train you
+    "apprenticeship": 6,
+    "paid training": 7,
+    "will train": 6,
+    "no experience required": 4,
+    "tuition reimbursement": 4,
+    "certification provided": 5,
+}
+
+# Schedule language. The current job is six days a week; getting a weekend
+# back is a stated reason for the move, so the posting's schedule is scored.
+SCHEDULE_SIGNALS = {
+    "monday-friday": 7,
+    "monday - friday": 7,
+    "monday through friday": 7,
+    "mon-fri": 7,
+    "weekends off": 8,
+    "no weekends": 8,
+    "4x10": 6,
+    "four 10": 6,
+    "6 days a week": -8,
+    "six days a week": -8,
+    "weekends required": -5,
+    "mandatory weekends": -6,
 }
 
 # Sector tailwind: employers/industries growing in the target metros.

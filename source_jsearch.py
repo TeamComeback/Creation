@@ -4,7 +4,7 @@ JSearch adapter (RapidAPI).
 JSearch indexes Google for Jobs, which means it reaches Indeed, LinkedIn,
 Glassdoor and ZipRecruiter postings through a legitimate API instead of
 scraping them. Free tier is roughly 200 requests/month -- enough for one
-daily scan across a handful of queries, so keep QUERIES_PER_RUN modest.
+daily scan at the default CALLS_PER_RUN; raise that only with a paid plan.
 """
 
 from __future__ import annotations

@@ -30,25 +30,12 @@ from job_profile import (
     SALARY_TARGET,
     SALARY_STRETCH,
     COL_INDEX,
+    SCHEDULE_SIGNALS,
+    TITLE_TOKENS,
 )
 
-# Titles that map straight onto the resume get a flat bump.
-STRONG_TITLE_TOKENS = (
-    "accounts receivable",
-    "cash application",
-    "billing",
-    "finance associate",
-    "banker",
-    "branch operations",
-    "will call",
-    "aml",
-    "bsa",
-    "fraud",
-    "kyc",
-    "revenue cycle",
-    "credit analyst",
-    "operations analyst",
-)
+# Title tokens live in job_profile.TITLE_TOKENS so tracks and titles stay in one place.
+STRONG_TITLE_TOKENS = TITLE_TOKENS
 
 SENIOR_TITLE_TOKENS = ("director", "vp ", "vice president", "head of", "chief", "principal")
 
@@ -149,7 +136,7 @@ def _title_points(title: str) -> tuple[float, list[str], list[str]]:
     if re.search(r"\b(sr\.?|senior)\b", t):
         pts -= 4.0
 
-    if re.search(r"\b(i|entry|associate|jr\.?|junior)\b", t):
+    if re.search(r"\b(i|entry|associate|jr\.?|junior|trainee|apprentice)\b", t):
         pts += 3.0
 
     return pts, reasons, flags
@@ -161,6 +148,22 @@ def _sector_points(text: str) -> tuple[float, list[str]]:
         return 0.0, []
     pts = min(sum(SECTOR_BONUS[h] for h in hits), 14.0)
     return pts, [f"growing employer/sector in this metro: {hits[0]}"]
+
+
+def _schedule_points(text: str) -> tuple[float, list[str], list[str]]:
+    """Weekends back are worth points; a six-day week costs them."""
+    good = [(p, v) for p, v in SCHEDULE_SIGNALS.items() if v > 0 and p in text]
+    bad = [(p, v) for p, v in SCHEDULE_SIGNALS.items() if v < 0 and p in text]
+    reasons: list[str] = []
+    flags: list[str] = []
+    pts = 0.0
+    if good:
+        pts += max(v for _, v in good)          # one schedule, not stacked synonyms
+        reasons.append(f"schedule: {good[0][0]}")
+    if bad:
+        pts += min(v for _, v in bad)
+        flags.append(f"schedule: {bad[0][0]}")
+    return pts, reasons, flags
 
 
 def _disqualifier_points(text: str) -> tuple[float, list[str]]:
@@ -245,6 +248,11 @@ def score_job(job: Job) -> Job:
     reasons += why
 
     pts, why, warn = _recency_points(job)
+    total += pts
+    reasons += why
+    flags += warn
+
+    pts, why, warn = _schedule_points(text)
     total += pts
     reasons += why
     flags += warn

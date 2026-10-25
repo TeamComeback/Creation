@@ -5,13 +5,14 @@ One scan = every track x every query x every metro, across whichever sources
 have credentials. Results are scored, deduped, stored, and the best unseen
 ones go out in one email.
 
-Budget note: free API tiers are small. Adzuna's free tier is about 1,000
-calls a month, and one scan costs  metros x tracks x QUERIES_PER_RUN  calls.
-With four metros and three tracks that's 12 calls per query slot, so the
-default of 2 keeps a scan at 24 calls -- the same cost as the old two-metro
-setup at 4 -- and ~720 calls/month on a daily schedule. QUERIES_PER_RUN
-rotates through each track's query list by day, so every query still gets
-covered every five days.
+Budget note: Adzuna's free tier is about 1,000 calls a month, and every
+(track, query, metro) combination is one call. With five tracks of ten
+queries across four metros that's ~200 combinations -- far more than one
+morning can afford. So the scan works from a fixed call budget instead:
+CALLS_PER_RUN (default 24, ~720/month daily) combinations per run, taken
+as a rotating window over the full list. The list is interleaved so every
+window mixes tracks and metros, and the whole list is covered every
+~9 days.
 """
 
 from __future__ import annotations
@@ -30,19 +31,39 @@ from source_boards import COMPANY_BOARDS, fetch_greenhouse, fetch_lever
 
 log = logging.getLogger(__name__)
 
-QUERIES_PER_RUN = int(os.getenv("QUERIES_PER_RUN", "2"))
+CALLS_PER_RUN = int(os.getenv("CALLS_PER_RUN", "24"))
 MIN_SCORE = float(os.getenv("MIN_SCORE", "35"))
 DIGEST_MIN_SCORE = float(os.getenv("DIGEST_MIN_SCORE", "45"))
 STALE_AFTER_DAYS = int(os.getenv("STALE_AFTER_DAYS", "14"))
 
 
-def _rotating_slice(items: list[str], n: int) -> list[str]:
-    """Pick n queries, rotating by day-of-year so coverage is even over a week."""
-    if n >= len(items):
-        return items
-    start = (date.today().timetuple().tm_yday * n) % len(items)
-    doubled = items + items
-    return doubled[start:start + n]
+def _all_searches() -> list[tuple[str, str, str]]:
+    """Every (track, query, metro) combination, interleaved.
+
+    Ordered query-index first, then track, then metro, so a contiguous
+    window of any size draws from every track and every metro rather than
+    spending a whole morning on one track in one city.
+    """
+    depth = max(len(cfg["queries"]) for cfg in SEARCH_TRACKS.values())
+    combos = []
+    for i in range(depth):
+        for track, cfg in SEARCH_TRACKS.items():
+            if i >= len(cfg["queries"]):
+                continue
+            for metro_key in METROS:
+                combos.append((track, cfg["queries"][i], metro_key))
+    return combos
+
+
+def todays_searches(budget: int | None = None) -> list[tuple[str, str, str]]:
+    """Today's window of the rotation, sized to the call budget."""
+    budget = CALLS_PER_RUN if budget is None else budget
+    combos = _all_searches()
+    if budget >= len(combos):
+        return combos
+    start = (date.today().toordinal() * budget) % len(combos)
+    doubled = combos + combos
+    return doubled[start:start + budget]
 
 
 def run_scan() -> dict:
@@ -66,14 +87,11 @@ def run_scan() -> dict:
     if not active:
         log.error("no job sources are configured — scan will return nothing")
 
-    for track, cfg in SEARCH_TRACKS.items():
-        queries = _rotating_slice(cfg["queries"], QUERIES_PER_RUN)
-        for metro_key in METROS:
-            for q in queries:
-                if adzuna.available():
-                    collected += adzuna.fetch(track, q, metro_key)
-                if jsearch.available():
-                    collected += jsearch.fetch(track, q, metro_key)
+    for track, q, metro_key in todays_searches():
+        if adzuna.available():
+            collected += adzuna.fetch(track, q, metro_key)
+        if jsearch.available():
+            collected += jsearch.fetch(track, q, metro_key)
 
     for slug in COMPANY_BOARDS.get("greenhouse", []):
         collected += fetch_greenhouse(slug)
