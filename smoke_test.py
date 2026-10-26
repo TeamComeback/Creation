@@ -1,10 +1,14 @@
 """
-Offline smoke test -- no network, no API keys.
+Smoke test.
 
-Runs the scoring engine and the store against mock postings modeled on real
-listings, so you can sanity-check the ranking before wiring up any API.
+    python smoke_test.py                 offline: no network, no API keys
+    python smoke_test.py --live URL      also runs one real scan against a
+                                         deployed instance (needs CRON_TOKEN
+                                         in the environment if one is set)
 
-    python smoke_test.py
+Offline, it runs the scoring engine, the store and a full scan pipeline
+against mock postings modeled on real listings. Either way it exits non-zero
+-- and says why -- if a scan saves zero jobs.
 """
 
 import os
@@ -141,6 +145,7 @@ def main() -> None:
 
     check_schedule()
     check_budget()
+    check_scan_saves_jobs()
     check_recency()
     check_purge()
 
@@ -150,8 +155,8 @@ def check_recency() -> None:
     def aged(days: int) -> Job:
         stamp = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
         return Job(source="mock", external_id=f"age{days}", track="direct",
-                   metro="san_antonio", title="Accounts Receivable Specialist",
-                   company="Frost Bank", location="San Antonio, TX",
+                   metro="tampa", title="Accounts Receivable Specialist",
+                   company="Raymond James", location="Tampa, FL",
                    url="https://example.com/age", salary_min=52000, salary_max=64000,
                    posted_at=stamp,
                    description="Cash application, posting payments, reconciliation.")
@@ -219,5 +224,97 @@ def check_budget() -> None:
     assert len(metros) == len(METROS), "every window should touch every metro"
 
 
+def check_scan_saves_jobs() -> None:
+    """The full scan path -- fetch, score, dedupe, store -- must save something.
+
+    Sources are stubbed to return realistic Florida postings for whatever
+    (track, query, metro) today's rotation picks, so this exercises the real
+    run_scan() wiring: METROS, the call budget, MIN_SCORE, and the store.
+    If a config change makes every posting fall under the threshold, or
+    points the scan at metros the sources don't serve, this fails.
+    """
+    import scanner
+    import store as store_mod
+    from job_profile import METROS
+
+    calls: list[tuple[str, str, str]] = []
+
+    def fake_fetch(track: str, query: str, metro_key: str) -> list[Job]:
+        calls.append((track, query, metro_key))
+        city = METROS[metro_key]["label"]
+        return [Job(source="stub", external_id=f"{metro_key}-{track}-{len(calls)}",
+                    track=track, metro=metro_key,
+                    title="Accounts Receivable Specialist" if track != "trades" else "HVAC Apprentice",
+                    company=f"Stub Employer {len(calls)}", location=city,
+                    url="https://example.com/stub", salary_min=50000, salary_max=60000,
+                    description=("Cash application, reconciliation, invoice review, "
+                                 "paid training and apprenticeship. Monday-Friday."))]
+
+    saved_db = store_mod.DB_PATH
+    store_mod.DB_PATH = "/tmp/jobscan_smoke_scan.db"
+    if os.path.exists(store_mod.DB_PATH):
+        os.remove(store_mod.DB_PATH)
+    patched = {
+        "adzuna_available": scanner.adzuna.available, "adzuna_fetch": scanner.adzuna.fetch,
+        "jsearch_available": scanner.jsearch.available, "boards": dict(scanner.COMPANY_BOARDS),
+    }
+    scanner.adzuna.available = lambda: True
+    scanner.adzuna.fetch = fake_fetch
+    scanner.jsearch.available = lambda: False
+    scanner.COMPANY_BOARDS.clear()
+    try:
+        result = scanner.run_scan()
+        stored = store_mod.stats()["total"]
+    finally:
+        scanner.adzuna.available = patched["adzuna_available"]
+        scanner.adzuna.fetch = patched["adzuna_fetch"]
+        scanner.jsearch.available = patched["jsearch_available"]
+        scanner.COMPANY_BOARDS.update(patched["boards"])
+        store_mod.DB_PATH = saved_db
+
+    metros_hit = sorted({m for _, _, m in calls})
+    print(f"\nscan pipeline: {len(calls)} searches across {metros_hit}")
+    print(f"               found {result['found']}, kept {result['kept']}, saved {stored}")
+    assert_scan_saved(result["found"], result["kept"], stored, where="offline scan")
+
+
+def assert_scan_saved(found: int, kept: int, stored: int, where: str) -> None:
+    """Fail loudly on a zero-save scan, naming the most likely cause."""
+    if stored > 0 and kept > 0:
+        return
+    if found == 0:
+        why = ("the sources returned nothing -- check /health for missing "
+               "credentials, and that METROS names places the sources cover")
+    elif kept == 0:
+        why = (f"all {found} postings scored under MIN_SCORE -- the scoring "
+               "profile no longer matches what the searches return")
+    else:
+        why = f"{kept} postings were kept but none reached the database"
+    raise SystemExit(f"FAIL ({where}): scan saved 0 jobs -- {why}")
+
+
+def check_live(base_url: str) -> None:
+    """Run one real scan on a deployed instance and fail if it saves nothing."""
+    import json
+    import urllib.request
+
+    token = os.getenv("CRON_TOKEN", "")
+    url = f"{base_url.rstrip('/')}/api/scan?wait=true" + (f"&token={token}" if token else "")
+    req = urllib.request.Request(url, method="POST")
+    with urllib.request.urlopen(req, timeout=300) as resp:
+        result = json.load(resp)
+    with urllib.request.urlopen(f"{base_url.rstrip('/')}/health", timeout=60) as resp:
+        stored = json.load(resp)["total"]
+
+    print(f"\nlive scan: found {result['found']}, kept {result['kept']}, "
+          f"new {result['new']}, board now holds {stored} (sources: {result.get('sources')})")
+    assert_scan_saved(result["found"], result["kept"], stored, where="live scan")
+
+
 if __name__ == "__main__":
+    import sys
+
     main()
+    if "--live" in sys.argv:
+        check_live(sys.argv[sys.argv.index("--live") + 1])
+    print("\nall checks passed")
