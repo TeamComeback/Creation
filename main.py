@@ -33,9 +33,27 @@ app = FastAPI(title="FL Job Scanner", version="1.0")
 CRON_TOKEN = os.getenv("CRON_TOKEN", "")
 
 
+SNAPSHOT_URL = os.getenv(
+    "SNAPSHOT_URL",
+    "https://raw.githubusercontent.com/TeamComeback/Creation/main/data/jobs.json",
+)
+
+
 @app.on_event("startup")
 def _startup() -> None:
     store.init_db()
+    # Render's free tier wipes /tmp on every sleep and redeploy. Reload the
+    # durable snapshot the GitHub Action keeps in data/jobs.json so the board
+    # is never empty after a restart. See snapshot.py.
+    try:
+        import httpx
+        r = httpx.get(SNAPSHOT_URL, timeout=15, follow_redirects=True)
+        r.raise_for_status()
+        rows = r.json()
+        added = store.import_snapshot(rows if isinstance(rows, list) else [])
+        logging.info("snapshot restore: %d jobs added from %s", added, SNAPSHOT_URL)
+    except Exception:  # noqa: BLE001 -- a missing snapshot must never stop the app
+        logging.exception("snapshot restore failed; starting with what /tmp has")
 
 
 @app.get("/health")
