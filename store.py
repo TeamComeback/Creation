@@ -111,6 +111,37 @@ def upsert_jobs(jobs: Iterable[Job]) -> int:
     return new
 
 
+def import_snapshot(rows: Iterable[dict]) -> int:
+    """Re-load jobs saved in data/jobs.json after /tmp was wiped. Returns rows added.
+
+    Imported jobs are marked notified so the digest doesn't re-send them, and
+    a status already set on this instance is never overwritten with 'new'.
+    """
+    added = 0
+    cols = ("key", "source", "external_id", "title", "company", "location", "url",
+            "description", "salary_min", "salary_max", "posted_at", "metro", "track",
+            "score", "reasons", "flags", "status", "first_seen", "last_seen")
+    with conn() as c:
+        for r in rows:
+            if not r.get("key") or not r.get("title"):
+                continue
+            vals = [r.get(k) for k in cols]
+            for i, k in enumerate(cols):
+                if k in ("reasons", "flags") and not isinstance(vals[i], str):
+                    vals[i] = json.dumps(vals[i] or [])
+            existing = c.execute("SELECT status FROM jobs WHERE key = ?", (r["key"],)).fetchone()
+            if existing:
+                if existing["status"] == "new" and r.get("status") not in (None, "new"):
+                    c.execute("UPDATE jobs SET status = ? WHERE key = ?", (r["status"], r["key"]))
+                continue
+            c.execute(
+                f"INSERT INTO jobs ({', '.join(cols)}, notified) VALUES ({', '.join('?' * len(cols))}, 1)",
+                vals,
+            )
+            added += 1
+    return added
+
+
 def purge_stale(days: int = 14) -> int:
     """Drop postings that have stopped showing up in scans.
 

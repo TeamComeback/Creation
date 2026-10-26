@@ -1,0 +1,44 @@
+# Keeps data/jobs.json in step with the live board so matches survive
+# Render's free-tier restarts (the app reloads this file on startup).
+# Needs no secrets: /api/jobs is public and GITHUB_TOKEN can commit.
+name: Job snapshot
+
+on:
+  schedule:
+    - cron: "45 14,17,20,23,2 * * *"   # 10:45 AM, 1:45, 4:45, 7:45, 10:45 PM Eastern (EDT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull the live board (wakes a sleeping instance)
+        run: |
+          for i in 1 2 3 4 5 6; do
+            if curl -fsS --max-time 90 "https://creation-lc6a.onrender.com/api/jobs?limit=1000" -o live.json; then
+              python -c "import json;json.load(open('live.json'))" && break
+            fi
+            echo "attempt $i failed; retrying in 20s"; sleep 20
+          done
+          test -s live.json
+      - name: Merge into data/jobs.json
+        run: python snapshot.py live.json data/jobs.json
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/jobs.json; then echo "no change"; exit 0; fi
+          git config user.name "job-snapshot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          git commit -m "Update job snapshot [skip render]"
+          git push
