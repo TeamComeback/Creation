@@ -1,13 +1,59 @@
 {
  "_about": "Written by the Team Comeback HQ shipping run; the HQ autopilot applies these entries to the HQ backlog and run log. Commits to this file use [skip render].",
- "items": [],
+ "items": [
+  {
+   "id": "p20261027nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/2",
+   "commit": "9571601",
+   "note": "A GitHub Action fills each new week from nflverse's free stats every Tue and Wed at 7:15 AM. Matched every hand-logged week exactly and backfilled Week 7 for 11 legs.",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261027perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/1",
+   "commit": "156cc67",
+   "note": "Closing odds were already captured on each scan; each leg now also records when its close was taken, and the dashboard shows CLV with leg count, minutes before start, and legs with no close.",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261027curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/6",
+   "commit": "23db39c",
+   "note": "Firms that trail SPY on all of the last 20 sessions get a 'Thesis review due' badge on the dashboard; it clears itself when they catch up. First possible flag mid-November (11 sessions so far).",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  }
+ ],
  "runs": [
   {
    "id": "r20261028T0700ship",
    "time": "2026-10-28T07:00-04:00",
    "summary": "Shipping run: fixed Trend Co.'s failing plan sessions (Curiosity #5: tolerant JSON parsing, bigger retry); set up this shipping log so shipped work reaches the HQ.",
    "tokens": 60000,
-   "by_company": {"hq": 30000, "curiosity": 30000}
+   "by_company": {
+    "hq": 30000,
+    "curiosity": 30000
+   }
+  },
+  {
+   "id": "r20261028T0945ship",
+   "time": "2026-10-28T09:45-04:00",
+   "summary": "Shipping run: 3 shipped (Fantasy-Tracker #2 weekly stats auto-fill, Perseverance #1 closing-line timing, Curiosity #6 SPY thesis-review flag). Rapid Fire/Full Throttle merge and Ingenuity backtest next.",
+   "tokens": 110000,
+   "by_company": {
+    "hq": 10000,
+    "nfl": 45000,
+    "perseverance": 30000,
+    "curiosity": 25000
+   }
   }
  ]
 }
