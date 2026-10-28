@@ -1,0 +1,13 @@
+{
+ "_about": "Written by the Team Comeback HQ shipping run; the HQ autopilot applies these entries to the HQ backlog and run log. Commits to this file use [skip render].",
+ "items": [],
+ "runs": [
+  {
+   "id": "r20261028T0700ship",
+   "time": "2026-10-28T07:00-04:00",
+   "summary": "Shipping run: fixed Trend Co.'s failing plan sessions (Curiosity #5: tolerant JSON parsing, bigger retry); set up this shipping log so shipped work reaches the HQ.",
+   "tokens": 60000,
+   "by_company": {"hq": 30000, "curiosity": 30000}
+  }
+ ]
+}
