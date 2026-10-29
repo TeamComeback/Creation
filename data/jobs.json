@@ -251,32 +251,6 @@
   "url": "https://www.adzuna.com/details/5936425627?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Citi",
-  "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview The candidate will be responsible for the following core fund operational processes: \u2022 PCF file preparation, including reviewing the relevant component stocks, quantity and prices \u2022 ETF creation and \u2026",
-  "external_id": "5938164575",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "citi:etfoperationsanalystciti:tampapalmshi",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa Palms, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-22T12:25:54Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $82,764 \u2014 well above current",
-   "posted 4 days ago"
-  ],
-  "salary_max": 82763.77,
-  "salary_min": 82763.77,
-  "score": 50.6,
-  "source": "adzuna",
-  "status": "new",
-  "title": "ETF Operations Analyst - Citi",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/land/ad/5938164575?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=4C0D698AA52EE714B2C08675334C5B8A94393077"
- },
- {
   "company": "Fisher Careers",
   "description": "The Opportunity: As a Talent Operations Analyst, you will play an important role in managing and enhancing the systems, processes, and programs that support our hiring globally. You will focus on maintaining systems, workflow and process improvements, vendor management, and project implementation. This role is part of the Talent Attraction and Operations group, which has a wide range of responsibilities supporting our hiring efforts through marketing, operations, reporting, and technology. You \u2026",
   "external_id": "5940599625",
@@ -518,30 +492,29 @@
   "url": "https://www.adzuna.com/land/ad/5942028560?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=BAF609260A41F18043AC19E3669D02ED52A61F94"
  },
  {
-  "company": "Deutsche Bank",
-  "description": "Job Description: Job Title Information Security Analyst Corporate Title Analyst Location Jacksonville, FL Overview We are looking for a knowledgeable Information Security Analyst to operating as a member of the Chief Security Office (CSO) Third Party Security team (TPS). As an Information Security Analyst, you will be responsible for supporting the development, execution, and maintenance of Deutsche Bank\u2019s information security strategy and program under the management of the CSO. You will work \u2026",
-  "external_id": "5937976732",
+  "company": "Citi",
+  "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview The candidate will be responsible for the following core fund operational processes: \u2022 PCF file preparation, including reviewing the relevant component stocks, quantity and prices \u2022 ETF creation and \u2026",
+  "external_id": "5938164575",
   "first_seen": "2026-10-26T14:58:11+00:00",
   "flags": [],
-  "key": "deutschebank:informationsecurityanalystanalyst:jacksonville",
+  "key": "citi:etfoperationsanalystciti:tampapalmshi",
   "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
+  "location": "Tampa Palms, Hillsborough County",
+  "metro": "tampa",
   "notified": 1,
-  "posted_at": "2026-10-22T09:11:06Z",
+  "posted_at": "2026-10-22T12:25:54Z",
   "reasons": [
-   "pay tops out near $74,000 \u2014 well above current",
-   "growing employer/sector in this metro: deutsche bank",
-   "posted 4 days ago"
+   "title is a direct match for your background",
+   "pay tops out near $82,764 \u2014 well above current"
   ],
-  "salary_max": 74000.0,
-  "salary_min": 48000.0,
-  "score": 46.0,
+  "salary_max": 82763.77,
+  "salary_min": 82763.77,
+  "score": 44.8,
   "source": "adzuna",
   "status": "new",
-  "title": "Information Security Analyst - Analyst",
+  "title": "ETF Operations Analyst - Citi",
   "track": "stretch",
-  "url": "https://www.adzuna.com/details/5937976732?utm_medium=api&utm_source=baf1741a"
+  "url": "https://www.adzuna.com/land/ad/5938164575?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=4C0D698AA52EE714B2C08675334C5B8A94393077"
  },
  {
   "company": "Initio Capital",
@@ -823,6 +796,31 @@
   "title": "Operational Support Lead Analyst",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5941372859?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Deutsche Bank",
+  "description": "Job Description: Job Title Information Security Analyst Corporate Title Analyst Location Jacksonville, FL Overview We are looking for a knowledgeable Information Security Analyst to operating as a member of the Chief Security Office (CSO) Third Party Security team (TPS). As an Information Security Analyst, you will be responsible for supporting the development, execution, and maintenance of Deutsche Bank\u2019s information security strategy and program under the management of the CSO. You will work \u2026",
+  "external_id": "5937976732",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "deutschebank:informationsecurityanalystanalyst:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-22T09:11:06Z",
+  "reasons": [
+   "pay tops out near $74,000 \u2014 well above current",
+   "growing employer/sector in this metro: deutsche bank"
+  ],
+  "salary_max": 74000.0,
+  "salary_min": 48000.0,
+  "score": 40.2,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Information Security Analyst - Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5937976732?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "ASM Research, An Accenture Federal Services Company",
