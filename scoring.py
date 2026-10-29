@@ -39,6 +39,14 @@ STRONG_TITLE_TOKENS = TITLE_TOKENS
 
 SENIOR_TITLE_TOKENS = ("director", "vp ", "vice president", "head of", "chief", "principal")
 
+# "Operations analyst" in these fields is a different job (IT, cyber, engineering
+# drafting), so the title match shouldn't count as a fit with this resume.
+OFF_FIELD_TITLE = ("network", "cyber", "vulnerability", "security operations", "drafting",
+                   "devops", "cloud", "it operations", "software", "engineer")
+
+# "9-15 yrs", "7+ years", "8 years of experience": the low end is the real bar.
+_YEARS = re.compile(r"\b(\d{1,2})\s*(?:\+|(?:-|–|to)\s*\d{1,2})?\s*(?:yrs|years)\b")
+
 
 @dataclass
 class Job:
@@ -125,7 +133,10 @@ def _title_points(title: str) -> tuple[float, list[str], list[str]]:
     flags: list[str] = []
     pts = 0.0
 
-    if any(tok in t for tok in STRONG_TITLE_TOKENS):
+    off_field = [tok for tok in OFF_FIELD_TITLE if tok in t]
+    if off_field:
+        flags.append(f"different field ({off_field[0]})")
+    elif any(tok in t for tok in STRONG_TITLE_TOKENS):
         pts += 14.0
         reasons.append("title is a direct match for your background")
 
@@ -260,6 +271,23 @@ def score_job(job: Job) -> Job:
     pts, warn = _disqualifier_points(text)
     total += pts
     flags += warn
+
+    # Years asked for, when the fixed disqualifier phrases didn't already catch it.
+    if not any("year" in w for w in warn):
+        m = _YEARS.search(text)
+        if m:
+            need = int(m.group(1))
+            if need >= 7:
+                total -= 15.0
+                flags.append(f"asks for {need}+ years")
+            elif need >= 5:
+                total -= 6.0
+                flags.append(f"asks for {need}+ years")
+
+    # Title and resume both lining up is the strongest single sign of fit.
+    if any("direct match" in r for r in reasons) and any(r.startswith("matches your experience") for r in reasons):
+        total += 12.0
+        reasons.append("title and your experience both match")
 
     weight = SEARCH_TRACKS.get(job.track, {}).get("weight", 1.0)
     total *= weight
