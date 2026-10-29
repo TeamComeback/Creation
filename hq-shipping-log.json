@@ -60,6 +60,36 @@
    "note": "Black Swan is now exhibition: out of the racing pool, open positions run to their stops, no new entries, and its card says why. Bringing it back is a config change after a passed thesis review.",
    "owner_action": "Tell the HQ when Black Swan should rejoin the race after its thesis review.",
    "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/3",
+   "commit": "8449ae4",
+   "note": "Each slip card shows its chance to cash and each slip page shows the weakest leg and expected value. Today: Goat Whale and New Systems under 0.1%, Fun 0.6%; weakest leg DJ Moore at about 1%. Computed live, so it updates with each weekly auto-fill.",
+   "owner_action": "",
+   "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "p20261025curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/8",
+   "commit": "80206a6",
+   "note": "Full Throttle is retired (no new trades, no AI playbook call, history kept); Rapid Fire races on its own rules. Kept Rapid Fire's settings because the two results were within noise and Full Throttle's 3x ETFs would add risk.",
+   "owner_action": "",
+   "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "fix-offseason-ingenuity",
+   "status": "blocked",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "",
+   "commit": "",
+   "note": "The 212 graded games live only in the app's storage on your phone, not in the repo, so there's nothing to freeze or backtest yet.",
+   "owner_action": "In Ingenuity, open Backup and save a backup file, then attach it in the HQ setup chat. The agent will freeze it and run the backtest.",
+   "at": "2026-10-29T09:55-04:00"
   }
  ],
  "runs": [
@@ -95,6 +125,18 @@
     "jobs": 50000,
     "perseverance": 30000,
     "curiosity": 30000
+   }
+  },
+  {
+   "id": "r20261029T0955ship",
+   "time": "2026-10-29T09:55-04:00",
+   "summary": "Shipping run: 2 shipped (Fantasy-Tracker #3 slip hit chances, Curiosity #8 Full Throttle retired into Rapid Fire); Ingenuity backtest blocked until a Backup export of the graded games is shared. Backlog now clear.",
+   "tokens": 90000,
+   "by_company": {
+    "hq": 8000,
+    "nfl": 45000,
+    "curiosity": 25000,
+    "ingenuity": 12000
    }
   }
  ]
