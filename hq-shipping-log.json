@@ -30,6 +30,36 @@
    "note": "Firms that trail SPY on all of the last 20 sessions get a 'Thesis review due' badge on the dashboard; it clears itself when they catch up. First possible flag mid-November (11 sessions so far).",
    "owner_action": "",
    "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261028jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/8",
+   "commit": "61c229c",
+   "note": "3 of 62 Florida jobs now score 70+ (Ally fraud analyst, Fortegra claims analyst, Siemens shipping/receiving), up from 0. IT/cyber/drafting 'operations analyst' roles and 7+ year asks now drop below 40. Skipped the plan's SQL/Python/Tableau keywords since they aren't on the resume.",
+   "owner_action": "",
+   "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/2",
+   "commit": "f769ad9",
+   "note": "Month-end mode: in the last 4 days of a month each scan may spend about twice as much (about 31 credits now) and minor sports are always considered, so credits don't expire unused. The 25-credit floor still holds.",
+   "owner_action": "",
+   "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/7",
+   "commit": "77ac064",
+   "note": "Black Swan is now exhibition: out of the racing pool, open positions run to their stops, no new entries, and its card says why. Bringing it back is a config change after a passed thesis review.",
+   "owner_action": "Tell the HQ when Black Swan should rejoin the race after its thesis review.",
+   "at": "2026-10-28T20:20-04:00"
   }
  ],
  "runs": [
@@ -53,6 +83,18 @@
     "nfl": 45000,
     "perseverance": 30000,
     "curiosity": 25000
+   }
+  },
+  {
+   "id": "r20261029T0020ship",
+   "time": "2026-10-28T20:20-04:00",
+   "summary": "Shipping run: 3 shipped (Creation #8 fit-score retune, Perseverance #2 month-end credit mode, Curiosity #7 Black Swan to exhibition). Still queued: Rapid Fire/Full Throttle merge, Ingenuity backtest, NFL slip hit chance.",
+   "tokens": 120000,
+   "by_company": {
+    "hq": 10000,
+    "jobs": 50000,
+    "perseverance": 30000,
+    "curiosity": 30000
    }
   }
  ]
