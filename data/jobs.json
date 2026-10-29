@@ -85,34 +85,6 @@
   "url": "https://www.adzuna.com/details/5940157221?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "American Builders and Contractors Supply Co",
-  "description": "ABC Supply is the nation\u2019s largest wholesale distributor of exterior and interior building materials. Delivery Material Handlers at ABC assist in the safe and accurate delivery of materials from the warehouse to each job site location. They unload orders according to customer specifications with the help of various delivery equipment, including truck-mounted forklifts. Delivery Material Handlers specialize in ground and/or rooftop deliveries. For rooftop deliveries, you will physically work on \u2026",
-  "external_id": "5937447145",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "americanbuildersandcontractorssupplyco:deliverymaterialhandlerroofloader50:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-22T01:07:31Z",
-  "reasons": [
-   "matches your experience: forklift, warehouse",
-   "title is a direct match for your background",
-   "pay tops out near $74,231 \u2014 well above current",
-   "posted 6 days ago",
-   "title and your experience both match"
-  ],
-  "salary_max": 74230.51,
-  "salary_min": 74230.51,
-  "score": 69.6,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Delivery Material Handler/Roof Loader (50)",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5937447145?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "U.S. Venture",
   "description": "POSITION SUMMARY U.S. AutoForce, a division of U.S. Venture, Inc., brings together more than 100 years of experience as an industry leader in the distribution of tires, undercar parts, and lubricants to independent tire retailers, auto repair shops, and automotive dealerships. The schedule for this position is Monday-Friday 8:30am-5:00pm or until work is completed and rotating half-day Saturdays dependent on business needs. Schedules are subject to change based on business needs and may require\u2026",
   "external_id": "5941360461",
@@ -140,6 +112,33 @@
   "title": "Warehouse Material Handler",
   "track": "operations",
   "url": "https://www.adzuna.com/details/5941360461?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "American Builders and Contractors Supply Co",
+  "description": "ABC Supply is the nation\u2019s largest wholesale distributor of exterior and interior building materials. Delivery Material Handlers at ABC assist in the safe and accurate delivery of materials from the warehouse to each job site location. They unload orders according to customer specifications with the help of various delivery equipment, including truck-mounted forklifts. Delivery Material Handlers specialize in ground and/or rooftop deliveries. For rooftop deliveries, you will physically work on \u2026",
+  "external_id": "5937447145",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "americanbuildersandcontractorssupplyco:deliverymaterialhandlerroofloader50:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-22T01:07:31Z",
+  "reasons": [
+   "matches your experience: forklift, warehouse",
+   "title is a direct match for your background",
+   "pay tops out near $74,231 \u2014 well above current",
+   "title and your experience both match"
+  ],
+  "salary_max": 74230.51,
+  "salary_min": 74230.51,
+  "score": 64.3,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Delivery Material Handler/Roof Loader (50)",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5937447145?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "HCA Healthcare",
@@ -646,32 +645,6 @@
   "url": "https://www.adzuna.com/details/5941382675?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "The Walt Disney Company",
-  "description": "Job Requirements \"We Power the Magic!\" That's our motto at Disney Experiences (DX). Our team creates world-class immersive digital experiences for the Company's premier vacation brands including Disney's Parks & Resorts worldwide, Disney Cruise Line, Aulani, a Disney Resort & Spa, and Disney Vacation Club. We are responsible for the end-to-end digital and physical Guest experience for all technology and digital-led initiatives across the Attractions & Entertainment, Food & Beverage, Resorts & T\u2026",
-  "external_id": "5937804458",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "thewaltdisneycompany:leadsoftwareengineer:edgewoodoran",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Edgewood, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-22T07:17:36Z",
-  "reasons": [
-   "pay tops out near $122,182 \u2014 well above current",
-   "growing employer/sector in this metro: walt disney",
-   "posted 4 days ago"
-  ],
-  "salary_max": 122182.16,
-  "salary_min": 122182.16,
-  "score": 41.4,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Lead Software Engineer",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5937804458?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Universal Orlando",
   "description": "JOB SUMMARY: The Workplace Operations WFM Analyst serves as the primary workforce management subject matter expert responsible for forecasting, capacity planning, scheduling, real-time management, reporting, and workforce optimization across TechLine operations. The role will be managing the full WFM lifecycle for a complex, global support organization. The Workforce Management Analyst will partner closely with Operations leadership, HR, Finance, and regional stakeholders to develop data-driven\u2026",
   "external_id": "5939095299",
@@ -696,34 +669,6 @@
   "title": "Workforce Management Analyst, Workplace Operations (In Office Required)",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5939095299?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Danaher",
-  "description": "Bring more to life. Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Pall Corporation, one of Danaher\u2019s 15 operating companies, our work saves lives\u2014and we\u2019re all united by a shared commitment to innovate for tangible impact. You\u2019ll thrive in a culture of belonging where you and your unique viewpoint matter. And by harnessing Danaher\u2019s system of continuous improvement, you help turn ideas into impact \u2013 innovating at th\u2026",
-  "external_id": "5937862384",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "danaher:materialhandler1stshift650amto320pmmondayfriday:delandvolusi",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Deland, Volusia County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-22T07:33:27Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay clears your $45,000 floor ($60,715)",
-   "growing employer/sector in this metro: life sciences",
-   "posted 4 days ago",
-   "schedule: monday-friday"
-  ],
-  "salary_max": 60715.38,
-  "salary_min": 60715.38,
-  "score": 41.0,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Material Handler-1st Shift-6:50a.m. to 3:20 p.m., Monday-Friday",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5937862384?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Danaher Corporation",
@@ -1039,37 +984,6 @@
   "url": "https://www.adzuna.com/details/5934127135?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Jabil",
-  "description": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vi\u2026",
-  "external_id": "5937835639",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [
-   "asks for 60+ years"
-  ],
-  "key": "jabil:materialhandler2ndshift:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-22T07:25:29Z",
-  "reasons": [
-   "matches your experience: supply chain",
-   "title is a direct match for your background",
-   "pay clears your $45,000 floor ($51,606)",
-   "growing employer/sector in this metro: jabil",
-   "posted 6 days ago",
-   "title and your experience both match"
-  ],
-  "salary_max": 51605.98,
-  "salary_min": 51605.98,
-  "score": 36.8,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Material Handler 2nd shift",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5937835639?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Serco",
   "description": "Position Description & Qualifications Looking for a Network Operations Analyst opportunity at a place you can make a difference every day? Discover this great opportunity supporting the Air Force Special Operations Command (AFSOC) in support of our nation's defense. AFSOC conducts approximately 50 scheduled formal Live, Virtual and Constructive (LVC) exercises and events per year. All supported exercises provide AFSOC and SOCOM training enterprise venues for forces to conduct pre-deployment rea\u2026",
   "external_id": "5928835564",
@@ -1150,6 +1064,33 @@
   "url": "https://www.adzuna.com/land/ad/5941167495?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=1DF1A05DF7C064BB17E708421255FCF9A55FD5F0"
  },
  {
+  "company": "Danaher",
+  "description": "Bring more to life. Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Pall Corporation, one of Danaher\u2019s 15 operating companies, our work saves lives\u2014and we\u2019re all united by a shared commitment to innovate for tangible impact. You\u2019ll thrive in a culture of belonging where you and your unique viewpoint matter. And by harnessing Danaher\u2019s system of continuous improvement, you help turn ideas into impact \u2013 innovating at th\u2026",
+  "external_id": "5937862384",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "danaher:materialhandler1stshift650amto320pmmondayfriday:delandvolusi",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Deland, Volusia County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-22T07:33:27Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($60,715)",
+   "growing employer/sector in this metro: life sciences",
+   "schedule: monday-friday"
+  ],
+  "salary_max": 60715.38,
+  "salary_min": 60715.38,
+  "score": 35.7,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Material Handler-1st Shift-6:50a.m. to 3:20 p.m., Monday-Friday",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5937862384?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "PrideStaff",
   "description": "PrideStaff is currently seeking a highly motivated and detail-oriented Application Engineer on behalf of a premier design and manufacturing client in the Odessa area. If you excel at being the critical bridge between technical engineering, field sales, and the end customer, this is an excellent opportunity to take ownership of custom projects for an industry-leading organization. In this role, you will act as the primary technical subject matter expert for customized product solutions, guiding \u2026",
   "external_id": "5939079323",
@@ -1174,6 +1115,33 @@
   "title": "Application Engineer",
   "track": "direct",
   "url": "https://www.adzuna.com/details/5939079323?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "The Walt Disney Company",
+  "description": "Job Requirements \"We Power the Magic!\" That's our motto at Disney Experiences (DX). Our team creates world-class immersive digital experiences for the Company's premier vacation brands including Disney's Parks & Resorts worldwide, Disney Cruise Line, Aulani, a Disney Resort & Spa, and Disney Vacation Club. We are responsible for the end-to-end digital and physical Guest experience for all technology and digital-led initiatives across the Attractions & Entertainment, Food & Beverage, Resorts & T\u2026",
+  "external_id": "5937804458",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "different field (software)"
+  ],
+  "key": "thewaltdisneycompany:leadsoftwareengineer:edgewoodoran",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Edgewood, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-22T07:17:36Z",
+  "reasons": [
+   "pay tops out near $122,182 \u2014 well above current",
+   "growing employer/sector in this metro: walt disney"
+  ],
+  "salary_max": 122182.16,
+  "salary_min": 122182.16,
+  "score": 35.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Lead Software Engineer",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5937804458?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "The Walt Disney Company",
@@ -1485,6 +1453,36 @@
   "title": "Operations Analyst- 1227",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5941499509?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Jabil",
+  "description": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vi\u2026",
+  "external_id": "5937835639",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "asks for 60+ years"
+  ],
+  "key": "jabil:materialhandler2ndshift:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-22T07:25:29Z",
+  "reasons": [
+   "matches your experience: supply chain",
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($51,606)",
+   "growing employer/sector in this metro: jabil",
+   "title and your experience both match"
+  ],
+  "salary_max": 51605.98,
+  "salary_min": 51605.98,
+  "score": 31.5,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Material Handler 2nd shift",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5937835639?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "TekWissen \u00ae",
