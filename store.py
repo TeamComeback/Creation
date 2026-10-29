@@ -142,6 +142,23 @@ def import_snapshot(rows: Iterable[dict]) -> int:
     return added
 
 
+def rescore_all() -> int:
+    """Re-run the current scoring rules over every stored job, so a scoring change
+    reaches jobs found before it shipped. Returns rows changed."""
+    from scoring import Job, score_job
+    fields = ("source", "external_id", "title", "company", "location", "url", "description",
+              "salary_min", "salary_max", "posted_at", "metro", "track")
+    changed = 0
+    with conn() as c:
+        for r in c.execute("SELECT * FROM jobs").fetchall():
+            j = score_job(Job(**{k: r[k] for k in fields}))
+            if abs((r["score"] or 0) - j.score) > 0.05:
+                c.execute("UPDATE jobs SET score = ?, reasons = ?, flags = ? WHERE key = ?",
+                          (j.score, json.dumps(j.reasons), json.dumps(j.flags), r["key"]))
+                changed += 1
+    return changed
+
+
 def purge_stale(days: int = 14) -> int:
     """Drop postings that have stopped showing up in scans.
 

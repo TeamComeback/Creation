@@ -52,6 +52,7 @@ def _startup() -> None:
         rows = r.json()
         added = store.import_snapshot(rows if isinstance(rows, list) else [])
         logging.info("snapshot restore: %d jobs added from %s", added, SNAPSHOT_URL)
+        logging.info("rescore: %d stored jobs updated to the current scoring rules", store.rescore_all())
     except Exception:  # noqa: BLE001 -- a missing snapshot must never stop the app
         logging.exception("snapshot restore failed; starting with what /tmp has")
 
