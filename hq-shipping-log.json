@@ -138,6 +138,15 @@
     "curiosity": 25000,
     "ingenuity": 12000
    }
+  },
+  {
+   "id": "r20261030T0006ship",
+   "time": "2026-10-29T20:06-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
   }
  ]
 }
