@@ -147,6 +147,15 @@
    "by_company": {
     "hq": 5000
    }
+  },
+  {
+   "id": "r20261030T1309ship",
+   "time": "2026-10-30T09:09-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
   }
  ]
 }
