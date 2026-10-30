@@ -276,32 +276,6 @@
   "url": "https://www.adzuna.com/details/5940599625?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Fisher Investments",
-  "description": "The Opportunity: As a Talent Operations Analyst, you will play an important role in managing and enhancing the systems, processes, and programs that support our hiring globally. You will focus on maintaining systems, workflow and process improvements, vendor management, and project implementation. This role is part of the Talent Attraction and Operations group, which has a wide range of responsibilities supporting our hiring efforts through marketing, operations, reporting, and technology. You \u2026",
-  "external_id": "5939638389",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "fisherinvestments:talentoperationsanalyst:tampapalmshi",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa Palms, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-23T16:31:21Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $114,297 \u2014 well above current",
-   "posted 2 days ago"
-  ],
-  "salary_max": 114297.47,
-  "salary_min": 114297.47,
-  "score": 50.6,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Talent Operations Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/land/ad/5939638389?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=58A3F5971EE9F2763BDEAFA301CCF3D1E79B7187"
- },
- {
   "company": "Mitsubishi UFJ Financial Group",
   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial gro\u2026",
   "external_id": "5933319570",
@@ -486,6 +460,31 @@
   "title": "ETF Operations Analyst - Citi",
   "track": "stretch",
   "url": "https://www.adzuna.com/land/ad/5938164575?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=4C0D698AA52EE714B2C08675334C5B8A94393077"
+ },
+ {
+  "company": "Fisher Investments",
+  "description": "The Opportunity: As a Talent Operations Analyst, you will play an important role in managing and enhancing the systems, processes, and programs that support our hiring globally. You will focus on maintaining systems, workflow and process improvements, vendor management, and project implementation. This role is part of the Talent Attraction and Operations group, which has a wide range of responsibilities supporting our hiring efforts through marketing, operations, reporting, and technology. You \u2026",
+  "external_id": "5939638389",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "fisherinvestments:talentoperationsanalyst:tampapalmshi",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa Palms, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-23T16:31:21Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $114,297 \u2014 well above current"
+  ],
+  "salary_max": 114297.47,
+  "salary_min": 114297.47,
+  "score": 44.8,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Talent Operations Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/land/ad/5939638389?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=58A3F5971EE9F2763BDEAFA301CCF3D1E79B7187"
  },
  {
   "company": "Initio Capital",
@@ -871,33 +870,6 @@
   "title": "Pharmacy Maintenance Technician",
   "track": "trades",
   "url": "https://www.adzuna.com/land/ad/5942028171?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=E399123D3CD1A86A8CE6D1097992E257ABAB76E0"
- },
- {
-  "company": "Christian Martinez - State Farm Agent",
-  "description": "Benefits: SIMPLE Plan with Match Bonus based on performance Competitive salary Paid time off ROLE DESCRIPTION: Christian Martinez - State Farm Agent is searching for a competitive bilingual Producer who can recognize opportunities and strategically turn leads into long-lasting customer relationships. As our Insurance Account Representative - State Farm Agent Team Member, your knowledge of insurance products and industry trends equips you to communicate directly with clients, identify their need\u2026",
-  "external_id": "5939603493",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "christianmartinezstatefarmagent:insuranceaccountrepresentativestatefarmagentteammember:forestsemino",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Forest, Seminole County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-23T14:34:40Z",
-  "reasons": [
-   "matches your experience: bilingual",
-   "pay tops out near $85,000 \u2014 well above current",
-   "growing employer/sector in this metro: insurance",
-   "posted 3 days ago"
-  ],
-  "salary_max": 85000.0,
-  "salary_min": 60000.0,
-  "score": 38.0,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Insurance Account Representative - State Farm Agent Team Member",
-  "track": "direct",
-  "url": "https://www.adzuna.com/details/5939603493?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "CrowdStrike",
@@ -1395,6 +1367,32 @@
   "title": "Business Continuity Organization Analyst",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5935297540?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Christian Martinez - State Farm Agent",
+  "description": "Benefits: SIMPLE Plan with Match Bonus based on performance Competitive salary Paid time off ROLE DESCRIPTION: Christian Martinez - State Farm Agent is searching for a competitive bilingual Producer who can recognize opportunities and strategically turn leads into long-lasting customer relationships. As our Insurance Account Representative - State Farm Agent Team Member, your knowledge of insurance products and industry trends equips you to communicate directly with clients, identify their need\u2026",
+  "external_id": "5939603493",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "christianmartinezstatefarmagent:insuranceaccountrepresentativestatefarmagentteammember:forestsemino",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Forest, Seminole County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-23T14:34:40Z",
+  "reasons": [
+   "matches your experience: bilingual",
+   "pay tops out near $85,000 \u2014 well above current",
+   "growing employer/sector in this metro: insurance"
+  ],
+  "salary_max": 85000.0,
+  "salary_min": 60000.0,
+  "score": 33.0,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Insurance Account Representative - State Farm Agent Team Member",
+  "track": "direct",
+  "url": "https://www.adzuna.com/details/5939603493?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Hillsborough County",
