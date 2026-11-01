@@ -1,34 +1,5 @@
 [
  {
-  "company": "Ally",
-  "description": "Hybrid Dresher, PA Lewisville, TX Jacksonville, FL Charlotte, NC Full time R2600418 Ally and Your Career Ally Financial only succeeds when its people do - and that's more than some clich\u00e9 people put on job postings. We love this stuff! We see our people as, well, people - with interests, families, friends, dreams, and causes that are all important to them. Our focus is on the health and safety of our teammates as well as work-life balance and diversity and inclusion. From generous benefits to a\u2026",
-  "external_id": "5941366665",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "ally:associateanalystbankfrauddetectionoperations:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:18:37Z",
-  "reasons": [
-   "matches your experience: fraud",
-   "title is a direct match for your background",
-   "pay clears the $62,000 target ($64,534)",
-   "growing employer/sector in this metro: bank",
-   "posted 3 days ago",
-   "title and your experience both match"
-  ],
-  "salary_max": 64533.99,
-  "salary_min": 64533.99,
-  "score": 71.3,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Associate Analyst - Bank Fraud Detection Operations",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941366665?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Siemens Energy",
   "description": "A Snapshot of Your Day In this role, you will be working with customer shipments and placing casting in crates for shipping. Using a forklift to move material from the different departments in the Gibsonton Florida Location. How You'll Make an Impact  Receiving castings in OSS and delivering them to the different production departments.  Scheduling and coordinating shipments in our Transportation Management System.  Ensuring warehouse is maintained in a clean, orderly, and visually attractive m\u2026",
   "external_id": "5939135306",
@@ -56,33 +27,32 @@
   "url": "https://www.adzuna.com/details/5939135306?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "U.S. Venture",
-  "description": "POSITION SUMMARY U.S. AutoForce, a division of U.S. Venture, Inc., brings together more than 100 years of experience as an industry leader in the distribution of tires, undercar parts, and lubricants to independent tire retailers, auto repair shops, and automotive dealerships. The schedule for this position is Monday-Friday 8:30am-5:00pm or until work is completed and rotating half-day Saturdays dependent on business needs. Schedules are subject to change based on business needs and may require\u2026",
-  "external_id": "5941360461",
+  "company": "Ally",
+  "description": "Hybrid Dresher, PA Lewisville, TX Jacksonville, FL Charlotte, NC Full time R2600418 Ally and Your Career Ally Financial only succeeds when its people do - and that's more than some clich\u00e9 people put on job postings. We love this stuff! We see our people as, well, people - with interests, families, friends, dreams, and causes that are all important to them. Our focus is on the health and safety of our teammates as well as work-life balance and diversity and inclusion. From generous benefits to a\u2026",
+  "external_id": "5941366665",
   "first_seen": "2026-10-26T14:58:11+00:00",
   "flags": [],
-  "key": "usventure:warehousematerialhandler:midwaygadsde",
+  "key": "ally:associateanalystbankfrauddetectionoperations:jacksonville",
   "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Midway, Gadsden County",
-  "metro": "tallahassee",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
   "notified": 1,
-  "posted_at": "2026-10-25T07:17:29Z",
+  "posted_at": "2026-10-25T07:18:37Z",
   "reasons": [
-   "matches your experience: warehouse, distribution",
+   "matches your experience: fraud",
    "title is a direct match for your background",
-   "pay clears the $62,000 target ($56,481)",
-   "posted 3 days ago",
-   "schedule: monday-friday",
+   "pay clears the $62,000 target ($64,534)",
+   "growing employer/sector in this metro: bank",
    "title and your experience both match"
   ],
-  "salary_max": 56480.96,
-  "salary_min": 56480.96,
-  "score": 68.5,
+  "salary_max": 64533.99,
+  "salary_min": 64533.99,
+  "score": 65.5,
   "source": "adzuna",
   "status": "new",
-  "title": "Warehouse Material Handler",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5941360461?utm_medium=api&utm_source=baf1741a"
+  "title": "Associate Analyst - Bank Fraud Detection Operations",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941366665?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Fortegra",
@@ -139,61 +109,32 @@
   "url": "https://www.adzuna.com/details/5937447145?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "HCA Healthcare",
-  "description": "Are you passionate about the patient experience? At HCA Healthcare, we are committed to caring for patients with purpose and integrity. We care like family! Jump-start your career as a Material Handler Replenishment today with HealthTrust Supply Chain. SCHEDULE: MONDAY - FRIDAY 4:00AM TO 12:30PM Job Summary and Qualifications As a Material Handler, you will be responsible for performing administrative and physical tasks within a warehouse which involves the storing and distributing of products,\u2026",
-  "external_id": "5941383640",
+  "company": "U.S. Venture",
+  "description": "POSITION SUMMARY U.S. AutoForce, a division of U.S. Venture, Inc., brings together more than 100 years of experience as an industry leader in the distribution of tires, undercar parts, and lubricants to independent tire retailers, auto repair shops, and automotive dealerships. The schedule for this position is Monday-Friday 8:30am-5:00pm or until work is completed and rotating half-day Saturdays dependent on business needs. Schedules are subject to change based on business needs and may require\u2026",
+  "external_id": "5941360461",
   "first_seen": "2026-10-26T14:58:11+00:00",
   "flags": [],
-  "key": "hcahealthcare:materialhandlerreplenishment:eatonparkpol",
+  "key": "usventure:warehousematerialhandler:midwaygadsde",
   "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Eaton Park, Polk County",
-  "metro": "tampa",
+  "location": "Midway, Gadsden County",
+  "metro": "tallahassee",
   "notified": 1,
-  "posted_at": "2026-10-25T07:23:30Z",
+  "posted_at": "2026-10-25T07:17:29Z",
   "reasons": [
-   "matches your experience: warehouse, supply chain",
+   "matches your experience: warehouse, distribution",
    "title is a direct match for your background",
-   "pay clears your $45,000 floor ($46,625)",
-   "posted 3 days ago",
-   "schedule: monday - friday",
+   "pay clears the $62,000 target ($56,481)",
+   "schedule: monday-friday",
    "title and your experience both match"
   ],
-  "salary_max": 46625.09,
-  "salary_min": 46625.09,
-  "score": 58.2,
+  "salary_max": 56480.96,
+  "salary_min": 56480.96,
+  "score": 63.3,
   "source": "adzuna",
   "status": "new",
-  "title": "Material Handler Replenishment",
+  "title": "Warehouse Material Handler",
   "track": "operations",
-  "url": "https://www.adzuna.com/details/5941383640?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "HCA Healthcare",
-  "description": "Do you want to join an organization that invests in you as a Material Handler Shipping? At HealthTrust Supply Chain, you come first. HCA Healthcare has committed up to $300 million in programs to support our incredible team members over the course of three years. Job Summary and Qualifications As a Material Handler, you will be responsible for performing administrative and physical tasks within a warehouse which involves the storing and distributing of products, materials, supplies, and equipme\u2026",
-  "external_id": "5941384417",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "hcahealthcare:materialhandlershipping:eatonparkpol",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Eaton Park, Polk County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:23:41Z",
-  "reasons": [
-   "matches your experience: warehouse, shipping, supply chain",
-   "title is a direct match for your background",
-   "pay clears your $45,000 floor ($47,677)",
-   "posted 3 days ago",
-   "title and your experience both match"
-  ],
-  "salary_max": 47677.09,
-  "salary_min": 47677.09,
-  "score": 54.7,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Material Handler Shipping",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5941384417?utm_medium=api&utm_source=baf1741a"
+  "url": "https://www.adzuna.com/details/5941360461?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "VyStar Credit Union",
@@ -220,6 +161,34 @@
   "title": "Assistant Branch Manager",
   "track": "stretch",
   "url": "https://www.adzuna.com/land/ad/5927268561?se=6mmvqE3R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=D8E5C2E4B8AB85D7279418FC5D41162AF5CAA06D"
+ },
+ {
+  "company": "HCA Healthcare",
+  "description": "Are you passionate about the patient experience? At HCA Healthcare, we are committed to caring for patients with purpose and integrity. We care like family! Jump-start your career as a Material Handler Replenishment today with HealthTrust Supply Chain. SCHEDULE: MONDAY - FRIDAY 4:00AM TO 12:30PM Job Summary and Qualifications As a Material Handler, you will be responsible for performing administrative and physical tasks within a warehouse which involves the storing and distributing of products,\u2026",
+  "external_id": "5941383640",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "hcahealthcare:materialhandlerreplenishment:eatonparkpol",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Eaton Park, Polk County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:23:30Z",
+  "reasons": [
+   "matches your experience: warehouse, supply chain",
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($46,625)",
+   "schedule: monday - friday",
+   "title and your experience both match"
+  ],
+  "salary_max": 46625.09,
+  "salary_min": 46625.09,
+  "score": 52.9,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Material Handler Replenishment",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5941383640?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Mad Mobile",
@@ -249,6 +218,33 @@
   "url": "https://www.adzuna.com/details/5936425627?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "HCA Healthcare",
+  "description": "Do you want to join an organization that invests in you as a Material Handler Shipping? At HealthTrust Supply Chain, you come first. HCA Healthcare has committed up to $300 million in programs to support our incredible team members over the course of three years. Job Summary and Qualifications As a Material Handler, you will be responsible for performing administrative and physical tasks within a warehouse which involves the storing and distributing of products, materials, supplies, and equipme\u2026",
+  "external_id": "5941384417",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "hcahealthcare:materialhandlershipping:eatonparkpol",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Eaton Park, Polk County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:23:41Z",
+  "reasons": [
+   "matches your experience: warehouse, shipping, supply chain",
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($47,677)",
+   "title and your experience both match"
+  ],
+  "salary_max": 47677.09,
+  "salary_min": 47677.09,
+  "score": 49.5,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Material Handler Shipping",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5941384417?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "Mitsubishi UFJ Financial Group",
   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial gro\u2026",
   "external_id": "5933319570",
@@ -275,33 +271,6 @@
   "url": "https://www.adzuna.com/details/5933319570?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Citigroup",
-  "description": "The candidate will be responsible for the following core fund operational processes: - PCF file preparation, including reviewing the relevant component stocks, quantity and prices - ETF creation and redemption order processing for primary market - ETF creation and redemption settlement arrangement, both in cash and in kind - ETF units settlement arrangement and relationship with AP's - Handling AP inquiries related to the ETF creation / redemption orders - CNS for ETFs as Index receipt agent - \u2026",
-  "external_id": "5941372741",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "citigroup:etfoperationsanalyst:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:20:48Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay clears the $62,000 target ($71,396)",
-   "growing employer/sector in this metro: citigroup",
-   "posted 3 days ago"
-  ],
-  "salary_max": 71396.38,
-  "salary_min": 71396.38,
-  "score": 48.3,
-  "source": "adzuna",
-  "status": "new",
-  "title": "ETF Operations Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941372741?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "ARAMARK",
   "description": "Job Description As the Operations Finance Analyst you will support the objectives of the Accounting department while assisting operating departments with forecasting, budget, labor and inventory controls, analysis, auditing as well as operational responsibilities for the units you are supporting. Job Responsibilities  Daily postings of supplier invoices across 3 operating systems  Daily verification of supplier invoices  Collaborating closely with Property Managers for Approval  Handling suppli\u2026",
   "external_id": "5934123110",
@@ -326,36 +295,6 @@
   "title": "Unit Controller - Florida State University",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5934123110?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Staples",
-  "description": "11:00am-7:30pm/Monday-Friday Our supply chain team is dedicated to meeting our customers' needs both now and in the future. By pairing innovative technology with dynamic employees, we create smarter, more efficient ways to meet our customers' needs faster. Our network of distribution, fulfillment, fleet, furniture installation and professional teams work together in fun and safe environments to deliver state-of-the-art products, services, and expertise to our customers. What you'll be doing: As\u2026",
-  "external_id": "5941356150",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [
-   "below floor ($30,592)"
-  ],
-  "key": "staples:warehousematerialhandlerfulltime2ndshift:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:16:41Z",
-  "reasons": [
-   "matches your experience: warehouse, distribution, fulfillment, supply chain",
-   "title is a direct match for your background",
-   "posted 3 days ago",
-   "schedule: monday-friday",
-   "title and your experience both match"
-  ],
-  "salary_max": 30591.75,
-  "salary_min": 30591.75,
-  "score": 46.8,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Warehouse Material Handler Full Time 2nd Shift",
-  "track": "operations",
-  "url": "https://www.adzuna.com/details/5941356150?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "MCKESSON",
@@ -560,32 +499,6 @@
   "url": "https://www.adzuna.com/details/5929012142?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "GovCIO",
-  "description": "United States Suitability/Public Trust Fully remote Information Technology Overview GovCIO is seeking a highly motivated and experienced Supply Chain Analyst to support our program's supply chain and proposal activities across the Task Order (TO). This individual will work closely with the Senior Supply Chain Analyst and the Director of Business Operations and cross-functional teams to ensure compliance, efficiency, and accuracy in all procurement and reporting processes. The ideal candidate wi\u2026",
-  "external_id": "5941382675",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "govcio:supplychainanalyst:tallahasseel",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tallahassee, Leon County",
-  "metro": "tallahassee",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:23:10Z",
-  "reasons": [
-   "matches your experience: compliance, supply chain",
-   "pay tops out near $107,989 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 107989.41,
-  "salary_min": 107989.41,
-  "score": 44.2,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Supply Chain Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941382675?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "MiTek",
   "description": "Job Responsibilities & Requirements ESSENTIAL FUNCTIONS: Operate large forklifts or overhead cranes (with proper training) to load/unload master coils or other materials from rail cars and /or trucks. Load/unload slit ribbon material on production line decoilers as defined by the steel loading process. Correctly feed slit ribbon material into the stamping dies and perform first piece inspection. Perform routine quality control functions on materials (i.e. thickness, gauge, width, and coating me\u2026",
   "external_id": "5939271622",
@@ -611,6 +524,61 @@
   "title": "Material Handler",
   "track": "operations",
   "url": "https://www.adzuna.com/details/5939271622?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Citigroup",
+  "description": "The candidate will be responsible for the following core fund operational processes: - PCF file preparation, including reviewing the relevant component stocks, quantity and prices - ETF creation and redemption order processing for primary market - ETF creation and redemption settlement arrangement, both in cash and in kind - ETF units settlement arrangement and relationship with AP's - Handling AP inquiries related to the ETF creation / redemption orders - CNS for ETFs as Index receipt agent - \u2026",
+  "external_id": "5941372741",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "citigroup:etfoperationsanalyst:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:20:48Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay clears the $62,000 target ($71,396)",
+   "growing employer/sector in this metro: citigroup"
+  ],
+  "salary_max": 71396.38,
+  "salary_min": 71396.38,
+  "score": 42.5,
+  "source": "adzuna",
+  "status": "new",
+  "title": "ETF Operations Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941372741?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Staples",
+  "description": "11:00am-7:30pm/Monday-Friday Our supply chain team is dedicated to meeting our customers' needs both now and in the future. By pairing innovative technology with dynamic employees, we create smarter, more efficient ways to meet our customers' needs faster. Our network of distribution, fulfillment, fleet, furniture installation and professional teams work together in fun and safe environments to deliver state-of-the-art products, services, and expertise to our customers. What you'll be doing: As\u2026",
+  "external_id": "5941356150",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "below floor ($30,592)"
+  ],
+  "key": "staples:warehousematerialhandlerfulltime2ndshift:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:16:41Z",
+  "reasons": [
+   "matches your experience: warehouse, distribution, fulfillment, supply chain",
+   "title is a direct match for your background",
+   "schedule: monday-friday",
+   "title and your experience both match"
+  ],
+  "salary_max": 30591.75,
+  "salary_min": 30591.75,
+  "score": 41.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Warehouse Material Handler Full Time 2nd Shift",
+  "track": "operations",
+  "url": "https://www.adzuna.com/details/5941356150?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Stellar Energy Americas",
@@ -713,32 +681,6 @@
   "url": "https://www.adzuna.com/details/5936570480?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Citigroup",
-  "description": "Additional Information Current Job Description: The Operations Support Lead Analyst (C13) - Relationship Manager primary responsibility for Long-Term Capacity Planning. This position is a senior, highly analytical role within Citi's Global Workforce Optimization (GWFO) organization. This position serves as the subject matter expert and strategic architect responsible for establishing, governing, and defending end-to-end multi-year capacity planning models, financial budget staffing baselines, a\u2026",
-  "external_id": "5941372859",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "citigroup:operationalsupportleadanalyst:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:20:50Z",
-  "reasons": [
-   "pay tops out near $118,787 \u2014 well above current",
-   "growing employer/sector in this metro: citigroup",
-   "posted 3 days ago"
-  ],
-  "salary_max": 118787.22,
-  "salary_min": 118787.22,
-  "score": 40.2,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Operational Support Lead Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941372859?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Deutsche Bank",
   "description": "Job Description: Job Title Information Security Analyst Corporate Title Analyst Location Jacksonville, FL Overview We are looking for a knowledgeable Information Security Analyst to operating as a member of the Chief Security Office (CSO) Third Party Security team (TPS). As an Information Security Analyst, you will be responsible for supporting the development, execution, and maintenance of Deutsche Bank\u2019s information security strategy and program under the management of the CSO. You will work \u2026",
   "external_id": "5937976732",
@@ -792,33 +734,6 @@
   "url": "https://www.adzuna.com/details/5932027850?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Datavant",
-  "description": "Datavant is the data collaboration platform trusted for healthcare. Guided by our mission to make the world's health data secure, accessible and actionable, we provide critical data solutions for organizations across the healthcare ecosystem - including providers, health plans, researchers, and life sciences companies. From fulfilling a single patient's request for their medical records to powering the AI revolution in healthcare, Datavanters are building the future of how data is connected and\u2026",
-  "external_id": "5941376013",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "datavant:riskadjustmentoperationsseniorprojectanalyst:tallahasseel",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tallahassee, Leon County",
-  "metro": "tallahassee",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:21:52Z",
-  "reasons": [
-   "matches your experience: risk",
-   "pay tops out near $98,159 \u2014 well above current",
-   "growing employer/sector in this metro: life sciences",
-   "posted 3 days ago"
-  ],
-  "salary_max": 98158.8,
-  "salary_min": 98158.8,
-  "score": 39.1,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Risk Adjustment Operations Senior Project Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941376013?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "NexCore",
   "description": "Position Overview DWC Mechanical | Tampa, FL $35\u2013$45/hour, based on experience | Full-Time | Year-Round Commercial Work Put Your Installation Experience to Work Leading a Team DWC Mechanical is growing in Tampa and seeking an experienced Lead Commercial HVAC Installer who takes pride in quality workmanship and can help lead projects from initial layout through installation, startup support, and completion. This is a hands-on leadership role for an installer who can read plans, organize daily wo\u2026",
   "external_id": "5936557339",
@@ -868,6 +783,31 @@
   "title": "Pharmacy Maintenance Technician",
   "track": "trades",
   "url": "https://www.adzuna.com/land/ad/5942028171?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=E399123D3CD1A86A8CE6D1097992E257ABAB76E0"
+ },
+ {
+  "company": "GovCIO",
+  "description": "United States Suitability/Public Trust Fully remote Information Technology Overview GovCIO is seeking a highly motivated and experienced Supply Chain Analyst to support our program's supply chain and proposal activities across the Task Order (TO). This individual will work closely with the Senior Supply Chain Analyst and the Director of Business Operations and cross-functional teams to ensure compliance, efficiency, and accuracy in all procurement and reporting processes. The ideal candidate wi\u2026",
+  "external_id": "5941382675",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "govcio:supplychainanalyst:tallahasseel",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tallahassee, Leon County",
+  "metro": "tallahassee",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:23:10Z",
+  "reasons": [
+   "matches your experience: compliance, supply chain",
+   "pay tops out near $107,989 \u2014 well above current"
+  ],
+  "salary_max": 107989.41,
+  "salary_min": 107989.41,
+  "score": 38.4,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Supply Chain Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941382675?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "CrowdStrike",
@@ -922,32 +862,6 @@
   "title": "Network Operations Analyst",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5928835564?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Strategic Staffing Solutions",
-  "description": "Job Description JOB-247517 Endpoint Services Coordinator \\n Client: Teco \\n Location: Lutz, FL \\n \\n Onsite 4 days a week, 5 days during training period. \\n \\n Endpoint Services Coordinator (Onsite) \\n \\n No Corp to Corp. \\n \\n Position Overview \\n We are seeking a detail-oriented Endpoint Services Coordinator to support our Endpoint Engineering team. The Endpoint Services Coordinator is responsible for managing the lifecycle of incoming client technical requests. The position requires independ\u2026",
-  "external_id": "5941307970",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "strategicstaffingsolutions:endpointservicescoordinator:lutzhillsbor",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Lutz, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T06:20:19Z",
-  "reasons": [
-   "matches your experience: detail-oriented",
-   "pay tops out near $96,544 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 96543.67,
-  "salary_min": 96543.67,
-  "score": 36.8,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Endpoint Services Coordinator",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/land/ad/5941307970?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=9D4C0024C42B9233B7F482B4B3CB79C0ABD624FE"
  },
  {
   "company": "Danaher",
@@ -1131,6 +1045,31 @@
   "url": "https://www.adzuna.com/details/5941516332?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "Citigroup",
+  "description": "Additional Information Current Job Description: The Operations Support Lead Analyst (C13) - Relationship Manager primary responsibility for Long-Term Capacity Planning. This position is a senior, highly analytical role within Citi's Global Workforce Optimization (GWFO) organization. This position serves as the subject matter expert and strategic architect responsible for establishing, governing, and defending end-to-end multi-year capacity planning models, financial budget staffing baselines, a\u2026",
+  "external_id": "5941372859",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "citigroup:operationalsupportleadanalyst:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:20:50Z",
+  "reasons": [
+   "pay tops out near $118,787 \u2014 well above current",
+   "growing employer/sector in this metro: citigroup"
+  ],
+  "salary_max": 118787.22,
+  "salary_min": 118787.22,
+  "score": 34.5,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Operational Support Lead Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941372859?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "Leidos",
   "description": "Description Senior C2 Subject Matter Expert Tampa, FL Minimum of Secret clearance required The Defense Sector at Leidos is currently looking for a Senior Multi-Domain Command & Control (C2) Operations Analyst / Common Operational Picture (COP) . In this position you will provide expert-level leadership, operational analysis, and mission support across Joint, Combined, and Coalition Command and Control environments. This position supports Combatant Commands, Joint Staff organizations, Service Co\u2026",
   "external_id": "5942161601",
@@ -1155,110 +1094,6 @@
   "title": "Senior C2 Subject Matter Expert",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5942161601?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Truist",
-  "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status. Need Help? (https://pp-cdn.phenompeople.com/CareerConnectResources/prod/TBJTBFUS/documents/Career\\_site\\_FAQ-1758133253710.pdf) _If you have a d\u2026",
-  "external_id": "5941357456",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "truist:treasurysalesanalyst:edgewoodoran",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Edgewood, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:16:58Z",
-  "reasons": [
-   "pay tops out near $154,327 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 154326.53,
-  "salary_min": 154326.53,
-  "score": 34.5,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Treasury Sales Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941357456?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "V2X",
-  "description": "Overview System Administrator III \"WTRS\" - Orlando, Florida The System Administrator III will provide guidance and direction to a global team of system administrators supporting the US Army Combat Training Centers in the US, Hawaii and Europe responsible for maintaining, configuring, and securing networks and systems, ensuring reliable and efficient communication across platforms to enable an effective training environment for the US forces and allies conducting training at each site. Responsib\u2026",
-  "external_id": "5941361019",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "v2x:systemadministratoriii:edgewoodoran",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Edgewood, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:17:34Z",
-  "reasons": [
-   "pay tops out near $146,636 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 146636.2,
-  "salary_min": 146636.2,
-  "score": 34.5,
-  "source": "adzuna",
-  "status": "new",
-  "title": "System Administrator III",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941361019?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "MED-EL Corporation",
-  "description": "MED-EL |Tampa or Orlando, Florida MED-EL is a global leader in hearing implant technology, dedicated to overcoming hearing loss as a barrier to communication and quality of life. Through innovative hearing solutions, education, and ongoing support, MED-EL empowers individuals with hearing loss to connect with the world around them. Join our team and help make a meaningful difference in the lives of individuals and families navigating their hearing journey. MED-EL is seeking a bilingual Consumer\u2026",
-  "external_id": "5941499549",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "medelcorporation:consumerengagementmanagerbilingual:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T09:28:15Z",
-  "reasons": [
-   "matches your experience: bilingual",
-   "pay tops out near $103,827 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 103827.25,
-  "salary_min": 103827.25,
-  "score": 34.0,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Consumer Engagement Manager (bilingual)",
-  "track": "direct",
-  "url": "https://www.adzuna.com/details/5941499549?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Accenture",
-  "description": "About AccentureAccenture helps the world's leading enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed for organizations across industries. Our strategy is to be the reinvention partner of choice for our clients and lead in the safe, widespread adoption of AI, and to be the most client-focused, AI-enabled, great place to work in the world. We bring together the talent of our approximately 814,000 people with proprietary assets and platform\u2026",
-  "external_id": "5941338143",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [
-   "different field (engineer)"
-  ],
-  "key": "accenture:knowledgeengineeringmanagerseniormanager:edgewoodoran",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Edgewood, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:12:21Z",
-  "reasons": [
-   "matches your experience: erp",
-   "pay tops out near $406,753 \u2014 well above current",
-   "posted 3 days ago"
-  ],
-  "salary_max": 406753.34,
-  "salary_min": 406753.34,
-  "score": 33.3,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Knowledge Engineering Manager / Senior Manager",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941338143?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Black Knight Financial Services",
@@ -1286,6 +1121,32 @@
   "url": "https://www.adzuna.com/details/5935297540?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "Datavant",
+  "description": "Datavant is the data collaboration platform trusted for healthcare. Guided by our mission to make the world's health data secure, accessible and actionable, we provide critical data solutions for organizations across the healthcare ecosystem - including providers, health plans, researchers, and life sciences companies. From fulfilling a single patient's request for their medical records to powering the AI revolution in healthcare, Datavanters are building the future of how data is connected and\u2026",
+  "external_id": "5941376013",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "datavant:riskadjustmentoperationsseniorprojectanalyst:tallahasseel",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tallahassee, Leon County",
+  "metro": "tallahassee",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:21:52Z",
+  "reasons": [
+   "matches your experience: risk",
+   "pay tops out near $98,159 \u2014 well above current",
+   "growing employer/sector in this metro: life sciences"
+  ],
+  "salary_max": 98158.8,
+  "salary_min": 98158.8,
+  "score": 33.3,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Risk Adjustment Operations Senior Project Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941376013?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "Christian Martinez - State Farm Agent",
   "description": "Benefits: SIMPLE Plan with Match Bonus based on performance Competitive salary Paid time off ROLE DESCRIPTION: Christian Martinez - State Farm Agent is searching for a competitive bilingual Producer who can recognize opportunities and strategically turn leads into long-lasting customer relationships. As our Insurance Account Representative - State Farm Agent Team Member, your knowledge of insurance products and industry trends equips you to communicate directly with clients, identify their need\u2026",
   "external_id": "5939603493",
@@ -1310,32 +1171,6 @@
   "title": "Insurance Account Representative - State Farm Agent Team Member",
   "track": "direct",
   "url": "https://www.adzuna.com/details/5939603493?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "Hillsborough County",
-  "description": "Description JOB SUMMARY Performs advanced professional and administrative duties related to coordinating facility maintenance as well as managing the design, planning and implementation of facility modifications, such as space planning, office and workspace setup and relocating staff. The scope of projects/processes can range from departmental to agency/global impact. The position works closely with all levels of management and other partner agencies to prepare comprehensive action plans, inclu\u2026",
-  "external_id": "5941499509",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "hillsboroughcounty:operationsanalyst1227:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-25T09:28:03Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay clears your $45,000 floor ($45,926)",
-   "posted 3 days ago"
-  ],
-  "salary_max": 45926.0,
-  "salary_min": 45926.0,
-  "score": 32.2,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Operations Analyst- 1227",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941499509?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Jabil",
@@ -1366,6 +1201,31 @@
   "title": "Material Handler 2nd shift",
   "track": "operations",
   "url": "https://www.adzuna.com/details/5937835639?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Strategic Staffing Solutions",
+  "description": "Job Description JOB-247517 Endpoint Services Coordinator \\n Client: Teco \\n Location: Lutz, FL \\n \\n Onsite 4 days a week, 5 days during training period. \\n \\n Endpoint Services Coordinator (Onsite) \\n \\n No Corp to Corp. \\n \\n Position Overview \\n We are seeking a detail-oriented Endpoint Services Coordinator to support our Endpoint Engineering team. The Endpoint Services Coordinator is responsible for managing the lifecycle of incoming client technical requests. The position requires independ\u2026",
+  "external_id": "5941307970",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "strategicstaffingsolutions:endpointservicescoordinator:lutzhillsbor",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Lutz, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T06:20:19Z",
+  "reasons": [
+   "matches your experience: detail-oriented",
+   "pay tops out near $96,544 \u2014 well above current"
+  ],
+  "salary_max": 96543.67,
+  "salary_min": 96543.67,
+  "score": 31.0,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Endpoint Services Coordinator",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/land/ad/5941307970?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=9D4C0024C42B9233B7F482B4B3CB79C0ABD624FE"
  },
  {
   "company": "Strategic Staffing Solutions",
@@ -1449,6 +1309,31 @@
   "url": "https://www.adzuna.com/details/5941191813?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "MED-EL Corporation",
+  "description": "MED-EL |Tampa or Orlando, Florida MED-EL is a global leader in hearing implant technology, dedicated to overcoming hearing loss as a barrier to communication and quality of life. Through innovative hearing solutions, education, and ongoing support, MED-EL empowers individuals with hearing loss to connect with the world around them. Join our team and help make a meaningful difference in the lives of individuals and families navigating their hearing journey. MED-EL is seeking a bilingual Consumer\u2026",
+  "external_id": "5941499549",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "medelcorporation:consumerengagementmanagerbilingual:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T09:28:15Z",
+  "reasons": [
+   "matches your experience: bilingual",
+   "pay tops out near $103,827 \u2014 well above current"
+  ],
+  "salary_max": 103827.25,
+  "salary_min": 103827.25,
+  "score": 29.0,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Consumer Engagement Manager (bilingual)",
+  "track": "direct",
+  "url": "https://www.adzuna.com/details/5941499549?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "Creed Staffing",
   "description": "Senior Joint Target Intelligence Analyst Location: Fort Meade, Maryland . Job Type : Direct HIRE - Full Time The Senior Joint Target Intelligence Analyst provides advanced analytical support for joint targeting operations by developing, analyzing, and prioritizing targets in support of deliberate and dynamic operations. This position applies all-source intelligence analysis to target development, target system analysis, collateral damage estimation, combat assessment, and battle damage assessme\u2026",
   "external_id": "5941165668",
@@ -1471,6 +1356,106 @@
   "title": "Intelligence Analyst (Fort Meade)",
   "track": "stretch",
   "url": "https://www.adzuna.com/land/ad/5941165668?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=97B8A0743EEB5E631A0723AEF01DE330F6D0B7EB"
+ },
+ {
+  "company": "Truist",
+  "description": "The position is described below. If you want to apply, click the Apply Now button at the top or bottom of this page. After you click Apply Now and complete your application, you'll be invited to create a profile, which will let you see your application status and any communications. If you already have a profile with us, you can log in to check status. Need Help? (https://pp-cdn.phenompeople.com/CareerConnectResources/prod/TBJTBFUS/documents/Career\\_site\\_FAQ-1758133253710.pdf) _If you have a d\u2026",
+  "external_id": "5941357456",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "truist:treasurysalesanalyst:edgewoodoran",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Edgewood, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:16:58Z",
+  "reasons": [
+   "pay tops out near $154,327 \u2014 well above current"
+  ],
+  "salary_max": 154326.53,
+  "salary_min": 154326.53,
+  "score": 28.7,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Treasury Sales Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941357456?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "V2X",
+  "description": "Overview System Administrator III \"WTRS\" - Orlando, Florida The System Administrator III will provide guidance and direction to a global team of system administrators supporting the US Army Combat Training Centers in the US, Hawaii and Europe responsible for maintaining, configuring, and securing networks and systems, ensuring reliable and efficient communication across platforms to enable an effective training environment for the US forces and allies conducting training at each site. Responsib\u2026",
+  "external_id": "5941361019",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "v2x:systemadministratoriii:edgewoodoran",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Edgewood, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:17:34Z",
+  "reasons": [
+   "pay tops out near $146,636 \u2014 well above current"
+  ],
+  "salary_max": 146636.2,
+  "salary_min": 146636.2,
+  "score": 28.7,
+  "source": "adzuna",
+  "status": "new",
+  "title": "System Administrator III",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941361019?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Accenture",
+  "description": "About AccentureAccenture helps the world's leading enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed for organizations across industries. Our strategy is to be the reinvention partner of choice for our clients and lead in the safe, widespread adoption of AI, and to be the most client-focused, AI-enabled, great place to work in the world. We bring together the talent of our approximately 814,000 people with proprietary assets and platform\u2026",
+  "external_id": "5941338143",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "different field (engineer)"
+  ],
+  "key": "accenture:knowledgeengineeringmanagerseniormanager:edgewoodoran",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Edgewood, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:12:21Z",
+  "reasons": [
+   "matches your experience: erp",
+   "pay tops out near $406,753 \u2014 well above current"
+  ],
+  "salary_max": 406753.34,
+  "salary_min": 406753.34,
+  "score": 27.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Knowledge Engineering Manager / Senior Manager",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941338143?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Hillsborough County",
+  "description": "Description JOB SUMMARY Performs advanced professional and administrative duties related to coordinating facility maintenance as well as managing the design, planning and implementation of facility modifications, such as space planning, office and workspace setup and relocating staff. The scope of projects/processes can range from departmental to agency/global impact. The position works closely with all levels of management and other partner agencies to prepare comprehensive action plans, inclu\u2026",
+  "external_id": "5941499509",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "hillsboroughcounty:operationsanalyst1227:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-25T09:28:03Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($45,926)"
+  ],
+  "salary_max": 45926.0,
+  "salary_min": 45926.0,
+  "score": 26.4,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Operations Analyst- 1227",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941499509?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "FranklinCovey",
@@ -1556,35 +1541,6 @@
   "url": "https://www.adzuna.com/land/ad/5940761396?se=6mmvqE3R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=E5921EAB322DAFFE780A3274CFD410216D79DAEE"
  },
  {
-  "company": "Bank of America",
-  "description": "Transaction Management Operations Analyst Jacksonville, Florida;Chandler, Arizona; Pennington, New Jersey To proceed with your application, you must be at least 18 years of age. Acknowledge (https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Jacksonville/Transaction-Management-Operations-Analyst\\_26035491-2) Bank of America employees are required to meet all posting eligibility requirements prior to applying for any new position. Acknowledge (https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Jacks\u2026",
-  "external_id": "5941368684",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [
-   "asks for 18+ years"
-  ],
-  "key": "bankofamerica:transactionmanagementoperationsanalyst:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-25T07:19:23Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay clears your $45,000 floor ($57,138)",
-   "growing employer/sector in this metro: bank",
-   "posted 3 days ago"
-  ],
-  "salary_max": 57138.41,
-  "salary_min": 57138.41,
-  "score": 19.5,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Transaction Management Operations Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5941368684?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Phillips Manufacturing",
   "description": "MAINTENANCE TECHNICIAN - UMATILLA $25-$30 hr (depending on skills/experience) 2nd Shift - Monday-Thursday, 4:30pm - 3:00am We are a well-established, Omaha-based manufacturer with over 65 years of providing quality products to our clients. Phillips Manufacturing is the one-stop shop for drywall finishing accessories, lath, stucco accessories, metal channels, interior framing, and fire-rated assemblies with facilities around the country. A Maintenance Technician is responsible for electrical and\u2026",
   "external_id": "5940278874",
@@ -1610,6 +1566,34 @@
   "title": "MAINTENANCE TECHNICIAN - UMATILLA (2nd Shift)",
   "track": "trades",
   "url": "https://www.adzuna.com/details/5940278874?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Bank of America",
+  "description": "Transaction Management Operations Analyst Jacksonville, Florida;Chandler, Arizona; Pennington, New Jersey To proceed with your application, you must be at least 18 years of age. Acknowledge (https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Jacksonville/Transaction-Management-Operations-Analyst\\_26035491-2) Bank of America employees are required to meet all posting eligibility requirements prior to applying for any new position. Acknowledge (https://ghr.wd1.myworkdayjobs.com/Lateral-US/job/Jacks\u2026",
+  "external_id": "5941368684",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "asks for 18+ years"
+  ],
+  "key": "bankofamerica:transactionmanagementoperationsanalyst:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-25T07:19:23Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay clears your $45,000 floor ($57,138)",
+   "growing employer/sector in this metro: bank"
+  ],
+  "salary_max": 57138.41,
+  "salary_min": 57138.41,
+  "score": 13.8,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Transaction Management Operations Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5941368684?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Phillips Manufacturing",
