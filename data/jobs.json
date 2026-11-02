@@ -297,58 +297,6 @@
   "url": "https://www.adzuna.com/details/5934123110?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "MCKESSON",
-  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
-  "external_id": "5942124794",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "mckesson:facilitymaintenancetechnician:meadowwoodso",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Meadow Woods, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-26T06:02:39Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $80,206 \u2014 well above current",
-   "posted 2 days ago"
-  ],
-  "salary_max": 80205.92,
-  "salary_min": 80205.92,
-  "score": 46.2,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Facility Maintenance Technician",
-  "track": "trades",
-  "url": "https://www.adzuna.com/land/ad/5942124794?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=710584BCF4742EB4352F5293E7E007979D9394A9"
- },
- {
-  "company": "MCKESSON",
-  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
-  "external_id": "5942028560",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "mckesson:facilitymaintenancetechnician:orlandoorang",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Orlando, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-26T02:02:31Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $76,436 \u2014 well above current",
-   "posted 2 days ago"
-  ],
-  "salary_max": 76435.95,
-  "salary_min": 76435.95,
-  "score": 46.2,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Facility Maintenance Technician",
-  "track": "trades",
-  "url": "https://www.adzuna.com/land/ad/5942028560?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=BAF609260A41F18043AC19E3669D02ED52A61F94"
- },
- {
   "company": "Citi",
   "description": "Discover your future at Citi Working at Citi is far more than just a job. A career with us means joining a team of approximately 219,000 dedicated people from around the globe. At Citi, you'll have the opportunity to grow your career, give back to your community and make a real impact. Job Overview The candidate will be responsible for the following core fund operational processes: \u2022 PCF file preparation, including reviewing the relevant component stocks, quantity and prices \u2022 ETF creation and \u2026",
   "external_id": "5938164575",
@@ -581,6 +529,56 @@
   "url": "https://www.adzuna.com/details/5941356150?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "MCKESSON",
+  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
+  "external_id": "5942124794",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "mckesson:facilitymaintenancetechnician:meadowwoodso",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Meadow Woods, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-26T06:02:39Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $80,206 \u2014 well above current"
+  ],
+  "salary_max": 80205.92,
+  "salary_min": 80205.92,
+  "score": 41.0,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Facility Maintenance Technician",
+  "track": "trades",
+  "url": "https://www.adzuna.com/land/ad/5942124794?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=710584BCF4742EB4352F5293E7E007979D9394A9"
+ },
+ {
+  "company": "MCKESSON",
+  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
+  "external_id": "5942028560",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "mckesson:facilitymaintenancetechnician:orlandoorang",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Orlando, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-26T02:02:31Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $76,436 \u2014 well above current"
+  ],
+  "salary_max": 76435.95,
+  "salary_min": 76435.95,
+  "score": 41.0,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Facility Maintenance Technician",
+  "track": "trades",
+  "url": "https://www.adzuna.com/land/ad/5942028560?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=BAF609260A41F18043AC19E3669D02ED52A61F94"
+ },
+ {
   "company": "Stellar Energy Americas",
   "description": "Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world\u2019s leading data center and industrial manufacturing customers. As computing demand and industrial processes continue to grow, modern facilities require cooling infrastructure that can scale quickly, efficientl\u2026",
   "external_id": "5928520653",
@@ -757,32 +755,6 @@
   "title": "Lead Commercial HVAC Installer",
   "track": "direct",
   "url": "https://www.adzuna.com/details/5936557339?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "MCKESSON",
-  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
-  "external_id": "5942028171",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "mckesson:pharmacymaintenancetechnician:orlandoorang",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Orlando, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-26T02:02:28Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay clears the $62,000 target ($64,654)",
-   "posted 2 days ago"
-  ],
-  "salary_max": 64653.99,
-  "salary_min": 64653.99,
-  "score": 38.9,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Pharmacy Maintenance Technician",
-  "track": "trades",
-  "url": "https://www.adzuna.com/land/ad/5942028171?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=E399123D3CD1A86A8CE6D1097992E257ABAB76E0"
  },
  {
   "company": "GovCIO",
@@ -995,31 +967,6 @@
   "url": "https://www.adzuna.com/details/5939095299?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "The Boeing Company",
-  "description": "Job Description At Boeing, we innovate and collaborate to make the world a better place. We're committed to fostering an environment for every teammate that's welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us. Our MRO Jacksonville facility is seeking Aviation Maintenance Structures Technicians that are motivated to support a greater cause in directly impacting military warfighter readiness by providing critical maintenance repairs and \u2026",
-  "external_id": "5942154364",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "theboeingcompany:maintenancerepairandoverhaulmrojacksonvilleandcomponentoperationsstructuresmechanicsassociatelevel:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-26T07:29:44Z",
-  "reasons": [
-   "pay tops out near $83,845 \u2014 well above current",
-   "posted 2 days ago"
-  ],
-  "salary_max": 83844.53,
-  "salary_min": 83844.53,
-  "score": 34.6,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Maintenance, Repair, and Overhaul (MRO) Jacksonville and Component Operations Structures Mechanics (Associate Level)",
-  "track": "trades",
-  "url": "https://www.adzuna.com/details/5942154364?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Citigroup",
   "description": "Additional Information Current Job Description: The Operations Support Lead Analyst (C13) - Relationship Manager primary responsibility for Long-Term Capacity Planning. This position is a senior, highly analytical role within Citi's Global Workforce Optimization (GWFO) organization. This position serves as the subject matter expert and strategic architect responsible for establishing, governing, and defending end-to-end multi-year capacity planning models, financial budget staffing baselines, a\u2026",
   "external_id": "5941372859",
@@ -1045,30 +992,29 @@
   "url": "https://www.adzuna.com/details/5941372859?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Leidos",
-  "description": "Description Senior C2 Subject Matter Expert Tampa, FL Minimum of Secret clearance required The Defense Sector at Leidos is currently looking for a Senior Multi-Domain Command & Control (C2) Operations Analyst / Common Operational Picture (COP) . In this position you will provide expert-level leadership, operational analysis, and mission support across Joint, Combined, and Coalition Command and Control environments. This position supports Combatant Commands, Joint Staff organizations, Service Co\u2026",
-  "external_id": "5942161601",
+  "company": "MCKESSON",
+  "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve \u2013 we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patien\u2026",
+  "external_id": "5942028171",
   "first_seen": "2026-10-26T14:58:11+00:00",
   "flags": [],
-  "key": "leidos:seniorc2subjectmatterexpert:tampahillsbo",
+  "key": "mckesson:pharmacymaintenancetechnician:orlandoorang",
   "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
+  "location": "Orlando, Orange County",
+  "metro": "orlando",
   "notified": 1,
-  "posted_at": "2026-10-26T07:35:39Z",
+  "posted_at": "2026-10-26T02:02:28Z",
   "reasons": [
-   "pay tops out near $178,982 \u2014 well above current",
-   "growing employer/sector in this metro: defense",
-   "posted 2 days ago"
+   "title is a direct match for your background",
+   "pay clears the $62,000 target ($64,654)"
   ],
-  "salary_max": 178981.97,
-  "salary_min": 178981.97,
-  "score": 34.5,
+  "salary_max": 64653.99,
+  "salary_min": 64653.99,
+  "score": 33.6,
   "source": "adzuna",
   "status": "new",
-  "title": "Senior C2 Subject Matter Expert",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5942161601?utm_medium=api&utm_source=baf1741a"
+  "title": "Pharmacy Maintenance Technician",
+  "track": "trades",
+  "url": "https://www.adzuna.com/land/ad/5942028171?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=E399123D3CD1A86A8CE6D1097992E257ABAB76E0"
  },
  {
   "company": "Black Knight Financial Services",
@@ -1284,6 +1230,30 @@
   "url": "https://www.adzuna.com/details/5941191813?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "The Boeing Company",
+  "description": "Job Description At Boeing, we innovate and collaborate to make the world a better place. We're committed to fostering an environment for every teammate that's welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us. Our MRO Jacksonville facility is seeking Aviation Maintenance Structures Technicians that are motivated to support a greater cause in directly impacting military warfighter readiness by providing critical maintenance repairs and \u2026",
+  "external_id": "5942154364",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "theboeingcompany:maintenancerepairandoverhaulmrojacksonvilleandcomponentoperationsstructuresmechanicsassociatelevel:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-26T07:29:44Z",
+  "reasons": [
+   "pay tops out near $83,845 \u2014 well above current"
+  ],
+  "salary_max": 83844.53,
+  "salary_min": 83844.53,
+  "score": 29.4,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Maintenance, Repair, and Overhaul (MRO) Jacksonville and Component Operations Structures Mechanics (Associate Level)",
+  "track": "trades",
+  "url": "https://www.adzuna.com/details/5942154364?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "MED-EL Corporation",
   "description": "MED-EL |Tampa or Orlando, Florida MED-EL is a global leader in hearing implant technology, dedicated to overcoming hearing loss as a barrier to communication and quality of life. Through innovative hearing solutions, education, and ongoing support, MED-EL empowers individuals with hearing loss to connect with the world around them. Join our team and help make a meaningful difference in the lives of individuals and families navigating their hearing journey. MED-EL is seeking a bilingual Consumer\u2026",
   "external_id": "5941499549",
@@ -1355,6 +1325,31 @@
   "title": "Intelligence Analyst (Fort Meade)",
   "track": "stretch",
   "url": "https://www.adzuna.com/land/ad/5941165668?se=-j7Lp03R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=97B8A0743EEB5E631A0723AEF01DE330F6D0B7EB"
+ },
+ {
+  "company": "Leidos",
+  "description": "Description Senior C2 Subject Matter Expert Tampa, FL Minimum of Secret clearance required The Defense Sector at Leidos is currently looking for a Senior Multi-Domain Command & Control (C2) Operations Analyst / Common Operational Picture (COP) . In this position you will provide expert-level leadership, operational analysis, and mission support across Joint, Combined, and Coalition Command and Control environments. This position supports Combatant Commands, Joint Staff organizations, Service Co\u2026",
+  "external_id": "5942161601",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [],
+  "key": "leidos:seniorc2subjectmatterexpert:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-26T07:35:39Z",
+  "reasons": [
+   "pay tops out near $178,982 \u2014 well above current",
+   "growing employer/sector in this metro: defense"
+  ],
+  "salary_max": 178981.97,
+  "salary_min": 178981.97,
+  "score": 28.7,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Senior C2 Subject Matter Expert",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5942161601?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Truist",
