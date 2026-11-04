@@ -137,32 +137,6 @@
   "url": "https://www.adzuna.com/details/5941360461?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "VyStar Credit Union",
-  "description": "At VyStar, we offer competitive pay, an excellent benefit package that includes a 401(k) Plan, an extensive paid technical and on-the-job training program, and tuition reimbursementavailable to all full and part time employees. Part time positions start at a minimum of 30 hours per week. We encourage you to become a part of VyStar Credit Union's family of employees. * SELECTION PROCESS: As part of our preliminary recruiting process, we kindly ask candidates to complete an online assessment sent\u2026",
-  "external_id": "5927268561",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "vystarcreditunion:assistantbranchmanager:altamontespr",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Altamonte Springs, Seminole County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-14T06:39:14Z",
-  "reasons": [
-   "matches your experience: excel, branch, tuition reimbursement",
-   "pay tops out near $78,414 \u2014 well above current",
-   "growing employer/sector in this metro: vystar"
-  ],
-  "salary_max": 78413.89,
-  "salary_min": 78413.89,
-  "score": 54.4,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Assistant Branch Manager",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/land/ad/5927268561?se=6mmvqE3R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=D8E5C2E4B8AB85D7279418FC5D41162AF5CAA06D"
- },
- {
   "company": "HCA Healthcare",
   "description": "Are you passionate about the patient experience? At HCA Healthcare, we are committed to caring for patients with purpose and integrity. We care like family! Jump-start your career as a Material Handler Replenishment today with HealthTrust Supply Chain. SCHEDULE: MONDAY - FRIDAY 4:00AM TO 12:30PM Job Summary and Qualifications As a Material Handler, you will be responsible for performing administrative and physical tasks within a warehouse which involves the storing and distributing of products,\u2026",
   "external_id": "5941383640",
@@ -295,6 +269,34 @@
   "title": "Unit Controller - Florida State University",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5934123110?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "VyStar Credit Union",
+  "description": "At VyStar, we offer competitive pay, an excellent benefit package that includes a 401(k) Plan, an extensive paid technical and on-the-job training program, and tuition reimbursementavailable to all full and part time employees. Part time positions start at a minimum of 30 hours per week. We encourage you to become a part of VyStar Credit Union's family of employees. * SELECTION PROCESS: As part of our preliminary recruiting process, we kindly ask candidates to complete an online assessment sent\u2026",
+  "external_id": "5927268561",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "vystarcreditunion:assistantbranchmanager:altamontespr",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Altamonte Springs, Seminole County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-14T06:39:14Z",
+  "reasons": [
+   "matches your experience: excel, branch, tuition reimbursement",
+   "pay tops out near $78,414 \u2014 well above current",
+   "growing employer/sector in this metro: vystar"
+  ],
+  "salary_max": 78413.89,
+  "salary_min": 78413.89,
+  "score": 45.2,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Assistant Branch Manager",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/land/ad/5927268561?se=6mmvqE3R8RGod-TtG8eBxA&utm_medium=api&utm_source=baf1741a&v=D8E5C2E4B8AB85D7279418FC5D41162AF5CAA06D"
  },
  {
   "company": "Citi",
