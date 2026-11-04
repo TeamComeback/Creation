@@ -246,6 +246,15 @@
    "by_company": {
     "hq": 5000
    }
+  },
+  {
+   "id": "r20261104T1950ship",
+   "time": "2026-11-04T14:50-05:00",
+   "summary": "Shipping run (owner-reported bug): fixed Curiosity crash loop on Trend Co.'s XLE exit (Curiosity #9: partial fills now booked, insufficient-qty sells reconcile).",
+   "tokens": 40000,
+   "by_company": {
+    "curiosity": 40000
+   }
   }
  ]
 }
