@@ -581,31 +581,6 @@
   "url": "https://www.adzuna.com/land/ad/5942028560?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=BAF609260A41F18043AC19E3669D02ED52A61F94"
  },
  {
-  "company": "Stellar Energy Americas",
-  "description": "Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world\u2019s leading data center and industrial manufacturing customers. As computing demand and industrial processes continue to grow, modern facilities require cooling infrastructure that can scale quickly, efficientl\u2026",
-  "external_id": "5928520653",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "stellarenergyamericas:facilitymaintenancetechnician2ndshift:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-15T00:55:16Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $83,263 \u2014 well above current"
-  ],
-  "salary_max": 83262.61,
-  "salary_min": 83262.61,
-  "score": 41.0,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Facility Maintenance Technician -2nd Shift",
-  "track": "trades",
-  "url": "https://www.adzuna.com/details/5928520653?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Trane Technologies",
   "description": "Facility Maintenance Technician -2nd Shift Full TimeManual Labor Jacksonville, FL, US Requisition ID: 4444 Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world's leading data center and industrial manufacturing customers. As computing demand and industrial proc\u2026",
   "external_id": "5932017878",
@@ -1094,6 +1069,33 @@
   "title": "Insurance Account Representative - State Farm Agent Team Member",
   "track": "direct",
   "url": "https://www.adzuna.com/details/5939603493?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Stellar Energy Americas",
+  "description": "Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world\u2019s leading data center and industrial manufacturing customers. As computing demand and industrial processes continue to grow, modern facilities require cooling infrastructure that can scale quickly, efficientl\u2026",
+  "external_id": "5928520653",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "stellarenergyamericas:facilitymaintenancetechnician2ndshift:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-15T00:55:16Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $83,263 \u2014 well above current"
+  ],
+  "salary_max": 83262.61,
+  "salary_min": 83262.61,
+  "score": 32.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Facility Maintenance Technician -2nd Shift",
+  "track": "trades",
+  "url": "https://www.adzuna.com/details/5928520653?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Jabil",
