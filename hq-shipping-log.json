@@ -285,6 +285,15 @@
     "hq": 5000,
     "curiosity": 25000
    }
+  },
+  {
+   "id": "r20261105T1405ship",
+   "time": "2026-11-05T09:05-05:00",
+   "summary": "Shipping run: nothing new to ship (Curiosity PR #10 and #11 already shipped, awaiting HQ sync); Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
   }
  ]
 }
