@@ -90,6 +90,26 @@
    "note": "The 212 graded games live only in the app's storage on your phone, not in the repo, so there's nothing to freeze or backtest yet.",
    "owner_action": "In Ingenuity, open Backup and save a backup file, then attach it in the HQ setup chat. The agent will freeze it and run the backtest.",
    "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "p20261029curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/10",
+   "commit": "5bcc541",
+   "note": "Trend Co. takes no new entries at 6+ open positions; governor refuses a 7th order; current 9 left to close naturally.",
+   "owner_action": "",
+   "at": "2026-11-04T20:15-05:00"
+  },
+  {
+   "id": "p20261031curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/11",
+   "commit": "183f950",
+   "note": "VWAP pullbacks now require >=1.5x relative volume; skipped signals journaled.",
+   "owner_action": "",
+   "at": "2026-11-04T20:15-05:00"
   }
  ],
  "runs": [
@@ -254,6 +274,16 @@
    "tokens": 40000,
    "by_company": {
     "curiosity": 40000
+   }
+  },
+  {
+   "id": "r20261105T0105ship",
+   "time": "2026-11-04T20:15-05:00",
+   "summary": "Shipping run: shipped Trend Co. 6-position cap (Curiosity PR #10) and Rapid Fire volume gate (Curiosity PR #11); Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 30000,
+   "by_company": {
+    "hq": 5000,
+    "curiosity": 25000
    }
   }
  ]
