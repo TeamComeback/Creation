@@ -819,31 +819,6 @@
   "url": "https://www.adzuna.com/details/5937804458?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "The Walt Disney Company",
-  "description": "Job Requirements \"We Power the Magic!\" That\u2019s our motto at Disney Experiences (DX). Our team creates world-class immersive digital experiences for the Company\u2019s premier vacation brands including Disney\u2019s Parks & Resorts worldwide, Disney Cruise Line, Aulani, a Disney Resort & Spa, and Disney Vacation Club. We are responsible for the end-to-end digital and physical Guest experience for all technology and digital-led initiatives across the Attractions & Entertainment, Food & Beverage, Resorts & T\u2026",
-  "external_id": "5932593320",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "thewaltdisneycompany:leadsoftwareengineer:orlandoorang",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Orlando, Orange County",
-  "metro": "orlando",
-  "notified": 1,
-  "posted_at": "2026-10-17T16:35:20Z",
-  "reasons": [
-   "pay tops out near $108,350 \u2014 well above current",
-   "growing employer/sector in this metro: walt disney"
-  ],
-  "salary_max": 108350.05,
-  "salary_min": 108350.05,
-  "score": 35.6,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Lead Software Engineer",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5932593320?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Universal Orlando",
   "description": "JOB SUMMARY: The Workplace Operations WFM Analyst serves as the primary workforce management subject matter expert responsible for forecasting, capacity planning, scheduling, real-time management, reporting, and workforce optimization across TechLine operations. The role will be managing the full WFM lifecycle for a complex, global support organization. The Workforce Management Analyst will partner closely with Operations leadership, HR, Finance, and regional stakeholders to develop data-driven\u2026",
   "external_id": "5939095299",
@@ -1464,6 +1439,34 @@
   "title": "Operations Analyst- 1227",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5941499509?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "The Walt Disney Company",
+  "description": "Job Requirements \"We Power the Magic!\" That\u2019s our motto at Disney Experiences (DX). Our team creates world-class immersive digital experiences for the Company\u2019s premier vacation brands including Disney\u2019s Parks & Resorts worldwide, Disney Cruise Line, Aulani, a Disney Resort & Spa, and Disney Vacation Club. We are responsible for the end-to-end digital and physical Guest experience for all technology and digital-led initiatives across the Attractions & Entertainment, Food & Beverage, Resorts & T\u2026",
+  "external_id": "5932593320",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "different field (software)",
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "thewaltdisneycompany:leadsoftwareengineer:orlandoorang",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Orlando, Orange County",
+  "metro": "orlando",
+  "notified": 1,
+  "posted_at": "2026-10-17T16:35:20Z",
+  "reasons": [
+   "pay tops out near $108,350 \u2014 well above current",
+   "growing employer/sector in this metro: walt disney"
+  ],
+  "salary_max": 108350.05,
+  "salary_min": 108350.05,
+  "score": 26.4,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Lead Software Engineer",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5932593320?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "TekWissen \u00ae",
