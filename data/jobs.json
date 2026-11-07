@@ -506,31 +506,6 @@
   "url": "https://www.adzuna.com/land/ad/5942028560?se=NHDfpU3R8RGTmpORxmRtzw&utm_medium=api&utm_source=baf1741a&v=BAF609260A41F18043AC19E3669D02ED52A61F94"
  },
  {
-  "company": "Trane Technologies",
-  "description": "Facility Maintenance Technician -2nd Shift Full TimeManual Labor Jacksonville, FL, US Requisition ID: 4444 Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world's leading data center and industrial manufacturing customers. As computing demand and industrial proc\u2026",
-  "external_id": "5932017878",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "tranetechnologies:facilitymaintenancetechnician2ndshift:jacksonville",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Jacksonville, Duval County",
-  "metro": "jacksonville",
-  "notified": 1,
-  "posted_at": "2026-10-17T07:05:39Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $76,739 \u2014 well above current"
-  ],
-  "salary_max": 76738.7,
-  "salary_min": 76738.7,
-  "score": 41.0,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Facility Maintenance Technician -2nd Shift",
-  "track": "trades",
-  "url": "https://www.adzuna.com/details/5932017878?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "Accenture",
   "description": "We Are: Accenture LearnVantage is transforming how organizations develop talent through innovative learning solutions, world-class delivery operations, and exceptional learner experiences. We partner with global clients to design, manage, and deliver impactful learning programs that drive business outcomes and workforce transformation. Our Learning Operations team serves as the backbone of successful training delivery, ensuring instructors, learners, clients, and stakeholders receive seamless o\u2026",
   "external_id": "5936570440",
@@ -604,34 +579,6 @@
   "title": "Information Security Analyst - Analyst",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5937976732?utm_medium=api&utm_source=baf1741a"
- },
- {
-  "company": "ASM Research, An Accenture Federal Services Company",
-  "description": "Creates cyber-intelligence tools / methods and performs research and analysis in order to mitigate and eliminate data and cyber security risks. Designs and develops acceptance criteria for cybersecurity architecture.  Understanding of network protocols, operating systems (Windows, Linux), and security tools like SIEM (Security Information and Event Management).  Ability to review complex data logs and trace the \"blast radius\" of a security threat.  Quick troubleshooting when a breach or system \u2026",
-  "external_id": "5932027850",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [
-   "different field (cyber)"
-  ],
-  "key": "asmresearchanaccenturefederalservicescompany:vulnerabilitymanagementcyberoperationsanalyst:tallahasseel",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tallahassee, Leon County",
-  "metro": "tallahassee",
-  "notified": 1,
-  "posted_at": "2026-10-17T07:08:21Z",
-  "reasons": [
-   "matches your experience: risk",
-   "pay tops out near $118,829 \u2014 well above current",
-   "growing employer/sector in this metro: cybersecurity"
-  ],
-  "salary_max": 118828.69,
-  "salary_min": 118828.69,
-  "score": 39.1,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Vulnerability Management / Cyber Operations Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5932027850?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "NexCore",
@@ -1076,6 +1023,33 @@
   "url": "https://www.adzuna.com/details/5928520653?utm_medium=api&utm_source=baf1741a"
  },
  {
+  "company": "Trane Technologies",
+  "description": "Facility Maintenance Technician -2nd Shift Full TimeManual Labor Jacksonville, FL, US Requisition ID: 4444 Facility Maintenance Technician - 2nd Shift Position Type: Full-time, Non-Exempt, Hourly Reports to: Production Manager Supervisory Responsibility: None Location: Jacksonville, FL Company Summary Stellar Energy is a trusted provider of turnkey liquid-to-chip cooling solutions for the world's leading data center and industrial manufacturing customers. As computing demand and industrial proc\u2026",
+  "external_id": "5932017878",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "tranetechnologies:facilitymaintenancetechnician2ndshift:jacksonville",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Jacksonville, Duval County",
+  "metro": "jacksonville",
+  "notified": 1,
+  "posted_at": "2026-10-17T07:05:39Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $76,739 \u2014 well above current"
+  ],
+  "salary_max": 76738.7,
+  "salary_min": 76738.7,
+  "score": 32.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Facility Maintenance Technician -2nd Shift",
+  "track": "trades",
+  "url": "https://www.adzuna.com/details/5932017878?utm_medium=api&utm_source=baf1741a"
+ },
+ {
   "company": "Jabil",
   "description": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines global reach with local expertise to deliver both scalable and customized solutions. Our commitment extends beyond business success as we strive to build sustainable processes that minimize environmental impact and foster vi\u2026",
   "external_id": "5937835639",
@@ -1181,6 +1155,35 @@
   "title": "Application Engineer",
   "track": "direct",
   "url": "https://www.adzuna.com/details/5939079323?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "ASM Research, An Accenture Federal Services Company",
+  "description": "Creates cyber-intelligence tools / methods and performs research and analysis in order to mitigate and eliminate data and cyber security risks. Designs and develops acceptance criteria for cybersecurity architecture.  Understanding of network protocols, operating systems (Windows, Linux), and security tools like SIEM (Security Information and Event Management).  Ability to review complex data logs and trace the \"blast radius\" of a security threat.  Quick troubleshooting when a breach or system \u2026",
+  "external_id": "5932027850",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "different field (cyber)",
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "asmresearchanaccenturefederalservicescompany:vulnerabilitymanagementcyberoperationsanalyst:tallahasseel",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tallahassee, Leon County",
+  "metro": "tallahassee",
+  "notified": 1,
+  "posted_at": "2026-10-17T07:08:21Z",
+  "reasons": [
+   "matches your experience: risk",
+   "pay tops out near $118,829 \u2014 well above current",
+   "growing employer/sector in this metro: cybersecurity"
+  ],
+  "salary_max": 118828.69,
+  "salary_min": 118828.69,
+  "score": 29.9,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Vulnerability Management / Cyber Operations Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5932027850?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "National Tube Supply",
