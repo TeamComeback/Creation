@@ -219,32 +219,6 @@
   "url": "https://www.adzuna.com/details/5941384417?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "Mitsubishi UFJ Financial Group",
-  "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial gro\u2026",
-  "external_id": "5933319570",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "mitsubishiufjfinancialgroup:corporatebankingoperationsanalyst:tampahillsbo",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tampa, Hillsborough County",
-  "metro": "tampa",
-  "notified": 1,
-  "posted_at": "2026-10-18T08:21:23Z",
-  "reasons": [
-   "title is a direct match for your background",
-   "pay tops out near $88,000 \u2014 well above current",
-   "growing employer/sector in this metro: bank"
-  ],
-  "salary_max": 88000.0,
-  "salary_min": 69000.0,
-  "score": 49.4,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Corporate Banking Operations Analyst",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5933319570?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "ARAMARK",
   "description": "Job Description As the Operations Finance Analyst you will support the objectives of the Accounting department while assisting operating departments with forecasting, budget, labor and inventory controls, analysis, auditing as well as operational responsibilities for the units you are supporting. Job Responsibilities  Daily postings of supplier invoices across 3 operating systems  Daily verification of supplier invoices  Collaborating closely with Property Managers for Approval  Handling suppli\u2026",
   "external_id": "5934123110",
@@ -579,6 +553,34 @@
   "title": "Information Security Analyst - Analyst",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5937976732?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "Mitsubishi UFJ Financial Group",
+  "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world\u2019s leading financial groups. Across the globe, we\u2019re 150,000 colleagues, striving to make a difference for every client, organization, and community we serve. We stand for our values, building long-term relationships, serving society, and fostering shared and sustainable growth for a better world. With a vision to be the world\u2019s most trusted financial gro\u2026",
+  "external_id": "5933319570",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "mitsubishiufjfinancialgroup:corporatebankingoperationsanalyst:tampahillsbo",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tampa, Hillsborough County",
+  "metro": "tampa",
+  "notified": 1,
+  "posted_at": "2026-10-18T08:21:23Z",
+  "reasons": [
+   "title is a direct match for your background",
+   "pay tops out near $88,000 \u2014 well above current",
+   "growing employer/sector in this metro: bank"
+  ],
+  "salary_max": 88000.0,
+  "salary_min": 69000.0,
+  "score": 40.2,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Corporate Banking Operations Analyst",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5933319570?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "NexCore",
