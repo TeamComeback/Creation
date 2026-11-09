@@ -219,32 +219,6 @@
   "url": "https://www.adzuna.com/details/5941384417?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "ARAMARK",
-  "description": "Job Description As the Operations Finance Analyst you will support the objectives of the Accounting department while assisting operating departments with forecasting, budget, labor and inventory controls, analysis, auditing as well as operational responsibilities for the units you are supporting. Job Responsibilities  Daily postings of supplier invoices across 3 operating systems  Daily verification of supplier invoices  Collaborating closely with Property Managers for Approval  Handling suppli\u2026",
-  "external_id": "5934123110",
-  "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "aramark:unitcontrollerfloridastateuniversity:tallahasseel",
-  "last_seen": "2026-10-26T14:58:11+00:00",
-  "location": "Tallahassee, Leon County",
-  "metro": "tallahassee",
-  "notified": 1,
-  "posted_at": "2026-10-19T07:08:47Z",
-  "reasons": [
-   "matches your experience: invoice, inventory",
-   "pay tops out near $67,751 \u2014 well above current",
-   "growing employer/sector in this metro: florida state university"
-  ],
-  "salary_max": 67750.79,
-  "salary_min": 67750.79,
-  "score": 47.4,
-  "source": "adzuna",
-  "status": "new",
-  "title": "Unit Controller - Florida State University",
-  "track": "stretch",
-  "url": "https://www.adzuna.com/details/5934123110?utm_medium=api&utm_source=baf1741a"
- },
- {
   "company": "VyStar Credit Union",
   "description": "At VyStar, we offer competitive pay, an excellent benefit package that includes a 401(k) Plan, an extensive paid technical and on-the-job training program, and tuition reimbursementavailable to all full and part time employees. Part time positions start at a minimum of 30 hours per week. We encourage you to become a part of VyStar Credit Union's family of employees. * SELECTION PROCESS: As part of our preliminary recruiting process, we kindly ask candidates to complete an online assessment sent\u2026",
   "external_id": "5927268561",
@@ -633,30 +607,32 @@
   "url": "https://www.adzuna.com/details/5941382675?utm_medium=api&utm_source=baf1741a"
  },
  {
-  "company": "CrowdStrike",
-  "description": "USA - Remote Full time R30309 As a global leader in cybersecurity, CrowdStrike protects the people, processes and technologies that drive modern organizations. Since 2011, our mission hasn't changed - we're here to stop breaches, and we've redefined modern security with the world's most advanced AI-native platform. We work on large scale distributed systems, processing almost 3 trillion events per day and this traffic is growing daily. Our customers span all industries, and they count on CrowdS\u2026",
-  "external_id": "5934127135",
+  "company": "ARAMARK",
+  "description": "Job Description As the Operations Finance Analyst you will support the objectives of the Accounting department while assisting operating departments with forecasting, budget, labor and inventory controls, analysis, auditing as well as operational responsibilities for the units you are supporting. Job Responsibilities  Daily postings of supplier invoices across 3 operating systems  Daily verification of supplier invoices  Collaborating closely with Property Managers for Approval  Handling suppli\u2026",
+  "external_id": "5934123110",
   "first_seen": "2026-10-26T14:58:11+00:00",
-  "flags": [],
-  "key": "crowdstrike:staffproductmarketingmanagercloudriskdevelopersecurityremote:tallahasseel",
+  "flags": [
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "aramark:unitcontrollerfloridastateuniversity:tallahasseel",
   "last_seen": "2026-10-26T14:58:11+00:00",
   "location": "Tallahassee, Leon County",
   "metro": "tallahassee",
   "notified": 1,
-  "posted_at": "2026-10-19T07:11:45Z",
+  "posted_at": "2026-10-19T07:08:47Z",
   "reasons": [
-   "matches your experience: risk",
-   "pay tops out near $220,773 \u2014 well above current",
-   "growing employer/sector in this metro: cybersecurity"
+   "matches your experience: invoice, inventory",
+   "pay tops out near $67,751 \u2014 well above current",
+   "growing employer/sector in this metro: florida state university"
   ],
-  "salary_max": 220773.08,
-  "salary_min": 220773.08,
-  "score": 37.4,
+  "salary_max": 67750.79,
+  "salary_min": 67750.79,
+  "score": 38.2,
   "source": "adzuna",
   "status": "new",
-  "title": "Staff Product Marketing Manager, Cloud Risk & Developer Security (Remote)",
-  "track": "growth",
-  "url": "https://www.adzuna.com/details/5934127135?utm_medium=api&utm_source=baf1741a"
+  "title": "Unit Controller - Florida State University",
+  "track": "stretch",
+  "url": "https://www.adzuna.com/details/5934123110?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Danaher",
@@ -1360,6 +1336,35 @@
   "title": "System Administrator III",
   "track": "stretch",
   "url": "https://www.adzuna.com/details/5941361019?utm_medium=api&utm_source=baf1741a"
+ },
+ {
+  "company": "CrowdStrike",
+  "description": "USA - Remote Full time R30309 As a global leader in cybersecurity, CrowdStrike protects the people, processes and technologies that drive modern organizations. Since 2011, our mission hasn't changed - we're here to stop breaches, and we've redefined modern security with the world's most advanced AI-native platform. We work on large scale distributed systems, processing almost 3 trillion events per day and this traffic is growing daily. Our customers span all industries, and they count on CrowdS\u2026",
+  "external_id": "5934127135",
+  "first_seen": "2026-10-26T14:58:11+00:00",
+  "flags": [
+   "different field (cloud)",
+   "posting is 21 days old \u2014 may be filled"
+  ],
+  "key": "crowdstrike:staffproductmarketingmanagercloudriskdevelopersecurityremote:tallahasseel",
+  "last_seen": "2026-10-26T14:58:11+00:00",
+  "location": "Tallahassee, Leon County",
+  "metro": "tallahassee",
+  "notified": 1,
+  "posted_at": "2026-10-19T07:11:45Z",
+  "reasons": [
+   "matches your experience: risk",
+   "pay tops out near $220,773 \u2014 well above current",
+   "growing employer/sector in this metro: cybersecurity"
+  ],
+  "salary_max": 220773.08,
+  "salary_min": 220773.08,
+  "score": 28.6,
+  "source": "adzuna",
+  "status": "new",
+  "title": "Staff Product Marketing Manager, Cloud Risk & Developer Security (Remote)",
+  "track": "growth",
+  "url": "https://www.adzuna.com/details/5934127135?utm_medium=api&utm_source=baf1741a"
  },
  {
   "company": "Accenture",
