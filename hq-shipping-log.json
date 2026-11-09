@@ -377,6 +377,15 @@
     "hq": 5000,
     "ingenuity": 35000
    }
+  },
+  {
+   "id": "r20261109T1405ship",
+   "time": "2026-11-09T09:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; backlog is clear.",
+   "tokens": 3000,
+   "by_company": {
+    "hq": 3000
+   }
   }
  ]
 }
