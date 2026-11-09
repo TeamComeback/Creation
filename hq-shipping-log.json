@@ -110,6 +110,16 @@
    "note": "VWAP pullbacks now require >=1.5x relative volume; skipped signals journaled.",
    "owner_action": "",
    "at": "2026-11-04T20:15-05:00"
+  },
+  {
+   "id": "fix-offseason-ingenuity",
+   "status": "shipped",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "https://github.com/TeamComeback/Ingenuity/pull/3",
+   "commit": "318c98c",
+   "note": "Froze 701 graded 2026 games (489 on v2.7). Calibration change rejected: fixes the +0.23 bias but MAE 3.41->3.42 and O/U 52.4%->52.3%; bias within noise; 0 closing lines. v2.7 unchanged.",
+   "owner_action": "",
+   "at": "2026-11-09T07:55-05:00"
   }
  ],
  "runs": [
@@ -356,6 +366,16 @@
    "tokens": 4000,
    "by_company": {
     "hq": 4000
+   }
+  },
+  {
+   "id": "r20261109T1255ship",
+   "time": "2026-11-09T07:55-05:00",
+   "summary": "Shipped Ingenuity offseason backtest (PR #3): calibration change rejected, v2.7 stays live.",
+   "tokens": 40000,
+   "by_company": {
+    "hq": 5000,
+    "ingenuity": 35000
    }
   }
  ]
