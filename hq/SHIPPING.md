@@ -17,7 +17,7 @@ HQ page changes belong to the upkeep run.
 
 ## 2. Autonomy levels
 - **Act, then tell**: repairs to things that are broken (crashes, failing automation, dead feeds, wrong
-  data) only if question `q9` in the HQ is answered yes; tests, docs, and this folder always.
+  data): approved by the owner on Nov 13 (q9 yes); tests, docs, and this folder always.
 - **Approved first**: anything that changes how a company behaves. Ship only `approved` items.
 - **Owner only**: real money, accounts, keys and secrets, paid services, deleting data, making anything
   public. Never do these; write `owner_action` instead.
@@ -44,3 +44,10 @@ On Sundays, also save a backup: list every HQ collection and commit the JSON to 
 Schedule the next two slots (14:05 and 01:05 UTC while Eastern is UTC-5; 13:05 and 00:05 UTC from
 March 8 2027), skipping any slot that already has a pending shipping run. If this run arrived late, skip
 the missed slots.
+
+## Standing orders from the owner
+- Nov 13 2026 (q9): **yes** to repairs without approval. Anything broken (crashes, failed automation, dead feeds,
+  wrong data) is fixed on the next run and reported, as long as the fix changes no strategy, settings or money rule.
+  Look for backlog items with `source: "repair"` and for open `watchdog` findings.
+- He wants an end-of-day report. The 7:33 PM upkeep run writes it; the 8:05 PM shipping run adds anything it
+  shipped or repaired in its SendUserMessage, in at most 3 sentences.
