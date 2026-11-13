@@ -386,6 +386,15 @@
    "by_company": {
     "hq": 3000
    }
+  },
+  {
+   "id": "r20261113T1718ship",
+   "time": "2026-11-13T12:18-05:00",
+   "summary": "Shipping run (delayed: the Nov 9 8:05 PM run was delivered 3.5 days late, so no runs happened Nov 10-13): nothing approved to ship; backlog is clear.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
   }
  ]
 }
