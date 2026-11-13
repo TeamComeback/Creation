@@ -45,7 +45,8 @@ STATIC = {
                   "engine": "v2.7", "backtest_done": True, "stats_paused": True},
     "balldontlie": {"as_of": "2026-10-22", "draft": "2026-10-18", "team": "Team Comeback", "pick": 6,
                     "strategy": "Volume Blitz (punt FG% and FT%)", "newsletter_live": False, "teams": 10},
-    "justbaked": {"as_of": "2026-08-21", "stage": "Final pre-launch",
+    "justbaked": {"as_of": "2026-08-21", "stage": "Final pre-launch", "owner_parked": "2026-11-13",
+                  "note": "Runs on Square's website; changes need a computer. Owner unsure how to automate sales yet.",
                   "open_items": ["Charity names and links", "Social media URLs", "Premium package contents",
                                  "Burn Heart Cake price"]},
     "screener": {"as_of": "2026-07-18", "stage": "Packaged, not deployed", "blocker": "Polygon.io key needs MacBook"},
@@ -471,7 +472,7 @@ jbk = STATIC["justbaked"]
 a = age_days(jbk["as_of"])
 B["justbaked"] = {**jbk, "age_days": a, "efficiency": clamp(0.5 * 60 + 0.5 * fresh(a, 30)), "profitability": 35,
                   "automation": "Netlify forms take orders; site handed off for self-editing"}
-if a and a > 45:
+if a and a > 45 and not jbk.get("owner_parked"):   # owner answered q8 on Nov 13: parked, needs a computer
     find("stale-justbaked", "memory", "justbaked", "med", f"JustBaked launch has been parked {a:.0f} days",
          "Four pre-launch items were open: " + ", ".join(jbk["open_items"]) + ".",
          "Ask Alyiza for the four missing items and ship the site.")
@@ -500,7 +501,7 @@ STAGE = {"curiosity": ("Testing", "Paper money: proving a strategy before real c
          "jobs": ("Pipeline", "Feeds the day job search"),
          "nfl": ("Live bets", "Real money on three PrizePicks slips"),
          "ingenuity": ("Research", "Offseason: model work before next season"),
-         "justbaked": ("Client", "Paid-adjacent client work, pre-launch"),
+         "justbaked": ("Needs a computer", "Runs on Square's website; parked by you Nov 13 until there's a plan for automating sales"),
          "balldontlie": ("Community", "League content, no revenue"),
          "screener": ("Parked", "Built, never deployed"),
          "perseverance": ("Testing", "Paper money: racing $100 to $1,000")}
