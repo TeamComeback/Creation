@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-13T12:29-05:00",
+ "updated": "2026-11-13T17:54-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-13T12:07-05:00",
-   "age_days": 0.0,
-   "pool_now": 3603.14,
+   "updated": "2026-11-13T15:49-05:00",
+   "age_days": 0.1,
+   "pool_now": 3603.93,
    "pool_start": 4000.0,
-   "pool_ret": -9.92,
-   "spy_ret": -2.97,
-   "edge": -6.95,
+   "pool_ret": -9.9,
+   "spy_ret": -2.56,
+   "edge": -7.34,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1001.73,
-    "ret_pct": 0.17,
+    "equity": 1001.97,
+    "ret_pct": 0.2,
     "progress_pct": 10.02,
     "days_to_goal": null
    },
@@ -28,28 +28,28 @@
      "open": 2,
      "closed": 23,
      "win_rate": 17.4,
-     "max_dd_pct": 46.7,
+     "max_dd_pct": 46.8,
      "competing": true,
      "exhibition": false,
      "risk_adj": -0.61,
      "ret_pct": -28.45,
-     "note": "Pass on NBIG: it's a Broad market / other breakdown put, a sector I'm avoiding with a negative record, and its 6.51 stop is about 89% above price, so it isn't a real risk stop. Hold CLSX and GLD puts on their enforced stops and keep the 483"
+     "note": "Passed on NBIG: its 6.49 stop is about 89% above the 3.43 price, so it isn't a usable risk stop, and Broad market / other is on my avoid list. Holding the CLSX and GLD puts on their enforced stops and keeping settled cash for a confirmed He"
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 996.89,
+     "equity": 997.44,
      "status": "active",
      "progress_pct": 9.97,
-     "open": 2,
-     "closed": 18,
-     "win_rate": 66.7,
+     "open": 1,
+     "closed": 19,
+     "win_rate": 68.4,
      "max_dd_pct": 4.2,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.06,
-     "ret_pct": -0.31,
-     "note": "No candidate clears the 1:1 floor at live prices (best is MRNA ~0.56:1, GMAB ~0.56:1). Hold HALO and ALC on their stops and keep $757 settled cash for a washout that clears 1:1."
+     "risk_adj": -0.05,
+     "ret_pct": -0.26,
+     "note": "No candidate clears the 1:1 stop-to-target floor at live prices (best is MRNA at about 0.64:1). Hold HALO on its 96.66 stop and keep the $757 settled cash. ALC already closed at 73.80 today, so the game plan's ALC position is stale."
     },
     {
      "id": "volsell",
@@ -70,65 +70,65 @@
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 970.29,
+     "equity": 974.41,
      "status": "active",
-     "progress_pct": 9.7,
+     "progress_pct": 9.74,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 5.1,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.58,
-     "ret_pct": -2.97,
+     "risk_adj": -0.5,
+     "ret_pct": -2.56,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 925.88,
+     "equity": 929.28,
      "status": "active",
-     "progress_pct": 9.26,
+     "progress_pct": 9.29,
      "open": 2,
      "closed": 7,
      "win_rate": 57.1,
      "max_dd_pct": 10.6,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.7,
-     "ret_pct": -7.41,
+     "risk_adj": -0.67,
+     "ret_pct": -7.07,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -397.26,
+     "equity": -327.26,
      "status": "eliminated",
-     "progress_pct": -3.97,
+     "progress_pct": -3.27,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.99,
-     "ret_pct": -139.73,
+     "risk_adj": -0.94,
+     "ret_pct": -132.73,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1001.73,
+     "equity": 1001.97,
      "status": "active",
      "progress_pct": 10.02,
      "open": 0,
-     "closed": 89,
-     "win_rate": 44.9,
+     "closed": 91,
+     "win_rate": 45.1,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
-     "risk_adj": 0.03,
-     "ret_pct": 0.17,
+     "risk_adj": 0.04,
+     "ret_pct": 0.2,
      "note": "[weekly] The edge is thin (about +$0.10 per trade, 36 trades), so avoid over-tuning. min_rel_volume=1.5 does not appear to be enforced on VWAP pullbacks, since many entries logged 0.5-0.99x, so changing it is likely a no-op until that is ve"
     },
     {
@@ -289,27 +289,27 @@
     },
     {
      "date": "2026-11-13",
-     "racing": 3603.14,
-     "leader": 1001.73,
-     "spy": 970.29
+     "racing": 3603.93,
+     "leader": 1001.97,
+     "spy": 974.41
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "up",
-    "vs200": 2.5,
+    "vs200": 2.9,
     "radar": 24,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 1,
+    "approved": 3,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 100,
-   "profitability": 15,
+   "efficiency": 98,
+   "profitability": 13,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -317,7 +317,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 4.5,
+   "age_days": 4.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -643,7 +643,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 19.1,
+   "age_days": 19.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -692,7 +692,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-13T17:13:10Z",
+   "updated": "2026-11-13T22:01:27Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -705,7 +705,7 @@
     "push": 2,
     "roi": -0.2085,
     "clv": -0.0228,
-    "open": 0,
+    "open": 3,
     "profit": -56.84,
     "staked": 272.63
    },
@@ -749,10 +749,47 @@
     "matchup_under": 0.834
    },
    "strategist_on": false,
-   "credits": 154,
+   "credits": 150,
    "credits_monthly": 500,
-   "per_scan": 0,
-   "open_bets": [],
+   "per_scan": 1,
+   "open_bets": [
+    {
+     "what": "Aaron Nesmith Under 4.5",
+     "odds": 105,
+     "book": "betmgm",
+     "game": "New York Knicks @ Indiana Pacers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1757,
+     "start": "2026-11-14T00:10:00Z"
+    },
+    {
+     "what": "Ivica Zubac Under 25.5",
+     "odds": -115,
+     "book": "betmgm",
+     "game": "New York Knicks @ Indiana Pacers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1245,
+     "start": "2026-11-14T00:10:00Z"
+    },
+    {
+     "what": "Mikal Bridges Under 13.5",
+     "odds": -110,
+     "book": "betmgm",
+     "game": "New York Knicks @ Indiana Pacers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1244,
+     "start": "2026-11-14T00:10:00Z"
+    }
+   ],
    "recent": [
     {
      "what": "Devin Booker Under 4.5",
@@ -829,47 +866,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-13T17:10:15Z",
-     "kind": "result",
-     "text": "LOST -$5.00: AJ Dybantsa Under 7.5 @ +108 (FanDuel) \u2014 LOST: 12 reb+ast vs Under 7.5 [matchup-read-wrong, minutes-long, model-miss]"
+     "ts": "2026-11-13T19:30:34Z",
+     "kind": "props",
+     "text": "NBA matchups: 9 games, strongest spots: Kingston Flemings ast +14% vs CHI; Jalen Brunson ra +13% vs IND; Isaiah Stewart ra +13% vs NO. Bought prop odds for NY@IND (ast, ra, pra) (3 credits). Placed 3: Aaron Nesmith Under 4.5 @ +105 (BetMGM); Ivica Zubac Under "
     },
     {
-     "ts": "2026-11-13T17:10:15Z",
-     "kind": "result",
-     "text": "WON +$4.00: John Collins Under 8.5 @ -125 (FanDuel) \u2014 WON: 4 reb+ast vs Under 8.5 [matchup-read-wrong, model-beat]"
+     "ts": "2026-11-13T20:15:38Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
     },
     {
-     "ts": "2026-11-13T17:10:15Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Devin Booker Under 4.5 @ +124 (FanDuel) \u2014 LOST: 7 assists vs Under 4.5 [matchup-read-right, model-miss]"
+     "ts": "2026-11-13T20:39:08Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
     },
     {
-     "ts": "2026-11-13T17:13:10Z",
-     "kind": "adapt",
-     "text": "Model vs market on 4128 graded lines: the 30% model blend scored best (log loss model 0.703, market 0.688). Moving the model's weight from 24% to 26%."
+     "ts": "2026-11-13T21:16:30Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
     },
     {
-     "ts": "2026-11-13T17:13:10Z",
-     "kind": "adapt",
-     "text": "Learning loop: PTS projections ran +1.1% vs actual over 1462 player-games: level x0.885; REB projections ran +3.2% vs actual over 1462 player-games: level x0.906; AST projections ran +1.1% vs actual over 1462 player-games: level x0.900; TPM projections ran -2."
+     "ts": "2026-11-13T21:23:13Z",
+     "kind": "scan",
+     "text": "Scanned mma_mixed_martial_arts (36) for 1 credits. Nothing cleared the bar. Equity $43.16."
     },
     {
-     "ts": "2026-11-13T17:13:10Z",
-     "kind": "daily",
-     "text": "Day close \u2014 equity $43.16 (run #1), 20-32-2, ROI -20.8%, CLV -2.3%."
+     "ts": "2026-11-13T22:00:41Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-06T03:35:30Z",
-     "agent": 45.71,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-06T16:44:04Z",
-     "agent": 46.36,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-06T20:49:43Z",
      "agent": 46.36,
@@ -1059,6 +1086,16 @@
      "ts": "2026-11-13T17:13:10Z",
      "agent": 43.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-13T19:30:34Z",
+     "agent": 43.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-13T21:23:13Z",
+     "agent": 43.16,
+     "you": 100.0
     }
    ],
    "runs": [],
@@ -1085,24 +1122,26 @@
   },
   "justbaked": {
    "as_of": "2026-08-21",
-   "stage": "Client",
+   "stage": "Needs a computer",
+   "owner_parked": "2026-11-13",
+   "note": "Runs on Square's website; changes need a computer. Owner unsure how to automate sales yet.",
    "open_items": [
     "Charity names and links",
     "Social media URLs",
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 84.6,
+   "age_days": 84.8,
    "efficiency": 37,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
-   "stage_note": "Paid-adjacent client work, pre-launch"
+   "stage_note": "Runs on Square's website; parked by you Nov 13 until there's a plan for automating sales"
   },
   "screener": {
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 118.6,
+   "age_days": 118.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1111,15 +1150,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 8,
+  "med": 7,
   "low": 3
  },
  "health": {
-  "checked": "2026-11-13T12:29-05:00",
+  "checked": "2026-11-13T17:54-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-13T12:18-05:00",
-   "age_hours": 0.2,
+   "age_hours": 5.6,
    "ok": true,
    "summary": "Shipping run (delayed: the Nov 9 8:05 PM run was delivered 3.5 days late, so no runs happened Nov 10-13): nothing approved to ship; backlog is clear."
   },
@@ -1168,8 +1207,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T06:49:23Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43381317374"
+    "at": "2026-11-13T22:31:12Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43484108031"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1195,8 +1234,17 @@
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T03:35:34Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43359879572"
+    "at": "2026-11-13T20:59:09Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43506450695"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-13T17:29:57Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43473329677"
    },
    {
     "repo": "Perseverance",
@@ -1204,8 +1252,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T17:15:27Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43470932884"
+    "at": "2026-11-13T22:45:37Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43521812485"
    }
   ],
   "ok": true

@@ -81,15 +81,6 @@
   "action": "Publish issue 1 by Mon Oct 26."
  },
  {
-  "id": "stale-justbaked",
-  "agent": "memory",
-  "business": "justbaked",
-  "severity": "med",
-  "title": "JustBaked launch has been parked 85 days",
-  "detail": "Four pre-launch items were open: Charity names and links, Social media URLs, Premium package contents, Burn Heart Cake price.",
-  "action": "Ask Alyiza for the four missing items and ship the site."
- },
- {
   "id": "play-chase",
   "agent": "overseer",
   "business": "nfl",
