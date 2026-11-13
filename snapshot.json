@@ -1,0 +1,1213 @@
+{
+ "updated": "2026-11-13T12:29-05:00",
+ "businesses": {
+  "curiosity": {
+   "start": 1000.0,
+   "goal": 10000.0,
+   "updated": "2026-11-13T12:07-05:00",
+   "age_days": 0.0,
+   "pool_now": 3603.14,
+   "pool_start": 4000.0,
+   "pool_ret": -9.92,
+   "spy_ret": -2.97,
+   "edge": -6.95,
+   "leader": {
+    "name": "Rapid Fire Trading",
+    "equity": 1001.73,
+    "ret_pct": 0.17,
+    "progress_pct": 10.02,
+    "days_to_goal": null
+   },
+   "agents": [
+    {
+     "id": "trend",
+     "name": "Trend Co.",
+     "equity": 715.52,
+     "status": "active",
+     "progress_pct": 7.16,
+     "open": 2,
+     "closed": 23,
+     "win_rate": 17.4,
+     "max_dd_pct": 46.7,
+     "competing": true,
+     "exhibition": false,
+     "risk_adj": -0.61,
+     "ret_pct": -28.45,
+     "note": "Pass on NBIG: it's a Broad market / other breakdown put, a sector I'm avoiding with a negative record, and its 6.51 stop is about 89% above price, so it isn't a real risk stop. Hold CLSX and GLD puts on their enforced stops and keep the 483"
+    },
+    {
+     "id": "meanrev",
+     "name": "Snapback Partners",
+     "equity": 996.89,
+     "status": "active",
+     "progress_pct": 9.97,
+     "open": 2,
+     "closed": 18,
+     "win_rate": 66.7,
+     "max_dd_pct": 4.2,
+     "competing": true,
+     "exhibition": false,
+     "risk_adj": -0.06,
+     "ret_pct": -0.31,
+     "note": "No candidate clears the 1:1 floor at live prices (best is MRNA ~0.56:1, GMAB ~0.56:1). Hold HALO and ALC on their stops and keep $757 settled cash for a washout that clears 1:1."
+    },
+    {
+     "id": "volsell",
+     "name": "Premium House",
+     "equity": 889.0,
+     "status": "active",
+     "progress_pct": 8.89,
+     "open": 0,
+     "closed": 6,
+     "win_rate": 0.0,
+     "max_dd_pct": 11.1,
+     "competing": true,
+     "exhibition": false,
+     "risk_adj": -1.0,
+     "ret_pct": -11.1,
+     "note": "Passed the only candidate, TLT 79/78 bull put (0.31 credit, IV/RV 1.23). It is a rate proxy on my avoid list after 0-for-6, with the 10-year near 5% and Fed hike talk. Keeping $889 settled for an EEM bear call at IV/RV of 0.95 or higher, or"
+    },
+    {
+     "id": "baseline",
+     "name": "Index Booth (SPY)",
+     "equity": 970.29,
+     "status": "active",
+     "progress_pct": 9.7,
+     "open": 3,
+     "closed": 0,
+     "win_rate": null,
+     "max_dd_pct": 5.1,
+     "competing": false,
+     "exhibition": false,
+     "risk_adj": -0.58,
+     "ret_pct": -2.97,
+     "note": ""
+    },
+    {
+     "id": "monkey",
+     "name": "Monkey Business",
+     "equity": 925.88,
+     "status": "active",
+     "progress_pct": 9.26,
+     "open": 2,
+     "closed": 7,
+     "win_rate": 57.1,
+     "max_dd_pct": 10.6,
+     "competing": false,
+     "exhibition": false,
+     "risk_adj": -0.7,
+     "ret_pct": -7.41,
+     "note": ""
+    },
+    {
+     "id": "blackswan",
+     "name": "Black Swan & Co.",
+     "equity": -397.26,
+     "status": "eliminated",
+     "progress_pct": -3.97,
+     "open": 2,
+     "closed": 5,
+     "win_rate": 20.0,
+     "max_dd_pct": 141.1,
+     "competing": false,
+     "exhibition": true,
+     "risk_adj": -0.99,
+     "ret_pct": -139.73,
+     "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
+    },
+    {
+     "id": "scalper",
+     "name": "Rapid Fire Trading",
+     "equity": 1001.73,
+     "status": "active",
+     "progress_pct": 10.02,
+     "open": 0,
+     "closed": 89,
+     "win_rate": 44.9,
+     "max_dd_pct": 0.7,
+     "competing": true,
+     "exhibition": false,
+     "risk_adj": 0.03,
+     "ret_pct": 0.17,
+     "note": "[weekly] The edge is thin (about +$0.10 per trade, 36 trades), so avoid over-tuning. min_rel_volume=1.5 does not appear to be enforced on VWAP pullbacks, since many entries logged 0.5-0.99x, so changing it is likely a no-op until that is ve"
+    },
+    {
+     "id": "hyper",
+     "name": "Full Throttle Trading",
+     "equity": 999.71,
+     "status": "active",
+     "progress_pct": 10.0,
+     "open": 0,
+     "closed": 90,
+     "win_rate": 43.3,
+     "max_dd_pct": 1.1,
+     "competing": false,
+     "exhibition": true,
+     "risk_adj": -0.01,
+     "ret_pct": -0.03,
+     "note": ""
+    }
+   ],
+   "curve": [
+    {
+     "date": "2026-10-13",
+     "racing": 3000.24,
+     "leader": null,
+     "spy": 999.95
+    },
+    {
+     "date": "2026-10-14",
+     "racing": 4022.22,
+     "leader": 999.67,
+     "spy": 994.99
+    },
+    {
+     "date": "2026-10-15",
+     "racing": 3920.16,
+     "leader": 999.66,
+     "spy": 998.29
+    },
+    {
+     "date": "2026-10-16",
+     "racing": 4054.37,
+     "leader": 1000.02,
+     "spy": 986.28
+    },
+    {
+     "date": "2026-10-19",
+     "racing": 4059.4,
+     "leader": 1003.59,
+     "spy": 993.69
+    },
+    {
+     "date": "2026-10-20",
+     "racing": 4059.69,
+     "leader": 1005.15,
+     "spy": 993.8
+    },
+    {
+     "date": "2026-10-21",
+     "racing": 4062.11,
+     "leader": 1005.76,
+     "spy": 999.81
+    },
+    {
+     "date": "2026-10-22",
+     "racing": 4185.0,
+     "leader": 1004.75,
+     "spy": 986.0
+    },
+    {
+     "date": "2026-10-23",
+     "racing": 4216.23,
+     "leader": 1003.6,
+     "spy": 983.43
+    },
+    {
+     "date": "2026-10-26",
+     "racing": 4206.69,
+     "leader": 1005.69,
+     "spy": 990.25
+    },
+    {
+     "date": "2026-10-27",
+     "racing": 4067.72,
+     "leader": 1006.86,
+     "spy": 996.98
+    },
+    {
+     "date": "2026-10-28",
+     "racing": 4041.15,
+     "leader": 1004.78,
+     "spy": 997.04
+    },
+    {
+     "date": "2026-10-29",
+     "racing": 4048.37,
+     "leader": 1004.53,
+     "spy": 993.77
+    },
+    {
+     "date": "2026-10-30",
+     "racing": 4152.26,
+     "leader": 1003.05,
+     "spy": 974.46
+    },
+    {
+     "date": "2026-11-02",
+     "racing": 4038.48,
+     "leader": 1003.41,
+     "spy": 973.62
+    },
+    {
+     "date": "2026-11-03",
+     "racing": 4043.33,
+     "leader": 1003.56,
+     "spy": 975.23
+    },
+    {
+     "date": "2026-11-04",
+     "racing": 4005.35,
+     "leader": 1004.56,
+     "spy": 993.71
+    },
+    {
+     "date": "2026-11-05",
+     "racing": 3850.38,
+     "leader": 1002.98,
+     "spy": 950.85
+    },
+    {
+     "date": "2026-11-06",
+     "racing": 3829.26,
+     "leader": 1000.87,
+     "spy": 954.03
+    },
+    {
+     "date": "2026-11-09",
+     "racing": 3757.06,
+     "leader": 1002.03,
+     "spy": 976.26
+    },
+    {
+     "date": "2026-11-10",
+     "racing": 3715.45,
+     "leader": 1000.74,
+     "spy": 969.22
+    },
+    {
+     "date": "2026-11-11",
+     "racing": 3636.61,
+     "leader": 1000.78,
+     "spy": 983.41
+    },
+    {
+     "date": "2026-11-12",
+     "racing": 3613.08,
+     "leader": 1001.84,
+     "spy": 978.78
+    },
+    {
+     "date": "2026-11-13",
+     "racing": 3603.14,
+     "leader": 1001.73,
+     "spy": 970.29
+    }
+   ],
+   "health_ok": true,
+   "health_bad": [],
+   "regime": {
+    "trend": "up",
+    "vs200": 2.5,
+    "radar": 24,
+    "tier": "calm"
+   },
+   "brain": "AI (claude-haiku-5-5)",
+   "compliance": {
+    "approved": 1,
+    "denied": 0,
+    "last_denied": null
+   },
+   "efficiency": 100,
+   "profitability": 15,
+   "automation": "Full: GitHub Actions trade, plan and recap on schedule",
+   "stage": "Testing",
+   "stage_note": "Paper money: proving a strategy before real capital"
+  },
+  "nfl": {
+   "updated": "2026-11-09",
+   "through_week": 9,
+   "age_days": 4.5,
+   "stake": 50.01,
+   "payout": 1437.88,
+   "slips": [
+    {
+     "key": "goat",
+     "name": "Goat Whale",
+     "stake": 25.0,
+     "payout": 500.0,
+     "legs": [
+      {
+       "id": "bowers",
+       "who": "Brock Bowers",
+       "team": "LV",
+       "color": "#C8CFD2",
+       "stat": "receiving yards",
+       "line": 925.5,
+       "dir": "over",
+       "cur": 658,
+       "played": 7,
+       "rem": 8,
+       "rate": 94.0,
+       "need": 33.44,
+       "inj": "",
+       "state": "ahead",
+       "settled": null
+      },
+      {
+       "id": "herbert",
+       "who": "Justin Herbert",
+       "team": "LAC",
+       "color": "#4BB4E6",
+       "stat": "passing touchdowns",
+       "line": 25.5,
+       "dir": "over",
+       "cur": 6,
+       "played": 8,
+       "rem": 9,
+       "rate": 0.75,
+       "need": 2.17,
+       "inj": "Q",
+       "state": "far behind",
+       "settled": null
+      },
+      {
+       "id": "moore",
+       "who": "DJ Moore",
+       "team": "BUF",
+       "color": "#5183E8",
+       "stat": "receiving yards",
+       "line": 825.5,
+       "dir": "over",
+       "cur": 260,
+       "played": 6,
+       "rem": 9,
+       "rate": 43.33,
+       "need": 62.83,
+       "inj": "",
+       "state": "behind",
+       "settled": null
+      },
+      {
+       "id": "flowers",
+       "who": "Zay Flowers",
+       "team": "BAL",
+       "color": "#9583E0",
+       "stat": "receiving touchdowns",
+       "line": 5.5,
+       "dir": "over",
+       "cur": 3,
+       "played": 8,
+       "rem": 8,
+       "rate": 0.38,
+       "need": 0.31,
+       "inj": "",
+       "state": "ahead",
+       "settled": null
+      }
+     ],
+     "alive": true,
+     "weak": [
+      "Justin Herbert",
+      "DJ Moore"
+     ],
+     "health": 50
+    },
+    {
+     "key": "new",
+     "name": "New Systems",
+     "stake": 12.5,
+     "payout": 468.75,
+     "legs": [
+      {
+       "id": "evans",
+       "who": "Mike Evans",
+       "team": "SF",
+       "color": "#C6A96A",
+       "stat": "receiving touchdowns",
+       "line": 6.5,
+       "dir": "over",
+       "cur": 3,
+       "played": 7,
+       "rem": 9,
+       "rate": 0.43,
+       "need": 0.39,
+       "inj": "D",
+       "state": "ahead",
+       "settled": null
+      },
+      {
+       "id": "lamar",
+       "who": "Lamar Jackson",
+       "team": "BAL",
+       "color": "#9583E0",
+       "stat": "pass + rush yards",
+       "line": 3799.5,
+       "dir": "over",
+       "cur": 1111,
+       "played": 8,
+       "rem": 8,
+       "rate": 138.88,
+       "need": 336.06,
+       "inj": "IR",
+       "state": "lost",
+       "settled": "loss"
+      },
+      {
+       "id": "bijan",
+       "who": "Bijan Robinson",
+       "team": "ATL",
+       "color": "#E04A45",
+       "stat": "receptions",
+       "line": 65.5,
+       "dir": "over",
+       "cur": 31,
+       "played": 9,
+       "rem": 8,
+       "rate": 3.44,
+       "need": 4.31,
+       "inj": "",
+       "state": "behind",
+       "settled": null
+      },
+      {
+       "id": "johnston",
+       "who": "Quentin Johnston",
+       "team": "LAC",
+       "color": "#4BB4E6",
+       "stat": "receiving touchdowns",
+       "line": 5.5,
+       "dir": "over",
+       "cur": 1,
+       "played": 7,
+       "rem": 9,
+       "rate": 0.14,
+       "need": 0.5,
+       "inj": "",
+       "state": "far behind",
+       "settled": null
+      },
+      {
+       "id": "dak",
+       "who": "Dak Prescott",
+       "team": "DAL",
+       "color": "#7A9CC6",
+       "stat": "passing yards",
+       "line": 3999.5,
+       "dir": "over",
+       "cur": 2381,
+       "played": 9,
+       "rem": 8,
+       "rate": 264.56,
+       "need": 202.31,
+       "inj": "",
+       "state": "ahead",
+       "settled": null
+      },
+      {
+       "id": "waddle",
+       "who": "Jaylen Waddle",
+       "team": "DEN",
+       "color": "#FF6A2A",
+       "stat": "receiving yards",
+       "line": 924.5,
+       "dir": "over",
+       "cur": 337,
+       "played": 9,
+       "rem": 8,
+       "rate": 37.44,
+       "need": 73.44,
+       "inj": "Q",
+       "state": "far behind",
+       "settled": null
+      }
+     ],
+     "alive": false,
+     "weak": [
+      "Bijan Robinson",
+      "Quentin Johnston",
+      "Jaylen Waddle"
+     ],
+     "health": 33
+    },
+    {
+     "key": "fun",
+     "name": "Fun",
+     "stake": 12.51,
+     "payout": 469.13,
+     "legs": [
+      {
+       "id": "nacua",
+       "who": "Puka Nacua",
+       "team": "LAR",
+       "color": "#FFD24A",
+       "stat": "rushing touchdowns",
+       "line": 0.5,
+       "dir": "over",
+       "cur": 1,
+       "played": 6,
+       "rem": 8,
+       "rate": 0.17,
+       "need": -0.06,
+       "inj": "",
+       "state": "won",
+       "settled": "win*"
+      },
+      {
+       "id": "fox",
+       "who": "Jack Fox",
+       "team": "DET",
+       "color": "#2E9BDF",
+       "stat": "passing yards",
+       "line": 0.5,
+       "dir": "over",
+       "cur": 11,
+       "played": 8,
+       "rem": 9,
+       "rate": 1.38,
+       "need": -1.17,
+       "inj": "",
+       "state": "won",
+       "settled": "win*"
+      },
+      {
+       "id": "chase",
+       "who": "Ja'Marr Chase",
+       "team": "CIN",
+       "color": "#FF6A2A",
+       "stat": "rushing yards",
+       "line": 11.5,
+       "dir": "over",
+       "cur": 0,
+       "played": 7,
+       "rem": 9,
+       "rate": 0.0,
+       "need": 1.28,
+       "inj": "",
+       "state": "needs a play",
+       "settled": null
+      },
+      {
+       "id": "zayrush",
+       "who": "Zay Flowers",
+       "team": "BAL",
+       "color": "#9583E0",
+       "stat": "rushing yards",
+       "line": 54.5,
+       "dir": "over",
+       "cur": 51,
+       "played": 8,
+       "rem": 8,
+       "rate": 6.38,
+       "need": 0.44,
+       "inj": "",
+       "state": "ahead",
+       "settled": null
+      },
+      {
+       "id": "mclaurin",
+       "who": "Terry McLaurin",
+       "team": "WAS",
+       "color": "#B8434F",
+       "stat": "receiving touchdowns",
+       "line": 5.5,
+       "dir": "over",
+       "cur": 1,
+       "played": 6,
+       "rem": 9,
+       "rate": 0.17,
+       "need": 0.5,
+       "inj": "O",
+       "state": "lost",
+       "settled": "loss"
+      },
+      {
+       "id": "dart",
+       "who": "Jaxson Dart",
+       "team": "NYG",
+       "color": "#5A7FD9",
+       "stat": "passing yards",
+       "line": 3124.5,
+       "dir": "under",
+       "cur": 250,
+       "played": 8,
+       "rem": 9,
+       "rate": 31.25,
+       "need": 319.39,
+       "inj": "IR",
+       "state": "won",
+       "settled": "win"
+      }
+     ],
+     "alive": false,
+     "weak": [],
+     "health": 75
+    }
+   ],
+   "efficiency": 54,
+   "profitability": 53,
+   "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
+   "stage": "Live bets",
+   "stage_note": "Real money on three PrizePicks slips"
+  },
+  "ingenuity": {
+   "generated": "2026-10-25T14:57:58Z",
+   "data_through": "2026-09-27",
+   "age_days": 19.1,
+   "datasets": [
+    {
+     "label": "Batters \u00b7 season",
+     "rows": 659
+    },
+    {
+     "label": "Pitchers \u00b7 season",
+     "rows": 812
+    },
+    {
+     "label": "14-day hitters \u00b7 Sep 14\u2013Sep 27",
+     "rows": 445
+    },
+    {
+     "label": "Splits \u00b7 by player",
+     "rows": 1305
+    },
+    {
+     "label": "Team \u00b7 OAA / framing / xwOBA",
+     "rows": 30
+    }
+   ],
+   "rows": 3251,
+   "season": 2026,
+   "as_of": "2026-11-09",
+   "graded": 701,
+   "closing_lines": 0,
+   "interval_cov": 82,
+   "interval_target": 80,
+   "engine": "v2.7",
+   "backtest_done": true,
+   "stats_paused": true,
+   "efficiency": 42,
+   "profitability": 48,
+   "automation": "High: daily GitHub Action publishes Savant and MLB stats; graded games logged on device",
+   "stage": "Research",
+   "stage_note": "Offseason: model work before next season"
+  },
+  "jobs": {
+   "count": 0,
+   "top": [],
+   "efficiency": 35,
+   "profitability": 0,
+   "automation": "Daily scan 10:00 AM via cron-job.org; Render free tier (sleeps, /tmp resets)",
+   "stage": "Pipeline",
+   "stage_note": "Feeds the day job search"
+  },
+  "perseverance": {
+   "updated": "2026-11-13T17:13:10Z",
+   "age_days": 0.0,
+   "start": 100.0,
+   "goal": 1000.0,
+   "run": 1,
+   "agent": {
+    "equity": 43.16,
+    "bets": 54,
+    "won": 20,
+    "lost": 32,
+    "push": 2,
+    "roi": -0.2085,
+    "clv": -0.0228,
+    "open": 0,
+    "profit": -56.84,
+    "staked": 272.63
+   },
+   "you": {
+    "equity": 100.0,
+    "bets": 0,
+    "won": 0,
+    "lost": 0,
+    "push": 0,
+    "roi": 0,
+    "open": 0,
+    "profit": 0
+   },
+   "params": {
+    "min_edge": 0.15,
+    "kelly_mult": 0.05,
+    "max_bet_pct": 0.08,
+    "max_exposure_pct": 0.45,
+    "max_bets_per_run": 6,
+    "max_dec": 8.0,
+    "arb_min": 0.005,
+    "arb_pct": 0.2,
+    "parlay_enabled": true,
+    "props_enabled": true,
+    "prop_min_edge": 0.04,
+    "prop_model_weight": 0.255,
+    "prop_max_bets": 4,
+    "w_dvp": 0.45,
+    "w_sim": 0.4,
+    "w_h2h": 0.25,
+    "matchup_strength": 1.0
+   },
+   "paused": [],
+   "weights": {
+    "value_fav": 0.842,
+    "value_dog": 0.415,
+    "longshot": 0.427,
+    "arb": 1.003,
+    "parlay_ev": 1.0,
+    "matchup_over": 1.417,
+    "matchup_under": 0.834
+   },
+   "strategist_on": false,
+   "credits": 154,
+   "credits_monthly": 500,
+   "per_scan": 0,
+   "open_bets": [],
+   "recent": [
+    {
+     "what": "Devin Booker Under 4.5",
+     "odds": 124,
+     "book": "fanduel",
+     "game": "Charlotte Hornets @ Phoenix Suns",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1937,
+     "start": "2026-11-13T02:10:00Z"
+    },
+    {
+     "what": "John Collins Under 8.5",
+     "odds": -125,
+     "book": "fanduel",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "stake": 5.0,
+     "profit": 4.0,
+     "status": "won",
+     "playbook": "matchup_under",
+     "ev": 0.0995,
+     "start": "2026-11-13T00:10:00Z"
+    },
+    {
+     "what": "AJ Dybantsa Under 7.5",
+     "odds": 108,
+     "book": "fanduel",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1013,
+     "start": "2026-11-13T00:10:00Z"
+    },
+    {
+     "what": "Alex Sarr Under 8.5",
+     "odds": 105,
+     "book": "betmgm",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1186,
+     "start": "2026-11-13T00:10:00Z"
+    },
+    {
+     "what": "Cade Cunningham Under 8.5",
+     "odds": -110,
+     "book": "betmgm",
+     "game": "Detroit Pistons @ Washington Wizards",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1228,
+     "start": "2026-11-13T00:10:00Z"
+    },
+    {
+     "what": "Stephen Curry Under 4.5",
+     "odds": -120,
+     "book": "hardrockbet",
+     "game": "Golden State Warriors @ Houston Rockets",
+     "stake": 5.0,
+     "profit": 4.15,
+     "status": "won",
+     "playbook": "matchup_under",
+     "ev": 0.1728,
+     "start": "2026-11-12T02:40:00Z"
+    }
+   ],
+   "journal": [
+    {
+     "ts": "2026-11-13T17:10:15Z",
+     "kind": "result",
+     "text": "LOST -$5.00: AJ Dybantsa Under 7.5 @ +108 (FanDuel) \u2014 LOST: 12 reb+ast vs Under 7.5 [matchup-read-wrong, minutes-long, model-miss]"
+    },
+    {
+     "ts": "2026-11-13T17:10:15Z",
+     "kind": "result",
+     "text": "WON +$4.00: John Collins Under 8.5 @ -125 (FanDuel) \u2014 WON: 4 reb+ast vs Under 8.5 [matchup-read-wrong, model-beat]"
+    },
+    {
+     "ts": "2026-11-13T17:10:15Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Devin Booker Under 4.5 @ +124 (FanDuel) \u2014 LOST: 7 assists vs Under 4.5 [matchup-read-right, model-miss]"
+    },
+    {
+     "ts": "2026-11-13T17:13:10Z",
+     "kind": "adapt",
+     "text": "Model vs market on 4128 graded lines: the 30% model blend scored best (log loss model 0.703, market 0.688). Moving the model's weight from 24% to 26%."
+    },
+    {
+     "ts": "2026-11-13T17:13:10Z",
+     "kind": "adapt",
+     "text": "Learning loop: PTS projections ran +1.1% vs actual over 1462 player-games: level x0.885; REB projections ran +3.2% vs actual over 1462 player-games: level x0.906; AST projections ran +1.1% vs actual over 1462 player-games: level x0.900; TPM projections ran -2."
+    },
+    {
+     "ts": "2026-11-13T17:13:10Z",
+     "kind": "daily",
+     "text": "Day close \u2014 equity $43.16 (run #1), 20-32-2, ROI -20.8%, CLV -2.3%."
+    }
+   ],
+   "curve": [
+    {
+     "ts": "2026-11-06T03:35:30Z",
+     "agent": 45.71,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-06T16:44:04Z",
+     "agent": 46.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-06T20:49:43Z",
+     "agent": 46.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-06T23:40:16Z",
+     "agent": 46.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T00:02:35Z",
+     "agent": 46.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T03:05:17Z",
+     "agent": 46.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T15:38:28Z",
+     "agent": 26.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T19:21:28Z",
+     "agent": 26.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T22:30:40Z",
+     "agent": 26.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-07T23:35:00Z",
+     "agent": 26.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-08T02:39:08Z",
+     "agent": 26.36,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-08T15:56:54Z",
+     "agent": 37.91,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-08T19:31:34Z",
+     "agent": 37.91,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-08T22:41:34Z",
+     "agent": 37.91,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-08T23:36:49Z",
+     "agent": 37.91,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-09T02:54:47Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-09T19:45:35Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-09T23:45:09Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T01:54:47Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T02:38:50Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T04:44:47Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T17:00:05Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T20:50:58Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T21:15:46Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-10T23:55:41Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-11T00:32:25Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-11T02:56:38Z",
+     "agent": 42.46,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-11T17:07:06Z",
+     "agent": 50.86,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-11T19:30:38Z",
+     "agent": 50.86,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-11T21:51:20Z",
+     "agent": 50.86,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T01:20:45Z",
+     "agent": 50.86,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T01:52:16Z",
+     "agent": 50.86,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T04:03:55Z",
+     "agent": 55.01,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T17:34:59Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T19:30:47Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T21:48:58Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-12T23:59:18Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-13T00:59:21Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-13T03:32:21Z",
+     "agent": 59.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-13T17:13:10Z",
+     "agent": 43.16,
+     "you": 100.0
+    }
+   ],
+   "runs": [],
+   "efficiency": 95,
+   "profitability": 8,
+   "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
+   "stage": "Testing",
+   "stage_note": "Paper money: racing $100 to $1,000"
+  },
+  "balldontlie": {
+   "as_of": "2026-10-22",
+   "draft": "2026-10-18",
+   "team": "Team Comeback",
+   "pick": 6,
+   "strategy": "Volume Blitz (punt FG% and FT%)",
+   "newsletter_live": false,
+   "teams": 10,
+   "next_issue": "2026-10-26",
+   "efficiency": 30,
+   "profitability": 40,
+   "automation": "None yet: newsletter page not built",
+   "stage": "Community",
+   "stage_note": "League content, no revenue"
+  },
+  "justbaked": {
+   "as_of": "2026-08-21",
+   "stage": "Client",
+   "open_items": [
+    "Charity names and links",
+    "Social media URLs",
+    "Premium package contents",
+    "Burn Heart Cake price"
+   ],
+   "age_days": 84.6,
+   "efficiency": 37,
+   "profitability": 35,
+   "automation": "Netlify forms take orders; site handed off for self-editing",
+   "stage_note": "Paid-adjacent client work, pre-launch"
+  },
+  "screener": {
+   "as_of": "2026-07-18",
+   "stage": "Parked",
+   "blocker": "Polygon.io key needs MacBook",
+   "age_days": 118.6,
+   "efficiency": 15,
+   "profitability": 20,
+   "automation": "None: never deployed",
+   "stage_note": "Built, never deployed"
+  }
+ },
+ "counts": {
+  "high": 2,
+  "med": 8,
+  "low": 3
+ },
+ "health": {
+  "checked": "2026-11-13T12:29-05:00",
+  "mode": "local",
+  "shipping": {
+   "last": "2026-11-13T12:18-05:00",
+   "age_hours": 0.2,
+   "ok": true,
+   "summary": "Shipping run (delayed: the Nov 9 8:05 PM run was delivered 3.5 days late, so no runs happened Nov 10-13): nothing approved to ship; backlog is clear."
+  },
+  "feeds": [
+   {
+    "name": "Curiosity",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   },
+   {
+    "name": "Fantasy Tracker",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   },
+   {
+    "name": "Ingenuity",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   },
+   {
+    "name": "Job board",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   },
+   {
+    "name": "Perseverance",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   },
+   {
+    "name": "Shipping log",
+    "ok": true,
+    "via": "web",
+    "error": ""
+   }
+  ],
+  "workflows": [
+   {
+    "repo": "Curiosity",
+    "business": "curiosity",
+    "name": "Trading agent race",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-13T06:49:23Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43381317374"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-11T18:41:26Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/43080127803"
+   },
+   {
+    "repo": "Ingenuity",
+    "business": "ingenuity",
+    "name": "Refresh stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-10-25T14:58:02Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/40204675206"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
+    "name": "Job snapshot",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-13T03:35:34Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43359879572"
+   },
+   {
+    "repo": "Perseverance",
+    "business": "perseverance",
+    "name": "Agent",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-13T17:15:27Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43470932884"
+   }
+  ],
+  "ok": true
+ }
+}

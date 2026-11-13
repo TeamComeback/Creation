@@ -1,0 +1,400 @@
+{
+ "_about": "Written by the Team Comeback HQ shipping run; the HQ autopilot applies these entries to the HQ backlog and run log. Commits to this file use [skip render].",
+ "items": [
+  {
+   "id": "p20261027nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/2",
+   "commit": "9571601",
+   "note": "A GitHub Action fills each new week from nflverse's free stats every Tue and Wed at 7:15 AM. Matched every hand-logged week exactly and backfilled Week 7 for 11 legs.",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261027perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/1",
+   "commit": "156cc67",
+   "note": "Closing odds were already captured on each scan; each leg now also records when its close was taken, and the dashboard shows CLV with leg count, minutes before start, and legs with no close.",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261027curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/6",
+   "commit": "23db39c",
+   "note": "Firms that trail SPY on all of the last 20 sessions get a 'Thesis review due' badge on the dashboard; it clears itself when they catch up. First possible flag mid-November (11 sessions so far).",
+   "owner_action": "",
+   "at": "2026-10-28T09:45-04:00"
+  },
+  {
+   "id": "p20261028jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/8",
+   "commit": "61c229c",
+   "note": "3 of 62 Florida jobs now score 70+ (Ally fraud analyst, Fortegra claims analyst, Siemens shipping/receiving), up from 0. IT/cyber/drafting 'operations analyst' roles and 7+ year asks now drop below 40. Skipped the plan's SQL/Python/Tableau keywords since they aren't on the resume.",
+   "owner_action": "",
+   "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/2",
+   "commit": "f769ad9",
+   "note": "Month-end mode: in the last 4 days of a month each scan may spend about twice as much (about 31 credits now) and minor sports are always considered, so credits don't expire unused. The 25-credit floor still holds.",
+   "owner_action": "",
+   "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/7",
+   "commit": "77ac064",
+   "note": "Black Swan is now exhibition: out of the racing pool, open positions run to their stops, no new entries, and its card says why. Bringing it back is a config change after a passed thesis review.",
+   "owner_action": "Tell the HQ when Black Swan should rejoin the race after its thesis review.",
+   "at": "2026-10-28T20:20-04:00"
+  },
+  {
+   "id": "p20261028nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/3",
+   "commit": "8449ae4",
+   "note": "Each slip card shows its chance to cash and each slip page shows the weakest leg and expected value. Today: Goat Whale and New Systems under 0.1%, Fun 0.6%; weakest leg DJ Moore at about 1%. Computed live, so it updates with each weekly auto-fill.",
+   "owner_action": "",
+   "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "p20261025curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/8",
+   "commit": "80206a6",
+   "note": "Full Throttle is retired (no new trades, no AI playbook call, history kept); Rapid Fire races on its own rules. Kept Rapid Fire's settings because the two results were within noise and Full Throttle's 3x ETFs would add risk.",
+   "owner_action": "",
+   "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "fix-offseason-ingenuity",
+   "status": "blocked",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "",
+   "commit": "",
+   "note": "The 212 graded games live only in the app's storage on your phone, not in the repo, so there's nothing to freeze or backtest yet.",
+   "owner_action": "In Ingenuity, open Backup and save a backup file, then attach it in the HQ setup chat. The agent will freeze it and run the backtest.",
+   "at": "2026-10-29T09:55-04:00"
+  },
+  {
+   "id": "p20261029curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/10",
+   "commit": "5bcc541",
+   "note": "Trend Co. takes no new entries at 6+ open positions; governor refuses a 7th order; current 9 left to close naturally.",
+   "owner_action": "",
+   "at": "2026-11-04T20:15-05:00"
+  },
+  {
+   "id": "p20261031curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/11",
+   "commit": "183f950",
+   "note": "VWAP pullbacks now require >=1.5x relative volume; skipped signals journaled.",
+   "owner_action": "",
+   "at": "2026-11-04T20:15-05:00"
+  },
+  {
+   "id": "fix-offseason-ingenuity",
+   "status": "shipped",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "https://github.com/TeamComeback/Ingenuity/pull/3",
+   "commit": "318c98c",
+   "note": "Froze 701 graded 2026 games (489 on v2.7). Calibration change rejected: fixes the +0.23 bias but MAE 3.41->3.42 and O/U 52.4%->52.3%; bias within noise; 0 closing lines. v2.7 unchanged.",
+   "owner_action": "",
+   "at": "2026-11-09T07:55-05:00"
+  }
+ ],
+ "runs": [
+  {
+   "id": "r20261028T0700ship",
+   "time": "2026-10-28T07:00-04:00",
+   "summary": "Shipping run: fixed Trend Co.'s failing plan sessions (Curiosity #5: tolerant JSON parsing, bigger retry); set up this shipping log so shipped work reaches the HQ.",
+   "tokens": 60000,
+   "by_company": {
+    "hq": 30000,
+    "curiosity": 30000
+   }
+  },
+  {
+   "id": "r20261028T0945ship",
+   "time": "2026-10-28T09:45-04:00",
+   "summary": "Shipping run: 3 shipped (Fantasy-Tracker #2 weekly stats auto-fill, Perseverance #1 closing-line timing, Curiosity #6 SPY thesis-review flag). Rapid Fire/Full Throttle merge and Ingenuity backtest next.",
+   "tokens": 110000,
+   "by_company": {
+    "hq": 10000,
+    "nfl": 45000,
+    "perseverance": 30000,
+    "curiosity": 25000
+   }
+  },
+  {
+   "id": "r20261029T0020ship",
+   "time": "2026-10-28T20:20-04:00",
+   "summary": "Shipping run: 3 shipped (Creation #8 fit-score retune, Perseverance #2 month-end credit mode, Curiosity #7 Black Swan to exhibition). Still queued: Rapid Fire/Full Throttle merge, Ingenuity backtest, NFL slip hit chance.",
+   "tokens": 120000,
+   "by_company": {
+    "hq": 10000,
+    "jobs": 50000,
+    "perseverance": 30000,
+    "curiosity": 30000
+   }
+  },
+  {
+   "id": "r20261029T0955ship",
+   "time": "2026-10-29T09:55-04:00",
+   "summary": "Shipping run: 2 shipped (Fantasy-Tracker #3 slip hit chances, Curiosity #8 Full Throttle retired into Rapid Fire); Ingenuity backtest blocked until a Backup export of the graded games is shared. Backlog now clear.",
+   "tokens": 90000,
+   "by_company": {
+    "hq": 8000,
+    "nfl": 45000,
+    "curiosity": 25000,
+    "ingenuity": 12000
+   }
+  },
+  {
+   "id": "r20261030T0006ship",
+   "time": "2026-10-29T20:06-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261030T1309ship",
+   "time": "2026-10-30T09:09-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261031T0006ship",
+   "time": "2026-10-30T20:06-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261031T1306ship",
+   "time": "2026-10-31T09:06-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261101T0106ship",
+   "time": "2026-10-31T21:06-04:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261101T1409ship",
+   "time": "2026-11-01T09:09-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261102T0105ship",
+   "time": "2026-11-01T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261102T1459ship",
+   "time": "2026-11-02T09:59-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261103T0105ship",
+   "time": "2026-11-02T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261103T1408ship",
+   "time": "2026-11-03T09:08-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261104T0105ship",
+   "time": "2026-11-03T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261104T1408ship",
+   "time": "2026-11-04T09:08-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261104T1950ship",
+   "time": "2026-11-04T14:50-05:00",
+   "summary": "Shipping run (owner-reported bug): fixed Curiosity crash loop on Trend Co.'s XLE exit (Curiosity #9: partial fills now booked, insufficient-qty sells reconcile).",
+   "tokens": 40000,
+   "by_company": {
+    "curiosity": 40000
+   }
+  },
+  {
+   "id": "r20261105T0105ship",
+   "time": "2026-11-04T20:15-05:00",
+   "summary": "Shipping run: shipped Trend Co. 6-position cap (Curiosity PR #10) and Rapid Fire volume gate (Curiosity PR #11); Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 30000,
+   "by_company": {
+    "hq": 5000,
+    "curiosity": 25000
+   }
+  },
+  {
+   "id": "r20261105T1405ship",
+   "time": "2026-11-05T09:05-05:00",
+   "summary": "Shipping run: nothing new to ship (Curiosity PR #10 and #11 already shipped, awaiting HQ sync); Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  },
+  {
+   "id": "r20261106T0105ship",
+   "time": "2026-11-05T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261106T1405ship",
+   "time": "2026-11-06T09:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261107T0105ship",
+   "time": "2026-11-06T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261107T1405ship",
+   "time": "2026-11-07T09:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261108T0105ship",
+   "time": "2026-11-07T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261108T1405ship",
+   "time": "2026-11-08T09:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261109T0105ship",
+   "time": "2026-11-08T20:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; Ingenuity backtest still waiting on a Backup export.",
+   "tokens": 4000,
+   "by_company": {
+    "hq": 4000
+   }
+  },
+  {
+   "id": "r20261109T1255ship",
+   "time": "2026-11-09T07:55-05:00",
+   "summary": "Shipped Ingenuity offseason backtest (PR #3): calibration change rejected, v2.7 stays live.",
+   "tokens": 40000,
+   "by_company": {
+    "hq": 5000,
+    "ingenuity": 35000
+   }
+  },
+  {
+   "id": "r20261109T1405ship",
+   "time": "2026-11-09T09:05-05:00",
+   "summary": "Shipping run: nothing approved to ship; backlog is clear.",
+   "tokens": 3000,
+   "by_company": {
+    "hq": 3000
+   }
+  },
+  {
+   "id": "r20261113T1718ship",
+   "time": "2026-11-13T12:18-05:00",
+   "summary": "Shipping run (delayed: the Nov 9 8:05 PM run was delivered 3.5 days late, so no runs happened Nov 10-13): nothing approved to ship; backlog is clear.",
+   "tokens": 5000,
+   "by_company": {
+    "hq": 5000
+   }
+  }
+ ]
+}

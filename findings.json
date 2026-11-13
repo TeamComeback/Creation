@@ -1,0 +1,119 @@
+[
+ {
+  "id": "clv-ingenuity",
+  "agent": "overseer",
+  "business": "ingenuity",
+  "severity": "high",
+  "title": "0 of 701 closing lines captured",
+  "detail": "Without closing lines you can't measure closing-line value, the clearest test of whether the model has an edge.",
+  "action": "Automate a closing-line grab 60-90 min before first pitch next season."
+ },
+ {
+  "id": "empty-jobs",
+  "agent": "staleness",
+  "business": "jobs",
+  "severity": "high",
+  "title": "Job board is empty",
+  "detail": "The board answers but holds 0 jobs. On Render's free tier the SQLite file in /tmp is wiped on every restart, so matches vanish after the service sleeps.",
+  "action": "Move storage to a free hosted database or write matches to the repo so they survive restarts."
+ },
+ {
+  "id": "dd-trend",
+  "agent": "overseer",
+  "business": "curiosity",
+  "severity": "med",
+  "title": "Trend Co. is in a 47% drawdown",
+  "detail": "Equity $715.52 (-28.4%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
+  "action": "Review its thesis and position sizing in the Curiosity journal."
+ },
+ {
+  "id": "pace-herbert",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Justin Herbert is far behind pace on Goat Whale",
+  "detail": "Producing 0.75/game, needs 2.17/game over 9 games for over 25.5 passing touchdowns.",
+  "action": "Watch usage and injury news. One more miss likely sinks this slip."
+ },
+ {
+  "id": "inj-evans",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Mike Evans injury designation: D",
+  "detail": "Leg on New Systems (receiving touchdowns).",
+  "action": "Check practice reports before the weekend."
+ },
+ {
+  "id": "pace-johnston",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Quentin Johnston is far behind pace on New Systems",
+  "detail": "Producing 0.14/game, needs 0.5/game over 9 games for over 5.5 receiving touchdowns.",
+  "action": "Watch usage and injury news. One more miss likely sinks this slip."
+ },
+ {
+  "id": "pace-waddle",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Jaylen Waddle is far behind pace on New Systems",
+  "detail": "Producing 37.44/game, needs 73.44/game over 8 games for over 924.5 receiving yards.",
+  "action": "Watch usage and injury news. One more miss likely sinks this slip."
+ },
+ {
+  "id": "dd-perseverance",
+  "agent": "overseer",
+  "business": "perseverance",
+  "severity": "med",
+  "title": "Betting agent is down to $43.16",
+  "detail": "Run #1 started at $100. The $5 minimum bet means about 8 bets of runway left.",
+  "action": "Review which playbook is losing in its journal."
+ },
+ {
+  "id": "bdl-issue1",
+  "agent": "deadline",
+  "business": "balldontlie",
+  "severity": "med",
+  "title": "Week 1 newsletter isn't built yet",
+  "detail": "The draft was Oct 18 and the season is underway. The Dan storyline is ready to open with.",
+  "action": "Publish issue 1 by Mon Oct 26."
+ },
+ {
+  "id": "stale-justbaked",
+  "agent": "memory",
+  "business": "justbaked",
+  "severity": "med",
+  "title": "JustBaked launch has been parked 85 days",
+  "detail": "Four pre-launch items were open: Charity names and links, Social media URLs, Premium package contents, Burn Heart Cake price.",
+  "action": "Ask Alyiza for the four missing items and ship the site."
+ },
+ {
+  "id": "play-chase",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "low",
+  "title": "Ja'Marr Chase still needs one play on Fun",
+  "detail": "0 of 11.5 rushing yards with 9 games left. A single trick play or carry clears it.",
+  "action": "Nothing to do but watch. It's a coin flip each week, not a pace problem."
+ },
+ {
+  "id": "strategist-perseverance",
+  "agent": "efficiency",
+  "business": "perseverance",
+  "severity": "low",
+  "title": "Overnight strategist is off",
+  "detail": "Without an Anthropic API key the agent still tunes itself, but nobody reviews the bigger picture each night.",
+  "action": "Optional: add an ANTHROPIC_API_KEY secret to the Perseverance repo."
+ },
+ {
+  "id": "stale-screener",
+  "agent": "memory",
+  "business": "screener",
+  "severity": "low",
+  "title": "Stock screener has sat undeployed for 119 days",
+  "detail": "Curiosity's agents now scan a 7,000-symbol universe on their own, which covers most of what the screener was for.",
+  "action": "Decide: deploy it, fold its charts into Curiosity, or archive it."
+ }
+]
