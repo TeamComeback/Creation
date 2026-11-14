@@ -241,6 +241,16 @@
    "owner_action": "Optional, at a computer in the Square Dashboard: turn on order-ahead and pickup scheduling, and confirm that new-order alerts reach Alyiza's phone.",
    "deliverable": "What Square can already do, free: Square Online's free plan takes pickup and local-delivery orders, lets customers order ahead for a set date and time, and pulls items and prices from the same Square catalog as the register, so updating an item once updates the site. It charges 2.9% + 30c per online sale; customer accounts, a custom domain and product reviews need a paid plan.\n\nWhat the HQ could add: Square's developer API (free) can read orders and sales with a read-only access token, so the HQ could post a weekly JustBaked sales recap and flag big orders. Zapier also connects to Square (New Order, New Payment, New Customer triggers) to text or email each new order, but it is a separate account with its own limits.\n\nWhat only you or Alyiza can do, at a computer, about 15 minutes: in the Square Dashboard, turn on pickup scheduling and order-ahead, confirm order alerts go to her phone in the Square app, and, if you want the weekly recap, create a read-only personal access token in Square's Developer Dashboard and give it to the HQ as a secret.\n\nRecommendation: start free. Turn on order-ahead and phone alerts in Square, then decide on the HQ recap after a month of orders.\n\nSources: squareup.com/us/en/online-store/plans, business.org Square Online review, help.zapier.com Square guide, developer.squareup.com Orders and Reporting docs.",
    "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "fix-empty-jobs",
+   "status": "blocked",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/12",
+   "commit": "7fd986f",
+   "note": "Plan steps 2-4 shipped (PRs #11 and #12): the snapshot job runs the scan at 10:45 AM and fails loudly when the secret is missing or a scan keeps 0 jobs; cron-job.org references removed. Step 5 waits on the secret.",
+   "owner_action": "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, Settings, Secrets and variables, Actions, New secret named CRON_TOKEN.",
+   "at": "2026-11-14T09:15-05:00"
   }
  ],
  "runs": [
@@ -529,6 +539,16 @@
     "jobs": 45000,
     "nfl": 50000,
     "justbaked": 65000
+   }
+  },
+  {
+   "id": "r20261114T1405ship",
+   "time": "2026-11-14T09:15-05:00",
+   "summary": "Shipped the job-scan guardrails (Creation PR #12); the board stays empty until the CRON_TOKEN secret is added. Nothing else approved; last night's 10 items are already in the log.",
+   "tokens": 30000,
+   "by_company": {
+    "hq": 8000,
+    "jobs": 22000
    }
   }
  ]
