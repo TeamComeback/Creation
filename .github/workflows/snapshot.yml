@@ -37,17 +37,25 @@ jobs:
           CRON_TOKEN: ${{ secrets.CRON_TOKEN }}
         run: |
           hour=$(date -u +%H)
-          if [ -z "$CRON_TOKEN" ]; then
-            echo "::warning::No CRON_TOKEN secret, so no scan was started. Add it under Settings, Secrets and variables, Actions."
-            exit 0
-          fi
           if [ "$hour" != "14" ] && [ "$hour" != "15" ] && [ "${{ inputs.scan }}" != "true" ]; then
             echo "Not the daily scan slot; snapshot only."; exit 0
+          fi
+          if [ -z "$CRON_TOKEN" ]; then
+            # Red once a day (the scan slot only), so the HQ watchdog flags it without five failures a day.
+            echo "::error::No CRON_TOKEN secret, so the daily job scan can't run. Add it under Settings, Secrets and variables, Actions."
+            exit 1
           fi
           for i in 1 2 3 4; do
             code=$(curl -s -o scan.json -w '%{http_code}' --max-time 300 -X POST "https://creation-lc6a.onrender.com/api/scan?wait=true&token=$CRON_TOKEN") || code=000
             echo "attempt $i: HTTP $code"; cat scan.json 2>/dev/null; echo
-            [ "$code" = "200" ] && exit 0
+            if [ "$code" = "200" ]; then
+              kept=$(python -c "import json;print(json.load(open('scan.json')).get('kept',0))" 2>/dev/null || echo 0)
+              if [ "$kept" = "0" ]; then
+                echo "::error::The scan ran but kept 0 jobs. Check the board's /health page: a job source key may be missing or rejected."
+                exit 1
+              fi
+              echo "Scan kept $kept jobs."; exit 0
+            fi
             [ "$code" = "401" ] && { echo "::error::Render rejected the CRON_TOKEN secret; it must match the one set on Render."; exit 1; }
             sleep 30
           done
