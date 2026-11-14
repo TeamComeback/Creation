@@ -120,6 +120,127 @@
    "note": "Froze 701 graded 2026 games (489 on v2.7). Calibration change rejected: fixes the +0.23 bias but MAE 3.41->3.42 and O/U 52.4%->52.3%; bias within noise; 0 closing lines. v2.7 unchanged.",
    "owner_action": "",
    "at": "2026-11-09T07:55-05:00"
+  },
+  {
+   "id": "fix-dd-trend",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/12",
+   "commit": "7f3d1f3",
+   "note": "Trend Co. now trades half size until its win rate tops 30% (4 of 23 today), and no single entry can use more than 20% of the firm. The journal logs each resize. The thesis-review journal entry was skipped because the trading job owns that file.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261109curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/12",
+   "commit": "7f3d1f3",
+   "note": "Shipped together with fix-dd-trend: half size until the win rate tops 30%.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261106curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/12",
+   "commit": "7f3d1f3",
+   "note": "Trend Co. and Snapback Partners cap any one entry at 20% of the firm, so settled cash stays for the next setup.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261031perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/5",
+   "commit": "db2049f",
+   "note": "value_dog (CLV -4.1% over 10 legs) is benched until its CLV turns positive over 5+ legs. It still places the odd exploratory bet, so it can return on its own. The $5 minimum bet is unchanged.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261027jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://creation-lc6a.onrender.com/",
+   "commit": "",
+   "note": "This was already on the board: every job carries its metro, and the board has Tampa Bay, Jacksonville, Orlando and Tallahassee filter chips. The board is empty because no scan has run; see the repair.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261029jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://creation-lc6a.onrender.com/",
+   "commit": "",
+   "note": "This was already on the board: each job has Applied and Dismiss buttons, the New view hides jobs you've handled, and marks survive restarts through the snapshot.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "fix-empty-jobs",
+   "status": "blocked",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/11",
+   "commit": "e29a7a8",
+   "note": "Repair shipped. No scan has run since Oct 26 because the outside scheduler stopped calling the board, so all 62 matches aged out on Nov 9. The GitHub snapshot job can now run the scan every morning at 10:45 AM, but it needs the board's scan password.",
+   "owner_action": "At a computer: in Render (creation-lc6a, Environment) copy CRON_TOKEN; in GitHub (TeamComeback/Creation, Settings, Secrets and variables, Actions) add a secret named CRON_TOKEN with that value. Scans start the next morning.",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261029nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/4",
+   "commit": "5ffaa0f",
+   "note": "Injury tags now refresh from ESPN's injury report Wed-Fri 4:40 PM, Sun 8:40 AM and Mon 5:40 PM. A first dry run found Evans now Out (Achilles), Herbert cleared, and Nacua on IR.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261031nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/4",
+   "commit": "5ffaa0f",
+   "note": "Over legs that need more than double their 2026 per-game rate now show a pace alert, and each slip card shows its count. Example: Herbert needs 2.22 TD/g, 3.0x his 0.75/g.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261023justbaked",
+   "status": "shipped",
+   "repo": "",
+   "link": "https://claude.ai/artifact/KW293JCWBggDaXxfsAnPud",
+   "commit": "",
+   "note": "Built a phone checklist page for the four launch items. Her answers save as she goes and you can see them on the page. It changes nothing in Square.",
+   "owner_action": "Share the page with Alyiza from its Share menu (edit access, so she can save). Until then only you can open it.",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "seed5",
+   "status": "shipped",
+   "repo": "",
+   "link": "https://claude.ai/artifact/KW293JCWBggDaXxfsAnPud",
+   "commit": "",
+   "note": "Folded into the checklist page: each item has an example format. The agent did not guess charity names, social links or the cake price, since only Alyiza knows them.",
+   "owner_action": "",
+   "at": "2026-11-13T20:40-05:00"
+  },
+  {
+   "id": "p20261113justbaked",
+   "status": "shipped",
+   "repo": "",
+   "link": "",
+   "commit": "",
+   "note": "Research written up; read it on the card.",
+   "owner_action": "Optional, at a computer in the Square Dashboard: turn on order-ahead and pickup scheduling, and confirm that new-order alerts reach Alyiza's phone.",
+   "deliverable": "What Square can already do, free: Square Online's free plan takes pickup and local-delivery orders, lets customers order ahead for a set date and time, and pulls items and prices from the same Square catalog as the register, so updating an item once updates the site. It charges 2.9% + 30c per online sale; customer accounts, a custom domain and product reviews need a paid plan.\n\nWhat the HQ could add: Square's developer API (free) can read orders and sales with a read-only access token, so the HQ could post a weekly JustBaked sales recap and flag big orders. Zapier also connects to Square (New Order, New Payment, New Customer triggers) to text or email each new order, but it is a separate account with its own limits.\n\nWhat only you or Alyiza can do, at a computer, about 15 minutes: in the Square Dashboard, turn on pickup scheduling and order-ahead, confirm order alerts go to her phone in the Square app, and, if you want the weekly recap, create a read-only personal access token in Square's Developer Dashboard and give it to the HQ as a secret.\n\nRecommendation: start free. Turn on order-ahead and phone alerts in Square, then decide on the HQ recap after a month of orders.\n\nSources: squareup.com/us/en/online-store/plans, business.org Square Online review, help.zapier.com Square guide, developer.squareup.com Orders and Reporting docs.",
+   "at": "2026-11-13T20:40-05:00"
   }
  ],
  "runs": [
@@ -394,6 +515,20 @@
    "tokens": 5000,
    "by_company": {
     "hq": 5000
+   }
+  },
+  {
+   "id": "r20261114T0105ship",
+   "time": "2026-11-13T20:05-05:00",
+   "summary": "Shipped 10 approved items across 4 apps (Curiosity #12, Perseverance #5, Fantasy-Tracker #4, Creation #11) plus the JustBaked checklist page and Square research; repaired the job-board scan, which still needs one owner step (CRON_TOKEN secret).",
+   "tokens": 260000,
+   "by_company": {
+    "hq": 20000,
+    "curiosity": 45000,
+    "perseverance": 35000,
+    "jobs": 45000,
+    "nfl": 50000,
+    "justbaked": 65000
    }
   }
  ]
