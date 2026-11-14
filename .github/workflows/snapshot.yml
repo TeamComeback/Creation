@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "45 14,17,20,23,2 * * *"   # 10:45 AM, 1:45, 4:45, 7:45, 10:45 PM Eastern (EDT)
   workflow_dispatch:
+    inputs:
+      scan:
+        description: "Run a full job scan first"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,6 +28,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # The daily scan. Render's free tier has no cron, and the outside scheduler stopped
+      # calling /api/scan after Oct 26, so every job aged out by Nov 9. With a CRON_TOKEN
+      # repository secret (the same value as the CRON_TOKEN set on Render), this job runs
+      # the scan itself on the first run of each day (10:45 AM Eastern) and on demand.
+      - name: Run the daily scan
+        env:
+          CRON_TOKEN: ${{ secrets.CRON_TOKEN }}
+        run: |
+          hour=$(date -u +%H)
+          if [ -z "$CRON_TOKEN" ]; then
+            echo "::warning::No CRON_TOKEN secret, so no scan was started. Add it under Settings, Secrets and variables, Actions."
+            exit 0
+          fi
+          if [ "$hour" != "14" ] && [ "$hour" != "15" ] && [ "${{ inputs.scan }}" != "true" ]; then
+            echo "Not the daily scan slot; snapshot only."; exit 0
+          fi
+          for i in 1 2 3 4; do
+            code=$(curl -s -o scan.json -w '%{http_code}' --max-time 300 -X POST "https://creation-lc6a.onrender.com/api/scan?wait=true&token=$CRON_TOKEN") || code=000
+            echo "attempt $i: HTTP $code"; cat scan.json 2>/dev/null; echo
+            [ "$code" = "200" ] && exit 0
+            [ "$code" = "401" ] && { echo "::error::Render rejected the CRON_TOKEN secret; it must match the one set on Render."; exit 1; }
+            sleep 30
+          done
+          echo "::error::The scan did not complete"; exit 1
       - name: Pull the live board (wakes a sleeping instance)
         run: |
           for i in 1 2 3 4 5 6; do
