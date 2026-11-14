@@ -371,11 +371,19 @@ else:
                  "efficiency": clamp(0.5 * 70 + 0.5 * (100 if jobs else 0)),
                  "profitability": clamp(min(len([j for j in jobs if (j.get('score') or 0) >= 70]), 10) * 10),
                  "automation": "Daily scan 10:00 AM via cron-job.org; Render free tier (sleeps, /tmp resets)"}
-    if not jobs:
-        find("empty-jobs", "staleness", "jobs", "high", "Job board is empty",
-             "The board answers but holds 0 jobs. On Render's free tier the SQLite file in /tmp is wiped on every restart, "
-             "so matches vanish after the service sleeps.",
-             "Move storage to a free hosted database or write matches to the repo so they survive restarts.")
+    snap_jobs = get("https://raw.githubusercontent.com/TeamComeback/Creation/main/data/jobs.json")
+    seen = max([str(j.get("last_seen") or "") for j in jobs] +
+               [str(j.get("last_seen") or "") for j in (snap_jobs if isinstance(snap_jobs, list) else [])] + [""])
+    scan_age = age_days(seen) if seen else None
+    B["jobs"]["last_scan_seen"] = seen or None
+    if not jobs or (scan_age is not None and scan_age > 3):
+        find("empty-jobs", "watchdog", "jobs", "high",
+             "Job board is empty: no scan has run" if not jobs else f"No job scan in {scan_age:.0f} days",
+             "The board only fills when something calls its scan. The outside scheduler (cron-job.org) stopped after "
+             "Oct 26, so every match aged out of the 14-day window on Nov 9. The GitHub snapshot job can now run the "
+             "scan itself every morning, but it needs the board's scan password.",
+             "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, "
+             "Settings, Secrets and variables, Actions, New secret named CRON_TOKEN. Scans start the next morning.")
 
 # ---------------- Perseverance (paper betting agent, $100 -> $1,000) ----------------
 pv = get(SRC["pv_state"])
