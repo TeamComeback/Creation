@@ -361,16 +361,16 @@ else:
 jb = get(SRC["jobs"])
 if isinstance(jb, dict) and "__error" in jb:
     B["jobs"] = {"error": jb["__error"], "efficiency": 20, "profitability": 0, "count": None,
-                 "automation": "Daily scan via cron-job.org; Render free tier"}
+                 "automation": "Daily scan from the GitHub snapshot job (needs the CRON_TOKEN secret); Render free tier"}
     find("src-jobs", "staleness", "jobs", "high", "Job board is unreachable", jb["__error"],
-         "Open creation-lc6a.onrender.com to wake it, then check cron-job.org history.")
+         "Open creation-lc6a.onrender.com to wake it, then check the Job snapshot run in GitHub Actions.")
 else:
     jobs = jb if isinstance(jb, list) else jb.get("jobs", [])
     top = sorted(jobs, key=lambda j: j.get("score", 0), reverse=True)[:5]
     B["jobs"] = {"count": len(jobs), "top": [{k: j.get(k) for k in ("title", "company", "location", "score", "track", "url")} for j in top],
                  "efficiency": clamp(0.5 * 70 + 0.5 * (100 if jobs else 0)),
                  "profitability": clamp(min(len([j for j in jobs if (j.get('score') or 0) >= 70]), 10) * 10),
-                 "automation": "Daily scan 10:00 AM via cron-job.org; Render free tier (sleeps, /tmp resets)"}
+                 "automation": "Daily scan 10:45 AM from the GitHub snapshot job, which also saves matches to the repo so restarts don't lose them"}
     snap_jobs = get("https://raw.githubusercontent.com/TeamComeback/Creation/main/data/jobs.json")
     seen = max([str(j.get("last_seen") or "") for j in jobs] +
                [str(j.get("last_seen") or "") for j in (snap_jobs if isinstance(snap_jobs, list) else [])] + [""])
