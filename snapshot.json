@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T17:54-05:00",
+ "updated": "2026-11-13T22:37-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-13T15:49-05:00",
-   "age_days": 0.1,
+   "age_days": 0.3,
    "pool_now": 3603.93,
    "pool_start": 4000.0,
    "pool_ret": -9.9,
@@ -308,7 +308,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 98,
+   "efficiency": 95,
    "profitability": 13,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -317,7 +317,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 4.7,
+   "age_days": 4.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -634,7 +634,7 @@
      "health": 75
     }
    ],
-   "efficiency": 54,
+   "efficiency": 53,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -643,7 +643,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 19.3,
+   "age_days": 19.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -688,11 +688,12 @@
    "efficiency": 35,
    "profitability": 0,
    "automation": "Daily scan 10:00 AM via cron-job.org; Render free tier (sleeps, /tmp resets)",
+   "last_scan_seen": null,
    "stage": "Pipeline",
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-13T22:01:27Z",
+   "updated": "2026-11-14T03:14:09Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -738,7 +739,9 @@
     "w_h2h": 0.25,
     "matchup_strength": 1.0
    },
-   "paused": [],
+   "paused": [
+    "value_dog"
+   ],
    "weights": {
     "value_fav": 0.842,
     "value_dog": 0.415,
@@ -749,9 +752,9 @@
     "matchup_under": 0.834
    },
    "strategist_on": false,
-   "credits": 150,
+   "credits": 147,
    "credits_monthly": 500,
-   "per_scan": 1,
+   "per_scan": 0,
    "open_bets": [
     {
      "what": "Aaron Nesmith Under 4.5",
@@ -866,47 +869,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-13T19:30:34Z",
+     "ts": "2026-11-14T00:13:33Z",
      "kind": "props",
-     "text": "NBA matchups: 9 games, strongest spots: Kingston Flemings ast +14% vs CHI; Jalen Brunson ra +13% vs IND; Isaiah Stewart ra +13% vs NO. Bought prop odds for NY@IND (ast, ra, pra) (3 credits). Placed 3: Aaron Nesmith Under 4.5 @ +105 (BetMGM); Ivica Zubac Under "
+     "text": "NBA matchups: 7 games, strongest spots: Kingston Flemings ast +14% vs CHI; Isaiah Stewart ra +13% vs NO; Jaxson Hayes pra -11% vs HOU. Bought prop odds for UTAH@HOU (ast, ra, pra) (3 credits). Nothing cleared the bar."
     },
     {
-     "ts": "2026-11-13T20:15:38Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-13T20:39:08Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-13T21:16:30Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-13T21:23:13Z",
+     "ts": "2026-11-14T00:51:21Z",
      "kind": "scan",
-     "text": "Scanned mma_mixed_martial_arts (36) for 1 credits. Nothing cleared the bar. Equity $43.16."
+     "text": "No scan this run (allowance 0 credits, 147 left this month)."
     },
     {
-     "ts": "2026-11-13T22:00:41Z",
+     "ts": "2026-11-14T01:00:47Z",
      "kind": "research",
-     "text": "Research refresh for Fri Nov 13: 9 games, 220 players projected, lineups for 9 games."
+     "text": "Research refresh for Fri Nov 13: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-14T01:05:27Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-14T02:30:44Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-14T03:14:02Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 13: 9 games, 217 players projected, lineups for 9 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-06T20:49:43Z",
-     "agent": 46.36,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-06T23:40:16Z",
-     "agent": 46.36,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-07T00:02:35Z",
      "agent": 46.36,
@@ -1096,6 +1089,16 @@
      "ts": "2026-11-13T21:23:13Z",
      "agent": 43.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-14T00:13:33Z",
+     "agent": 43.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-14T00:51:21Z",
+     "agent": 43.16,
+     "you": 100.0
     }
    ],
    "runs": [],
@@ -1131,7 +1134,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 84.8,
+   "age_days": 85.0,
    "efficiency": 37,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1141,7 +1144,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 118.8,
+   "age_days": 119.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1154,11 +1157,11 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-13T17:54-05:00",
+  "checked": "2026-11-13T22:37-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-13T12:18-05:00",
-   "age_hours": 5.6,
+   "age_hours": 10.3,
    "ok": true,
    "summary": "Shipping run (delayed: the Nov 9 8:05 PM run was delivered 3.5 days late, so no runs happened Nov 10-13): nothing approved to ship; backlog is clear."
   },
@@ -1207,8 +1210,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T22:31:12Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43484108031"
+    "at": "2026-11-14T00:22:55Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43533759221"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1234,8 +1237,8 @@
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T20:59:09Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43506450695"
+    "at": "2026-11-14T03:32:40Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43552116172"
    },
    {
     "repo": "Creation",
@@ -1243,8 +1246,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T17:29:57Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43473329677"
+    "at": "2026-11-13T22:55:40Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43523076578"
    },
    {
     "repo": "Perseverance",
@@ -1252,8 +1255,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-13T22:45:37Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43521812485"
+    "at": "2026-11-14T03:30:41Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43551955179"
    }
   ],
   "ok": true

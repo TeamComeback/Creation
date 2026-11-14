@@ -10,12 +10,12 @@
  },
  {
   "id": "empty-jobs",
-  "agent": "staleness",
+  "agent": "watchdog",
   "business": "jobs",
   "severity": "high",
-  "title": "Job board is empty",
-  "detail": "The board answers but holds 0 jobs. On Render's free tier the SQLite file in /tmp is wiped on every restart, so matches vanish after the service sleeps.",
-  "action": "Move storage to a free hosted database or write matches to the repo so they survive restarts."
+  "title": "Job board is empty: no scan has run",
+  "detail": "The board only fills when something calls its scan. The outside scheduler (cron-job.org) stopped after Oct 26, so every match aged out of the 14-day window on Nov 9. The GitHub snapshot job can now run the scan itself every morning, but it needs the board's scan password.",
+  "action": "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, Settings, Secrets and variables, Actions, New secret named CRON_TOKEN. Scans start the next morning."
  },
  {
   "id": "dd-trend",
