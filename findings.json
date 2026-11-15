@@ -40,7 +40,7 @@
   "agent": "overseer",
   "business": "nfl",
   "severity": "med",
-  "title": "Mike Evans injury designation: D",
+  "title": "Mike Evans injury designation: O",
   "detail": "Leg on New Systems (receiving touchdowns).",
   "action": "Check practice reports before the weekend."
  },
@@ -67,8 +67,8 @@
   "agent": "overseer",
   "business": "perseverance",
   "severity": "med",
-  "title": "Betting agent is down to $28.16",
-  "detail": "Run #1 started at $100. The $5 minimum bet means about 5 bets of runway left.",
+  "title": "Betting agent is down to $18.16",
+  "detail": "Run #1 started at $100. The $5 minimum bet means about 3 bets of runway left.",
   "action": "Review which playbook is losing in its journal."
  },
  {
@@ -103,7 +103,7 @@
   "agent": "memory",
   "business": "screener",
   "severity": "low",
-  "title": "Stock screener has sat undeployed for 120 days",
+  "title": "Stock screener has sat undeployed for 121 days",
   "detail": "Curiosity's agents now scan a 7,000-symbol universe on their own, which covers most of what the screener was for.",
   "action": "Decide: deploy it, fold its charts into Curiosity, or archive it."
  }
