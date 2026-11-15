@@ -40,8 +40,12 @@ than 14 hours, or the last three all have `ok: false`, tell the owner in one sen
 On Sundays, also save a backup: list every HQ collection and commit the JSON to the `hq-data` branch under
 `backup/`.
 
+## 5b. Refresh the HQ data
+GitHub drops many scheduled runs, so finish every shipping run by starting the data job:
+`gh api -X POST repos/TeamComeback/Creation/actions/workflows/hq-data.yml/dispatches -f ref=main`.
+
 ## 6. Keep the chain alive
-Schedule the next two slots (14:05 and 01:05 UTC while Eastern is UTC-5; 13:05 and 00:05 UTC from
+Schedule the next two slots. Do this before the long work, not at the end, so an interrupted run can't break the chain: (14:05 and 01:05 UTC while Eastern is UTC-5; 13:05 and 00:05 UTC from
 March 8 2027), skipping any slot that already has a pending shipping run. If this run arrived late, skip
 the missed slots.
 
