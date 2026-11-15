@@ -251,6 +251,16 @@
    "note": "Plan steps 2-4 shipped (PRs #11 and #12): the snapshot job runs the scan at 10:45 AM and fails loudly when the secret is missing or a scan keeps 0 jobs; cron-job.org references removed. Step 5 waits on the secret.",
    "owner_action": "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, Settings, Secrets and variables, Actions, New secret named CRON_TOKEN.",
    "at": "2026-11-14T09:15-05:00"
+  },
+  {
+   "id": "fix-hq-data-stall",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/14",
+   "commit": "2d545f3",
+   "note": "Cause: GitHub's scheduler fired only 3 of the HQ data job's scheduled runs since Nov 13, and none after Sat 1:31 PM. Fix: the job now runs every 2 hours, shipping runs start it by hand, and a fresh refresh was started this morning.",
+   "owner_action": "",
+   "at": "2026-11-15T09:20-05:00"
   }
  ],
  "runs": [
@@ -549,6 +559,24 @@
    "by_company": {
     "hq": 8000,
     "jobs": 22000
+   }
+  },
+  {
+   "id": "r20261115T0105ship",
+   "time": "2026-11-14T20:05-05:00",
+   "summary": "Shipping run cut short: it moved the HQ data refresh earlier (Creation PR #13) but stopped at an approval prompt before logging or scheduling the next run, which broke the chain until this morning.",
+   "tokens": 40000,
+   "by_company": {
+    "hq": 40000
+   }
+  },
+  {
+   "id": "r20261115T1405ship",
+   "time": "2026-11-15T09:20-05:00",
+   "summary": "Repaired the HQ data refresh (Creation PR #14: every 2 hours, plus manual starts from shipping runs) and restored the shipping schedule, which had lapsed after last night's interrupted run.",
+   "tokens": 45000,
+   "by_company": {
+    "hq": 45000
    }
   }
  ]
