@@ -1,12 +1,12 @@
 # Refreshes the Team Comeback HQ's numbers without needing a Claude session.
 # Runs hq/collector.py and publishes snapshot.json, findings.json and
 # shipping.json to the hq-data branch (never main, so Render does not redeploy).
-# The HQ upkeep run reads those files about 40 minutes later.
+# The HQ upkeep run reads those files at :33, about 90 minutes later, which leaves room for GitHub delays.
 name: HQ data
 
 on:
   schedule:
-    - cron: "50 12,17,23 * * *"   # 7:50 AM, 12:50 PM, 6:50 PM Eastern (EST)
+    - cron: "5 12,17,23 * * *"    # 7:05 AM, 12:05 PM, 6:05 PM Eastern (EST); GitHub can start these 30-60 min late
   workflow_dispatch:
 
 permissions:
