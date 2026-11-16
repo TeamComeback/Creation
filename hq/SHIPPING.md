@@ -49,6 +49,15 @@ Schedule the next two slots. Do this before the long work, not at the end, so an
 March 8 2027), skipping any slot that already has a pending shipping run. If this run arrived late, skip
 the missed slots.
 
+## Perseverance City (added Nov 16 2026)
+Perseverance has a city page (`docs/city.html`) that shows every module as a desk in one of ten companies. The HQ may
+change who works there: titles, jobs, statuses (probation, understudy, benched, vacant), the bulletin, and which documents
+each desk reads and writes, all in `docs/city/cast.json`. Runbook: `docs/city/HQ.md` in the Perseverance repo.
+- When you ship a new module to Perseverance, give it a desk in the same change; `node tools/check.js` fails otherwise.
+- When a status changes (a model passes its test, a playbook is benched, the Daily Briefing writer is built), update the desk.
+- Bylaws on the spire mirror the owner's fixed rules; never loosen one there.
+- Always run `node tools/orgmap.js --check` and `node tools/orgmap.js` before committing.
+
 ## Standing orders from the owner
 - Nov 13 2026 (q9): **yes** to repairs without approval. Anything broken (crashes, failed automation, dead feeds,
   wrong data) is fixed on the next run and reported, as long as the fix changes no strategy, settings or money rule.
