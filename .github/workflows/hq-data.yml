@@ -7,6 +7,7 @@ name: HQ data
 on:
   schedule:
     - cron: "17 */2 * * *"     # every 2 hours at :17. GitHub drops or delays many scheduled runs in this repo
+    - cron: "47 1-23/2 * * *"  # second line, offset by an hour: if GitHub drops one slot, the other still fires
                                 #   (about 2 of 5 fire), so frequent slots keep the data under ~4 hours old.
   workflow_dispatch:
 
