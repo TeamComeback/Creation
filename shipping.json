@@ -261,6 +261,15 @@
    "note": "Cause: GitHub's scheduler fired only 3 of the HQ data job's scheduled runs since Nov 13, and none after Sat 1:31 PM. Fix: the job now runs every 2 hours, shipping runs start it by hand, and a fresh refresh was started this morning.",
    "owner_action": "",
    "at": "2026-11-15T09:20-05:00"
+  },
+  {
+   "id": "fix-hq-data-lag",
+   "title": "Find out why the HQ data refresh missed its overnight slots",
+   "repo": "TeamComeback/Creation",
+   "pr": "https://github.com/TeamComeback/Creation/pull/15",
+   "commit": "9eceb72",
+   "time": "2026-11-16T09:10-05:00",
+   "summary": "Cause: every run that started succeeded; GitHub simply never started several scheduled slots (none between 1:30 AM and 9:08 AM ET). Added a second cron line at :47 on the odd hours so a dropped slot is covered an hour later; shipping runs still start the job by hand. The collector is unchanged."
   }
  ],
  "runs": [
@@ -586,6 +595,15 @@
    "tokens": 15000,
    "by_company": {
     "hq": 15000
+   }
+  },
+  {
+   "id": "r20261116T1405ship",
+   "time": "2026-11-16T09:10-05:00",
+   "summary": "Shipped the HQ data lag repair (Creation PR #15, second refresh schedule). fix-empty-jobs is still waiting on the CRON_TOKEN secret. Next shipping runs are scheduled.",
+   "tokens": 20000,
+   "by_company": {
+    "hq": 20000
    }
   }
  ]
