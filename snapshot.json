@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T18:58-05:00",
+ "updated": "2026-11-15T20:06-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-13T15:49-05:00",
-   "age_days": 2.1,
+   "age_days": 2.2,
    "pool_now": 3603.93,
    "pool_start": 4000.0,
    "pool_ret": -9.9,
@@ -693,7 +693,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-15T23:54:49Z",
+   "updated": "2026-11-16T01:00:56Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -845,26 +845,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-15T22:15:39Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 212 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-15T22:30:36Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 215 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-15T23:15:36Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 215 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-15T23:19:53Z",
-     "kind": "props",
-     "text": "NBA matchups: 3 games, strongest spots: Steven Adams ra +14% vs WSH; Alperen Sengun pra +14% vs WSH; Kyshawn George ra -12% vs HOU. Bought prop odds for HOU@WSH (ast, ra) (2 credits). Nothing cleared the bar."
-    },
-    {
      "ts": "2026-11-15T23:54:49Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 0 left this month)."
@@ -873,6 +853,26 @@
      "ts": "2026-11-15T23:54:49Z",
      "kind": "error",
      "text": "Self-check failed: Odds API credits (0 left, 16 days to go: -1.6 a day after the reserve)"
+    },
+    {
+     "ts": "2026-11-16T00:00:47Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T00:25:50Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T00:30:40Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T01:00:46Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 215 players projected, lineups for 9 games."
     }
    ],
    "curve": [
@@ -1110,7 +1110,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 86.8,
+   "age_days": 86.9,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1120,7 +1120,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 120.8,
+   "age_days": 120.9,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1133,13 +1133,13 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-15T18:58-05:00",
+  "checked": "2026-11-15T20:06-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-15T09:20-05:00",
-   "age_hours": 9.6,
+   "last": "2026-11-15T20:05-05:00",
+   "age_hours": 0.0,
    "ok": true,
-   "summary": "Repaired the HQ data refresh (Creation PR #14: every 2 hours, plus manual starts from shipping runs) and restored the shipping schedule, which had lapsed after "
+   "summary": "Shipping run: nothing approved; the HQ data repair is working (fresh data at 2:47 PM and 6:59 PM, last upkeep run ok). The upkeep instructions' stale-data fallb"
   },
   "feeds": [
    {
@@ -1222,8 +1222,8 @@
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-15T19:56:47Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43755216317"
+    "at": "2026-11-16T00:21:46Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43779851815"
    },
    {
     "repo": "Creation",
@@ -1231,8 +1231,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-15T19:47:38Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43754316761"
+    "at": "2026-11-15T23:59:04Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43777637793"
    },
    {
     "repo": "Perseverance",
@@ -1240,8 +1240,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-15T23:58:00Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43777593036"
+    "at": "2026-11-16T01:01:07Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43783663431"
    }
   ],
   "ok": true

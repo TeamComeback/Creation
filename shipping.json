@@ -578,6 +578,15 @@
    "by_company": {
     "hq": 45000
    }
+  },
+  {
+   "id": "r20261116T0105ship",
+   "time": "2026-11-15T20:05-05:00",
+   "summary": "Shipping run: nothing approved; the HQ data repair is working (fresh data at 2:47 PM and 6:59 PM, last upkeep run ok). The upkeep instructions' stale-data fallback is written but not yet published; it needs an approval in the setup chat.",
+   "tokens": 15000,
+   "by_company": {
+    "hq": 15000
+   }
   }
  ]
 }
