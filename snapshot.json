@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T20:06-05:00",
+ "updated": "2026-11-16T01:30-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-13T15:49-05:00",
-   "age_days": 2.2,
+   "age_days": 2.4,
    "pool_now": 3603.93,
    "pool_start": 4000.0,
    "pool_ret": -9.9,
@@ -308,7 +308,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 74,
+   "efficiency": 72,
    "profitability": 13,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -317,7 +317,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 6.8,
+   "age_days": 7.1,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -634,7 +634,7 @@
      "health": 75
     }
    ],
-   "efficiency": 47,
+   "efficiency": 46,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -643,7 +643,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 21.4,
+   "age_days": 21.6,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -693,8 +693,8 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-16T01:00:56Z",
-   "age_days": 0.0,
+   "updated": "2026-11-16T05:01:55Z",
+   "age_days": 0.1,
    "start": 100.0,
    "goal": 1000.0,
    "run": 1,
@@ -752,7 +752,7 @@
     "matchup_under": 0.63
    },
    "strategist_on": false,
-   "credits": 0,
+   "credits": 88,
    "credits_monthly": 500,
    "per_scan": 0,
    "open_bets": [
@@ -845,42 +845,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-15T23:54:49Z",
+     "ts": "2026-11-16T01:15:35Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T02:00:44Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T02:43:42Z",
+     "kind": "research",
+     "text": "Research refresh for Sun Nov 15: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-16T02:57:40Z",
      "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 0 left this month)."
+     "text": "No scan this run (allowance 0 credits, 88 left this month)."
     },
     {
-     "ts": "2026-11-15T23:54:49Z",
-     "kind": "error",
-     "text": "Self-check failed: Odds API credits (0 left, 16 days to go: -1.6 a day after the reserve)"
-    },
-    {
-     "ts": "2026-11-16T00:00:47Z",
+     "ts": "2026-11-16T02:57:40Z",
      "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
+     "text": "Self-checks pass again: Odds API credits recovered."
     },
     {
-     "ts": "2026-11-16T00:25:50Z",
+     "ts": "2026-11-16T05:01:23Z",
      "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-16T00:30:40Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 214 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-16T01:00:46Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 15: 9 games, 215 players projected, lineups for 9 games."
+     "text": "Research refresh for Mon Nov 16: 8 games, 199 players projected, lineups for 9 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-09T02:54:47Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-09T19:45:35Z",
      "agent": 42.46,
@@ -1075,10 +1070,15 @@
      "ts": "2026-11-15T23:54:49Z",
      "agent": 18.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-16T02:57:40Z",
+     "agent": 18.16,
+     "you": 100.0
     }
    ],
    "runs": [],
-   "efficiency": 95,
+   "efficiency": 92,
    "profitability": 0,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
@@ -1110,7 +1110,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 86.9,
+   "age_days": 87.1,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1120,7 +1120,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 120.9,
+   "age_days": 121.1,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1129,15 +1129,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 8,
+  "med": 7,
   "low": 3
  },
  "health": {
-  "checked": "2026-11-15T20:06-05:00",
+  "checked": "2026-11-16T01:30-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-15T20:05-05:00",
-   "age_hours": 0.0,
+   "age_hours": 5.4,
    "ok": true,
    "summary": "Shipping run: nothing approved; the HQ data repair is working (fresh data at 2:47 PM and 6:59 PM, last upkeep run ok). The upkeep instructions' stale-data fallb"
   },
@@ -1186,8 +1186,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-14T00:22:55Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43533759221"
+    "at": "2026-11-16T02:51:36Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43794538993"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1219,6 +1219,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-16T01:07:42Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43784297748"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1226,22 +1235,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/43779851815"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-15T23:59:04Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43777637793"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T01:01:07Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43783663431"
+    "at": "2026-11-16T06:30:35Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43817180316"
    }
   ],
   "ok": true

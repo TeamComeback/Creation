@@ -63,15 +63,6 @@
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
-  "id": "credits-perseverance",
-  "agent": "efficiency",
-  "business": "perseverance",
-  "severity": "med",
-  "title": "Only 0 odds credits left this month",
-  "detail": "The agent spreads what's left across the remaining scans and stops at the 25-credit floor, so scans get thin until the reset.",
-  "action": "Fine to ride it out. A paid Odds API tier would let it cover more sports per scan."
- },
- {
   "id": "dd-perseverance",
   "agent": "overseer",
   "business": "perseverance",
