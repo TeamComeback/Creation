@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-16T13:33-05:00",
+ "updated": "2026-11-16T18:51-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-16T13:07-05:00",
-   "age_days": 0.0,
+   "updated": "2026-11-16T15:37-05:00",
+   "age_days": 0.1,
    "pool_now": 3600.35,
    "pool_start": 4000.0,
    "pool_ret": -9.99,
-   "spy_ret": -4.01,
-   "edge": -5.98,
+   "spy_ret": -4.42,
+   "edge": -5.57,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.97,
@@ -33,7 +33,7 @@
      "exhibition": false,
      "risk_adj": -0.61,
      "ret_pct": -28.85,
-     "note": "No trade: the only candidate, KLC put, is in the avoid-listed Broad market bucket (-57.20 record) and is a $1.25 high-volatility name. Hold CLSX to its 2.98 underlying stop and keep settled cash for a Health Care close above trigger on 2.5x"
+     "note": "Taking the rule-qualifying KLC breakdown at a small premium budget despite the avoid-list tag; the loss is capped at premium, and cheap extreme-volatility names need small size."
     },
     {
      "id": "meanrev",
@@ -49,7 +49,7 @@
      "exhibition": false,
      "risk_adj": -0.04,
      "ret_pct": -0.21,
-     "note": "No candidate clears my 1:1 stop-to-target floor at live prices (ROST closest at about 0.98:1, ICLR 0.61, GM 0.59, MRNA 0.56, CCL 0.57, HALO 0.41). Passing and keeping $880 settled cash for a washout that clears 1:1."
+     "note": "No candidate clears my 1:1 stop-to-target floor at 15:37 prices: DE about 0.82:1, GM 0.69, MRNA 0.56, HALO 0.55, VRTX 0.28, VEEV 0.24. Passing and keeping $880 settled cash. The game plan's HALO position is stale because HALO closed this mo"
     },
     {
      "id": "volsell",
@@ -70,41 +70,41 @@
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 959.93,
+     "equity": 955.85,
      "status": "active",
-     "progress_pct": 9.6,
+     "progress_pct": 9.56,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 5.1,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.79,
-     "ret_pct": -4.01,
+     "risk_adj": -0.87,
+     "ret_pct": -4.42,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 914.55,
+     "equity": 913.76,
      "status": "active",
-     "progress_pct": 9.15,
+     "progress_pct": 9.14,
      "open": 1,
      "closed": 8,
      "win_rate": 50.0,
      "max_dd_pct": 10.6,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.81,
-     "ret_pct": -8.55,
+     "risk_adj": -0.82,
+     "ret_pct": -8.62,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -398.26,
+     "equity": -396.26,
      "status": "eliminated",
-     "progress_pct": -3.98,
+     "progress_pct": -3.96,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
@@ -112,7 +112,7 @@
      "competing": false,
      "exhibition": true,
      "risk_adj": -0.99,
-     "ret_pct": -139.83,
+     "ret_pct": -139.63,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -297,15 +297,15 @@
      "date": "2026-11-16",
      "racing": 3600.35,
      "leader": 1001.97,
-     "spy": 959.93
+     "spy": 955.85
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "up",
-    "vs200": 1.4,
-    "radar": 23,
+    "vs200": 1.0,
+    "radar": 24,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
@@ -314,8 +314,8 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 100,
-   "profitability": 20,
+   "efficiency": 98,
+   "profitability": 22,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -323,7 +323,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 7.6,
+   "age_days": 7.8,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -640,7 +640,7 @@
      "health": 75
     }
    ],
-   "efficiency": 45,
+   "efficiency": 44,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -649,7 +649,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 22.1,
+   "age_days": 22.4,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,22 +699,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-16T18:01:40Z",
+   "updated": "2026-11-16T23:46:27Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 1,
    "agent": {
-    "equity": 18.16,
-    "bets": 59,
+    "equity": 13.16,
+    "bets": 60,
     "won": 20,
-    "lost": 37,
+    "lost": 38,
     "push": 2,
-    "roi": -0.275,
+    "roi": -0.287,
     "clv": -0.0228,
     "open": 1,
-    "profit": -81.84,
-    "staked": 297.63
+    "profit": -86.84,
+    "staked": 302.63
    },
    "you": {
     "equity": 100.0,
@@ -738,7 +738,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.04,
-    "prop_model_weight": 0.227,
+    "prop_model_weight": 0.204,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -754,28 +754,40 @@
     "longshot": 0.427,
     "arb": 1.003,
     "parlay_ev": 1.0,
-    "matchup_over": 1.417,
+    "matchup_over": 1.296,
     "matchup_under": 0.63
    },
    "strategist_on": false,
-   "credits": 88,
+   "credits": 82,
    "credits_monthly": 500,
    "per_scan": 0,
    "open_bets": [
+    {
+     "what": "Cam Spencer Under 7.5",
+     "odds": -105,
+     "book": "espnbet",
+     "game": "Memphis Grizzlies @ Washington Wizards",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1571,
+     "start": "2026-11-17T00:10:00Z"
+    }
+   ],
+   "recent": [
     {
      "what": "Alperen Sengun Over 16.5",
      "odds": 100,
      "book": "fanduel",
      "game": "Houston Rockets @ Washington Wizards",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_over",
      "ev": 0.0639,
      "start": "2026-11-16T00:10:00Z"
-    }
-   ],
-   "recent": [
+    },
     {
      "what": "Davion Mitchell Under 8.5",
      "odds": -118,
@@ -835,68 +847,41 @@
      "playbook": "matchup_under",
      "ev": 0.1757,
      "start": "2026-11-14T00:10:00Z"
-    },
-    {
-     "what": "Devin Booker Under 4.5",
-     "odds": 124,
-     "book": "fanduel",
-     "game": "Charlotte Hornets @ Phoenix Suns",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1937,
-     "start": "2026-11-13T02:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-16T14:45:38Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T15:00:43Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 192 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T15:15:35Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 190 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T16:00:48Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 190 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T17:31:33Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T18:00:46Z",
+     "ts": "2026-11-16T22:00:43Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 16: 8 games, 194 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-16T22:15:46Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 194 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-16T23:00:55Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-16T23:02:19Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-16T23:43:36Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 82 left this month)."
+    },
+    {
+     "ts": "2026-11-16T23:45:37Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-09T19:45:35Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-09T23:45:09Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-10T01:54:47Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-10T02:38:50Z",
      "agent": 42.46,
@@ -1081,6 +1066,21 @@
      "ts": "2026-11-16T02:57:40Z",
      "agent": 18.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-16T19:30:42Z",
+     "agent": 13.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-16T19:35:21Z",
+     "agent": 13.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-16T23:43:36Z",
+     "agent": 13.16,
+     "you": 100.0
     }
    ],
    "runs": [],
@@ -1116,7 +1116,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 87.6,
+   "age_days": 87.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1126,7 +1126,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 121.6,
+   "age_days": 121.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1139,11 +1139,11 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-16T13:33-05:00",
+  "checked": "2026-11-16T18:51-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-16T09:10-05:00",
-   "age_hours": 4.4,
+   "age_hours": 9.7,
    "ok": true,
    "summary": "Shipped the HQ data lag repair (Creation PR #15, second refresh schedule). fix-empty-jobs is still waiting on the CRON_TOKEN secret. Next shipping runs are sche"
   },
@@ -1191,9 +1191,9 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-16T17:37:14Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43865685563"
+    "conclusion": "cancelled",
+    "at": "2026-11-16T21:41:25Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43956559547"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1225,20 +1225,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T14:09:45Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43882692466"
+    "at": "2026-11-16T23:30:26Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43979767888"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T10:10:59Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43846373081"
+    "at": "2026-11-16T18:34:26Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43930089867"
    },
    {
     "repo": "Perseverance",
@@ -1246,8 +1246,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T18:15:27Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43926852025"
+    "at": "2026-11-16T23:46:47Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43981961758"
    }
   ],
   "ok": true
