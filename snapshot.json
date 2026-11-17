@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T18:51-05:00",
+ "updated": "2026-11-16T20:06-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-16T15:37-05:00",
-   "age_days": 0.1,
+   "age_days": 0.2,
    "pool_now": 3600.35,
    "pool_start": 4000.0,
    "pool_ret": -9.99,
@@ -314,7 +314,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 98,
+   "efficiency": 96,
    "profitability": 22,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -699,7 +699,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-16T23:46:27Z",
+   "updated": "2026-11-17T01:00:55Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -851,16 +851,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-16T22:00:43Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 194 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T22:15:46Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 194 players projected, lineups for 8 games."
-    },
-    {
      "ts": "2026-11-16T23:00:55Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
@@ -877,6 +867,16 @@
     },
     {
      "ts": "2026-11-16T23:45:37Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-17T00:30:44Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-17T01:00:43Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
     }
@@ -1116,7 +1116,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 87.8,
+   "age_days": 87.9,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1126,7 +1126,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 121.8,
+   "age_days": 121.9,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1139,13 +1139,13 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-16T18:51-05:00",
+  "checked": "2026-11-16T20:06-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-16T09:10-05:00",
-   "age_hours": 9.7,
+   "last": "2026-11-16T20:05-05:00",
+   "age_hours": 0.0,
    "ok": true,
-   "summary": "Shipped the HQ data lag repair (Creation PR #15, second refresh schedule). fix-empty-jobs is still waiting on the CRON_TOKEN secret. Next shipping runs are sche"
+   "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be rel"
   },
   "feeds": [
    {
@@ -1225,6 +1225,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-16T23:52:07Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43982841800"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1232,22 +1241,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/43979767888"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-16T18:34:26Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43930089867"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T23:46:47Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43981961758"
+    "at": "2026-11-17T01:01:03Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43992140253"
    }
   ],
   "ok": true

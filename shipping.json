@@ -270,6 +270,15 @@
    "commit": "9eceb72",
    "time": "2026-11-16T09:10-05:00",
    "summary": "Cause: every run that started succeeded; GitHub simply never started several scheduled slots (none between 1:30 AM and 9:08 AM ET). Added a second cron line at :47 on the odd hours so a dropped slot is covered an hour later; shipping runs still start the job by hand. The collector is unchanged."
+  },
+  {
+   "id": "fix-hq-data-lag",
+   "title": "Find out why the HQ data refresh missed its overnight slots",
+   "repo": "TeamComeback/Creation",
+   "pr": "https://github.com/TeamComeback/Creation/pull/15",
+   "commit": "9eceb72",
+   "time": "2026-11-16T20:05-05:00",
+   "summary": "Check after PR #15: of about 10 scheduled slots between 9:10 AM and 8 PM ET only 2 started (1:33 PM and 6:51 PM); every run that started succeeded, so the cause is GitHub not starting scheduled runs, not a failure in the job. More cron lines did not raise the rate, so I'm leaving the two-line schedule as is. What keeps the data fresh is the by-hand start from each shipping run (9:05 AM, 8:05 PM) and the upkeep run's own fallback, which is written but not yet published. Closing the repair as done; the publish of that fallback is the open step."
   }
  ],
  "runs": [
@@ -604,6 +613,15 @@
    "tokens": 20000,
    "by_company": {
     "hq": 20000
+   }
+  },
+  {
+   "id": "r20261117T0105ship",
+   "time": "2026-11-16T20:05-05:00",
+   "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be relied on; data refreshes come from the by-hand starts. fix-empty-jobs still waits on CRON_TOKEN. Next shipping runs are scheduled.",
+   "tokens": 18000,
+   "by_company": {
+    "hq": 18000
    }
   }
  ]
