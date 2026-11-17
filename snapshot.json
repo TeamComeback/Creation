@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T20:06-05:00",
+ "updated": "2026-11-16T21:56-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-16T15:37-05:00",
-   "age_days": 0.2,
+   "age_days": 0.3,
    "pool_now": 3600.35,
    "pool_start": 4000.0,
    "pool_ret": -9.99,
@@ -314,7 +314,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 96,
+   "efficiency": 95,
    "profitability": 22,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -323,7 +323,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 7.8,
+   "age_days": 7.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -649,7 +649,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 22.4,
+   "age_days": 22.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,7 +699,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T01:00:55Z",
+   "updated": "2026-11-17T02:51:57Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -758,9 +758,9 @@
     "matchup_under": 0.63
    },
    "strategist_on": false,
-   "credits": 82,
+   "credits": 66,
    "credits_monthly": 500,
-   "per_scan": 0,
+   "per_scan": 2,
    "open_bets": [
     {
      "what": "Cam Spencer Under 7.5",
@@ -851,16 +851,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-16T23:00:55Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-16T23:02:19Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
      "ts": "2026-11-16T23:43:36Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 82 left this month)."
@@ -879,19 +869,19 @@
      "ts": "2026-11-17T01:00:43Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-17T02:20:34Z",
+     "kind": "props",
+     "text": "No NBA games left to bet today."
+    },
+    {
+     "ts": "2026-11-17T02:51:57Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 2 credits, 66 left this month)."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-10T02:38:50Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-10T04:44:47Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-10T17:00:05Z",
      "agent": 42.46,
@@ -1081,6 +1071,16 @@
      "ts": "2026-11-16T23:43:36Z",
      "agent": 13.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T02:20:34Z",
+     "agent": 13.16,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T02:51:57Z",
+     "agent": 13.16,
+     "you": 100.0
     }
    ],
    "runs": [],
@@ -1116,7 +1116,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 87.9,
+   "age_days": 88.0,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1126,7 +1126,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 121.9,
+   "age_days": 122.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1139,11 +1139,11 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-16T20:06-05:00",
+  "checked": "2026-11-16T21:56-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-16T20:05-05:00",
-   "age_hours": 0.0,
+   "age_hours": 1.9,
    "ok": true,
    "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be rel"
   },
@@ -1191,9 +1191,9 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
-    "conclusion": "cancelled",
-    "at": "2026-11-16T21:41:25Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43956559547"
+    "conclusion": "success",
+    "at": "2026-11-17T01:10:53Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43962604514"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1228,8 +1228,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T23:52:07Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43982841800"
+    "at": "2026-11-17T01:06:59Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/43992952569"
    },
    {
     "repo": "Creation",
@@ -1246,8 +1246,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T01:01:03Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/43992140253"
+    "at": "2026-11-17T02:55:12Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44006416668"
    }
   ],
   "ok": true
