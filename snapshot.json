@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T04:45-05:00",
+ "updated": "2026-11-17T08:27-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-16T15:37-05:00",
-   "age_days": 0.5,
+   "age_days": 0.7,
    "pool_now": 3600.35,
    "pool_start": 4000.0,
    "pool_ret": -9.99,
@@ -314,7 +314,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 92,
+   "efficiency": 89,
    "profitability": 22,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -323,7 +323,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 8.2,
+   "age_days": 8.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -640,7 +640,7 @@
      "health": 75
     }
    ],
-   "efficiency": 44,
+   "efficiency": 43,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -649,7 +649,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 22.8,
+   "age_days": 22.9,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,13 +699,13 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T09:43:46Z",
-   "age_days": 0.0,
+   "updated": "2026-11-17T12:15:20Z",
+   "age_days": 0.1,
    "start": 100.0,
    "goal": 1000.0,
-   "run": 1,
+   "run": 2,
    "agent": {
-    "equity": 8.16,
+    "equity": 100.0,
     "bets": 61,
     "won": 20,
     "lost": 39,
@@ -758,7 +758,7 @@
     "matchup_under": 0.594
    },
    "strategist_on": false,
-   "credits": 0,
+   "credits": 66,
    "credits_monthly": 500,
    "per_scan": 0,
    "open_bets": [],
@@ -838,16 +838,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-17T05:04:48Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 117 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-17T05:12:32Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Cam Spencer Under 7.5 @ -105 (theScore Bet) \u2014 LOST: 9 assists vs Under 7.5 [matchup-read-right, minutes-long, model-miss]"
-    },
-    {
      "ts": "2026-11-17T05:12:33Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 0 left this month)."
@@ -866,6 +856,16 @@
      "ts": "2026-11-17T09:43:20Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
+    },
+    {
+     "ts": "2026-11-17T12:15:20Z",
+     "kind": "research",
+     "text": "Self-checks pass again: Odds API credits recovered."
+    },
+    {
+     "ts": "2026-11-17T13:05:45Z",
+     "kind": "race",
+     "text": "Perseverance run #1 LOST at $8.16 (peak $100.00, 61 bets). Owner reset the bankroll: run #2 starts from $100; record and lessons carry over."
     }
    ],
    "curve": [
@@ -1070,8 +1070,19 @@
      "you": 100.0
     }
    ],
-   "runs": [],
-   "efficiency": 95,
+   "runs": [
+    {
+     "run": 1,
+     "result": "busted",
+     "started": "2026-10-26T22:18:47Z",
+     "ended": "2026-11-17T13:05:45Z",
+     "final": 8.16,
+     "peak": 100.0,
+     "bets": 61,
+     "note": "Ended by the owner at $8.16; run 1 counted as lost. Bets and record kept."
+    }
+   ],
+   "efficiency": 92,
    "profitability": 0,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
@@ -1103,7 +1114,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 88.2,
+   "age_days": 88.4,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1113,7 +1124,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 122.2,
+   "age_days": 122.4,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1122,15 +1133,15 @@
  },
  "counts": {
   "high": 3,
-  "med": 8,
+  "med": 6,
   "low": 3
  },
  "health": {
-  "checked": "2026-11-17T04:45-05:00",
+  "checked": "2026-11-17T08:27-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-16T20:05-05:00",
-   "age_hours": 8.7,
+   "age_hours": 12.4,
    "ok": true,
    "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be rel"
   },
@@ -1212,6 +1223,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-17T09:46:01Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44058469372"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1219,22 +1239,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/44022626452"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-17T02:56:58Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44006571166"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T09:45:35Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44058439173"
+    "at": "2026-11-17T13:15:30Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44090863533"
    }
   ],
   "ok": true
