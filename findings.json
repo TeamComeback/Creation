@@ -1,14 +1,5 @@
 [
  {
-  "id": "stale-nfl",
-  "agent": "deadline",
-  "business": "nfl",
-  "severity": "high",
-  "title": "NFL slips are a week behind",
-  "detail": "Data runs through Week 9, last updated 2026-11-09.",
-  "action": "Enter last week's stat lines."
- },
- {
   "id": "clv-ingenuity",
   "agent": "overseer",
   "business": "ingenuity",
@@ -31,8 +22,8 @@
   "agent": "overseer",
   "business": "curiosity",
   "severity": "med",
-  "title": "Trend Co. is in a 47% drawdown",
-  "detail": "Equity $705.01 (-29.5%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
+  "title": "Trend Co. is in a 48% drawdown",
+  "detail": "Equity $703.40 (-29.7%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
   "action": "Review its thesis and position sizing in the Curiosity journal."
  },
  {
@@ -41,7 +32,7 @@
   "business": "nfl",
   "severity": "med",
   "title": "Justin Herbert is far behind pace on Goat Whale",
-  "detail": "Producing 0.75/game, needs 2.17/game over 9 games for over 25.5 passing touchdowns.",
+  "detail": "Producing 0.67/game, needs 2.44/game over 8 games for over 25.5 passing touchdowns.",
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
@@ -59,7 +50,7 @@
   "business": "nfl",
   "severity": "med",
   "title": "Quentin Johnston is far behind pace on New Systems",
-  "detail": "Producing 0.14/game, needs 0.5/game over 9 games for over 5.5 receiving touchdowns.",
+  "detail": "Producing 0.12/game, needs 0.56/game over 8 games for over 5.5 receiving touchdowns.",
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
@@ -86,7 +77,7 @@
   "business": "nfl",
   "severity": "low",
   "title": "Ja'Marr Chase still needs one play on Fun",
-  "detail": "0 of 11.5 rushing yards with 9 games left. A single trick play or carry clears it.",
+  "detail": "0 of 11.5 rushing yards with 8 games left. A single trick play or carry clears it.",
   "action": "Nothing to do but watch. It's a coin flip each week, not a pace problem."
  },
  {

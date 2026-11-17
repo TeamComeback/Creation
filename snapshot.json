@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-17T13:47-05:00",
+ "updated": "2026-11-17T17:25-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-17T13:38-05:00",
-   "age_days": 0.0,
-   "pool_now": 3591.45,
+   "updated": "2026-11-17T15:37-05:00",
+   "age_days": 0.1,
+   "pool_now": 3588.81,
    "pool_start": 4000.0,
-   "pool_ret": -10.21,
-   "spy_ret": -5.24,
-   "edge": -4.97,
+   "pool_ret": -10.28,
+   "spy_ret": -5.4,
+   "edge": -4.88,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1000.3,
-    "ret_pct": 0.03,
+    "equity": 999.56,
+    "ret_pct": -0.04,
     "progress_pct": 10.0,
     "days_to_goal": null
    },
@@ -22,23 +22,23 @@
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 705.01,
+     "equity": 703.4,
      "status": "active",
-     "progress_pct": 7.05,
-     "open": 2,
-     "closed": 24,
-     "win_rate": 16.7,
-     "max_dd_pct": 47.4,
+     "progress_pct": 7.03,
+     "open": 1,
+     "closed": 25,
+     "win_rate": 16.0,
+     "max_dd_pct": 47.5,
      "competing": true,
      "exhibition": false,
      "risk_adj": -0.62,
-     "ret_pct": -29.5,
-     "note": "Passing on CNTY: a sub-$0.30 put in the Broad market bucket, where my record is 2 wins in 10 trades. EW, NFLX and SE triggers are not in today's scan. Holding CLSX to its 2.98 underlying stop and DIS to its 116.69 stop, and keeping settled "
+     "ret_pct": -29.66,
+     "note": "Passed on CNTY again: a $0.25 stock down 60% in 20 days is a collapse, not an established-uptrend breakdown. Holding CLSX to its 2.98 underlying stop and DIS to its 116.69 stop. Watching EW, NFLX, and SE triggers from the game plan with cas"
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 997.14,
+     "equity": 996.85,
      "status": "active",
      "progress_pct": 9.97,
      "open": 3,
@@ -48,8 +48,8 @@
      "competing": true,
      "exhibition": false,
      "risk_adj": -0.06,
-     "ret_pct": -0.29,
-     "note": "No new entries: all live candidates (MRNA 0.6:1, IQV 0.5:1, CCL 0.46:1) fail the 1:1 stop-to-target floor, and HZN, SAP, and MCO are already held on their stops. Keep ~$478 settled cash for a washout that clears 1:1."
+     "ret_pct": -0.31,
+     "note": "No entries: every candidate fails the 1:1 floor (IQV 0.61, MRNA 0.60, VRTX 0.25, CCL 0.56, EMR 0.67). Hold SAP, HZN and MCO on default stops and keep settled cash for a washout that clears 1:1."
     },
     {
      "id": "volsell",
@@ -65,22 +65,22 @@
      "exhibition": false,
      "risk_adj": -1.0,
      "ret_pct": -11.1,
-     "note": "Pass XLF: IV/RV 1.06 is below my 1.15 floor and Financials is on the avoid list. Keep $889 settled and wait for a non-avoided sector with IV/RV at or above 1.15."
+     "note": "Passed XLF bull put 54/53: IV/RV 1.01 is below my 1.15 floor and Financials is on my avoid list. Holding $889 settled cash for a non-avoided setup with IV/RV at or above 1.15."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 947.64,
+     "equity": 946.01,
      "status": "active",
-     "progress_pct": 9.48,
+     "progress_pct": 9.46,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 5.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.91,
-     "ret_pct": -5.24,
+     "risk_adj": -0.93,
+     "ret_pct": -5.4,
      "note": ""
     },
     {
@@ -102,33 +102,33 @@
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -357.26,
+     "equity": -363.26,
      "status": "eliminated",
-     "progress_pct": -3.57,
+     "progress_pct": -3.63,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.96,
-     "ret_pct": -135.73,
+     "risk_adj": -0.97,
+     "ret_pct": -136.33,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1000.3,
+     "equity": 999.56,
      "status": "active",
      "progress_pct": 10.0,
-     "open": 1,
-     "closed": 93,
-     "win_rate": 44.1,
+     "open": 0,
+     "closed": 94,
+     "win_rate": 43.6,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
-     "risk_adj": 0.01,
-     "ret_pct": 0.03,
+     "risk_adj": -0.01,
+     "ret_pct": -0.04,
      "note": "[weekly] Edge is still thin and unproven at 23 trades (win rate 43.5%, avg win and loss about equal). Most exits are time limits near 0%, and stop fills slip past the 0.3% setting. This week's entries all had rel volume of 1.5 or more, so t"
     },
     {
@@ -301,17 +301,17 @@
     },
     {
      "date": "2026-11-17",
-     "racing": 3591.45,
-     "leader": 1000.3,
-     "spy": 947.64
+     "racing": 3588.81,
+     "leader": 999.56,
+     "spy": 946.01
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
-    "trend": "up",
-    "vs200": 0.1,
-    "radar": 28,
+    "trend": "down",
+    "vs200": -0.1,
+    "radar": 35,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
@@ -320,16 +320,16 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 100,
-   "profitability": 25,
+   "efficiency": 98,
+   "profitability": 26,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
   },
   "nfl": {
-   "updated": "2026-11-09",
-   "through_week": 9,
-   "age_days": 8.6,
+   "updated": "2026-11-17",
+   "through_week": 10,
+   "age_days": 0.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -347,11 +347,11 @@
        "stat": "receiving yards",
        "line": 925.5,
        "dir": "over",
-       "cur": 658,
-       "played": 7,
-       "rem": 8,
-       "rate": 94.0,
-       "need": 33.44,
+       "cur": 676,
+       "played": 8,
+       "rem": 7,
+       "rate": 84.5,
+       "need": 35.64,
        "inj": "Q",
        "state": "ahead",
        "settled": null
@@ -365,10 +365,10 @@
        "line": 25.5,
        "dir": "over",
        "cur": 6,
-       "played": 8,
-       "rem": 9,
-       "rate": 0.75,
-       "need": 2.17,
+       "played": 9,
+       "rem": 8,
+       "rate": 0.67,
+       "need": 2.44,
        "inj": "",
        "state": "far behind",
        "settled": null
@@ -381,11 +381,11 @@
        "stat": "receiving yards",
        "line": 825.5,
        "dir": "over",
-       "cur": 260,
-       "played": 6,
-       "rem": 9,
-       "rate": 43.33,
-       "need": 62.83,
+       "cur": 350,
+       "played": 7,
+       "rem": 8,
+       "rate": 50.0,
+       "need": 59.44,
        "inj": "",
        "state": "behind",
        "settled": null
@@ -399,12 +399,12 @@
        "line": 5.5,
        "dir": "over",
        "cur": 3,
-       "played": 8,
-       "rem": 8,
-       "rate": 0.38,
-       "need": 0.31,
+       "played": 9,
+       "rem": 7,
+       "rate": 0.33,
+       "need": 0.36,
        "inj": "",
-       "state": "ahead",
+       "state": "on pace",
        "settled": null
       }
      ],
@@ -431,11 +431,11 @@
        "dir": "over",
        "cur": 3,
        "played": 7,
-       "rem": 9,
+       "rem": 8,
        "rate": 0.43,
-       "need": 0.39,
+       "need": 0.44,
        "inj": "O",
-       "state": "ahead",
+       "state": "on pace",
        "settled": null
       },
       {
@@ -463,11 +463,11 @@
        "stat": "receptions",
        "line": 65.5,
        "dir": "over",
-       "cur": 31,
-       "played": 9,
-       "rem": 8,
-       "rate": 3.44,
-       "need": 4.31,
+       "cur": 35,
+       "played": 10,
+       "rem": 7,
+       "rate": 3.5,
+       "need": 4.36,
        "inj": "",
        "state": "behind",
        "settled": null
@@ -481,10 +481,10 @@
        "line": 5.5,
        "dir": "over",
        "cur": 1,
-       "played": 7,
-       "rem": 9,
-       "rate": 0.14,
-       "need": 0.5,
+       "played": 8,
+       "rem": 8,
+       "rate": 0.12,
+       "need": 0.56,
        "inj": "",
        "state": "far behind",
        "settled": null
@@ -497,11 +497,11 @@
        "stat": "passing yards",
        "line": 3999.5,
        "dir": "over",
-       "cur": 2381,
-       "played": 9,
-       "rem": 8,
-       "rate": 264.56,
-       "need": 202.31,
+       "cur": 2724,
+       "played": 10,
+       "rem": 7,
+       "rate": 272.4,
+       "need": 182.21,
        "inj": "",
        "state": "ahead",
        "settled": null
@@ -548,9 +548,9 @@
        "dir": "over",
        "cur": 1,
        "played": 6,
-       "rem": 8,
+       "rem": 7,
        "rate": 0.17,
-       "need": -0.06,
+       "need": -0.07,
        "inj": "IR",
        "state": "won",
        "settled": "win*"
@@ -564,10 +564,10 @@
        "line": 0.5,
        "dir": "over",
        "cur": 11,
-       "played": 8,
-       "rem": 9,
-       "rate": 1.38,
-       "need": -1.17,
+       "played": 9,
+       "rem": 8,
+       "rate": 1.22,
+       "need": -1.31,
        "inj": "",
        "state": "won",
        "settled": "win*"
@@ -581,10 +581,10 @@
        "line": 11.5,
        "dir": "over",
        "cur": 0,
-       "played": 7,
-       "rem": 9,
+       "played": 8,
+       "rem": 8,
        "rate": 0.0,
-       "need": 1.28,
+       "need": 1.44,
        "inj": "",
        "state": "needs a play",
        "settled": null
@@ -598,10 +598,10 @@
        "line": 54.5,
        "dir": "over",
        "cur": 51,
-       "played": 8,
-       "rem": 8,
-       "rate": 6.38,
-       "need": 0.44,
+       "played": 9,
+       "rem": 7,
+       "rate": 5.67,
+       "need": 0.5,
        "inj": "",
        "state": "ahead",
        "settled": null
@@ -646,7 +646,7 @@
      "health": 75
     }
    ],
-   "efficiency": 42,
+   "efficiency": 73,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -655,7 +655,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 23.2,
+   "age_days": 23.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -705,7 +705,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T18:45:23Z",
+   "updated": "2026-11-17T22:15:26Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -733,7 +733,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.15,
+    "min_edge": 0.14,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -764,9 +764,9 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18909,
+   "credits": 18782,
    "credits_monthly": 20000,
-   "per_scan": 150,
+   "per_scan": 147,
    "open_bets": [
     {
      "what": "Marquette Golden Eagles",
@@ -893,47 +893,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-17T18:15:47Z",
+     "ts": "2026-11-17T20:15:23Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.50% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-17T21:00:33Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.25% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-17T21:45:29Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.00% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-17T21:54:15Z",
      "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
+     "text": "Research refresh for Tue Nov 17: 5 games, 117 players projected, lineups for 5 games."
     },
     {
-     "ts": "2026-11-17T18:30:26Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.75% so I get enough bets to learn from."
+     "ts": "2026-11-17T22:00:43Z",
+     "kind": "focus",
+     "text": "Skipped 67 pts+reb+ast lines, 12 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
     },
     {
-     "ts": "2026-11-17T18:33:50Z",
-     "kind": "adapt",
-     "text": "Closing-line value is -1.5% over 58 legs, so the market is beating my picks. Raising the minimum edge to 15.0%."
-    },
-    {
-     "ts": "2026-11-17T18:34:36Z",
-     "kind": "adapt",
-     "text": "Model vs market on 6456 graded lines: the 10% model blend scored best (log loss model 0.722, market 0.689). Moving the model's weight from 20% to 17%."
-    },
-    {
-     "ts": "2026-11-17T18:34:36Z",
-     "kind": "adapt",
-     "text": "Learning loop: PTS projections ran -1.7% vs actual over 2054 player-games: level x0.896; AST projections ran -2.3% vs actual over 2054 player-games: level x0.919; TPM projections ran -3.4% vs actual over 2054 player-games: level x0.989; PRA projections ran -1."
-    },
-    {
-     "ts": "2026-11-17T18:34:36Z",
-     "kind": "daily",
-     "text": "Day close \u2014 equity $100.00 (run #2), 20-39-2, ROI -29.8%, CLV -1.5%."
+     "ts": "2026-11-17T22:00:43Z",
+     "kind": "props",
+     "text": "NBA matchups: 5 games, strongest spots: Ja'Kobe Walter ra -15% vs NY; Sandro Mamukelashvili ra -13% vs CHA; Collin Murray-Boyles pra -13% vs NY. Bought prop odds for NY@TOR (ast, ra, pra, team totals), CHA@LAL (ast, ra, pra, team totals), DET@SA (ast, ra, pra,"
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-11T00:32:25Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-11T02:56:38Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-11T17:07:06Z",
      "agent": 50.86,
@@ -1123,6 +1113,16 @@
      "ts": "2026-11-17T18:34:36Z",
      "agent": 100.0,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T19:01:18Z",
+     "agent": 100.0,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T22:00:43Z",
+     "agent": 100.0,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1169,7 +1169,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 88.6,
+   "age_days": 88.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1179,7 +1179,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 122.6,
+   "age_days": 122.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1187,16 +1187,16 @@
   }
  },
  "counts": {
-  "high": 3,
+  "high": 2,
   "med": 6,
   "low": 3
  },
  "health": {
-  "checked": "2026-11-17T13:47-05:00",
+  "checked": "2026-11-17T17:25-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-17T09:10-05:00",
-   "age_hours": 4.6,
+   "age_hours": 8.3,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:36 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1244,9 +1244,18 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
+    "conclusion": "cancelled",
+    "at": "2026-11-17T21:41:17Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44163710320"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T17:38:38Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44081831323"
+    "at": "2026-11-17T19:50:29Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44162866773"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1256,15 +1265,6 @@
     "conclusion": "success",
     "at": "2026-11-17T04:45:24Z",
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44019334658"
-   },
-   {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Auto-fill weekly stats",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-11T18:41:26Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/43080127803"
    },
    {
     "repo": "Ingenuity",
@@ -1281,8 +1281,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T14:08:45Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44099783249"
+    "at": "2026-11-17T18:47:54Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44151566592"
    },
    {
     "repo": "Creation",
@@ -1299,8 +1299,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T18:45:33Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44151211922"
+    "at": "2026-11-17T22:15:36Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44188182738"
    }
   ],
   "ok": true
