@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:27-05:00",
+ "updated": "2026-11-17T09:08-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -649,7 +649,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 22.9,
+   "age_days": 23.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,8 +699,8 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T12:15:20Z",
-   "age_days": 0.1,
+   "updated": "2026-11-17T13:46:05Z",
+   "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
@@ -839,11 +839,6 @@
    "journal": [
     {
      "ts": "2026-11-17T05:12:33Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 0 left this month)."
-    },
-    {
-     "ts": "2026-11-17T05:12:33Z",
      "kind": "error",
      "text": "Self-check failed: Odds API credits (0 left, 14 days to go: -1.8 a day after the reserve)"
     },
@@ -866,6 +861,11 @@
      "ts": "2026-11-17T13:05:45Z",
      "kind": "race",
      "text": "Perseverance run #1 LOST at $8.16 (peak $100.00, 61 bets). Owner reset the bankroll: run #2 starts from $100; record and lessons carry over."
+    },
+    {
+     "ts": "2026-11-17T13:45:39Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
     }
    ],
    "curve": [
@@ -1082,7 +1082,7 @@
      "note": "Ended by the owner at $8.16; run 1 counted as lost. Bets and record kept."
     }
    ],
-   "efficiency": 92,
+   "efficiency": 95,
    "profitability": 0,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
@@ -1137,13 +1137,13 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-17T08:27-05:00",
+  "checked": "2026-11-17T09:08-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-16T20:05-05:00",
-   "age_hours": 12.4,
+   "last": "2026-11-17T09:10-05:00",
+   "age_hours": -0.0,
    "ok": true,
-   "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be rel"
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:36 AM) was ok. Next shipping runs are scheduled."
   },
   "feeds": [
    {
@@ -1226,8 +1226,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T09:46:01Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44058469372"
+    "at": "2026-11-17T13:28:18Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44092921227"
    },
    {
     "repo": "Creation",
@@ -1244,8 +1244,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T13:15:30Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44090863533"
+    "at": "2026-11-17T14:01:02Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44098410529"
    }
   ],
   "ok": true
