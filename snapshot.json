@@ -1,55 +1,55 @@
 {
- "updated": "2026-11-17T09:08-05:00",
+ "updated": "2026-11-17T13:47-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-16T15:37-05:00",
-   "age_days": 0.7,
-   "pool_now": 3600.35,
+   "updated": "2026-11-17T13:38-05:00",
+   "age_days": 0.0,
+   "pool_now": 3591.45,
    "pool_start": 4000.0,
-   "pool_ret": -9.99,
-   "spy_ret": -4.42,
-   "edge": -5.57,
+   "pool_ret": -10.21,
+   "spy_ret": -5.24,
+   "edge": -4.97,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1001.97,
-    "ret_pct": 0.2,
-    "progress_pct": 10.02,
+    "equity": 1000.3,
+    "ret_pct": 0.03,
+    "progress_pct": 10.0,
     "days_to_goal": null
    },
    "agents": [
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 711.52,
+     "equity": 705.01,
      "status": "active",
-     "progress_pct": 7.12,
-     "open": 1,
+     "progress_pct": 7.05,
+     "open": 2,
      "closed": 24,
      "win_rate": 16.7,
-     "max_dd_pct": 46.9,
+     "max_dd_pct": 47.4,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.61,
-     "ret_pct": -28.85,
-     "note": "Taking the rule-qualifying KLC breakdown at a small premium budget despite the avoid-list tag; the loss is capped at premium, and cheap extreme-volatility names need small size."
+     "risk_adj": -0.62,
+     "ret_pct": -29.5,
+     "note": "Passing on CNTY: a sub-$0.30 put in the Broad market bucket, where my record is 2 wins in 10 trades. EW, NFLX and SE triggers are not in today's scan. Holding CLSX to its 2.98 underlying stop and DIS to its 116.69 stop, and keeping settled "
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 997.86,
+     "equity": 997.14,
      "status": "active",
-     "progress_pct": 9.98,
-     "open": 0,
+     "progress_pct": 9.97,
+     "open": 3,
      "closed": 20,
      "win_rate": 65.0,
      "max_dd_pct": 4.2,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.04,
-     "ret_pct": -0.21,
-     "note": "No candidate clears my 1:1 stop-to-target floor at 15:37 prices: DE about 0.82:1, GM 0.69, MRNA 0.56, HALO 0.55, VRTX 0.28, VEEV 0.24. Passing and keeping $880 settled cash. The game plan's HALO position is stale because HALO closed this mo"
+     "risk_adj": -0.06,
+     "ret_pct": -0.29,
+     "note": "No new entries: all live candidates (MRNA 0.6:1, IQV 0.5:1, CCL 0.46:1) fail the 1:1 stop-to-target floor, and HZN, SAP, and MCO are already held on their stops. Keep ~$478 settled cash for a washout that clears 1:1."
     },
     {
      "id": "volsell",
@@ -65,70 +65,70 @@
      "exhibition": false,
      "risk_adj": -1.0,
      "ret_pct": -11.1,
-     "note": "[weekly] 0-for-6 with small losses means the problem is strike placement and the rate regime, not the IV/RV edge. Sell further OTM (0.20 delta), demand IV/RV of at least 1.2, and avoid rate proxies like TLT while the 10-year sits near 5% wi"
+     "note": "Pass XLF: IV/RV 1.06 is below my 1.15 floor and Financials is on the avoid list. Keep $889 settled and wait for a non-avoided sector with IV/RV at or above 1.15."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 955.85,
+     "equity": 947.64,
      "status": "active",
-     "progress_pct": 9.56,
+     "progress_pct": 9.48,
      "open": 3,
      "closed": 0,
      "win_rate": null,
-     "max_dd_pct": 5.1,
+     "max_dd_pct": 5.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.87,
-     "ret_pct": -4.42,
+     "risk_adj": -0.91,
+     "ret_pct": -5.24,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 913.76,
+     "equity": 914.69,
      "status": "active",
-     "progress_pct": 9.14,
-     "open": 1,
-     "closed": 8,
-     "win_rate": 50.0,
+     "progress_pct": 9.15,
+     "open": 0,
+     "closed": 9,
+     "win_rate": 44.4,
      "max_dd_pct": 10.6,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.82,
-     "ret_pct": -8.62,
+     "risk_adj": -0.81,
+     "ret_pct": -8.53,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -396.26,
+     "equity": -357.26,
      "status": "eliminated",
-     "progress_pct": -3.96,
+     "progress_pct": -3.57,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.99,
-     "ret_pct": -139.63,
+     "risk_adj": -0.96,
+     "ret_pct": -135.73,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1001.97,
+     "equity": 1000.3,
      "status": "active",
-     "progress_pct": 10.02,
-     "open": 0,
-     "closed": 91,
-     "win_rate": 45.1,
+     "progress_pct": 10.0,
+     "open": 1,
+     "closed": 93,
+     "win_rate": 44.1,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
-     "risk_adj": 0.04,
-     "ret_pct": 0.2,
+     "risk_adj": 0.01,
+     "ret_pct": 0.03,
      "note": "[weekly] Edge is still thin and unproven at 23 trades (win rate 43.5%, avg win and loss about equal). Most exits are time limits near 0%, and stop fills slip past the 0.3% setting. This week's entries all had rel volume of 1.5 or more, so t"
     },
     {
@@ -298,24 +298,30 @@
      "racing": 3600.35,
      "leader": 1001.97,
      "spy": 955.85
+    },
+    {
+     "date": "2026-11-17",
+     "racing": 3591.45,
+     "leader": 1000.3,
+     "spy": 947.64
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "up",
-    "vs200": 1.0,
-    "radar": 24,
+    "vs200": 0.1,
+    "radar": 28,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 0,
+    "approved": 7,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 89,
-   "profitability": 22,
+   "efficiency": 100,
+   "profitability": 25,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -323,7 +329,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 8.4,
+   "age_days": 8.6,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -640,7 +646,7 @@
      "health": 75
     }
    ],
-   "efficiency": 43,
+   "efficiency": 42,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -649,7 +655,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 23.0,
+   "age_days": 23.2,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,7 +705,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T13:46:05Z",
+   "updated": "2026-11-17T18:45:23Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -711,8 +717,8 @@
     "lost": 39,
     "push": 2,
     "roi": -0.2985,
-    "clv": -0.0228,
-    "open": 0,
+    "clv": -0.0153,
+    "open": 4,
     "profit": -91.84,
     "staked": 307.63
    },
@@ -738,7 +744,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.04,
-    "prop_model_weight": 0.204,
+    "prop_model_weight": 0.173,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -750,18 +756,67 @@
    ],
    "weights": {
     "value_fav": 0.842,
-    "value_dog": 0.415,
-    "longshot": 0.427,
-    "arb": 1.003,
+    "value_dog": 0.422,
+    "longshot": 0.444,
+    "arb": 1.007,
     "parlay_ev": 1.0,
-    "matchup_over": 1.296,
-    "matchup_under": 0.594
+    "matchup_over": 1.292,
+    "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 66,
-   "credits_monthly": 500,
-   "per_scan": 0,
-   "open_bets": [],
+   "credits": 18909,
+   "credits_monthly": 20000,
+   "per_scan": 150,
+   "open_bets": [
+    {
+     "what": "Marquette Golden Eagles",
+     "odds": 275,
+     "book": "hardrockbet",
+     "game": "Marquette Golden Eagles @ Wisconsin Badgers",
+     "stake": 5.47,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.019,
+     "start": "2026-11-18T00:30:00Z"
+    },
+    {
+     "what": "Wisconsin Badgers",
+     "odds": -250,
+     "book": "williamhill_us",
+     "game": "Marquette Golden Eagles @ Wisconsin Badgers",
+     "stake": 14.66,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.019,
+     "start": "2026-11-18T00:30:00Z"
+    },
+    {
+     "what": "New York Knicks",
+     "odds": -145,
+     "book": "williamhill_us",
+     "game": "New York Knicks @ Toronto Raptors",
+     "stake": 12.11,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0161,
+     "start": "2026-11-18T00:40:00Z"
+    },
+    {
+     "what": "Toronto Raptors",
+     "odds": 155,
+     "book": "espnbet",
+     "game": "New York Knicks @ Toronto Raptors",
+     "stake": 8.02,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0161,
+     "start": "2026-11-18T00:40:00Z"
+    }
+   ],
    "recent": [
     {
      "what": "Cam Spencer Under 7.5",
@@ -838,52 +893,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-17T05:12:33Z",
-     "kind": "error",
-     "text": "Self-check failed: Odds API credits (0 left, 14 days to go: -1.8 a day after the reserve)"
-    },
-    {
-     "ts": "2026-11-17T09:15:33Z",
+     "ts": "2026-11-17T18:15:47Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
     },
     {
-     "ts": "2026-11-17T09:43:20Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
+     "ts": "2026-11-17T18:30:26Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.75% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-17T12:15:20Z",
-     "kind": "research",
-     "text": "Self-checks pass again: Odds API credits recovered."
+     "ts": "2026-11-17T18:33:50Z",
+     "kind": "adapt",
+     "text": "Closing-line value is -1.5% over 58 legs, so the market is beating my picks. Raising the minimum edge to 15.0%."
     },
     {
-     "ts": "2026-11-17T13:05:45Z",
-     "kind": "race",
-     "text": "Perseverance run #1 LOST at $8.16 (peak $100.00, 61 bets). Owner reset the bankroll: run #2 starts from $100; record and lessons carry over."
+     "ts": "2026-11-17T18:34:36Z",
+     "kind": "adapt",
+     "text": "Model vs market on 6456 graded lines: the 10% model blend scored best (log loss model 0.722, market 0.689). Moving the model's weight from 20% to 17%."
     },
     {
-     "ts": "2026-11-17T13:45:39Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
+     "ts": "2026-11-17T18:34:36Z",
+     "kind": "adapt",
+     "text": "Learning loop: PTS projections ran -1.7% vs actual over 2054 player-games: level x0.896; AST projections ran -2.3% vs actual over 2054 player-games: level x0.919; TPM projections ran -3.4% vs actual over 2054 player-games: level x0.989; PRA projections ran -1."
+    },
+    {
+     "ts": "2026-11-17T18:34:36Z",
+     "kind": "daily",
+     "text": "Day close \u2014 equity $100.00 (run #2), 20-39-2, ROI -29.8%, CLV -1.5%."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-10T20:50:58Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-10T21:15:46Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-10T23:55:41Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-11T00:32:25Z",
      "agent": 42.46,
@@ -1068,6 +1108,21 @@
      "ts": "2026-11-17T05:12:33Z",
      "agent": 8.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T17:30:30Z",
+     "agent": 100.0,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T17:30:38Z",
+     "agent": 100.0,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T18:34:36Z",
+     "agent": 100.0,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1114,7 +1169,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 88.4,
+   "age_days": 88.6,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1124,7 +1179,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 122.4,
+   "age_days": 122.6,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1137,11 +1192,11 @@
   "low": 3
  },
  "health": {
-  "checked": "2026-11-17T09:08-05:00",
+  "checked": "2026-11-17T13:47-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-17T09:10-05:00",
-   "age_hours": -0.0,
+   "age_hours": 4.6,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:36 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1190,8 +1245,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T07:58:21Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44042744736"
+    "at": "2026-11-17T17:38:38Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44081831323"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1226,8 +1281,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T13:28:18Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44092921227"
+    "at": "2026-11-17T14:08:45Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44099783249"
    },
    {
     "repo": "Creation",
@@ -1244,8 +1299,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T14:01:02Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44098410529"
+    "at": "2026-11-17T18:45:33Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44151211922"
    }
   ],
   "ok": true
