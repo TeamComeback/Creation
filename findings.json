@@ -1,5 +1,14 @@
 [
  {
+  "id": "stale-nfl",
+  "agent": "deadline",
+  "business": "nfl",
+  "severity": "high",
+  "title": "NFL slips are a week behind",
+  "detail": "Data runs through Week 9, last updated 2026-11-09.",
+  "action": "Enter last week's stat lines."
+ },
+ {
   "id": "clv-ingenuity",
   "agent": "overseer",
   "business": "ingenuity",
@@ -63,12 +72,21 @@
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
+  "id": "credits-perseverance",
+  "agent": "efficiency",
+  "business": "perseverance",
+  "severity": "med",
+  "title": "Only 0 odds credits left this month",
+  "detail": "The agent spreads what's left across the remaining scans and stops at the 25-credit floor, so scans get thin until the reset.",
+  "action": "Fine to ride it out. A paid Odds API tier would let it cover more sports per scan."
+ },
+ {
   "id": "dd-perseverance",
   "agent": "overseer",
   "business": "perseverance",
   "severity": "med",
-  "title": "Betting agent is down to $13.16",
-  "detail": "Run #1 started at $100. The $5 minimum bet means about 2 bets of runway left.",
+  "title": "Betting agent is down to $8.16",
+  "detail": "Run #1 started at $100. The $5 minimum bet means about 1 bets of runway left.",
   "action": "Review which playbook is losing in its journal."
  },
  {

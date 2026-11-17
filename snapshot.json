@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T21:56-05:00",
+ "updated": "2026-11-17T04:45-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-16T15:37-05:00",
-   "age_days": 0.3,
+   "age_days": 0.5,
    "pool_now": 3600.35,
    "pool_start": 4000.0,
    "pool_ret": -9.99,
@@ -314,7 +314,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 95,
+   "efficiency": 92,
    "profitability": 22,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -323,7 +323,7 @@
   "nfl": {
    "updated": "2026-11-09",
    "through_week": 9,
-   "age_days": 7.9,
+   "age_days": 8.2,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -346,7 +346,7 @@
        "rem": 8,
        "rate": 94.0,
        "need": 33.44,
-       "inj": "",
+       "inj": "Q",
        "state": "ahead",
        "settled": null
       },
@@ -649,7 +649,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 22.5,
+   "age_days": 22.8,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -699,22 +699,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T02:51:57Z",
+   "updated": "2026-11-17T09:43:46Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 1,
    "agent": {
-    "equity": 13.16,
-    "bets": 60,
+    "equity": 8.16,
+    "bets": 61,
     "won": 20,
-    "lost": 38,
+    "lost": 39,
     "push": 2,
-    "roi": -0.287,
+    "roi": -0.2985,
     "clv": -0.0228,
-    "open": 1,
-    "profit": -86.84,
-    "staked": 302.63
+    "open": 0,
+    "profit": -91.84,
+    "staked": 307.63
    },
    "you": {
     "equity": 100.0,
@@ -755,27 +755,26 @@
     "arb": 1.003,
     "parlay_ev": 1.0,
     "matchup_over": 1.296,
-    "matchup_under": 0.63
+    "matchup_under": 0.594
    },
    "strategist_on": false,
-   "credits": 66,
+   "credits": 0,
    "credits_monthly": 500,
-   "per_scan": 2,
-   "open_bets": [
+   "per_scan": 0,
+   "open_bets": [],
+   "recent": [
     {
      "what": "Cam Spencer Under 7.5",
      "odds": -105,
      "book": "espnbet",
      "game": "Memphis Grizzlies @ Washington Wizards",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_under",
      "ev": 0.1571,
      "start": "2026-11-17T00:10:00Z"
-    }
-   ],
-   "recent": [
+    },
     {
      "what": "Alperen Sengun Over 16.5",
      "odds": 100,
@@ -835,58 +834,41 @@
      "playbook": "matchup_under",
      "ev": 0.1245,
      "start": "2026-11-14T00:10:00Z"
-    },
-    {
-     "what": "Aaron Nesmith Under 4.5",
-     "odds": 105,
-     "book": "betmgm",
-     "game": "New York Knicks @ Indiana Pacers",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1757,
-     "start": "2026-11-14T00:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-16T23:43:36Z",
+     "ts": "2026-11-17T05:04:48Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 17: 5 games, 117 players projected, lineups for 8 games."
+    },
+    {
+     "ts": "2026-11-17T05:12:32Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Cam Spencer Under 7.5 @ -105 (theScore Bet) \u2014 LOST: 9 assists vs Under 7.5 [matchup-read-right, minutes-long, model-miss]"
+    },
+    {
+     "ts": "2026-11-17T05:12:33Z",
      "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 82 left this month)."
+     "text": "No scan this run (allowance 0 credits, 0 left this month)."
     },
     {
-     "ts": "2026-11-16T23:45:37Z",
+     "ts": "2026-11-17T05:12:33Z",
+     "kind": "error",
+     "text": "Self-check failed: Odds API credits (0 left, 14 days to go: -1.8 a day after the reserve)"
+    },
+    {
+     "ts": "2026-11-17T09:15:33Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
+     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
     },
     {
-     "ts": "2026-11-17T00:30:44Z",
+     "ts": "2026-11-17T09:43:20Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-17T01:00:43Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 16: 8 games, 193 players projected, lineups for 8 games."
-    },
-    {
-     "ts": "2026-11-17T02:20:34Z",
-     "kind": "props",
-     "text": "No NBA games left to bet today."
-    },
-    {
-     "ts": "2026-11-17T02:51:57Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 2 credits, 66 left this month)."
+     "text": "Research refresh for Tue Nov 17: 5 games, 116 players projected, lineups for 5 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-10T17:00:05Z",
-     "agent": 42.46,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-10T20:50:58Z",
      "agent": 42.46,
@@ -1081,6 +1063,11 @@
      "ts": "2026-11-17T02:51:57Z",
      "agent": 13.16,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T05:12:33Z",
+     "agent": 8.16,
+     "you": 100.0
     }
    ],
    "runs": [],
@@ -1116,7 +1103,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 88.0,
+   "age_days": 88.2,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1126,7 +1113,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 122.0,
+   "age_days": 122.2,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1134,16 +1121,16 @@
   }
  },
  "counts": {
-  "high": 2,
-  "med": 7,
+  "high": 3,
+  "med": 8,
   "low": 3
  },
  "health": {
-  "checked": "2026-11-16T21:56-05:00",
+  "checked": "2026-11-17T04:45-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-16T20:05-05:00",
-   "age_hours": 1.9,
+   "age_hours": 8.7,
    "ok": true,
    "summary": "Shipping run: nothing new approved. Checked the data repair: GitHub started only 2 of about 10 scheduled slots since 9:10 AM, so the schedule alone can't be rel"
   },
@@ -1192,8 +1179,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T01:10:53Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/43962604514"
+    "at": "2026-11-17T07:58:21Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44042744736"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1201,8 +1188,8 @@
     "name": "Refresh injury tags",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-15T19:27:01Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/43752462885"
+    "at": "2026-11-17T04:45:24Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44019334658"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1225,20 +1212,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T01:06:59Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43992952569"
+    "at": "2026-11-17T05:14:28Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44022626452"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-16T23:30:26Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/43979767888"
+    "at": "2026-11-17T02:56:58Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44006571166"
    },
    {
     "repo": "Perseverance",
@@ -1246,8 +1233,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T02:55:12Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44006416668"
+    "at": "2026-11-17T09:45:35Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44058439173"
    }
   ],
   "ok": true
