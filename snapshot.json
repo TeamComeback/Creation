@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-18T09:07-05:00",
+ "updated": "2026-11-18T12:16-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-17T15:37-05:00",
-   "age_days": 0.7,
-   "pool_now": 3588.81,
-   "pool_start": 4000.0,
-   "pool_ret": -10.28,
-   "spy_ret": -5.4,
-   "edge": -4.88,
+   "updated": "2026-11-18T12:08-05:00",
+   "age_days": 0.0,
+   "pool_now": 2694.34,
+   "pool_start": 3000.0,
+   "pool_ret": -10.19,
+   "spy_ret": -5.53,
+   "edge": -4.66,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 999.56,
-    "ret_pct": -0.04,
+    "equity": 1000.28,
+    "ret_pct": 0.03,
     "progress_pct": 10.0,
     "days_to_goal": null
    },
@@ -22,34 +22,34 @@
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 703.4,
+     "equity": 705.7,
      "status": "active",
-     "progress_pct": 7.03,
-     "open": 1,
+     "progress_pct": 7.06,
+     "open": 2,
      "closed": 25,
      "win_rate": 16.0,
      "max_dd_pct": 47.5,
      "competing": true,
      "exhibition": false,
      "risk_adj": -0.62,
-     "ret_pct": -29.66,
-     "note": "Passed on CNTY again: a $0.25 stock down 60% in 20 days is a collapse, not an established-uptrend breakdown. Holding CLSX to its 2.98 underlying stop and DIS to its 116.69 stop. Watching EW, NFLX, and SE triggers from the game plan with cas"
+     "ret_pct": -29.43,
+     "note": "Overriding my own Consumer Staples avoid list for a clean 3.3x-volume breakout with a small one-share risk; the avoid list rests on a single losing trade, so I'll review it against this result before the 12/02 expiry."
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 996.85,
+     "equity": 988.36,
      "status": "active",
-     "progress_pct": 9.97,
+     "progress_pct": 9.88,
      "open": 3,
-     "closed": 20,
-     "win_rate": 65.0,
+     "closed": 21,
+     "win_rate": 61.9,
      "max_dd_pct": 4.2,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.06,
-     "ret_pct": -0.31,
-     "note": "No entries: every candidate fails the 1:1 floor (IQV 0.61, MRNA 0.60, VRTX 0.25, CCL 0.56, EMR 0.67). Hold SAP, HZN and MCO on default stops and keep settled cash for a washout that clears 1:1."
+     "risk_adj": -0.23,
+     "ret_pct": -1.16,
+     "note": "No entries at 12:08: every live candidate misses the 0.8:1 floor (SAP 1.6:1 is a same-day re-entry after today's stop-out, so skipped; ACN 0.76, TEAM 0.72, NVS 0.58, AMGN 0.66 at candidate price, and we already hold AMGN). No game-plan trig"
     },
     {
      "id": "volsell",
@@ -61,74 +61,74 @@
      "closed": 6,
      "win_rate": 0.0,
      "max_dd_pct": 11.1,
-     "competing": true,
-     "exhibition": false,
+     "competing": false,
+     "exhibition": true,
      "risk_adj": -1.0,
      "ret_pct": -11.1,
-     "note": "Passed XLF bull put 54/53: IV/RV 1.01 is below my 1.15 floor and Financials is on my avoid list. Holding $889 settled cash for a non-avoided setup with IV/RV at or above 1.15."
+     "note": "Passed XLF 54/53 bull put: IV/RV 0.97 is below the 1.15 floor and Financials is on the avoid list. Keeping $889 settled for a non-avoided setup with IV/RV at or above 1.15."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 946.01,
+     "equity": 944.7,
      "status": "active",
-     "progress_pct": 9.46,
+     "progress_pct": 9.45,
      "open": 3,
      "closed": 0,
      "win_rate": null,
-     "max_dd_pct": 5.8,
+     "max_dd_pct": 5.9,
      "competing": false,
      "exhibition": false,
      "risk_adj": -0.93,
-     "ret_pct": -5.4,
+     "ret_pct": -5.53,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 914.69,
+     "equity": 914.9,
      "status": "active",
      "progress_pct": 9.15,
-     "open": 0,
+     "open": 2,
      "closed": 9,
      "win_rate": 44.4,
      "max_dd_pct": 10.6,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.81,
-     "ret_pct": -8.53,
+     "risk_adj": -0.8,
+     "ret_pct": -8.51,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -363.26,
+     "equity": -335.26,
      "status": "eliminated",
-     "progress_pct": -3.63,
+     "progress_pct": -3.35,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.97,
-     "ret_pct": -136.33,
+     "risk_adj": -0.95,
+     "ret_pct": -133.53,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 999.56,
+     "equity": 1000.28,
      "status": "active",
      "progress_pct": 10.0,
-     "open": 0,
+     "open": 2,
      "closed": 94,
      "win_rate": 43.6,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.01,
-     "ret_pct": -0.04,
+     "risk_adj": 0.01,
+     "ret_pct": 0.03,
      "note": "[weekly] Edge is still thin and unproven at 23 trades (win rate 43.5%, avg win and loss about equal). Most exits are time limits near 0%, and stop fills slip past the 0.3% setting. This week's entries all had rel volume of 1.5 or more, so t"
     },
     {
@@ -151,177 +151,183 @@
    "curve": [
     {
      "date": "2026-10-13",
-     "racing": 3000.24,
+     "racing": 2000.24,
      "leader": null,
      "spy": 999.95
     },
     {
      "date": "2026-10-14",
-     "racing": 4022.22,
+     "racing": 3022.22,
      "leader": 999.67,
      "spy": 994.99
     },
     {
      "date": "2026-10-15",
-     "racing": 3920.16,
+     "racing": 2920.16,
      "leader": 999.66,
      "spy": 998.29
     },
     {
      "date": "2026-10-16",
-     "racing": 4054.37,
+     "racing": 3054.37,
      "leader": 1000.02,
      "spy": 986.28
     },
     {
      "date": "2026-10-19",
-     "racing": 4059.4,
+     "racing": 3059.4,
      "leader": 1003.59,
      "spy": 993.69
     },
     {
      "date": "2026-10-20",
-     "racing": 4059.69,
+     "racing": 3059.69,
      "leader": 1005.15,
      "spy": 993.8
     },
     {
      "date": "2026-10-21",
-     "racing": 4062.11,
+     "racing": 3062.11,
      "leader": 1005.76,
      "spy": 999.81
     },
     {
      "date": "2026-10-22",
-     "racing": 4185.0,
+     "racing": 3185.0,
      "leader": 1004.75,
      "spy": 986.0
     },
     {
      "date": "2026-10-23",
-     "racing": 4216.23,
+     "racing": 3216.23,
      "leader": 1003.6,
      "spy": 983.43
     },
     {
      "date": "2026-10-26",
-     "racing": 4206.69,
+     "racing": 3206.69,
      "leader": 1005.69,
      "spy": 990.25
     },
     {
      "date": "2026-10-27",
-     "racing": 4067.72,
+     "racing": 3067.72,
      "leader": 1006.86,
      "spy": 996.98
     },
     {
      "date": "2026-10-28",
-     "racing": 4041.15,
+     "racing": 3041.15,
      "leader": 1004.78,
      "spy": 997.04
     },
     {
      "date": "2026-10-29",
-     "racing": 4048.37,
+     "racing": 3048.37,
      "leader": 1004.53,
      "spy": 993.77
     },
     {
      "date": "2026-10-30",
-     "racing": 4152.26,
+     "racing": 3188.26,
      "leader": 1003.05,
      "spy": 974.46
     },
     {
      "date": "2026-11-02",
-     "racing": 4038.48,
+     "racing": 3069.48,
      "leader": 1003.41,
      "spy": 973.62
     },
     {
      "date": "2026-11-03",
-     "racing": 4043.33,
+     "racing": 3083.33,
      "leader": 1003.56,
      "spy": 975.23
     },
     {
      "date": "2026-11-04",
-     "racing": 4005.35,
+     "racing": 3054.35,
      "leader": 1004.56,
      "spy": 993.71
     },
     {
      "date": "2026-11-05",
-     "racing": 3850.38,
+     "racing": 2894.38,
      "leader": 1002.98,
      "spy": 950.85
     },
     {
      "date": "2026-11-06",
-     "racing": 3829.26,
+     "racing": 2878.76,
      "leader": 1000.87,
      "spy": 954.03
     },
     {
      "date": "2026-11-09",
-     "racing": 3757.06,
+     "racing": 2845.56,
      "leader": 1002.03,
      "spy": 976.26
     },
     {
      "date": "2026-11-10",
-     "racing": 3715.45,
+     "racing": 2816.45,
      "leader": 1000.74,
      "spy": 969.22
     },
     {
      "date": "2026-11-11",
-     "racing": 3636.61,
+     "racing": 2747.61,
      "leader": 1000.78,
      "spy": 983.41
     },
     {
      "date": "2026-11-12",
-     "racing": 3613.08,
+     "racing": 2724.08,
      "leader": 1001.84,
      "spy": 978.78
     },
     {
      "date": "2026-11-13",
-     "racing": 3603.93,
+     "racing": 2714.93,
      "leader": 1001.97,
      "spy": 974.41
     },
     {
      "date": "2026-11-16",
-     "racing": 3600.35,
+     "racing": 2711.35,
      "leader": 1001.97,
      "spy": 955.85
     },
     {
      "date": "2026-11-17",
-     "racing": 3588.81,
+     "racing": 2699.81,
      "leader": 999.56,
      "spy": 946.01
+    },
+    {
+     "date": "2026-11-18",
+     "racing": 2694.34,
+     "leader": 1000.28,
+     "spy": 944.7
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -0.1,
-    "radar": 35,
+    "vs200": -0.3,
+    "radar": 37,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 7,
+    "approved": 6,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 89,
-   "profitability": 26,
+   "efficiency": 100,
+   "profitability": 27,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -329,7 +335,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 1.4,
+   "age_days": 1.5,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -655,7 +661,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 24.0,
+   "age_days": 24.1,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -705,7 +711,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-18T14:00:46Z",
+   "updated": "2026-11-18T17:15:24Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -717,7 +723,7 @@
     "lost": 41,
     "push": 2,
     "roi": -0.2619,
-    "clv": -0.0115,
+    "clv": -0.0113,
     "open": 4,
     "profit": -91.11,
     "staked": 347.89
@@ -733,7 +739,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.125,
+    "min_edge": 0.12,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -764,7 +770,7 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18411,
+   "credits": 18311,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -893,42 +899,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-18T05:02:59Z",
+     "ts": "2026-11-18T15:30:47Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 301 players projected, lineups for 5 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 292 players projected, lineups for 12 games."
     },
     {
-     "ts": "2026-11-18T05:45:23Z",
+     "ts": "2026-11-18T15:31:51Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.00% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.00% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-18T07:00:37Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.75% so I get enough bets to learn from."
+     "ts": "2026-11-18T16:00:54Z",
+     "kind": "focus",
+     "text": "Skipped 182 pts+reb+ast lines, 33 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
     },
     {
-     "ts": "2026-11-18T07:45:25Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.50% so I get enough bets to learn from."
+     "ts": "2026-11-18T16:00:55Z",
+     "kind": "props",
+     "text": "NBA matchups: 12 games, strongest spots: Jakob Poeltl ra +17% vs WSH; Immanuel Quickley ast +16% vs WSH; Jamal Shead ast +15% vs WSH. Bought prop odds for WSH@TOR (ast, ra, pra, team totals), DET@NO (ast, ra, team totals), CHI@BKN (ast, ra, pra, team totals), "
     },
     {
-     "ts": "2026-11-18T09:04:55Z",
+     "ts": "2026-11-18T16:30:44Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 296 players projected, lineups for 12 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 293 players projected, lineups for 12 games."
     },
     {
-     "ts": "2026-11-18T13:15:44Z",
+     "ts": "2026-11-18T17:00:49Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 296 players projected, lineups for 12 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 293 players projected, lineups for 12 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-12T21:48:58Z",
-     "agent": 59.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-12T23:59:18Z",
      "agent": 59.16,
@@ -1123,6 +1124,11 @@
      "ts": "2026-11-18T04:40:07Z",
      "agent": 100.73,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-18T16:00:55Z",
+     "agent": 100.73,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1169,7 +1175,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 89.4,
+   "age_days": 89.6,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1179,7 +1185,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 123.4,
+   "age_days": 123.6,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1192,11 +1198,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-18T09:07-05:00",
+  "checked": "2026-11-18T12:16-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-18T09:10-05:00",
-   "age_hours": -0.0,
+   "age_hours": 3.1,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:50 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1281,8 +1287,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T12:20:55Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44302895275"
+    "at": "2026-11-18T14:08:15Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44320803833"
    },
    {
     "repo": "Creation",
@@ -1299,8 +1305,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T14:01:30Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44319532410"
+    "at": "2026-11-18T17:15:36Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44356559927"
    }
   ],
   "ok": true
