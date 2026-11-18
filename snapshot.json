@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:11-05:00",
+ "updated": "2026-11-17T20:53-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -329,7 +329,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 0.8,
+   "age_days": 0.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -655,7 +655,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 23.4,
+   "age_days": 23.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -705,7 +705,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-18T01:00:41Z",
+   "updated": "2026-11-18T01:45:36Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -733,7 +733,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.135,
+    "min_edge": 0.1325,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -764,9 +764,9 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18638,
+   "credits": 18610,
    "credits_monthly": 20000,
-   "per_scan": 102,
+   "per_scan": 92,
    "open_bets": [
     {
      "what": "Marquette Golden Eagles",
@@ -893,26 +893,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-17T23:45:20Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.75% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-18T00:00:57Z",
-     "kind": "focus",
-     "text": "Skipped 77 pts+reb+ast lines, 14 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
-    },
-    {
-     "ts": "2026-11-18T00:00:57Z",
-     "kind": "props",
-     "text": "NBA matchups: 5 games, strongest spots: Ja'Kobe Walter ra -15% vs NY; Sandro Mamukelashvili ra -13% vs CHA; Collin Murray-Boyles pra -13% vs NY. Bought prop odds for NY@TOR (ast, ra, pra, team totals), CHA@LAL (ast, ra, pra, team totals), DET@SA (ast, ra, pra,"
-    },
-    {
-     "ts": "2026-11-18T00:30:38Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 119 players projected, lineups for 5 games."
-    },
-    {
      "ts": "2026-11-18T00:30:59Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.50% so I get enough bets to learn from."
@@ -921,14 +901,29 @@
      "ts": "2026-11-18T01:06:48Z",
      "kind": "owner",
      "text": "Owner approved raising the prop minimum edge from 4% to 8% while closing-line value is negative (-2.3% over 57 bets). Revert to 4% once CLV is positive over at least 30 bets. Game-bet edge, the $5 minimum bet and the credit floor are unchanged."
+    },
+    {
+     "ts": "2026-11-18T01:15:32Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.25% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-18T01:15:41Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 17: 5 games, 120 players projected, lineups for 5 games."
+    },
+    {
+     "ts": "2026-11-18T01:30:19Z",
+     "kind": "focus",
+     "text": "Skipped 36 pts+reb+ast lines, 14 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
+    },
+    {
+     "ts": "2026-11-18T01:30:19Z",
+     "kind": "props",
+     "text": "NBA matchups: 2 games, strongest spots: Sandro Mamukelashvili ra -13% vs CHA; Sandro Mamukelashvili ast -12% vs CHA; Jake LaRavia ra -10% vs CHA. Bought prop odds for CHA@LAL (ast, ra, pra, team totals), UTAH@LAC (ast, ra, pra, tpm, team totals) (9 credits). N"
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-12T01:20:45Z",
-     "agent": 50.86,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-12T01:52:16Z",
      "agent": 50.86,
@@ -1123,6 +1118,11 @@
      "ts": "2026-11-18T00:00:57Z",
      "agent": 100.0,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-18T01:30:19Z",
+     "agent": 100.0,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1192,11 +1192,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-17T20:11-05:00",
+  "checked": "2026-11-17T20:53-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-17T20:11-05:00",
-   "age_hours": 0.0,
+   "age_hours": 0.7,
    "ok": true,
    "summary": "Shipped all 10 items you approved Monday: Perseverance prop edge 8%, Curiosity Premium House exhibition and Snapback 0.8:1, Ingenuity March-1 restart guard (wor"
   },
@@ -1278,6 +1278,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-18T01:12:04Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44213913831"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1285,22 +1294,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/44192015883"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-17T22:25:53Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44189834068"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T01:00:53Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44212385041"
+    "at": "2026-11-18T01:45:48Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44218183298"
    }
   ],
   "ok": true
