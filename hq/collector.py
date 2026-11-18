@@ -305,6 +305,8 @@ else:
         find("stale-nfl", "deadline", "nfl", "high", "NFL slips are a week behind",
              f"Data runs through Week {through}, last updated {fd.get('updated')}.", "Enter last week's stat lines.")
     for s in slips:
+        if not s["alive"]:
+            continue    # a slip with a lost leg is dead: raise no pace, play or injury flags for its other legs
         for l in s["legs"]:
             if l["settled"] == "win*":
                 pass  # the tracker already shows a cleared over leg as Cashed; nothing to settle by hand
@@ -338,7 +340,9 @@ else:
                       "datasets": [{"label": x.get("label"), "rows": x.get("rows")} for x in ig.get("datasets", [])],
                       "rows": rows, "season": ig.get("season"), **{k: v for k, v in st.items()},
                       "efficiency": eff, "profitability": prof,
-                      "automation": "High: daily GitHub Action publishes Savant and MLB stats; graded games logged on device"}
+                      "automation": ("Paused on purpose until March 1, 2027: the daily stats Action skips itself in the offseason, then restarts on its own"
+                                   if st.get("stats_paused") else
+                                   "High: daily GitHub Action publishes Savant and MLB stats; graded games logged on device")}
     offseason = bool(ig.get("dataThrough")) and (NOW.date() - date.fromisoformat(ig["dataThrough"])).days > 14
     if gen_age is not None and gen_age > 2 and not offseason:   # paused on purpose in the offseason (q2)
         find("stale-ingenuity", "staleness", "ingenuity", "med", "Ingenuity daily stats Action looks stalled",
