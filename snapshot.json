@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:20-05:00",
+ "updated": "2026-11-18T09:07-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -329,7 +329,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 1.3,
+   "age_days": 1.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -646,7 +646,7 @@
      "health": 75
     }
    ],
-   "efficiency": 70,
+   "efficiency": 68,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -655,7 +655,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 23.9,
+   "age_days": 24.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -705,7 +705,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-18T12:15:22Z",
+   "updated": "2026-11-18T14:00:46Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -893,11 +893,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-18T04:40:07Z",
-     "kind": "scan",
-     "text": "Scanned basketball_ncaab (61), basketball_nba (11), icehockey_nhl (3), americanfootball_ncaaf (2), boxing_boxing (1) for 17 credits. Placed 4: Bradley Braves @ -263 (FanDuel); Fort Wayne Mastodons @ +275 (BetRivers); Detroit Pistons @ -249 (Polymarket); New Or"
-    },
-    {
      "ts": "2026-11-18T05:02:59Z",
      "kind": "research",
      "text": "Research refresh for Wed Nov 18: 12 games, 301 players projected, lineups for 5 games."
@@ -919,6 +914,11 @@
     },
     {
      "ts": "2026-11-18T09:04:55Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 18: 12 games, 296 players projected, lineups for 12 games."
+    },
+    {
+     "ts": "2026-11-18T13:15:44Z",
      "kind": "research",
      "text": "Research refresh for Wed Nov 18: 12 games, 296 players projected, lineups for 12 games."
     }
@@ -1169,7 +1169,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 89.3,
+   "age_days": 89.4,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1179,7 +1179,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 123.3,
+   "age_days": 123.4,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1192,13 +1192,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-18T07:20-05:00",
+  "checked": "2026-11-18T09:07-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-17T20:11-05:00",
-   "age_hours": 11.2,
+   "last": "2026-11-18T09:10-05:00",
+   "age_hours": -0.0,
    "ok": true,
-   "summary": "Shipped all 10 items you approved Monday: Perseverance prop edge 8%, Curiosity Premium House exhibition and Snapback 0.8:1, Ingenuity March-1 restart guard (wor"
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:50 AM) was ok. Next shipping runs are scheduled."
   },
   "feeds": [
    {
@@ -1281,8 +1281,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T07:30:23Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44259307779"
+    "at": "2026-11-18T12:20:55Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44302895275"
    },
    {
     "repo": "Creation",
@@ -1299,8 +1299,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T12:15:32Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44302139136"
+    "at": "2026-11-18T14:01:30Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44319532410"
    }
   ],
   "ok": true
