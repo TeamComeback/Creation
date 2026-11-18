@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T17:25-05:00",
+ "updated": "2026-11-17T20:11-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-17T15:37-05:00",
-   "age_days": 0.1,
+   "age_days": 0.2,
    "pool_now": 3588.81,
    "pool_start": 4000.0,
    "pool_ret": -10.28,
@@ -320,7 +320,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 98,
+   "efficiency": 96,
    "profitability": 26,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -329,7 +329,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 0.7,
+   "age_days": 0.8,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -646,7 +646,7 @@
      "health": 75
     }
    ],
-   "efficiency": 73,
+   "efficiency": 72,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -655,7 +655,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 23.3,
+   "age_days": 23.4,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -690,7 +690,7 @@
    "stats_paused": true,
    "efficiency": 42,
    "profitability": 48,
-   "automation": "High: daily GitHub Action publishes Savant and MLB stats; graded games logged on device",
+   "automation": "Paused on purpose until March 1, 2027: the daily stats Action skips itself in the offseason, then restarts on its own",
    "stage": "Research",
    "stage_note": "Offseason: model work before next season"
   },
@@ -705,7 +705,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-17T22:15:26Z",
+   "updated": "2026-11-18T01:00:41Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -717,7 +717,7 @@
     "lost": 39,
     "push": 2,
     "roi": -0.2985,
-    "clv": -0.0153,
+    "clv": -0.0145,
     "open": 4,
     "profit": -91.84,
     "staked": 307.63
@@ -733,7 +733,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.14,
+    "min_edge": 0.135,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -743,7 +743,7 @@
     "arb_pct": 0.2,
     "parlay_enabled": true,
     "props_enabled": true,
-    "prop_min_edge": 0.04,
+    "prop_min_edge": 0.08,
     "prop_model_weight": 0.173,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
@@ -764,9 +764,9 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18782,
+   "credits": 18638,
    "credits_monthly": 20000,
-   "per_scan": 147,
+   "per_scan": 102,
    "open_bets": [
     {
      "what": "Marquette Golden Eagles",
@@ -893,52 +893,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-17T20:15:23Z",
+     "ts": "2026-11-17T23:45:20Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.50% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.75% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-17T21:00:33Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.25% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-17T21:45:29Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 14.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-17T21:54:15Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 17: 5 games, 117 players projected, lineups for 5 games."
-    },
-    {
-     "ts": "2026-11-17T22:00:43Z",
+     "ts": "2026-11-18T00:00:57Z",
      "kind": "focus",
-     "text": "Skipped 67 pts+reb+ast lines, 12 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
+     "text": "Skipped 77 pts+reb+ast lines, 14 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
     },
     {
-     "ts": "2026-11-17T22:00:43Z",
+     "ts": "2026-11-18T00:00:57Z",
      "kind": "props",
      "text": "NBA matchups: 5 games, strongest spots: Ja'Kobe Walter ra -15% vs NY; Sandro Mamukelashvili ra -13% vs CHA; Collin Murray-Boyles pra -13% vs NY. Bought prop odds for NY@TOR (ast, ra, pra, team totals), CHA@LAL (ast, ra, pra, team totals), DET@SA (ast, ra, pra,"
+    },
+    {
+     "ts": "2026-11-18T00:30:38Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 17: 5 games, 119 players projected, lineups for 5 games."
+    },
+    {
+     "ts": "2026-11-18T00:30:59Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 13.50% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-18T01:06:48Z",
+     "kind": "owner",
+     "text": "Owner approved raising the prop minimum edge from 4% to 8% while closing-line value is negative (-2.3% over 57 bets). Revert to 4% once CLV is positive over at least 30 bets. Game-bet edge, the $5 minimum bet and the credit floor are unchanged."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-11T17:07:06Z",
-     "agent": 50.86,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-11T19:30:38Z",
-     "agent": 50.86,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-11T21:51:20Z",
-     "agent": 50.86,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-12T01:20:45Z",
      "agent": 50.86,
@@ -1123,6 +1108,21 @@
      "ts": "2026-11-17T22:00:43Z",
      "agent": 100.0,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T22:50:56Z",
+     "agent": 100.0,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-17T23:30:34Z",
+     "agent": 100.0,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-18T00:00:57Z",
+     "agent": 100.0,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1169,7 +1169,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 88.8,
+   "age_days": 88.9,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1179,7 +1179,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 122.8,
+   "age_days": 122.9,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1188,17 +1188,17 @@
  },
  "counts": {
   "high": 2,
-  "med": 6,
-  "low": 3
+  "med": 3,
+  "low": 2
  },
  "health": {
-  "checked": "2026-11-17T17:25-05:00",
+  "checked": "2026-11-17T20:11-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-17T09:10-05:00",
-   "age_hours": 8.3,
+   "last": "2026-11-17T20:11-05:00",
+   "age_hours": 0.0,
    "ok": true,
-   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:36 AM) was ok. Next shipping runs are scheduled."
+   "summary": "Shipped all 10 items you approved Monday: Perseverance prop edge 8%, Curiosity Premium House exhibition and Snapback 0.8:1, Ingenuity March-1 restart guard (wor"
   },
   "feeds": [
    {
@@ -1244,9 +1244,9 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
-    "conclusion": "cancelled",
-    "at": "2026-11-17T21:41:17Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44163710320"
+    "conclusion": "success",
+    "at": "2026-11-18T01:10:46Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44182397993"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1278,20 +1278,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T18:47:54Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44151566592"
+    "at": "2026-11-17T22:38:39Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44192015883"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T05:14:28Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44022626452"
+    "at": "2026-11-17T22:25:53Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44189834068"
    },
    {
     "repo": "Perseverance",
@@ -1299,8 +1299,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T22:15:36Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44188182738"
+    "at": "2026-11-18T01:00:53Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44212385041"
    }
   ],
   "ok": true
