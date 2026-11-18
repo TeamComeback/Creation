@@ -279,6 +279,106 @@
    "commit": "9eceb72",
    "time": "2026-11-16T20:05-05:00",
    "summary": "Check after PR #15: of about 10 scheduled slots between 9:10 AM and 8 PM ET only 2 started (1:33 PM and 6:51 PM); every run that started succeeded, so the cause is GitHub not starting scheduled runs, not a failure in the job. More cron lines did not raise the rate, so I'm leaving the two-line schedule as is. What keeps the data fresh is the by-hand start from each shipping run (9:05 AM, 8:05 PM) and the upkeep run's own fallback, which is written but not yet published. Closing the repair as done; the publish of that fallback is the open step."
+  },
+  {
+   "id": "p20261115perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/6",
+   "commit": "59a4616",
+   "note": "Props now need an 8% edge (was 4%). The live value sits in docs/data/state.json, so that is what changed, with a journal note to revert to 4% once CLV is positive over 30+ bets. The $5 minimum bet, game-bet edge and credit floor are unchanged. Tests pass; no live agent run was possible from here.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261114curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/13",
+   "commit": "5397e2f",
+   "note": "Premium House is now an exhibition firm: it keeps trading on paper but is out of the race pool, leaderboard and SPY comparison until its thesis review passes. Tests pass; no live agent run was possible from here.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261115curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/Curiosity/pull/13",
+   "commit": "5397e2f",
+   "note": "Snapback's minimum reward-to-risk is now 0.8:1. The 1:1 floor was the agent's own rule, so the change is in its decision prompt, and each thesis must state the ratio so the change can be judged later. Other firms and all size caps are unchanged.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261114ingenuity",
+   "status": "shipped",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "https://github.com/TeamComeback/Ingenuity/pull/4",
+   "commit": "352843c",
+   "note": "The Refresh stats workflow has an offseason guard: scheduled runs do nothing until 2027-03-01, then run every morning; manual runs always fetch. It was switched off by hand on Oct 25, so I switched it back on (the guard makes that safe); the first scheduled run tomorrow should show a clean skip. The v2.7 engine is untouched.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261115ingenuity",
+   "status": "shipped",
+   "repo": "TeamComeback/Ingenuity",
+   "link": "https://github.com/TeamComeback/Ingenuity/pull/5",
+   "commit": "bd5a065",
+   "note": "Backtest says a narrower band isn't needed: v2.7's 80% band covers 80.2% of its 489 games with a recorded band (target 80%); the 82% in the proposal did not reproduce. Tool, data and result are in the repo (PRs #5 and #6); v2.7 stays the published model.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261114jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/16",
+   "commit": "d0e33ef",
+   "note": "Four receivable search terms added (ar specialist, payment posting specialist, collections specialist, cash applications analyst) and payment-posting and collections titles score higher. Florida only, Tampa Bay first. Real scans still wait on the CRON_TOKEN secret (fix-empty-jobs).",
+   "owner_action": "Add the CRON_TOKEN secret (see fix-empty-jobs).",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261115jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/16",
+   "commit": "d0e33ef",
+   "note": "A second free job source (The Muse, no key) now runs inside the scan beside Adzuna and JSearch, and a failure there never stops the others. Tested with sample data only: this workspace could not reach the feed, so the first real scan is the live check, and step 5 (run the snapshot job and confirm the board count) waits on the CRON_TOKEN secret.",
+   "owner_action": "Add the CRON_TOKEN secret (see fix-empty-jobs).",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261114nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/5",
+   "commit": "3b7264d",
+   "note": "Lost slips are greyed out with no pace alerts or injury flags (New Systems and Fun are lost; Goat Whale is the only live slip and still shows its Herbert alert). The HQ collector (Creation PR #16) skips flags on lost slips too.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "p20261115nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/5",
+   "commit": "3b7264d",
+   "note": "The stats auto-fill now runs Tuesday, Wednesday, Thursday and Friday mornings (Friday added so the Thursday-night game lands). It only adds missing weeks, never overwriting settled legs or notes. Not run by hand: nothing new to fetch before Thursday's game.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "fix-stale-nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/5",
+   "commit": "3b7264d",
+   "note": "Week 10 stat lines were already filled (data through Week 10, updated Nov 17), and Lamar Jackson and McLaurin are settled as losses, so New Systems and Fun show as lost. The remaining steps shipped in the two Fantasy-Tracker items above.",
+   "owner_action": "",
+   "at": "2026-11-17T20:11-05:00"
   }
  ],
  "runs": [
@@ -631,6 +731,20 @@
    "tokens": 12000,
    "by_company": {
     "hq": 12000
+   }
+  },
+  {
+   "id": "r20261118T0105ship",
+   "time": "2026-11-17T20:11-05:00",
+   "summary": "Shipped all 10 items you approved Monday: Perseverance prop edge 8%, Curiosity Premium House exhibition and Snapback 0.8:1, Ingenuity March-1 restart guard (workflow switched back on) and the interval backtest (not needed), Creation receivable terms and second job source, Fantasy-Tracker lost-slip greying and the Thursday/Friday stats fill. Open: the second job source is untested live and the job board still waits on CRON_TOKEN.",
+   "tokens": 150000,
+   "by_company": {
+    "hq": 20000,
+    "perseverance": 15000,
+    "curiosity": 20000,
+    "ingenuity": 35000,
+    "jobs": 35000,
+    "nfl": 25000
    }
   }
  ]
