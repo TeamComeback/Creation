@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-18T12:16-05:00",
+ "updated": "2026-11-18T16:38-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-18T12:08-05:00",
+   "updated": "2026-11-18T15:38-05:00",
    "age_days": 0.0,
-   "pool_now": 2694.34,
+   "pool_now": 2692.05,
    "pool_start": 3000.0,
-   "pool_ret": -10.19,
-   "spy_ret": -5.53,
-   "edge": -4.66,
+   "pool_ret": -10.26,
+   "spy_ret": -5.55,
+   "edge": -4.71,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1000.28,
-    "ret_pct": 0.03,
-    "progress_pct": 10.0,
+    "equity": 1001.3,
+    "ret_pct": 0.13,
+    "progress_pct": 10.01,
     "days_to_goal": null
    },
    "agents": [
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 705.7,
+     "equity": 704.52,
      "status": "active",
-     "progress_pct": 7.06,
+     "progress_pct": 7.05,
      "open": 2,
      "closed": 25,
      "win_rate": 16.0,
@@ -32,24 +32,24 @@
      "competing": true,
      "exhibition": false,
      "risk_adj": -0.62,
-     "ret_pct": -29.43,
-     "note": "Overriding my own Consumer Staples avoid list for a clean 3.3x-volume breakout with a small one-share risk; the avoid list rests on a single losing trade, so I'll review it against this result before the 12/02 expiry."
+     "ret_pct": -29.55,
+     "note": "No entries today: FNGR is a sub-$0.30 collapse in an avoid-listed sector, COPX is in the avoid-listed Technology sector, and no game-plan trigger (IBN, EW, NFLX, SE) has fired. Holding TGT to its 158.63 stop and CLSX to its 2.98 underlying "
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 988.36,
+     "equity": 986.23,
      "status": "active",
-     "progress_pct": 9.88,
-     "open": 3,
+     "progress_pct": 9.86,
+     "open": 5,
      "closed": 21,
      "win_rate": 61.9,
-     "max_dd_pct": 4.2,
+     "max_dd_pct": 4.3,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.23,
-     "ret_pct": -1.16,
-     "note": "No entries at 12:08: every live candidate misses the 0.8:1 floor (SAP 1.6:1 is a same-day re-entry after today's stop-out, so skipped; ACN 0.76, TEAM 0.72, NVS 0.58, AMGN 0.66 at candidate price, and we already hold AMGN). No game-plan trig"
+     "risk_adj": -0.28,
+     "ret_pct": -1.38,
+     "note": "15:38: no entries. Every live candidate either fails the 0.8:1 floor (TEAM 0.71, MRNA 0.44), duplicates a held name (ACN, AMGN, NVS), or is a same-day SAP re-entry after its stop-out. Game-plan triggers (EMR, DE, NDAQ, IBB, IR) are not in t"
     },
     {
      "id": "volsell",
@@ -65,12 +65,12 @@
      "exhibition": true,
      "risk_adj": -1.0,
      "ret_pct": -11.1,
-     "note": "Passed XLF 54/53 bull put: IV/RV 0.97 is below the 1.15 floor and Financials is on the avoid list. Keeping $889 settled for a non-avoided setup with IV/RV at or above 1.15."
+     "note": "Pass TLT 78/77 bull put again: IV/RV 1.27 clears the floor, but it is a rate proxy in my avoid sector, TLT has stopped out three times, and SPY trend is down. XLF fails the 1.15 IV/RV floor. Keep $889 settled for a non-rate setup at IV/RV 1"
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 944.7,
+     "equity": 944.53,
      "status": "active",
      "progress_pct": 9.45,
      "open": 3,
@@ -80,55 +80,55 @@
      "competing": false,
      "exhibition": false,
      "risk_adj": -0.93,
-     "ret_pct": -5.53,
+     "ret_pct": -5.55,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 914.9,
+     "equity": 917.34,
      "status": "active",
-     "progress_pct": 9.15,
+     "progress_pct": 9.17,
      "open": 2,
      "closed": 9,
      "win_rate": 44.4,
      "max_dd_pct": 10.6,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.8,
-     "ret_pct": -8.51,
+     "risk_adj": -0.78,
+     "ret_pct": -8.27,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -335.26,
+     "equity": -249.26,
      "status": "eliminated",
-     "progress_pct": -3.35,
+     "progress_pct": -2.49,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.95,
-     "ret_pct": -133.53,
+     "risk_adj": -0.89,
+     "ret_pct": -124.93,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1000.28,
+     "equity": 1001.3,
      "status": "active",
-     "progress_pct": 10.0,
-     "open": 2,
-     "closed": 94,
-     "win_rate": 43.6,
+     "progress_pct": 10.01,
+     "open": 0,
+     "closed": 98,
+     "win_rate": 44.9,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
-     "risk_adj": 0.01,
-     "ret_pct": 0.03,
+     "risk_adj": 0.03,
+     "ret_pct": 0.13,
      "note": "[weekly] Edge is still thin and unproven at 23 trades (win rate 43.5%, avg win and loss about equal). Most exits are time limits near 0%, and stop fills slip past the 0.3% setting. This week's entries all had rel volume of 1.5 or more, so t"
     },
     {
@@ -307,9 +307,9 @@
     },
     {
      "date": "2026-11-18",
-     "racing": 2694.34,
-     "leader": 1000.28,
-     "spy": 944.7
+     "racing": 2692.05,
+     "leader": 1001.3,
+     "spy": 944.53
     }
    ],
    "health_ok": true,
@@ -317,17 +317,17 @@
    "regime": {
     "trend": "down",
     "vs200": -0.3,
-    "radar": 37,
+    "radar": 38,
     "tier": "calm"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 6,
+    "approved": 10,
     "denied": 0,
     "last_denied": null
    },
    "efficiency": 100,
-   "profitability": 27,
+   "profitability": 26,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -335,7 +335,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 1.5,
+   "age_days": 1.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -652,7 +652,7 @@
      "health": 75
     }
    ],
-   "efficiency": 68,
+   "efficiency": 67,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -661,7 +661,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 24.1,
+   "age_days": 24.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -711,7 +711,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-18T17:15:24Z",
+   "updated": "2026-11-18T21:36:41Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -723,7 +723,7 @@
     "lost": 41,
     "push": 2,
     "roi": -0.2619,
-    "clv": -0.0113,
+    "clv": -0.0091,
     "open": 4,
     "profit": -91.11,
     "staked": 347.89
@@ -739,7 +739,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.12,
+    "min_edge": 0.115,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -750,7 +750,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.173,
+    "prop_model_weight": 0.151,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -770,9 +770,9 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18311,
+   "credits": 18188,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 9,
    "open_bets": [
     {
      "what": "Bradley Braves",
@@ -899,47 +899,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-18T15:30:47Z",
+     "ts": "2026-11-18T20:30:43Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 292 players projected, lineups for 12 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 297 players projected, lineups for 12 games."
     },
     {
-     "ts": "2026-11-18T15:31:51Z",
+     "ts": "2026-11-18T20:45:27Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.00% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 11.75% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-18T16:00:54Z",
-     "kind": "focus",
-     "text": "Skipped 182 pts+reb+ast lines, 33 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, rebounds."
-    },
-    {
-     "ts": "2026-11-18T16:00:55Z",
-     "kind": "props",
-     "text": "NBA matchups: 12 games, strongest spots: Jakob Poeltl ra +17% vs WSH; Immanuel Quickley ast +16% vs WSH; Jamal Shead ast +15% vs WSH. Bought prop odds for WSH@TOR (ast, ra, pra, team totals), DET@NO (ast, ra, team totals), CHI@BKN (ast, ra, pra, team totals), "
-    },
-    {
-     "ts": "2026-11-18T16:30:44Z",
+     "ts": "2026-11-18T21:00:47Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 293 players projected, lineups for 12 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 297 players projected, lineups for 12 games."
     },
     {
-     "ts": "2026-11-18T17:00:49Z",
+     "ts": "2026-11-18T21:30:31Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 11.50% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-18T21:30:51Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 293 players projected, lineups for 12 games."
+     "text": "Research refresh for Wed Nov 18: 12 games, 297 players projected, lineups for 12 games."
+    },
+    {
+     "ts": "2026-11-18T21:35:24Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 18: 12 games, 297 players projected, lineups for 12 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-12T23:59:18Z",
-     "agent": 59.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-13T00:59:21Z",
-     "agent": 59.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-13T03:32:21Z",
      "agent": 59.16,
@@ -1129,6 +1119,16 @@
      "ts": "2026-11-18T16:00:55Z",
      "agent": 100.73,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-18T18:02:00Z",
+     "agent": 100.73,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-18T19:01:56Z",
+     "agent": 100.73,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1175,7 +1175,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 89.6,
+   "age_days": 89.7,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1185,7 +1185,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 123.6,
+   "age_days": 123.7,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1198,11 +1198,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-18T12:16-05:00",
+  "checked": "2026-11-18T16:38-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-18T09:10-05:00",
-   "age_hours": 3.1,
+   "age_hours": 7.5,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (8:50 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1251,8 +1251,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T07:33:03Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44259710241"
+    "at": "2026-11-18T17:38:40Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44302983149"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1260,8 +1260,8 @@
     "name": "Auto-fill weekly stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-17T19:50:29Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44162866773"
+    "at": "2026-11-18T19:23:35Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44380002653"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1278,8 +1278,8 @@
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-10-25T14:58:02Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/40204675206"
+    "at": "2026-11-18T19:24:35Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44380195428"
    },
    {
     "repo": "Creation",
@@ -1287,8 +1287,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T14:08:15Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44320803833"
+    "at": "2026-11-18T17:16:53Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44356716419"
    },
    {
     "repo": "Creation",
@@ -1305,8 +1305,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T17:15:36Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44356559927"
+    "at": "2026-11-18T21:36:56Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44402956280"
    }
   ],
   "ok": true

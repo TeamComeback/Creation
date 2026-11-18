@@ -23,7 +23,7 @@
   "business": "curiosity",
   "severity": "med",
   "title": "Trend Co. is in a 48% drawdown",
-  "detail": "Equity $705.70 (-29.4%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
+  "detail": "Equity $704.52 (-29.6%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
   "action": "Review its thesis and position sizing in the Curiosity journal."
  },
  {
