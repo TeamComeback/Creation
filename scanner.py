@@ -26,7 +26,7 @@ from email.message import EmailMessage
 import store
 from job_profile import METROS, SEARCH_TRACKS
 from scoring import Job, rank
-import source_adzuna as adzuna, source_jsearch as jsearch
+import source_adzuna as adzuna, source_jsearch as jsearch, source_muse as muse
 from source_boards import COMPANY_BOARDS, fetch_greenhouse, fetch_lever
 
 log = logging.getLogger(__name__)
@@ -76,7 +76,7 @@ def run_scan() -> dict:
     # available() first and skips the call -- so a missing API key used to
     # produce a silent "found: 0" with nothing in the logs to explain it.
     active = []
-    for name, module in (("adzuna", adzuna), ("jsearch", jsearch)):
+    for name, module in (("adzuna", adzuna), ("jsearch", jsearch), ("themuse", muse)):
         if module.available():
             active.append(name)
         else:
@@ -92,6 +92,15 @@ def run_scan() -> dict:
             collected += adzuna.fetch(track, q, metro_key)
         if jsearch.available():
             collected += jsearch.fetch(track, q, metro_key)
+
+    # Second source (owner-approved in HQ): a free, no-key feed, so one dead source cannot empty the board.
+    # A failure here is logged and recorded but never stops the other sources.
+    for metro_key in METROS:
+        try:
+            collected += muse.fetch(metro_key)
+        except Exception as e:  # noqa: BLE001
+            log.error("themuse/%s failed: %s", metro_key, e)
+            errors.append(f"themuse/{metro_key}: {e}")
 
     for slug in COMPANY_BOARDS.get("greenhouse", []):
         collected += fetch_greenhouse(slug)

@@ -62,6 +62,11 @@ SEARCH_TRACKS = {
             "personal banker",
             "will call coordinator",
             "customer account representative",
+            # added Nov 18 2026 (owner-approved in HQ): the daily Sysco work, searched by its other job titles
+            "ar specialist",
+            "payment posting specialist",
+            "collections specialist",
+            "cash applications analyst",
         ],
     },
     "stretch": {
@@ -134,7 +139,7 @@ SEARCH_TRACKS = {
 # Job titles that map straight onto a track get a flat bump in scoring.
 TITLE_TOKENS = (
     # finance + banking
-    "accounts receivable", "cash application", "billing", "finance associate",
+    "accounts receivable", "cash application", "payment posting", "collections", "billing", "finance associate",
     "banker", "branch operations", "aml", "bsa", "fraud", "kyc",
     "revenue cycle", "credit analyst", "operations analyst",
     # warehouse + logistics
@@ -155,6 +160,7 @@ SKILL_KEYWORDS = {
     "cash application": 9,
     "accounts receivable": 8,
     "payment application": 8,
+    "payment posting": 8,
     "check processing": 7,
     "reconciliation": 7,
     "invoice": 6,
