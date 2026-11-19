@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-19T09:07-05:00",
+ "updated": "2026-11-19T15:38-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-18T15:38-05:00",
-   "age_days": 0.7,
-   "pool_now": 2692.05,
+   "updated": "2026-11-19T15:38-05:00",
+   "age_days": 0.0,
+   "pool_now": 2597.0,
    "pool_start": 3000.0,
-   "pool_ret": -10.26,
-   "spy_ret": -5.55,
-   "edge": -4.71,
+   "pool_ret": -13.43,
+   "spy_ret": -7.27,
+   "edge": -6.16,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.3,
@@ -22,97 +22,97 @@
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 704.52,
+     "equity": 626.52,
      "status": "active",
-     "progress_pct": 7.05,
-     "open": 2,
-     "closed": 25,
-     "win_rate": 16.0,
-     "max_dd_pct": 47.5,
+     "progress_pct": 6.27,
+     "open": 0,
+     "closed": 27,
+     "win_rate": 14.8,
+     "max_dd_pct": 53.3,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.62,
-     "ret_pct": -29.55,
-     "note": "No entries today: FNGR is a sub-$0.30 collapse in an avoid-listed sector, COPX is in the avoid-listed Technology sector, and no game-plan trigger (IBN, EW, NFLX, SE) has fired. Holding TGT to its 158.63 stop and CLSX to its 2.98 underlying "
+     "risk_adj": -0.7,
+     "ret_pct": -37.35,
+     "note": "No entries: JMIA is in an avoid-listed sector (Broad market/other, 11 trades, -$221) and its 3.27 stop is about 30% away. None of the Communication Services triggers (IBN, DIS, NFLX, SE) has fired, so I keep settled cash. TGT and CLSX are a"
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 986.23,
+     "equity": 969.18,
      "status": "active",
-     "progress_pct": 9.86,
-     "open": 5,
-     "closed": 21,
-     "win_rate": 61.9,
-     "max_dd_pct": 4.3,
+     "progress_pct": 9.69,
+     "open": 9,
+     "closed": 22,
+     "win_rate": 59.1,
+     "max_dd_pct": 5.9,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.28,
-     "ret_pct": -1.38,
-     "note": "15:38: no entries. Every live candidate either fails the 0.8:1 floor (TEAM 0.71, MRNA 0.44), duplicates a held name (ACN, AMGN, NVS), or is a same-day SAP re-entry after its stop-out. Game-plan triggers (EMR, DE, NDAQ, IBB, IR) are not in t"
+     "risk_adj": -0.52,
+     "ret_pct": -3.08,
+     "note": "Pass: $34.61 settled cash across nine open starters, SPY below its 200-day, crash radar 42. BLK (about 0.96:1 live) and BNY (about 0.95:1) clear the 0.8:1 floor, but a $30 add would overlap existing Financials exposure (MCO, RSP, TRV, SPGI)"
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 889.0,
+     "equity": 886.5,
      "status": "active",
-     "progress_pct": 8.89,
-     "open": 0,
+     "progress_pct": 8.87,
+     "open": 1,
      "closed": 6,
      "win_rate": 0.0,
-     "max_dd_pct": 11.1,
+     "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -1.0,
-     "ret_pct": -11.1,
-     "note": "Pass TLT 78/77 bull put again: IV/RV 1.27 clears the floor, but it is a rate proxy in my avoid sector, TLT has stopped out three times, and SPY trend is down. XLF fails the 1.15 IV/RV floor. Keep $889 settled for a non-rate setup at IV/RV 1"
+     "risk_adj": -0.97,
+     "ret_pct": -11.35,
+     "note": "Passing on the only candidate: it duplicates the open TLT 78/77 bull put, which has stopped out repeatedly. Next trade must be a different underlying with IV/RV at or above 1.15, a stop defined before entry, and crash radar below 40."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 944.53,
+     "equity": 927.29,
      "status": "active",
-     "progress_pct": 9.45,
+     "progress_pct": 9.27,
      "open": 3,
      "closed": 0,
      "win_rate": null,
-     "max_dd_pct": 5.9,
+     "max_dd_pct": 7.5,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.93,
-     "ret_pct": -5.55,
+     "risk_adj": -0.97,
+     "ret_pct": -7.27,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 917.34,
+     "equity": 882.6,
      "status": "active",
-     "progress_pct": 9.17,
+     "progress_pct": 8.83,
      "open": 2,
      "closed": 9,
      "win_rate": 44.4,
-     "max_dd_pct": 10.6,
+     "max_dd_pct": 11.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.78,
-     "ret_pct": -8.27,
+     "risk_adj": -0.99,
+     "ret_pct": -11.74,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -249.26,
+     "equity": -80.26,
      "status": "eliminated",
-     "progress_pct": -2.49,
+     "progress_pct": -0.8,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.89,
-     "ret_pct": -124.93,
+     "risk_adj": -0.77,
+     "ret_pct": -108.03,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -310,24 +310,30 @@
      "racing": 2692.05,
      "leader": 1001.3,
      "spy": 944.53
+    },
+    {
+     "date": "2026-11-19",
+     "racing": 2597.0,
+     "leader": 1001.3,
+     "spy": 927.29
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -0.3,
-    "radar": 38,
-    "tier": "calm"
+    "vs200": -2.2,
+    "radar": 42,
+    "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 10,
+    "approved": 7,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 89,
-   "profitability": 26,
+   "efficiency": 100,
+   "profitability": 19,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -335,7 +341,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 2.4,
+   "age_days": 2.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -652,7 +658,7 @@
      "health": 75
     }
    ],
-   "efficiency": 64,
+   "efficiency": 62,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -661,7 +667,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 25.0,
+   "age_days": 25.2,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -711,22 +717,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-19T14:00:34Z",
+   "updated": "2026-11-19T20:30:36Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 100.73,
-    "bets": 65,
-    "won": 22,
-    "lost": 41,
+    "equity": 101.11,
+    "bets": 69,
+    "won": 24,
+    "lost": 43,
     "push": 2,
-    "roi": -0.2619,
+    "roi": -0.2327,
     "clv": -0.0091,
-    "open": 4,
-    "profit": -91.11,
-    "staked": 347.89
+    "open": 6,
+    "profit": -90.73,
+    "staked": 389.97
    },
    "you": {
     "equity": 100.0,
@@ -739,7 +745,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.12,
+    "min_edge": 0.11,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -750,7 +756,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.151,
+    "prop_model_weight": 0.136,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -764,39 +770,101 @@
     "value_fav": 0.842,
     "value_dog": 0.422,
     "longshot": 0.444,
-    "arb": 1.044,
+    "arb": 1.087,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 17886,
+   "credits": 17730,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 8,
    "open_bets": [
     {
-     "what": "Bradley Braves",
-     "odds": -263,
+     "what": "Ayo Dosunmu Under 3.5",
+     "odds": 124,
      "book": "fanduel",
-     "game": "Fort Wayne Mastodons @ Bradley Braves",
-     "stake": 15.38,
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
      "profit": null,
      "status": "open",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-19T01:00:00Z"
+     "playbook": "matchup_under",
+     "ev": 0.0938,
+     "start": "2026-11-20T01:10:00Z"
     },
     {
-     "what": "Fort Wayne Mastodons",
-     "odds": 275,
-     "book": "betrivers",
-     "game": "Fort Wayne Mastodons @ Bradley Braves",
-     "stake": 5.66,
+     "what": "LaMelo Ball Under 5.5",
+     "odds": 110,
+     "book": "betmgm",
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.0842,
+     "start": "2026-11-20T01:10:00Z"
+    },
+    {
+     "what": "North Carolina Tar Heels",
+     "odds": -244,
+     "book": "fanduel",
+     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
+     "stake": 15.66,
      "profit": null,
      "status": "open",
      "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-19T01:00:00Z"
+     "ev": 0.0051,
+     "start": "2026-11-19T23:00:00Z"
+    },
+    {
+     "what": "Texas Tech Red Raiders",
+     "odds": 250,
+     "book": "draftkings",
+     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
+     "stake": 6.31,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0051,
+     "start": "2026-11-19T23:00:00Z"
+    },
+    {
+     "what": "Mikal Bridges Under 5.5",
+     "odds": 110,
+     "book": "betmgm",
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1288,
+     "start": "2026-11-20T01:10:00Z"
+    },
+    {
+     "what": "Rudy Gobert Under 11.5",
+     "odds": 100,
+     "book": "betmgm",
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1069,
+     "start": "2026-11-20T01:10:00Z"
+    }
+   ],
+   "recent": [
+    {
+     "what": "New Orleans Pelicans",
+     "odds": 260,
+     "book": "fanatics",
+     "game": "Detroit Pistons @ New Orleans Pelicans",
+     "stake": 5.89,
+     "profit": -5.89,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.0082,
+     "start": "2026-11-19T01:10:00Z"
     },
     {
      "what": "Detroit Pistons",
@@ -804,26 +872,36 @@
      "book": "polymarket_us",
      "game": "Detroit Pistons @ New Orleans Pelicans",
      "stake": 15.15,
-     "profit": null,
-     "status": "open",
+     "profit": 6.08,
+     "status": "won",
      "playbook": "arb",
      "ev": 0.0082,
      "start": "2026-11-19T01:10:00Z"
     },
     {
-     "what": "New Orleans Pelicans",
-     "odds": 260,
-     "book": "fanatics",
-     "game": "Detroit Pistons @ New Orleans Pelicans",
-     "stake": 5.89,
-     "profit": null,
-     "status": "open",
+     "what": "Fort Wayne Mastodons",
+     "odds": 275,
+     "book": "betrivers",
+     "game": "Fort Wayne Mastodons @ Bradley Braves",
+     "stake": 5.66,
+     "profit": 15.57,
+     "status": "won",
      "playbook": "arb",
-     "ev": 0.0082,
-     "start": "2026-11-19T01:10:00Z"
-    }
-   ],
-   "recent": [
+     "ev": 0.0087,
+     "start": "2026-11-19T01:00:00Z"
+    },
+    {
+     "what": "Bradley Braves",
+     "odds": -263,
+     "book": "fanduel",
+     "game": "Fort Wayne Mastodons @ Bradley Braves",
+     "stake": 15.38,
+     "profit": -15.38,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.0087,
+     "start": "2026-11-19T01:00:00Z"
+    },
     {
      "what": "Toronto Raptors",
      "odds": 155,
@@ -847,109 +925,41 @@
      "playbook": "arb",
      "ev": 0.0161,
      "start": "2026-11-18T00:40:00Z"
-    },
-    {
-     "what": "Wisconsin Badgers",
-     "odds": -250,
-     "book": "williamhill_us",
-     "game": "Marquette Golden Eagles @ Wisconsin Badgers",
-     "stake": 14.66,
-     "profit": 5.86,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.019,
-     "start": "2026-11-18T00:30:00Z"
-    },
-    {
-     "what": "Marquette Golden Eagles",
-     "odds": 275,
-     "book": "hardrockbet",
-     "game": "Marquette Golden Eagles @ Wisconsin Badgers",
-     "stake": 5.47,
-     "profit": -5.47,
-     "status": "lost",
-     "playbook": "arb",
-     "ev": 0.019,
-     "start": "2026-11-18T00:30:00Z"
-    },
-    {
-     "what": "Cam Spencer Under 7.5",
-     "odds": -105,
-     "book": "espnbet",
-     "game": "Memphis Grizzlies @ Washington Wizards",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1571,
-     "start": "2026-11-17T00:10:00Z"
-    },
-    {
-     "what": "Alperen Sengun Over 16.5",
-     "odds": 100,
-     "book": "fanduel",
-     "game": "Houston Rockets @ Washington Wizards",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_over",
-     "ev": 0.0639,
-     "start": "2026-11-16T00:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-19T06:00:32Z",
+     "ts": "2026-11-19T19:02:27Z",
+     "kind": "focus",
+     "text": "Skipped 58 pts+reb+ast lines, 11 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, reb+ast, rebounds."
+    },
+    {
+     "ts": "2026-11-19T19:02:28Z",
+     "kind": "props",
+     "text": "NBA matchups: 4 games, strongest spots: Jonathan Kuminga ra -12% vs NY; Jrue Holiday ra +13% vs MIL; Jrue Holiday ast +12% vs MIL. Bought prop odds for NY@MIN (ast, ra, pra, team totals), LAC@SA (ast, ra, pra, tpm, team totals), GS@MEM (ast, ra, pra, team tota"
+    },
+    {
+     "ts": "2026-11-19T19:45:22Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.50% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 11.25% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-19T06:45:23Z",
+     "ts": "2026-11-19T19:45:30Z",
+     "kind": "research",
+     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
+    },
+    {
+     "ts": "2026-11-19T20:15:33Z",
+     "kind": "research",
+     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
+    },
+    {
+     "ts": "2026-11-19T20:30:36Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.25% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-19T07:30:25Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-19T09:15:38Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
-    },
-    {
-     "ts": "2026-11-19T09:29:23Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
-    },
-    {
-     "ts": "2026-11-19T13:30:37Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 11.00% so I get enough bets to learn from."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-14T23:48:33Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-15T02:58:56Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-15T16:20:31Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-15T19:30:37Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-15T20:19:22Z",
      "agent": 18.16,
@@ -1129,6 +1139,26 @@
      "ts": "2026-11-19T04:25:54Z",
      "agent": 100.73,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T16:00:46Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T17:15:22Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T18:17:49Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T19:02:28Z",
+     "agent": 101.11,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1144,7 +1174,7 @@
     }
    ],
    "efficiency": 95,
-   "profitability": 0,
+   "profitability": 3,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
    "stage_note": "Paper money: racing $100 to $1,000"
@@ -1175,7 +1205,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 90.4,
+   "age_days": 90.7,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1185,7 +1215,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 124.4,
+   "age_days": 124.7,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1198,11 +1228,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-19T09:07-05:00",
+  "checked": "2026-11-19T15:38-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-19T09:10-05:00",
-   "age_hours": -0.0,
+   "age_hours": 6.5,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:13 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1251,8 +1281,17 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T07:29:35Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44479969983"
+    "at": "2026-11-19T17:38:21Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44522487282"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-19T19:28:52Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44598681564"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1264,22 +1303,13 @@
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44446952296"
    },
    {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Auto-fill weekly stats",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-18T19:23:35Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44380002653"
-   },
-   {
     "repo": "Ingenuity",
     "business": "ingenuity",
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T19:24:35Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44380195428"
+    "at": "2026-11-19T19:29:52Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44598883437"
    },
    {
     "repo": "Creation",
@@ -1287,8 +1317,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T12:13:49Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44521823912"
+    "at": "2026-11-19T14:07:57Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44540317788"
    },
    {
     "repo": "Creation",
@@ -1305,8 +1335,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T14:00:56Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44539092535"
+    "at": "2026-11-19T20:30:55Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44609322179"
    }
   ],
   "ok": true
