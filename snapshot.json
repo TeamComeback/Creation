@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T05:22-05:00",
+ "updated": "2026-11-19T07:13-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -335,7 +335,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 2.2,
+   "age_days": 2.3,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -661,7 +661,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 24.8,
+   "age_days": 24.9,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -711,7 +711,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-19T10:15:23Z",
+   "updated": "2026-11-19T12:00:32Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1198,11 +1198,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-19T05:22-05:00",
+  "checked": "2026-11-19T07:13-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-18T20:05-05:00",
-   "age_hours": 9.3,
+   "age_hours": 11.1,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:23 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1284,6 +1284,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-19T10:22:38Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44504963319"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1291,22 +1300,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/44458721057"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-19T02:51:29Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44447239629"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T10:15:34Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44503907026"
+    "at": "2026-11-19T12:00:42Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44519830962"
    }
   ],
   "ok": true
