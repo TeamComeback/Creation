@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T21:50-05:00",
+ "updated": "2026-11-19T05:22-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-18T15:38-05:00",
-   "age_days": 0.3,
+   "age_days": 0.6,
    "pool_now": 2692.05,
    "pool_start": 3000.0,
    "pool_ret": -10.26,
@@ -326,7 +326,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 95,
+   "efficiency": 90,
    "profitability": 26,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -335,7 +335,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 1.9,
+   "age_days": 2.2,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -652,7 +652,7 @@
      "health": 75
     }
    ],
-   "efficiency": 66,
+   "efficiency": 64,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -661,7 +661,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 24.5,
+   "age_days": 24.8,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -711,7 +711,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-19T02:46:06Z",
+   "updated": "2026-11-19T10:15:23Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -739,7 +739,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.125,
+    "min_edge": 0.12,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -770,7 +770,7 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 18001,
+   "credits": 17886,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -899,42 +899,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-19T01:31:18Z",
-     "kind": "props",
-     "text": "NBA matchups: 3 games, strongest spots: Luka Doncic ast +13% vs UTAH; Luka Doncic pra +10% vs UTAH; Luka Doncic ra +10% vs UTAH. No credits to price props this run (allowance 0). "
+     "ts": "2026-11-19T05:04:11Z",
+     "kind": "research",
+     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 12 games."
     },
     {
-     "ts": "2026-11-19T01:50:11Z",
+     "ts": "2026-11-19T06:00:32Z",
      "kind": "adapt",
-     "text": "Closing-line value is -0.9% over 62 legs, so the market is beating my picks. Raising the minimum edge to 12.5%."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.50% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-19T01:50:13Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 18001 left this cycle)."
+     "ts": "2026-11-19T06:45:23Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.25% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-19T02:00:58Z",
-     "kind": "props",
-     "text": "NBA matchups: 3 games, strongest spots: Luka Doncic ast +13% vs UTAH; Luka Doncic pra +10% vs UTAH; Luka Doncic ra +10% vs UTAH. No credits to price props this run (allowance 0). "
+     "ts": "2026-11-19T07:30:25Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 12.00% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-19T02:03:59Z",
+     "ts": "2026-11-19T09:15:38Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 302 players projected, lineups for 12 games."
+     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
     },
     {
-     "ts": "2026-11-19T02:45:48Z",
+     "ts": "2026-11-19T09:29:23Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 303 players projected, lineups for 12 games."
+     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-14T22:53:14Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-14T23:48:33Z",
      "agent": 28.16,
@@ -1129,6 +1124,11 @@
      "ts": "2026-11-19T02:00:58Z",
      "agent": 100.73,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T04:25:54Z",
+     "agent": 100.73,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1175,7 +1175,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 90.0,
+   "age_days": 90.3,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1185,7 +1185,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 124.0,
+   "age_days": 124.3,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1198,11 +1198,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-18T21:50-05:00",
+  "checked": "2026-11-19T05:22-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-18T20:05-05:00",
-   "age_hours": 1.8,
+   "age_hours": 9.3,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:23 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1251,8 +1251,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T01:54:52Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44440377000"
+    "at": "2026-11-19T07:29:35Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44479969983"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1284,20 +1284,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T01:06:46Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44434281518"
+    "at": "2026-11-19T04:30:25Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44458721057"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-18T22:20:23Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44410521176"
+    "at": "2026-11-19T02:51:29Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44447239629"
    },
    {
     "repo": "Perseverance",
@@ -1305,8 +1305,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T02:46:26Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44446574153"
+    "at": "2026-11-19T10:15:34Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44503907026"
    }
   ],
   "ok": true
