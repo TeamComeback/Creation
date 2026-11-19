@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T20:06-05:00",
+ "updated": "2026-11-18T21:50-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-18T15:38-05:00",
-   "age_days": 0.2,
+   "age_days": 0.3,
    "pool_now": 2692.05,
    "pool_start": 3000.0,
    "pool_ret": -10.26,
@@ -326,7 +326,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 96,
+   "efficiency": 95,
    "profitability": 26,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -335,7 +335,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 1.8,
+   "age_days": 1.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -440,7 +440,7 @@
        "rem": 8,
        "rate": 0.43,
        "need": 0.44,
-       "inj": "O",
+       "inj": "Q",
        "state": "on pace",
        "settled": null
       },
@@ -557,7 +557,7 @@
        "rem": 7,
        "rate": 0.17,
        "need": -0.07,
-       "inj": "IR",
+       "inj": "",
        "state": "won",
        "settled": "win*"
       },
@@ -661,7 +661,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 24.4,
+   "age_days": 24.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -711,7 +711,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-19T01:01:35Z",
+   "updated": "2026-11-19T02:46:06Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -739,7 +739,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.12,
+    "min_edge": 0.125,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -899,52 +899,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-18T23:34:56Z",
-     "kind": "focus",
-     "text": "Skipped 210 pts+reb+ast lines, 22 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists."
-    },
-    {
-     "ts": "2026-11-18T23:34:56Z",
-     "kind": "props",
-     "text": "NBA matchups: 12 games, strongest spots: Jakob Poeltl ra +17% vs WSH; Immanuel Quickley ast +16% vs WSH; Jamal Shead ast +15% vs WSH. Bought prop odds for WSH@TOR (ast, ra, pra, team totals), HOU@IND (ast, ra, pra, team totals), DET@NO (ast, ra, team totals), "
-    },
-    {
-     "ts": "2026-11-19T00:00:54Z",
-     "kind": "focus",
-     "text": "Skipped 101 pts+reb+ast lines, 11 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists."
-    },
-    {
-     "ts": "2026-11-19T00:00:54Z",
-     "kind": "props",
-     "text": "NBA matchups: 8 games, strongest spots: Jakob Poeltl ra +17% vs WSH; Immanuel Quickley ast +16% vs WSH; Jamal Shead ast +15% vs WSH. Bought prop odds for WSH@TOR (ast, ra, pra, team totals), DET@NO (ast, ra, team totals), CHI@BKN (ast, ra, pra, team totals), U"
-    },
-    {
-     "ts": "2026-11-19T00:33:23Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 18: 12 games, 303 players projected, lineups for 12 games."
-    },
-    {
-     "ts": "2026-11-19T01:00:28Z",
+     "ts": "2026-11-19T01:31:18Z",
      "kind": "props",
      "text": "NBA matchups: 3 games, strongest spots: Luka Doncic ast +13% vs UTAH; Luka Doncic pra +10% vs UTAH; Luka Doncic ra +10% vs UTAH. No credits to price props this run (allowance 0). "
+    },
+    {
+     "ts": "2026-11-19T01:50:11Z",
+     "kind": "adapt",
+     "text": "Closing-line value is -0.9% over 62 legs, so the market is beating my picks. Raising the minimum edge to 12.5%."
+    },
+    {
+     "ts": "2026-11-19T01:50:13Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 18001 left this cycle)."
+    },
+    {
+     "ts": "2026-11-19T02:00:58Z",
+     "kind": "props",
+     "text": "NBA matchups: 3 games, strongest spots: Luka Doncic ast +13% vs UTAH; Luka Doncic pra +10% vs UTAH; Luka Doncic ra +10% vs UTAH. No credits to price props this run (allowance 0). "
+    },
+    {
+     "ts": "2026-11-19T02:03:59Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 18: 12 games, 302 players projected, lineups for 12 games."
+    },
+    {
+     "ts": "2026-11-19T02:45:48Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 18: 12 games, 303 players projected, lineups for 12 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-14T15:48:57Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-14T19:30:44Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-14T19:52:38Z",
-     "agent": 28.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-14T22:53:14Z",
      "agent": 28.16,
@@ -1129,6 +1114,21 @@
      "ts": "2026-11-19T01:00:28Z",
      "agent": 100.73,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T01:31:18Z",
+     "agent": 100.73,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T01:50:13Z",
+     "agent": 100.73,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T02:00:58Z",
+     "agent": 100.73,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1175,7 +1175,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 89.9,
+   "age_days": 90.0,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1185,7 +1185,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 123.9,
+   "age_days": 124.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1198,11 +1198,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-18T20:06-05:00",
+  "checked": "2026-11-18T21:50-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-18T20:05-05:00",
-   "age_hours": 0.0,
+   "age_hours": 1.8,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:23 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1250,9 +1250,18 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
-    "conclusion": "cancelled",
-    "at": "2026-11-18T21:41:41Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44380465570"
+    "conclusion": "success",
+    "at": "2026-11-19T01:54:52Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44440377000"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Refresh injury tags",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-19T02:48:33Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44446952296"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1262,15 +1271,6 @@
     "conclusion": "success",
     "at": "2026-11-18T19:23:35Z",
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44380002653"
-   },
-   {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Refresh injury tags",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-17T04:45:24Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44019334658"
    },
    {
     "repo": "Ingenuity",
@@ -1287,8 +1287,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T00:24:36Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44428658530"
+    "at": "2026-11-19T01:06:46Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44434281518"
    },
    {
     "repo": "Creation",
@@ -1305,8 +1305,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T01:01:48Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44433497772"
+    "at": "2026-11-19T02:46:26Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44446574153"
    }
   ],
   "ok": true
