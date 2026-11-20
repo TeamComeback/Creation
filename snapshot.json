@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:54-05:00",
+ "updated": "2026-11-20T09:07-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -341,7 +341,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 3.3,
+   "age_days": 3.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -658,7 +658,7 @@
      "health": 75
     }
    ],
-   "efficiency": 59,
+   "efficiency": 58,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -667,7 +667,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 25.9,
+   "age_days": 26.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -717,7 +717,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-20T12:45:25Z",
+   "updated": "2026-11-20T14:00:32Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -905,11 +905,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-20T05:15:20Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.00% so I get enough bets to learn from."
-    },
-    {
      "ts": "2026-11-20T06:00:29Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.75% so I get enough bets to learn from."
@@ -931,6 +926,11 @@
     },
     {
      "ts": "2026-11-20T09:09:30Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-20T13:15:33Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
     }
@@ -1204,13 +1204,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-20T07:54-05:00",
+  "checked": "2026-11-20T09:07-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-19T20:05-05:00",
-   "age_hours": 11.8,
+   "last": "2026-11-20T09:10-05:00",
+   "age_hours": -0.0,
    "ok": true,
-   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (4:51 PM) was ok. Next shipping runs are scheduled."
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:54 AM) was ok. Next shipping runs are scheduled."
   },
   "feeds": [
    {
@@ -1293,8 +1293,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T04:23:14Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44674011456"
+    "at": "2026-11-20T12:55:32Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44739747760"
    },
    {
     "repo": "Creation",
@@ -1311,8 +1311,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T12:45:38Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44738402837"
+    "at": "2026-11-20T14:01:04Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44749306759"
    }
   ],
   "ok": true
