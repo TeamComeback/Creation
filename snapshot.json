@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:16-05:00",
+ "updated": "2026-11-19T23:22-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -341,7 +341,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 2.9,
+   "age_days": 3.0,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -658,7 +658,7 @@
      "health": 75
     }
    ],
-   "efficiency": 61,
+   "efficiency": 60,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -667,7 +667,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 25.5,
+   "age_days": 25.6,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -717,35 +717,35 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-20T03:15:24Z",
+   "updated": "2026-11-20T04:15:22Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 101.11,
-    "bets": 69,
-    "won": 24,
-    "lost": 43,
+    "equity": 101.22,
+    "bets": 71,
+    "won": 25,
+    "lost": 44,
     "push": 2,
-    "roi": -0.2327,
+    "roi": -0.22,
     "clv": -0.0091,
-    "open": 6,
-    "profit": -90.73,
-    "staked": 389.97
+    "open": 4,
+    "profit": -90.62,
+    "staked": 411.94
    },
    "you": {
-    "equity": 100.0,
-    "bets": 0,
-    "won": 0,
-    "lost": 0,
+    "equity": 109.73,
+    "bets": 6,
+    "won": 3,
+    "lost": 3,
     "push": 0,
-    "roi": 0,
+    "roi": 0.2883,
     "open": 0,
-    "profit": 0
+    "profit": 9.73
    },
    "params": {
-    "min_edge": 0.1,
+    "min_edge": 0.1025,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -770,15 +770,15 @@
     "value_fav": 0.842,
     "value_dog": 0.422,
     "longshot": 0.444,
-    "arb": 1.087,
+    "arb": 1.086,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 17525,
+   "credits": 17511,
    "credits_monthly": 20000,
-   "per_scan": 8,
+   "per_scan": 0,
    "open_bets": [
     {
      "what": "Ayo Dosunmu Under 3.5",
@@ -803,30 +803,6 @@
      "playbook": "matchup_under",
      "ev": 0.0842,
      "start": "2026-11-20T01:10:00Z"
-    },
-    {
-     "what": "North Carolina Tar Heels",
-     "odds": -244,
-     "book": "fanduel",
-     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
-     "stake": 15.66,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.0051,
-     "start": "2026-11-19T23:00:00Z"
-    },
-    {
-     "what": "Texas Tech Red Raiders",
-     "odds": 250,
-     "book": "draftkings",
-     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
-     "stake": 6.31,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.0051,
-     "start": "2026-11-19T23:00:00Z"
     },
     {
      "what": "Mikal Bridges Under 5.5",
@@ -854,6 +830,30 @@
     }
    ],
    "recent": [
+    {
+     "what": "Texas Tech Red Raiders",
+     "odds": 250,
+     "book": "draftkings",
+     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
+     "stake": 6.31,
+     "profit": -6.31,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.0051,
+     "start": "2026-11-19T23:00:00Z"
+    },
+    {
+     "what": "North Carolina Tar Heels",
+     "odds": -244,
+     "book": "fanduel",
+     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
+     "stake": 15.66,
+     "profit": 6.42,
+     "status": "won",
+     "playbook": "arb",
+     "ev": 0.0051,
+     "start": "2026-11-19T23:00:00Z"
+    },
     {
      "what": "New Orleans Pelicans",
      "odds": 260,
@@ -901,70 +901,41 @@
      "playbook": "arb",
      "ev": 0.0087,
      "start": "2026-11-19T01:00:00Z"
-    },
-    {
-     "what": "Toronto Raptors",
-     "odds": 155,
-     "book": "espnbet",
-     "game": "New York Knicks @ Toronto Raptors",
-     "stake": 8.02,
-     "profit": -8.02,
-     "status": "lost",
-     "playbook": "arb",
-     "ev": 0.0161,
-     "start": "2026-11-18T00:40:00Z"
-    },
-    {
-     "what": "New York Knicks",
-     "odds": -145,
-     "book": "williamhill_us",
-     "game": "New York Knicks @ Toronto Raptors",
-     "stake": 12.11,
-     "profit": 8.36,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.0161,
-     "start": "2026-11-18T00:40:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-20T01:15:29Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-20T01:45:05Z",
-     "kind": "adapt",
-     "text": "Closing-line value is -0.9% over 62 legs, so the market is beating my picks. Raising the minimum edge to 10.5%."
-    },
-    {
-     "ts": "2026-11-20T01:45:08Z",
-     "kind": "scan",
-     "text": "Scanned basketball_ncaab (47), basketball_nba (7), icehockey_nhl (3) for 9 credits. Nothing cleared the bar. Equity $101.11."
-    },
-    {
-     "ts": "2026-11-20T01:54:48Z",
+     "ts": "2026-11-20T04:04:21Z",
      "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
+     "text": "Research refresh for Fri Nov 20: 9 games, 224 players projected, lineups for 4 games."
     },
     {
-     "ts": "2026-11-20T02:00:37Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.25% so I get enough bets to learn from."
+     "ts": "2026-11-20T04:05:19Z",
+     "kind": "error",
+     "text": "Self-check failed: Slate date (players.json is for 2026-11-20, today is 2026-11-19); Sims for every game (missing: CHA@ATL, ORL@BKN, IND@CLE, TOR@DET, WSH@CHI, NO@OKC, PHX@UTAH, HOU@DEN, SAC@LAL); Best bets (5 props, 4 game lines; ruled out or low minutes sinc"
     },
     {
-     "ts": "2026-11-20T02:45:24Z",
+     "ts": "2026-11-20T04:12:40Z",
+     "kind": "result",
+     "text": "WON +$6.42: North Carolina Tar Heels @ -244 (FanDuel) \u2014 WON: North Carolina Tar Heels won by 14"
+    },
+    {
+     "ts": "2026-11-20T04:12:40Z",
+     "kind": "result",
+     "text": "LOST -$6.31: Texas Tech Red Raiders @ +250 (DraftKings) \u2014 LOST: Texas Tech Red Raiders lost by 14 [underdog-lost]"
+    },
+    {
+     "ts": "2026-11-20T04:12:40Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.00% so I get enough bets to learn from."
+     "text": "Closing-line value is -0.9% over 62 legs, so the market is beating my picks. Raising the minimum edge to 10.2%."
+    },
+    {
+     "ts": "2026-11-20T04:12:43Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 17511 left this cycle)."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-16T19:35:21Z",
-     "agent": 13.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-16T23:43:36Z",
      "agent": 13.16,
@@ -1159,6 +1130,11 @@
      "ts": "2026-11-20T01:45:08Z",
      "agent": 101.11,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-20T04:12:43Z",
+     "agent": 101.22,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1174,7 +1150,7 @@
     }
    ],
    "efficiency": 95,
-   "profitability": 3,
+   "profitability": 6,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
    "stage_note": "Paper money: racing $100 to $1,000"
@@ -1228,11 +1204,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-19T22:16-05:00",
+  "checked": "2026-11-19T23:22-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-19T20:05-05:00",
-   "age_hours": 2.2,
+   "age_hours": 3.3,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (4:51 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1314,20 +1290,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T01:06:30Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44651024963"
+    "at": "2026-11-20T04:16:34Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44673266400"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T22:26:36Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44628581254"
+    "at": "2026-11-20T03:17:36Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44666640668"
    },
    {
     "repo": "Perseverance",
@@ -1335,8 +1311,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T03:15:34Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44666433655"
+    "at": "2026-11-20T04:15:32Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44673149969"
    }
   ],
   "ok": true
