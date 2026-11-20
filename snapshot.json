@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-20T09:24-05:00",
+ "updated": "2026-11-20T16:50-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-19T15:38-05:00",
-   "age_days": 0.7,
-   "pool_now": 2597.0,
+   "updated": "2026-11-20T15:38-05:00",
+   "age_days": 0.1,
+   "pool_now": 2591.75,
    "pool_start": 3000.0,
-   "pool_ret": -13.43,
-   "spy_ret": -7.27,
-   "edge": -6.16,
+   "pool_ret": -13.61,
+   "spy_ret": -10.71,
+   "edge": -2.9,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.3,
@@ -33,86 +33,86 @@
      "exhibition": false,
      "risk_adj": -0.7,
      "ret_pct": -37.35,
-     "note": "No entries: JMIA is in an avoid-listed sector (Broad market/other, 11 trades, -$221) and its 3.27 stop is about 30% away. None of the Communication Services triggers (IBN, DIS, NFLX, SE) has fired, so I keep settled cash. TGT and CLSX are a"
+     "note": "No trade today: both live candidates (SA, GS) sit in sectors my own record flags as losers, and SPY is in a downtrend with crash radar at 46. Stay in settled cash for a Communication Services trigger (IBN above 35.06 or DIS above 123.34 on "
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 969.18,
+     "equity": 963.93,
      "status": "active",
-     "progress_pct": 9.69,
-     "open": 9,
-     "closed": 22,
-     "win_rate": 59.1,
-     "max_dd_pct": 5.9,
+     "progress_pct": 9.64,
+     "open": 10,
+     "closed": 23,
+     "win_rate": 60.9,
+     "max_dd_pct": 6.3,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.52,
-     "ret_pct": -3.08,
-     "note": "Pass: $34.61 settled cash across nine open starters, SPY below its 200-day, crash radar 42. BLK (about 0.96:1 live) and BNY (about 0.95:1) clear the 0.8:1 floor, but a $30 add would overlap existing Financials exposure (MCO, RSP, TRV, SPGI)"
+     "risk_adj": -0.57,
+     "ret_pct": -3.61,
+     "note": "Pass at 15:37: the only setups clearing 0.8:1 (BLK, GWW) are Financials adds, which the sector focus says to avoid beyond the watchlist. MRK isn't a candidate today and UTHR is already held. Hold the ten stock positions to their stops and t"
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 886.5,
+     "equity": 891.5,
      "status": "active",
-     "progress_pct": 8.87,
+     "progress_pct": 8.91,
      "open": 1,
      "closed": 6,
      "win_rate": 0.0,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.97,
-     "ret_pct": -11.35,
-     "note": "Passing on the only candidate: it duplicates the open TLT 78/77 bull put, which has stopped out repeatedly. Next trade must be a different underlying with IV/RV at or above 1.15, a stop defined before entry, and crash radar below 40."
+     "risk_adj": -0.93,
+     "ret_pct": -10.85,
+     "note": "No new entry today: SPY's natural credit is 0.01 (unfillable at a 0.15 floor), and TLT duplicates the open 78/77 bull put in an avoid sector with crash radar at 46. Hold TLT under default exits and wait for a fillable rich-vol spread on a n"
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 927.29,
+     "equity": 892.86,
      "status": "active",
-     "progress_pct": 9.27,
+     "progress_pct": 8.93,
      "open": 3,
      "closed": 0,
      "win_rate": null,
-     "max_dd_pct": 7.5,
+     "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.97,
-     "ret_pct": -7.27,
+     "risk_adj": -0.99,
+     "ret_pct": -10.71,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 882.6,
+     "equity": 817.95,
      "status": "active",
-     "progress_pct": 8.83,
-     "open": 2,
-     "closed": 9,
-     "win_rate": 44.4,
-     "max_dd_pct": 11.8,
+     "progress_pct": 8.18,
+     "open": 1,
+     "closed": 10,
+     "win_rate": 40.0,
+     "max_dd_pct": 18.3,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.99,
-     "ret_pct": -11.74,
+     "risk_adj": -1.0,
+     "ret_pct": -18.2,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -80.26,
+     "equity": -159.26,
      "status": "eliminated",
-     "progress_pct": -0.8,
+     "progress_pct": -1.59,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.77,
-     "ret_pct": -108.03,
+     "risk_adj": -0.82,
+     "ret_pct": -115.93,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -316,24 +316,30 @@
      "racing": 2597.0,
      "leader": 1001.3,
      "spy": 927.29
+    },
+    {
+     "date": "2026-11-20",
+     "racing": 2591.75,
+     "leader": 1001.3,
+     "spy": 892.86
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -2.2,
-    "radar": 42,
+    "vs200": -5.8,
+    "radar": 46,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 7,
+    "approved": 8,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 89,
-   "profitability": 19,
+   "efficiency": 98,
+   "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -341,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 3.4,
+   "age_days": 3.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -667,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 26.0,
+   "age_days": 26.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -717,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-20T14:16:26Z",
+   "updated": "2026-11-20T21:45:22Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 101.22,
-    "bets": 71,
-    "won": 25,
-    "lost": 44,
+    "equity": 91.22,
+    "bets": 75,
+    "won": 26,
+    "lost": 47,
     "push": 2,
-    "roi": -0.22,
+    "roi": -0.2329,
     "clv": -0.0091,
-    "open": 4,
-    "profit": -90.62,
-    "staked": 411.94
+    "open": 8,
+    "profit": -100.62,
+    "staked": 431.94
    },
    "you": {
     "equity": 109.73,
@@ -745,7 +751,7 @@
     "profit": 9.73
    },
    "params": {
-    "min_edge": 0.0925,
+    "min_edge": 0.09,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -756,7 +762,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.136,
+    "prop_model_weight": 0.125,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -773,35 +779,121 @@
     "arb": 1.086,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
-    "matchup_under": 0.505
+    "matchup_under": 0.458
    },
    "strategist_on": false,
-   "credits": 17338,
+   "credits": 17202,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 9,
    "open_bets": [
     {
-     "what": "Ayo Dosunmu Under 3.5",
-     "odds": 124,
-     "book": "fanduel",
-     "game": "New York Knicks @ Minnesota Timberwolves",
+     "what": "Jamison Battle Under 4.5",
+     "odds": 110,
+     "book": "hardrockbet",
+     "game": "Toronto Raptors @ Detroit Pistons",
      "stake": 5.0,
      "profit": null,
      "status": "open",
      "playbook": "matchup_under",
-     "ev": 0.0938,
-     "start": "2026-11-20T01:10:00Z"
+     "ev": 0.1781,
+     "start": "2026-11-21T00:40:00Z"
     },
     {
-     "what": "LaMelo Ball Under 5.5",
+     "what": "Alperen Sengun Under 15.5",
+     "odds": -108,
+     "book": "draftkings",
+     "game": "Houston Rockets @ Denver Nuggets",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.131,
+     "start": "2026-11-21T03:10:00Z"
+    },
+    {
+     "what": "Darryn Peterson Under 8.5",
+     "odds": 105,
+     "book": "hardrockbet",
+     "game": "Phoenix Suns @ Utah Jazz",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.122,
+     "start": "2026-11-21T02:40:00Z"
+    },
+    {
+     "what": "Julius Randle Under 10.5",
+     "odds": -102,
+     "book": "fanduel",
+     "game": "Orlando Magic @ Brooklyn Nets",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1171,
+     "start": "2026-11-21T00:40:00Z"
+    },
+    {
+     "what": "Domantas Sabonis Under 16.5",
+     "odds": 102,
+     "book": "fanduel",
+     "game": "Sacramento Kings @ Los Angeles Lakers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1146,
+     "start": "2026-11-21T03:10:00Z"
+    },
+    {
+     "what": "Michael Porter Jr. Under 8.5",
      "odds": 110,
+     "book": "hardrockbet",
+     "game": "Orlando Magic @ Brooklyn Nets",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1144,
+     "start": "2026-11-21T00:40:00Z"
+    },
+    {
+     "what": "Nickeil Alexander-Walker Under 6.5",
+     "odds": 115,
+     "book": "betmgm",
+     "game": "Charlotte Hornets @ Atlanta Hawks",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1104,
+     "start": "2026-11-21T00:10:00Z"
+    },
+    {
+     "what": "Ivica Zubac Under 10.5",
+     "odds": 101,
+     "book": "draftkings",
+     "game": "Indiana Pacers @ Cleveland Cavaliers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.102,
+     "start": "2026-11-21T00:40:00Z"
+    }
+   ],
+   "recent": [
+    {
+     "what": "Rudy Gobert Under 11.5",
+     "odds": 100,
      "book": "betmgm",
      "game": "New York Knicks @ Minnesota Timberwolves",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": 5.0,
+     "status": "won",
      "playbook": "matchup_under",
-     "ev": 0.0842,
+     "ev": 0.1069,
      "start": "2026-11-20T01:10:00Z"
     },
     {
@@ -810,26 +902,12 @@
      "book": "betmgm",
      "game": "New York Knicks @ Minnesota Timberwolves",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_under",
      "ev": 0.1288,
      "start": "2026-11-20T01:10:00Z"
     },
-    {
-     "what": "Rudy Gobert Under 11.5",
-     "odds": 100,
-     "book": "betmgm",
-     "game": "New York Knicks @ Minnesota Timberwolves",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.1069,
-     "start": "2026-11-20T01:10:00Z"
-    }
-   ],
-   "recent": [
     {
      "what": "Texas Tech Red Raiders",
      "odds": 250,
@@ -855,102 +933,63 @@
      "start": "2026-11-19T23:00:00Z"
     },
     {
-     "what": "New Orleans Pelicans",
-     "odds": 260,
-     "book": "fanatics",
-     "game": "Detroit Pistons @ New Orleans Pelicans",
-     "stake": 5.89,
-     "profit": -5.89,
+     "what": "LaMelo Ball Under 5.5",
+     "odds": 110,
+     "book": "betmgm",
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
+     "profit": -5.0,
      "status": "lost",
-     "playbook": "arb",
-     "ev": 0.0082,
-     "start": "2026-11-19T01:10:00Z"
+     "playbook": "matchup_under",
+     "ev": 0.0842,
+     "start": "2026-11-20T01:10:00Z"
     },
     {
-     "what": "Detroit Pistons",
-     "odds": -249,
-     "book": "polymarket_us",
-     "game": "Detroit Pistons @ New Orleans Pelicans",
-     "stake": 15.15,
-     "profit": 6.08,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.0082,
-     "start": "2026-11-19T01:10:00Z"
-    },
-    {
-     "what": "Fort Wayne Mastodons",
-     "odds": 275,
-     "book": "betrivers",
-     "game": "Fort Wayne Mastodons @ Bradley Braves",
-     "stake": 5.66,
-     "profit": 15.57,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-19T01:00:00Z"
-    },
-    {
-     "what": "Bradley Braves",
-     "odds": -263,
+     "what": "Ayo Dosunmu Under 3.5",
+     "odds": 124,
      "book": "fanduel",
-     "game": "Fort Wayne Mastodons @ Bradley Braves",
-     "stake": 15.38,
-     "profit": -15.38,
+     "game": "New York Knicks @ Minnesota Timberwolves",
+     "stake": 5.0,
+     "profit": -5.0,
      "status": "lost",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-19T01:00:00Z"
+     "playbook": "matchup_under",
+     "ev": 0.0938,
+     "start": "2026-11-20T01:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-20T06:45:21Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.50% so I get enough bets to learn from."
+     "ts": "2026-11-20T19:00:45Z",
+     "kind": "props",
+     "text": "NBA matchups: 9 games, strongest spots: Nic Claxton ra +17% vs WSH; Josh Giddey ast +16% vs WSH; Spencer Jones ra -14% vs HOU. Bought prop odds for WSH@CHI (ra, ast, pra, team totals), HOU@DEN (ra, ast, pra, team totals), IND@CLE (ra, ast, pra, team totals), C"
     },
     {
-     "ts": "2026-11-20T07:30:24Z",
+     "ts": "2026-11-20T19:30:44Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-20T20:00:47Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-20T20:45:26Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.25% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-20T08:15:41Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+     "ts": "2026-11-20T21:30:30Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.00% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-20T09:09:30Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-20T13:15:33Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-20T14:15:41Z",
+     "ts": "2026-11-20T21:32:11Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-16T23:43:36Z",
-     "agent": 13.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-17T02:20:34Z",
-     "agent": 13.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-17T02:51:57Z",
-     "agent": 13.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-17T05:12:33Z",
      "agent": 8.16,
@@ -1135,6 +1174,21 @@
      "ts": "2026-11-20T04:12:43Z",
      "agent": 101.22,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-20T16:00:48Z",
+     "agent": 91.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-20T17:49:36Z",
+     "agent": 91.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-20T19:00:45Z",
+     "agent": 91.22,
+     "you": 109.73
     }
    ],
    "runs": [
@@ -1150,7 +1204,7 @@
     }
    ],
    "efficiency": 95,
-   "profitability": 6,
+   "profitability": 3,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
    "stage_note": "Paper money: racing $100 to $1,000"
@@ -1181,7 +1235,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 91.4,
+   "age_days": 91.7,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1191,7 +1245,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 125.4,
+   "age_days": 125.7,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1204,11 +1258,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-20T09:24-05:00",
+  "checked": "2026-11-20T16:50-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-20T09:10-05:00",
-   "age_hours": 0.2,
+   "age_hours": 7.7,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:54 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1257,8 +1311,17 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T07:20:19Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44694178417"
+    "at": "2026-11-20T17:38:20Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/44734716228"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-20T19:05:23Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44798827170"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1270,22 +1333,13 @@
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44661976630"
    },
    {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Auto-fill weekly stats",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-19T19:28:52Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44598681564"
-   },
-   {
     "repo": "Ingenuity",
     "business": "ingenuity",
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T19:29:52Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44598883437"
+    "at": "2026-11-20T19:06:21Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44798992310"
    },
    {
     "repo": "Creation",
@@ -1293,8 +1347,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T14:08:30Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44750502326"
+    "at": "2026-11-20T14:25:32Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44753178361"
    },
    {
     "repo": "Creation",
@@ -1311,8 +1365,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T14:16:39Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44751652906"
+    "at": "2026-11-20T21:45:37Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44823077180"
    }
   ],
   "ok": true
