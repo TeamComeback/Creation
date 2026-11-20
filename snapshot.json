@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:50-05:00",
+ "updated": "2026-11-20T17:23-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-20T21:45:22Z",
+   "updated": "2026-11-20T22:16:39Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -751,7 +751,7 @@
     "profit": 9.73
    },
    "params": {
-    "min_edge": 0.09,
+    "min_edge": 0.095,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -782,9 +782,9 @@
     "matchup_under": 0.458
    },
    "strategist_on": false,
-   "credits": 17202,
+   "credits": 17157,
    "credits_monthly": 20000,
-   "per_scan": 9,
+   "per_scan": 0,
    "open_bets": [
     {
      "what": "Jamison Battle Under 4.5",
@@ -959,47 +959,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-20T19:00:45Z",
+     "ts": "2026-11-20T21:32:11Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-20T22:00:57Z",
+     "kind": "focus",
+     "text": "Skipped 174 pts+reb+ast lines, 23 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets reb+ast, rebounds."
+    },
+    {
+     "ts": "2026-11-20T22:00:58Z",
      "kind": "props",
      "text": "NBA matchups: 9 games, strongest spots: Nic Claxton ra +17% vs WSH; Josh Giddey ast +16% vs WSH; Spencer Jones ra -14% vs HOU. Bought prop odds for WSH@CHI (ra, ast, pra, team totals), HOU@DEN (ra, ast, pra, team totals), IND@CLE (ra, ast, pra, team totals), C"
     },
     {
-     "ts": "2026-11-20T19:30:44Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-20T20:00:47Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-20T20:45:26Z",
+     "ts": "2026-11-20T22:13:28Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.25% so I get enough bets to learn from."
+     "text": "Closing-line value is -0.9% over 59 legs, so the market is beating my picks. Raising the minimum edge to 9.5%."
     },
     {
-     "ts": "2026-11-20T21:30:30Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.00% so I get enough bets to learn from."
+     "ts": "2026-11-20T22:13:32Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 17157 left this cycle)."
     },
     {
-     "ts": "2026-11-20T21:32:11Z",
+     "ts": "2026-11-20T22:15:39Z",
      "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 223 players projected, lineups for 9 games."
+     "text": "Research refresh for Fri Nov 20: 9 games, 224 players projected, lineups for 9 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-17T05:12:33Z",
-     "agent": 8.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-17T17:30:30Z",
-     "agent": 100.0,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-17T17:30:38Z",
      "agent": 100.0,
@@ -1189,6 +1179,16 @@
      "ts": "2026-11-20T19:00:45Z",
      "agent": 91.22,
      "you": 109.73
+    },
+    {
+     "ts": "2026-11-20T22:00:58Z",
+     "agent": 91.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-20T22:13:32Z",
+     "agent": 91.22,
+     "you": 109.73
     }
    ],
    "runs": [
@@ -1235,7 +1235,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 91.7,
+   "age_days": 91.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1245,7 +1245,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 125.7,
+   "age_days": 125.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1258,11 +1258,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-20T16:50-05:00",
+  "checked": "2026-11-20T17:23-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-20T09:10-05:00",
-   "age_hours": 7.7,
+   "age_hours": 8.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:54 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1344,20 +1344,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T14:25:32Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44753178361"
+    "at": "2026-11-20T21:57:45Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44824841387"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T04:16:34Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44673266400"
+    "at": "2026-11-20T21:50:48Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44823762065"
    },
    {
     "repo": "Perseverance",
@@ -1365,8 +1365,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T21:45:37Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44823077180"
+    "at": "2026-11-20T22:16:53Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44827390267"
    }
   ],
   "ok": true
