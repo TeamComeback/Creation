@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T16:51-05:00",
+ "updated": "2026-11-19T20:05-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-19T15:38-05:00",
-   "age_days": 0.1,
+   "age_days": 0.2,
    "pool_now": 2597.0,
    "pool_start": 3000.0,
    "pool_ret": -13.43,
@@ -332,7 +332,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 98,
+   "efficiency": 96,
    "profitability": 19,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -341,7 +341,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 2.7,
+   "age_days": 2.8,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -667,7 +667,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 25.3,
+   "age_days": 25.4,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -717,7 +717,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-19T21:48:03Z",
+   "updated": "2026-11-20T01:04:40Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -745,7 +745,7 @@
     "profit": 0
    },
    "params": {
-    "min_edge": 0.1075,
+    "min_edge": 0.1025,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -776,9 +776,9 @@
     "matchup_under": 0.505
    },
    "strategist_on": false,
-   "credits": 17692,
+   "credits": 17593,
    "credits_monthly": 20000,
-   "per_scan": 9,
+   "per_scan": 80,
    "open_bets": [
     {
      "what": "Ayo Dosunmu Under 3.5",
@@ -929,57 +929,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-19T20:15:33Z",
+     "ts": "2026-11-19T23:45:43Z",
      "kind": "research",
      "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
     },
     {
-     "ts": "2026-11-19T20:30:36Z",
+     "ts": "2026-11-20T00:00:59Z",
+     "kind": "focus",
+     "text": "Skipped 57 pts+reb+ast lines, 11 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets assists, reb+ast, rebounds."
+    },
+    {
+     "ts": "2026-11-20T00:00:59Z",
+     "kind": "props",
+     "text": "NBA matchups: 4 games, strongest spots: Jonathan Kuminga ra -12% vs NY; Jrue Holiday ra +13% vs MIL; Jrue Holiday ast +12% vs MIL. Bought prop odds for NY@MIN (ast, ra, pra, team totals), LAC@SA (ast, ra, pra, tpm, team totals), GS@MEM (ast, ra, pra, team tota"
+    },
+    {
+     "ts": "2026-11-20T00:30:36Z",
+     "kind": "research",
+     "text": "Research refresh for Thu Nov 19: 4 games, 102 players projected, lineups for 4 games."
+    },
+    {
+     "ts": "2026-11-20T00:31:01Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 11.00% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.25% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-19T20:45:36Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
-    },
-    {
-     "ts": "2026-11-19T21:15:26Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.75% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-19T21:15:35Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
-    },
-    {
-     "ts": "2026-11-19T21:47:37Z",
-     "kind": "research",
-     "text": "Research refresh for Thu Nov 19: 4 games, 101 players projected, lineups for 4 games."
+     "ts": "2026-11-20T01:04:19Z",
+     "kind": "props",
+     "text": "No NBA games left to bet today."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-15T20:19:22Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-15T23:19:53Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-15T23:54:49Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-16T02:57:40Z",
-     "agent": 18.16,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-16T19:30:42Z",
      "agent": 13.16,
@@ -1159,6 +1139,26 @@
      "ts": "2026-11-19T19:02:28Z",
      "agent": 101.11,
      "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T22:00:38Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-19T22:38:22Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-20T00:00:59Z",
+     "agent": 101.11,
+     "you": 100.0
+    },
+    {
+     "ts": "2026-11-20T01:04:19Z",
+     "agent": 101.11,
+     "you": 100.0
     }
    ],
    "runs": [
@@ -1205,7 +1205,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 90.7,
+   "age_days": 90.9,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1215,7 +1215,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 124.7,
+   "age_days": 124.9,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1228,13 +1228,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-19T16:51-05:00",
+  "checked": "2026-11-19T20:05-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-19T09:10-05:00",
-   "age_hours": 7.7,
+   "last": "2026-11-19T20:05-05:00",
+   "age_hours": 0.0,
    "ok": true,
-   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:13 AM) was ok. Next shipping runs are scheduled."
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (4:51 PM) was ok. Next shipping runs are scheduled."
   },
   "feeds": [
    {
@@ -1314,20 +1314,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T20:39:36Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44610797599"
+    "at": "2026-11-19T22:26:36Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44628581254"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T04:30:25Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44458721057"
+    "at": "2026-11-19T21:52:07Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44622943986"
    },
    {
     "repo": "Perseverance",
@@ -1335,8 +1335,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-19T21:48:15Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44622266981"
+    "at": "2026-11-20T01:04:50Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44650794705"
    }
   ],
   "ok": true
