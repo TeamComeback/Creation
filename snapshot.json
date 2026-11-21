@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T09:06-05:00",
+ "updated": "2026-11-21T15:16-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 0.7,
+   "age_days": 1.0,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -338,7 +338,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 89,
+   "efficiency": 86,
    "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 4.4,
+   "age_days": 4.6,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 27.0,
+   "age_days": 27.2,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-21T14:01:04Z",
+   "updated": "2026-11-21T20:16:01Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 66.22,
-    "bets": 80,
+    "equity": 51.22,
+    "bets": 83,
     "won": 26,
-    "lost": 52,
+    "lost": 55,
     "push": 2,
-    "roi": -0.2749,
-    "clv": -0.0085,
-    "open": 5,
-    "profit": -125.62,
-    "staked": 456.94
+    "roi": -0.298,
+    "clv": -0.0081,
+    "open": 3,
+    "profit": -140.62,
+    "staked": 471.94
    },
    "you": {
     "equity": 109.73,
@@ -751,7 +751,7 @@
     "profit": 9.73
    },
    "params": {
-    "min_edge": 0.0975,
+    "min_edge": 0.1,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -762,7 +762,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.125,
+    "prop_model_weight": 0.103,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -780,49 +780,13 @@
     "arb": 1.086,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
-    "matchup_under": 0.317
+    "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 16835,
+   "credits": 16760,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 7,
    "open_bets": [
-    {
-     "what": "Alperen Sengun Under 15.5",
-     "odds": -108,
-     "book": "draftkings",
-     "game": "Houston Rockets @ Denver Nuggets",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.131,
-     "start": "2026-11-21T03:10:00Z"
-    },
-    {
-     "what": "Darryn Peterson Under 8.5",
-     "odds": 105,
-     "book": "hardrockbet",
-     "game": "Phoenix Suns @ Utah Jazz",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.122,
-     "start": "2026-11-21T02:40:00Z"
-    },
-    {
-     "what": "Domantas Sabonis Under 16.5",
-     "odds": 102,
-     "book": "fanduel",
-     "game": "Sacramento Kings @ Los Angeles Lakers",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.1146,
-     "start": "2026-11-21T03:10:00Z"
-    },
     {
      "what": "Nicholls St Colonels",
      "odds": 155,
@@ -846,6 +810,18 @@
      "playbook": "arb",
      "ev": 0.009,
      "start": "2026-11-21T22:00:00Z"
+    },
+    {
+     "what": "Cooper Flagg Under 13.5",
+     "odds": -123,
+     "book": "draftkings",
+     "game": "Los Angeles Clippers @ Dallas Mavericks",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.0847,
+     "start": "2026-11-22T01:10:00Z"
     }
    ],
    "recent": [
@@ -886,6 +862,18 @@
      "start": "2026-11-21T00:40:00Z"
     },
     {
+     "what": "Domantas Sabonis Under 16.5",
+     "odds": 102,
+     "book": "fanduel",
+     "game": "Sacramento Kings @ Los Angeles Lakers",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1146,
+     "start": "2026-11-21T03:10:00Z"
+    },
+    {
      "what": "Julius Randle Under 10.5",
      "odds": -102,
      "book": "fanduel",
@@ -898,83 +886,51 @@
      "start": "2026-11-21T00:40:00Z"
     },
     {
-     "what": "Jamison Battle Under 4.5",
-     "odds": 110,
+     "what": "Darryn Peterson Under 8.5",
+     "odds": 105,
      "book": "hardrockbet",
-     "game": "Toronto Raptors @ Detroit Pistons",
+     "game": "Phoenix Suns @ Utah Jazz",
      "stake": 5.0,
      "profit": -5.0,
      "status": "lost",
      "playbook": "matchup_under",
-     "ev": 0.1781,
-     "start": "2026-11-21T00:40:00Z"
-    },
-    {
-     "what": "Rudy Gobert Under 11.5",
-     "odds": 100,
-     "book": "betmgm",
-     "game": "New York Knicks @ Minnesota Timberwolves",
-     "stake": 5.0,
-     "profit": 5.0,
-     "status": "won",
-     "playbook": "matchup_under",
-     "ev": 0.1069,
-     "start": "2026-11-20T01:10:00Z"
+     "ev": 0.122,
+     "start": "2026-11-21T02:40:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-21T05:02:20Z",
+     "ts": "2026-11-21T19:00:44Z",
+     "kind": "focus",
+     "text": "Skipped 38 assists lines, 61 pts+reb+ast lines, 46 reb+ast lines, 21 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets stats still being measured."
+    },
+    {
+     "ts": "2026-11-21T19:00:44Z",
+     "kind": "props",
+     "text": "NBA matchups: 5 games, strongest spots: Sidy Cissoko ra -13% vs NY; Sidy Cissoko ast -12% vs NY; Scoot Henderson ra -11% vs NY. Bought prop odds for NO@SA (ast, ra, pra, team totals), LAC@DAL (ast, ra, pra, tpm, team totals), BOS@SAC (ast, pra, ra, team totals"
+    },
+    {
+     "ts": "2026-11-21T19:15:37Z",
      "kind": "research",
-     "text": "Research refresh for Sat Nov 21: 6 games, 153 players projected, lineups for 9 games."
+     "text": "Research refresh for Sat Nov 21: 6 games, 147 players projected, lineups for 6 games."
     },
     {
-     "ts": "2026-11-21T06:00:35Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.25% so I get enough bets to learn from."
+     "ts": "2026-11-21T19:45:37Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 21: 6 games, 147 players projected, lineups for 6 games."
     },
     {
-     "ts": "2026-11-21T06:45:23Z",
+     "ts": "2026-11-21T20:15:11Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 21: 6 games, 147 players projected, lineups for 6 games."
+    },
+    {
+     "ts": "2026-11-21T20:16:01Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 10.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-21T07:30:23Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.75% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-21T08:44:54Z",
-     "kind": "research",
-     "text": "Research refresh for Sat Nov 21: 6 games, 145 players projected, lineups for 6 games."
-    },
-    {
-     "ts": "2026-11-21T11:45:33Z",
-     "kind": "research",
-     "text": "Research refresh for Sat Nov 21: 6 games, 145 players projected, lineups for 6 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-18T02:30:35Z",
-     "agent": 100.0,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-18T03:00:48Z",
-     "agent": 100.0,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-18T04:40:07Z",
-     "agent": 100.73,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-18T16:00:55Z",
-     "agent": 100.73,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-18T18:02:00Z",
      "agent": 100.73,
@@ -1154,6 +1110,26 @@
      "ts": "2026-11-21T05:00:47Z",
      "agent": 66.22,
      "you": 109.73
+    },
+    {
+     "ts": "2026-11-21T16:01:41Z",
+     "agent": 51.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-21T16:49:20Z",
+     "agent": 51.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-21T17:00:45Z",
+     "agent": 51.22,
+     "you": 109.73
+    },
+    {
+     "ts": "2026-11-21T19:00:44Z",
+     "agent": 51.22,
+     "you": 109.73
     }
    ],
    "runs": [
@@ -1200,7 +1176,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 92.4,
+   "age_days": 92.7,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1210,7 +1186,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 126.4,
+   "age_days": 126.7,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1223,11 +1199,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-21T09:06-05:00",
+  "checked": "2026-11-21T15:16-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-21T09:10-05:00",
-   "age_hours": -0.1,
+   "age_hours": 6.1,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:40 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1303,8 +1279,8 @@
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T19:06:21Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44798992310"
+    "at": "2026-11-21T17:57:52Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/44932866974"
    },
    {
     "repo": "Creation",
@@ -1312,8 +1288,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T13:44:54Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44910346482"
+    "at": "2026-11-21T14:06:52Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44912182827"
    },
    {
     "repo": "Creation",
@@ -1330,8 +1306,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T14:01:34Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44911651239"
+    "at": "2026-11-21T20:16:14Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44945280540"
    }
   ],
   "ok": true
