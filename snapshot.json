@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:14-05:00",
+ "updated": "2026-11-20T23:19-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 3.9,
+   "age_days": 4.0,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 26.5,
+   "age_days": 26.6,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-21T03:01:05Z",
+   "updated": "2026-11-21T04:15:25Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 91.22,
-    "bets": 75,
+    "equity": 66.22,
+    "bets": 80,
     "won": 26,
-    "lost": 47,
+    "lost": 52,
     "push": 2,
-    "roi": -0.2329,
+    "roi": -0.2749,
     "clv": -0.0091,
-    "open": 8,
-    "profit": -100.62,
-    "staked": 431.94
+    "open": 3,
+    "profit": -125.62,
+    "staked": 456.94
    },
    "you": {
     "equity": 109.73,
@@ -751,7 +751,7 @@
     "profit": 9.73
    },
    "params": {
-    "min_edge": 0.1,
+    "min_edge": 0.105,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -770,7 +770,8 @@
     "matchup_strength": 1.0
    },
    "paused": [
-    "value_dog"
+    "value_dog",
+    "matchup_under"
    ],
    "weights": {
     "value_fav": 0.842,
@@ -779,25 +780,13 @@
     "arb": 1.086,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
-    "matchup_under": 0.458
+    "matchup_under": 0.317
    },
    "strategist_on": false,
    "credits": 17023,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
-    {
-     "what": "Jamison Battle Under 4.5",
-     "odds": 110,
-     "book": "hardrockbet",
-     "game": "Toronto Raptors @ Detroit Pistons",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.1781,
-     "start": "2026-11-21T00:40:00Z"
-    },
     {
      "what": "Alperen Sengun Under 15.5",
      "odds": -108,
@@ -823,18 +812,6 @@
      "start": "2026-11-21T02:40:00Z"
     },
     {
-     "what": "Julius Randle Under 10.5",
-     "odds": -102,
-     "book": "fanduel",
-     "game": "Orlando Magic @ Brooklyn Nets",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.1171,
-     "start": "2026-11-21T00:40:00Z"
-    },
-    {
      "what": "Domantas Sabonis Under 16.5",
      "odds": 102,
      "book": "fanduel",
@@ -845,17 +822,19 @@
      "playbook": "matchup_under",
      "ev": 0.1146,
      "start": "2026-11-21T03:10:00Z"
-    },
+    }
+   ],
+   "recent": [
     {
-     "what": "Michael Porter Jr. Under 8.5",
-     "odds": 110,
-     "book": "hardrockbet",
-     "game": "Orlando Magic @ Brooklyn Nets",
+     "what": "Ivica Zubac Under 10.5",
+     "odds": 101,
+     "book": "draftkings",
+     "game": "Indiana Pacers @ Cleveland Cavaliers",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_under",
-     "ev": 0.1144,
+     "ev": 0.102,
      "start": "2026-11-21T00:40:00Z"
     },
     {
@@ -864,26 +843,48 @@
      "book": "betmgm",
      "game": "Charlotte Hornets @ Atlanta Hawks",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_under",
      "ev": 0.1104,
      "start": "2026-11-21T00:10:00Z"
     },
     {
-     "what": "Ivica Zubac Under 10.5",
-     "odds": 101,
-     "book": "draftkings",
-     "game": "Indiana Pacers @ Cleveland Cavaliers",
+     "what": "Michael Porter Jr. Under 8.5",
+     "odds": 110,
+     "book": "hardrockbet",
+     "game": "Orlando Magic @ Brooklyn Nets",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_under",
-     "ev": 0.102,
+     "ev": 0.1144,
      "start": "2026-11-21T00:40:00Z"
-    }
-   ],
-   "recent": [
+    },
+    {
+     "what": "Julius Randle Under 10.5",
+     "odds": -102,
+     "book": "fanduel",
+     "game": "Orlando Magic @ Brooklyn Nets",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1171,
+     "start": "2026-11-21T00:40:00Z"
+    },
+    {
+     "what": "Jamison Battle Under 4.5",
+     "odds": 110,
+     "book": "hardrockbet",
+     "game": "Toronto Raptors @ Detroit Pistons",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1781,
+     "start": "2026-11-21T00:40:00Z"
+    },
     {
      "what": "Rudy Gobert Under 11.5",
      "odds": 100,
@@ -895,106 +896,41 @@
      "playbook": "matchup_under",
      "ev": 0.1069,
      "start": "2026-11-20T01:10:00Z"
-    },
-    {
-     "what": "Mikal Bridges Under 5.5",
-     "odds": 110,
-     "book": "betmgm",
-     "game": "New York Knicks @ Minnesota Timberwolves",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1288,
-     "start": "2026-11-20T01:10:00Z"
-    },
-    {
-     "what": "Texas Tech Red Raiders",
-     "odds": 250,
-     "book": "draftkings",
-     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
-     "stake": 6.31,
-     "profit": -6.31,
-     "status": "lost",
-     "playbook": "arb",
-     "ev": 0.0051,
-     "start": "2026-11-19T23:00:00Z"
-    },
-    {
-     "what": "North Carolina Tar Heels",
-     "odds": -244,
-     "book": "fanduel",
-     "game": "Texas Tech Red Raiders @ North Carolina Tar Heels",
-     "stake": 15.66,
-     "profit": 6.42,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.0051,
-     "start": "2026-11-19T23:00:00Z"
-    },
-    {
-     "what": "LaMelo Ball Under 5.5",
-     "odds": 110,
-     "book": "betmgm",
-     "game": "New York Knicks @ Minnesota Timberwolves",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.0842,
-     "start": "2026-11-20T01:10:00Z"
-    },
-    {
-     "what": "Ayo Dosunmu Under 3.5",
-     "odds": 124,
-     "book": "fanduel",
-     "game": "New York Knicks @ Minnesota Timberwolves",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.0938,
-     "start": "2026-11-20T01:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-21T01:31:17Z",
-     "kind": "focus",
-     "text": "Skipped 50 pts+reb+ast lines: on the graded record the market alone beats the model in those stats, so the agent only bets reb+ast, rebounds."
+     "ts": "2026-11-21T04:12:38Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Michael Porter Jr. Under 8.5 @ +110 (Hard Rock Bet) \u2014 LOST: 9 reb+ast vs Under 8.5 [matchup-read-wrong, near-miss, ordinary-variance]"
     },
     {
-     "ts": "2026-11-21T01:31:17Z",
-     "kind": "props",
-     "text": "NBA matchups: 3 games, strongest spots: Spencer Jones ra -14% vs HOU; Cameron Johnson ra -13% vs HOU; Jamal Murray ra -13% vs HOU. Bought prop odds for HOU@DEN (ra, ast, pra, team totals), PHX@UTAH (ra, ast, pra, team totals), SAC@LAL (ra, ast, pra, team total"
+     "ts": "2026-11-21T04:12:38Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Nickeil Alexander-Walker Under 6.5 @ +115 (BetMGM) \u2014 LOST: 7 reb+ast vs Under 6.5 [matchup-read-wrong, near-miss, ordinary-variance]"
     },
     {
-     "ts": "2026-11-21T01:48:16Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 226 players projected, lineups for 9 games."
+     "ts": "2026-11-21T04:12:38Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Ivica Zubac Under 10.5 @ +101 (DraftKings) \u2014 LOST: 12 reb+ast vs Under 10.5 [matchup-read-right, minutes-long, model-miss]"
     },
     {
-     "ts": "2026-11-21T02:00:54Z",
-     "kind": "props",
-     "text": "NBA matchups: 3 games, strongest spots: Spencer Jones ra -14% vs HOU; Cameron Johnson ra -13% vs HOU; Jamal Murray ra -13% vs HOU. No credits to price props this run (allowance 0). "
+     "ts": "2026-11-21T04:12:38Z",
+     "kind": "adapt",
+     "text": "Closing-line value is -0.9% over 59 legs, so the market is beating my picks. Raising the minimum edge to 10.5%."
     },
     {
-     "ts": "2026-11-21T02:30:42Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 226 players projected, lineups for 9 games."
+     "ts": "2026-11-21T04:12:38Z",
+     "kind": "adapt",
+     "text": "Benching the matchup_under playbook: 43 bets ($-81.65). It still gets the odd exploratory bet."
     },
     {
-     "ts": "2026-11-21T03:00:53Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 20: 9 games, 227 players projected, lineups for 9 games."
+     "ts": "2026-11-21T04:12:39Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 17023 left this cycle)."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-18T01:30:19Z",
-     "agent": 100.0,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-18T02:19:00Z",
      "agent": 100.0,
@@ -1189,6 +1125,11 @@
      "ts": "2026-11-21T02:00:54Z",
      "agent": 91.22,
      "you": 109.73
+    },
+    {
+     "ts": "2026-11-21T04:12:39Z",
+     "agent": 66.22,
+     "you": 109.73
     }
    ],
    "runs": [
@@ -1204,7 +1145,7 @@
     }
    ],
    "efficiency": 95,
-   "profitability": 3,
+   "profitability": 0,
    "automation": "Full: GitHub Actions scan 3x daily, grade overnight and self-tune; your bets log through GitHub issues",
    "stage": "Testing",
    "stage_note": "Paper money: racing $100 to $1,000"
@@ -1258,11 +1199,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-20T22:14-05:00",
+  "checked": "2026-11-20T23:19-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-20T20:05-05:00",
-   "age_hours": 2.2,
+   "age_hours": 3.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (5:23 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1344,20 +1285,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T01:06:35Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44848064592"
+    "at": "2026-11-21T04:16:19Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44865227485"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-20T21:57:45Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44824841387"
+    "at": "2026-11-21T03:14:52Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44860032979"
    },
    {
     "repo": "Perseverance",
@@ -1365,8 +1306,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T03:01:19Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44858841426"
+    "at": "2026-11-21T04:15:37Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44865169838"
    }
   ],
   "ok": true
