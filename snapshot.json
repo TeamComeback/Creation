@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:40-05:00",
+ "updated": "2026-11-21T08:44-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 4.3,
+   "age_days": 4.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -664,7 +664,7 @@
      "health": 75
     }
    ],
-   "efficiency": 55,
+   "efficiency": 54,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-21T12:30:32Z",
+   "updated": "2026-11-21T13:30:30Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1223,11 +1223,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-21T07:40-05:00",
+  "checked": "2026-11-21T08:44-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-20T20:05-05:00",
-   "age_hours": 11.6,
+   "age_hours": 12.7,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (5:23 PM) was ok. Next shipping runs are scheduled."
   },
@@ -1312,8 +1312,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T04:19:44Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44865531479"
+    "at": "2026-11-21T12:40:33Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44905030729"
    },
    {
     "repo": "Creation",
@@ -1330,8 +1330,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T12:30:47Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44904223007"
+    "at": "2026-11-21T13:30:42Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44909165748"
    }
   ],
   "ok": true
