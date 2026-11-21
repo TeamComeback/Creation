@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:16-05:00",
+ "updated": "2026-11-21T15:31-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-21T20:16:01Z",
+   "updated": "2026-11-21T20:30:32Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -783,9 +783,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 16760,
+   "credits": 16752,
    "credits_monthly": 20000,
-   "per_scan": 7,
+   "per_scan": 8,
    "open_bets": [
     {
      "what": "Nicholls St Colonels",
@@ -1199,11 +1199,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-21T15:16-05:00",
+  "checked": "2026-11-21T15:31-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-21T09:10-05:00",
-   "age_hours": 6.1,
+   "age_hours": 6.4,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:40 AM) was ok. Next shipping runs are scheduled."
   },
@@ -1288,8 +1288,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T14:06:52Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44912182827"
+    "at": "2026-11-21T20:17:04Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44945397277"
    },
    {
     "repo": "Creation",
@@ -1306,8 +1306,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-21T20:16:14Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44945280540"
+    "at": "2026-11-21T20:30:46Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44946607310"
    }
   ],
   "ok": true
