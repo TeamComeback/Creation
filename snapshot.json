@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T03:53-05:00",
+ "updated": "2026-11-22T04:51-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 1.5,
+   "age_days": 1.6,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -338,7 +338,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 80,
+   "efficiency": 78,
    "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 27.7,
+   "age_days": 27.8,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T08:48:59Z",
+   "updated": "2026-11-22T09:45:22Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1211,11 +1211,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T03:53-05:00",
+  "checked": "2026-11-22T04:51-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-21T20:05-05:00",
-   "age_hours": 7.8,
+   "age_hours": 8.8,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:35 PM) was ok to run; two of the last three flagged stal"
   },
@@ -1300,8 +1300,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T02:15:04Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44975152809"
+    "at": "2026-11-22T08:54:22Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45004927515"
    },
    {
     "repo": "Creation",
@@ -1318,8 +1318,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T08:49:17Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45004471535"
+    "at": "2026-11-22T09:45:39Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45009058275"
    }
   ],
   "ok": true
