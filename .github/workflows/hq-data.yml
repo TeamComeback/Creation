@@ -9,6 +9,11 @@ on:
     - cron: "17 */2 * * *"     # every 2 hours at :17. GitHub drops or delays many scheduled runs in this repo
     - cron: "47 1-23/2 * * *"  # second line, offset by an hour: if GitHub drops one slot, the other still fires
                                 #   (about 2 of 5 fire), so frequent slots keep the data under ~4 hours old.
+    # Owner-approved Nov 22 2026: three more lines about 55 minutes before each upkeep run (8:33 AM, 1:33 PM,
+    # 7:33 PM Eastern, which is 13:33, 18:33 and 00:33 UTC in winter), because GitHub started none of the
+    # slots above in the hours just before upkeep on several days. After the March 8 2027 clock change
+    # the upkeep slots move an hour earlier in UTC: change 12,17,23 to 11,16,22 then.
+    - cron: "37 12,17,23 * * *"
   workflow_dispatch:
 
 permissions:
