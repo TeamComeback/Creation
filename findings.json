@@ -27,6 +27,15 @@
   "action": "Review its thesis and position sizing in the Curiosity journal."
  },
  {
+  "id": "inj-bowers",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Brock Bowers injury designation: O",
+  "detail": "Leg on Goat Whale (receiving yards).",
+  "action": "Check practice reports before the weekend."
+ },
+ {
   "id": "pace-herbert",
   "agent": "overseer",
   "business": "nfl",
