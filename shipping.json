@@ -809,6 +809,15 @@
    "by_company": {
     "hq": 10000
    }
+  },
+  {
+   "id": "r20261122T0105ship",
+   "time": "2026-11-21T20:05-05:00",
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:35 PM) was ok to run; two of the last three flagged stale data. Next shipping runs are scheduled.",
+   "tokens": 10000,
+   "by_company": {
+    "hq": 10000
+   }
   }
  ]
 }
