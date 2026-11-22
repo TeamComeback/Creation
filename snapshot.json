@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T09:06-05:00",
+ "updated": "2026-11-22T12:26-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 1.7,
+   "age_days": 1.9,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -338,7 +338,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 78,
+   "efficiency": 76,
    "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 5.4,
+   "age_days": 5.5,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 28.0,
+   "age_days": 28.1,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T14:00:41Z",
+   "updated": "2026-11-22T17:15:23Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 51.35,
-    "bets": 85,
+    "equity": 46.35,
+    "bets": 86,
     "won": 27,
-    "lost": 56,
+    "lost": 57,
     "push": 2,
-    "roi": -0.2889,
+    "roi": -0.2961,
     "clv": -0.0073,
-    "open": 4,
-    "profit": -140.49,
-    "staked": 486.32
+    "open": 3,
+    "profit": -145.49,
+    "staked": 491.32
    },
    "you": {
     "equity": 125.1,
@@ -751,7 +751,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.09,
+    "min_edge": 0.095,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -762,7 +762,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.103,
+    "prop_model_weight": 0.087,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -783,22 +783,10 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 16394,
+   "credits": 15228,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 3,
    "open_bets": [
-    {
-     "what": "Cooper Flagg Under 13.5",
-     "odds": -123,
-     "book": "draftkings",
-     "game": "Los Angeles Clippers @ Dallas Mavericks",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.0847,
-     "start": "2026-11-22T01:10:00Z"
-    },
     {
      "what": "Nicholls St Colonels +5.5",
      "odds": 114,
@@ -837,6 +825,18 @@
     }
    ],
    "recent": [
+    {
+     "what": "Cooper Flagg Under 13.5",
+     "odds": -123,
+     "book": "draftkings",
+     "game": "Los Angeles Clippers @ Dallas Mavericks",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.0847,
+     "start": "2026-11-22T01:10:00Z"
+    },
     {
      "what": "Southern Miss Golden Eagles",
      "odds": -149,
@@ -896,63 +896,41 @@
      "playbook": "matchup_under",
      "ev": 0.1144,
      "start": "2026-11-21T00:40:00Z"
-    },
-    {
-     "what": "Domantas Sabonis Under 16.5",
-     "odds": 102,
-     "book": "fanduel",
-     "game": "Sacramento Kings @ Los Angeles Lakers",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1146,
-     "start": "2026-11-21T03:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-22T05:45:22Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.50% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-22T06:30:33Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.25% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-22T07:00:31Z",
-     "kind": "scan",
-     "text": "Scout: americanfootball_nfl (11), basketball_ncaab (38), icehockey_nhl (5), soccer_italy_serie_a (5), soccer_spain_la_liga (4), basketball_nba (7), soccer_germany_bundesliga_women (4), soccer_germany_bundesliga (2), soccer_germany_liga3 (3), soccer_epl (2), so"
-    },
-    {
-     "ts": "2026-11-22T07:45:21Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-22T08:48:24Z",
+     "ts": "2026-11-22T16:31:26Z",
      "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 174 players projected, lineups for 7 games."
+     "text": "Research refresh for Sun Nov 22: 7 games, 170 players projected, lineups for 7 games."
     },
     {
-     "ts": "2026-11-22T13:00:43Z",
+     "ts": "2026-11-22T17:00:45Z",
      "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 174 players projected, lineups for 7 games."
+     "text": "Research refresh for Sun Nov 22: 7 games, 170 players projected, lineups for 7 games."
+    },
+    {
+     "ts": "2026-11-22T17:09:42Z",
+     "kind": "adapt",
+     "text": "Closing-line value is -0.3% over 57 legs, so the market is beating my picks. Raising the minimum edge to 9.5%."
+    },
+    {
+     "ts": "2026-11-22T17:11:39Z",
+     "kind": "adapt",
+     "text": "Model vs market on 10103 graded lines: the 5% model blend scored best (log loss model 0.729, market 0.686). Moving the model's weight from 10% to 9%."
+    },
+    {
+     "ts": "2026-11-22T17:11:39Z",
+     "kind": "adapt",
+     "text": "Learning loop: PTS projections ran -2.7% vs actual over 2754 player-games: level x0.945; REB projections ran -1.9% vs actual over 2754 player-games: level x0.908; AST projections ran -2.7% vs actual over 2754 player-games: level x0.979; TPM projections ran -2."
+    },
+    {
+     "ts": "2026-11-22T17:11:39Z",
+     "kind": "daily",
+     "text": "Day close \u2014 equity $46.35 (run #2), 27-57-2, ROI -29.6%, CLV -0.7%."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-19T02:00:58Z",
-     "agent": 100.73,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-19T04:25:54Z",
-     "agent": 100.73,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-19T16:00:46Z",
      "agent": 101.11,
@@ -1142,6 +1120,16 @@
      "ts": "2026-11-22T07:00:31Z",
      "agent": 51.35,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-22T16:00:45Z",
+     "agent": 46.35,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-22T17:11:39Z",
+     "agent": 46.35,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1188,7 +1176,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 93.4,
+   "age_days": 93.6,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1198,7 +1186,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 127.4,
+   "age_days": 127.6,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1207,17 +1195,17 @@
  },
  "counts": {
   "high": 2,
-  "med": 3,
+  "med": 4,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T09:06-05:00",
+  "checked": "2026-11-22T12:26-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-21T20:05-05:00",
-   "age_hours": 13.0,
+   "last": "2026-11-22T09:10-05:00",
+   "age_hours": 3.3,
    "ok": true,
-   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:35 PM) was ok to run; two of the last three flagged stal"
+   "summary": "Shipped fix-hq-data-late (Creation PR #17: three refresh slots before each upkeep run) and confirmed a hand-started refresh publishes. The last three upkeep run"
   },
   "feeds": [
    {
@@ -1297,6 +1285,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-22T14:07:24Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45031016854"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1304,22 +1301,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45011583824"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-22T09:52:01Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45009555842"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T14:01:12Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45030417328"
+    "at": "2026-11-22T17:15:39Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45048378297"
    }
   ],
   "ok": true

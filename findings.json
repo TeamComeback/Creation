@@ -36,6 +36,15 @@
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
+  "id": "dd-perseverance",
+  "agent": "overseer",
+  "business": "perseverance",
+  "severity": "med",
+  "title": "Betting agent is down to $46.35",
+  "detail": "Run #2 started at $100. The $5 minimum bet means about 9 bets of runway left.",
+  "action": "Review which playbook is losing in its journal."
+ },
+ {
   "id": "bdl-issue1",
   "agent": "deadline",
   "business": "balldontlie",
@@ -58,7 +67,7 @@
   "agent": "memory",
   "business": "screener",
   "severity": "low",
-  "title": "Stock screener has sat undeployed for 127 days",
+  "title": "Stock screener has sat undeployed for 128 days",
   "detail": "Curiosity's agents now scan a 7,000-symbol universe on their own, which covers most of what the screener was for.",
   "action": "Decide: deploy it, fold its charts into Curiosity, or archive it."
  }

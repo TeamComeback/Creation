@@ -379,6 +379,16 @@
    "note": "Week 10 stat lines were already filled (data through Week 10, updated Nov 17), and Lamar Jackson and McLaurin are settled as losses, so New Systems and Fun show as lost. The remaining steps shipped in the two Fantasy-Tracker items above.",
    "owner_action": "",
    "at": "2026-11-17T20:11-05:00"
+  },
+  {
+   "id": "fix-hq-data-late",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/17",
+   "commit": "6a90617",
+   "note": "Scheduled vs actual since Nov 20: every run that started succeeded, but GitHub started only about six a day, often 20 to 60 minutes late, and none in the hours before upkeep on several days (Nov 22: nothing between 4:51 AM and the 8:33 AM run). Added three schedule lines at 12:37, 17:37 and 23:37 UTC, about 55 minutes before each upkeep run (move them one hour earlier after the March 8 2027 clock change). A hand-started run at 9:06 AM published a fresh snapshot (updated 9:06 AM). The new lines raise the odds, they cannot guarantee GitHub starts them; the dependable fix is the upkeep run starting the refresh itself when data is stale.",
+   "owner_action": "",
+   "at": "2026-11-22T09:10-05:00"
   }
  ],
  "runs": [
@@ -817,6 +827,15 @@
    "tokens": 10000,
    "by_company": {
     "hq": 10000
+   }
+  },
+  {
+   "id": "r20261122T1405ship",
+   "time": "2026-11-22T09:10-05:00",
+   "summary": "Shipped fix-hq-data-late (Creation PR #17: three refresh slots before each upkeep run) and confirmed a hand-started refresh publishes. The last three upkeep runs all flagged stale data (ok false). fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are scheduled.",
+   "tokens": 25000,
+   "by_company": {
+    "hq": 25000
    }
   }
  ]
