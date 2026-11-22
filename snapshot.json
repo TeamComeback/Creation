@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:06-05:00",
+ "updated": "2026-11-21T20:40-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 4.8,
+   "age_days": 4.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T01:00:43Z",
+   "updated": "2026-11-22T01:30:43Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -783,9 +783,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 16608,
+   "credits": 16600,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 8,
    "open_bets": [
     {
      "what": "Nicholls St Colonels",
@@ -900,11 +900,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-22T00:00:40Z",
-     "kind": "focus",
-     "text": "Skipped 38 assists lines, 67 pts+reb+ast lines, 50 reb+ast lines, 23 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets stats still being measured."
-    },
-    {
      "ts": "2026-11-22T00:00:41Z",
      "kind": "props",
      "text": "NBA matchups: 5 games, strongest spots: Sidy Cissoko ra -13% vs NY; Sidy Cissoko ast -12% vs NY; Stephon Castle ast +13% vs NO. Bought prop odds for NO@SA (ast, ra, pra, team totals), LAC@DAL (ast, ra, pra, tpm, team totals), BOS@SAC (ast, pra, ra, team totals"
@@ -926,6 +921,11 @@
     },
     {
      "ts": "2026-11-22T00:43:15Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 21: 6 games, 149 players projected, lineups for 6 games."
+    },
+    {
+     "ts": "2026-11-22T01:15:43Z",
      "kind": "research",
      "text": "Research refresh for Sat Nov 21: 6 games, 149 players projected, lineups for 6 games."
     }
@@ -1199,11 +1199,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-21T20:06-05:00",
+  "checked": "2026-11-21T20:40-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-21T20:05-05:00",
-   "age_hours": 0.0,
+   "age_hours": 0.6,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:35 PM) was ok to run; two of the last three flagged stal"
   },
@@ -1285,6 +1285,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-22T01:06:56Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44969849766"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1292,22 +1301,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/44967726538"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-21T20:32:31Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44946765025"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T01:00:59Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44969349291"
+    "at": "2026-11-22T01:31:00Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44971749790"
    }
   ],
   "ok": true
