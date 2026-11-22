@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:40-05:00",
+ "updated": "2026-11-21T21:14-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 27.4,
+   "age_days": 27.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T01:30:43Z",
+   "updated": "2026-11-22T02:00:48Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 51.22,
-    "bets": 83,
-    "won": 26,
-    "lost": 55,
+    "equity": 51.35,
+    "bets": 85,
+    "won": 27,
+    "lost": 56,
     "push": 2,
-    "roi": -0.298,
+    "roi": -0.2889,
     "clv": -0.0079,
-    "open": 3,
-    "profit": -140.62,
-    "staked": 471.94
+    "open": 1,
+    "profit": -140.49,
+    "staked": 486.32
    },
    "you": {
     "equity": 125.1,
@@ -751,7 +751,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.1,
+    "min_edge": 0.0975,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -777,40 +777,16 @@
     "value_fav": 0.842,
     "value_dog": 0.422,
     "longshot": 0.444,
-    "arb": 1.086,
+    "arb": 1.095,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 16600,
+   "credits": 16579,
    "credits_monthly": 20000,
-   "per_scan": 8,
+   "per_scan": 50,
    "open_bets": [
-    {
-     "what": "Nicholls St Colonels",
-     "odds": 155,
-     "book": "betrivers",
-     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
-     "stake": 5.69,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.009,
-     "start": "2026-11-21T22:00:00Z"
-    },
-    {
-     "what": "Southern Miss Golden Eagles",
-     "odds": -149,
-     "book": "espnbet",
-     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
-     "stake": 8.69,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.009,
-     "start": "2026-11-21T22:00:00Z"
-    },
     {
      "what": "Cooper Flagg Under 13.5",
      "odds": -123,
@@ -825,6 +801,30 @@
     }
    ],
    "recent": [
+    {
+     "what": "Southern Miss Golden Eagles",
+     "odds": -149,
+     "book": "espnbet",
+     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
+     "stake": 8.69,
+     "profit": 5.82,
+     "status": "won",
+     "playbook": "arb",
+     "ev": 0.009,
+     "start": "2026-11-21T22:00:00Z"
+    },
+    {
+     "what": "Nicholls St Colonels",
+     "odds": 155,
+     "book": "betrivers",
+     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
+     "stake": 5.69,
+     "profit": -5.69,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.009,
+     "start": "2026-11-21T22:00:00Z"
+    },
     {
      "what": "Ivica Zubac Under 10.5",
      "odds": 101,
@@ -872,70 +872,41 @@
      "playbook": "matchup_under",
      "ev": 0.1146,
      "start": "2026-11-21T03:10:00Z"
-    },
-    {
-     "what": "Julius Randle Under 10.5",
-     "odds": -102,
-     "book": "fanduel",
-     "game": "Orlando Magic @ Brooklyn Nets",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1171,
-     "start": "2026-11-21T00:40:00Z"
-    },
-    {
-     "what": "Darryn Peterson Under 8.5",
-     "odds": 105,
-     "book": "hardrockbet",
-     "game": "Phoenix Suns @ Utah Jazz",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.122,
-     "start": "2026-11-21T02:40:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-22T00:00:41Z",
-     "kind": "props",
-     "text": "NBA matchups: 5 games, strongest spots: Sidy Cissoko ra -13% vs NY; Sidy Cissoko ast -12% vs NY; Stephon Castle ast +13% vs NO. Bought prop odds for NO@SA (ast, ra, pra, team totals), LAC@DAL (ast, ra, pra, tpm, team totals), BOS@SAC (ast, pra, ra, team totals"
-    },
-    {
-     "ts": "2026-11-22T00:14:40Z",
-     "kind": "adapt",
-     "text": "Closing-line value is -0.7% over 58 legs, so the market is beating my picks. Raising the minimum edge to 10.0%."
-    },
-    {
-     "ts": "2026-11-22T00:14:43Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 16608 left this cycle)."
-    },
-    {
-     "ts": "2026-11-22T00:30:50Z",
-     "kind": "research",
-     "text": "Research refresh for Sat Nov 21: 6 games, 149 players projected, lineups for 6 games."
-    },
-    {
-     "ts": "2026-11-22T00:43:15Z",
-     "kind": "research",
-     "text": "Research refresh for Sat Nov 21: 6 games, 149 players projected, lineups for 6 games."
-    },
-    {
      "ts": "2026-11-22T01:15:43Z",
      "kind": "research",
      "text": "Research refresh for Sat Nov 21: 6 games, 149 players projected, lineups for 6 games."
+    },
+    {
+     "ts": "2026-11-22T02:00:35Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 9.75% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-22T02:00:36Z",
+     "kind": "result",
+     "text": "LOST -$5.69: Nicholls St Colonels @ +155 (BetRivers) \u2014 LOST: Nicholls St Colonels lost by 11 [beat-closing-line, underdog-lost]"
+    },
+    {
+     "ts": "2026-11-22T02:00:36Z",
+     "kind": "result",
+     "text": "WON +$5.82: Southern Miss Golden Eagles @ -149 (theScore Bet) \u2014 WON: Southern Miss Golden Eagles won by 11 [lost-closing-line]"
+    },
+    {
+     "ts": "2026-11-22T02:00:44Z",
+     "kind": "focus",
+     "text": "Skipped 10 assists lines, 18 pts+reb+ast lines, 11 reb+ast lines: on the graded record the market alone beats the model in those stats, so the agent only bets stats still being measured."
+    },
+    {
+     "ts": "2026-11-22T02:00:44Z",
+     "kind": "props",
+     "text": "NBA matchups: 1 games, strongest spots: Neemias Queta ast -8% vs SAC; Domantas Sabonis ast -8% vs BOS; Payton Pritchard ast +7% vs SAC. Bought prop odds for BOS@SAC (ast, pra, ra, team totals) (6 credits). Nothing cleared the bar."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-19T00:00:54Z",
-     "agent": 100.73,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-19T01:00:28Z",
      "agent": 100.73,
@@ -1130,6 +1101,11 @@
      "ts": "2026-11-22T00:14:43Z",
      "agent": 51.22,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-22T02:00:44Z",
+     "agent": 51.35,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1199,11 +1175,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-21T20:40-05:00",
+  "checked": "2026-11-21T21:14-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-21T20:05-05:00",
-   "age_hours": 0.6,
+   "age_hours": 1.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. Last upkeep run (7:35 PM) was ok to run; two of the last three flagged stal"
   },
@@ -1288,8 +1264,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T01:06:56Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/44969849766"
+    "at": "2026-11-22T01:41:02Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/44972541497"
    },
    {
     "repo": "Creation",
@@ -1306,8 +1282,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T01:31:00Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44971749790"
+    "at": "2026-11-22T02:01:03Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/44974025062"
    }
   ],
   "ok": true
