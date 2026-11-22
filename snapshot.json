@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:44-05:00",
+ "updated": "2026-11-22T17:50-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T22:31:21Z",
+   "updated": "2026-11-22T22:45:25Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1199,11 +1199,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T17:44-05:00",
+  "checked": "2026-11-22T17:50-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-22T09:10-05:00",
-   "age_hours": 8.6,
+   "age_hours": 8.7,
    "ok": true,
    "summary": "Shipped fix-hq-data-late (Creation PR #17: three refresh slots before each upkeep run) and confirmed a hand-started refresh publishes. The last three upkeep run"
   },
@@ -1285,6 +1285,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-22T22:45:05Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45079373677"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1292,22 +1301,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45068654468"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-22T17:50:42Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45051630998"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T22:31:40Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45078068853"
+    "at": "2026-11-22T22:45:45Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45079452230"
    }
   ],
   "ok": true
