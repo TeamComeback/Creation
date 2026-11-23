@@ -389,6 +389,26 @@
    "note": "Scheduled vs actual since Nov 20: every run that started succeeded, but GitHub started only about six a day, often 20 to 60 minutes late, and none in the hours before upkeep on several days (Nov 22: nothing between 4:51 AM and the 8:33 AM run). Added three schedule lines at 12:37, 17:37 and 23:37 UTC, about 55 minutes before each upkeep run (move them one hour earlier after the March 8 2027 clock change). A hand-started run at 9:06 AM published a fresh snapshot (updated 9:06 AM). The new lines raise the odds, they cannot guarantee GitHub starts them; the dependable fix is the upkeep run starting the refresh itself when data is stale.",
    "owner_action": "",
    "at": "2026-11-22T09:10-05:00"
+  },
+  {
+   "id": "fix-hq-data-morning",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "",
+   "commit": "",
+   "note": "Listed the HQ data runs: 12:37 UTC slot (7:37 AM ET) was never started by GitHub; only the 2:39 AM run ran before upkeep. Added an extra 7:07 AM ET (12:07 UTC) cron line. Other times unchanged.",
+   "owner_action": "None.",
+   "at": "2026-11-23T09:15-05:00"
+  },
+  {
+   "id": "fix-value-dog-leak",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "",
+   "commit": "",
+   "note": "No code change: the Tenn-Martin value_dog bet (placed Nov 22 02:00 ET, run 2) is the designed exploratory bet. Benched playbooks still place a bet 15% of the time so closing-line value keeps updating (config.py CLV_GATED, owner-approved Nov 13). value_dog is 11 bets, avg CLV -0.33, so it stays benched. Closed as no change; left the open bet and all parameters alone.",
+   "owner_action": "None.",
+   "at": "2026-11-23T09:15-05:00"
   }
  ],
  "runs": [
@@ -845,6 +865,16 @@
    "tokens": 10000,
    "by_company": {
     "hq": 10000
+   }
+  },
+  {
+   "id": "r20261123T1405ship",
+   "time": "2026-11-23T09:15-05:00",
+   "summary": "Shipping run: fix-hq-data-morning shipped (extra 7:07 AM ET refresh line); fix-value-dog-leak closed as no change (benched playbooks place exploratory bets by design). fix-empty-jobs still waits on CRON_TOKEN.",
+   "tokens": 30000,
+   "by_company": {
+    "hq": 20000,
+    "perseverance": 10000
    }
   }
  ]
