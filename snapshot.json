@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T23:03-05:00",
+ "updated": "2026-11-23T02:40-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 2.3,
+   "age_days": 2.5,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -338,7 +338,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 72,
+   "efficiency": 71,
    "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.0,
+   "age_days": 6.1,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -664,7 +664,7 @@
      "health": 75
     }
    ],
-   "efficiency": 50,
+   "efficiency": 49,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 28.5,
+   "age_days": 28.7,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-23T04:00:26Z",
+   "updated": "2026-11-23T07:30:27Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -735,7 +735,7 @@
     "lost": 58,
     "push": 2,
     "roi": -0.2893,
-    "clv": -0.0049,
+    "clv": -0.0046,
     "open": 4,
     "profit": -145.39,
     "staked": 502.57
@@ -751,7 +751,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.0775,
+    "min_edge": 0.07,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -783,9 +783,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14912,
+   "credits": 14800,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 150,
    "open_bets": [
     {
      "what": "Tenn-Martin Skyhawks",
@@ -912,26 +912,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-23T02:15:34Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.75% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-23T03:00:31Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.50% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-23T03:43:44Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 181 players projected, lineups for 7 games."
-    },
-    {
-     "ts": "2026-11-23T03:45:24Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.25% so I get enough bets to learn from."
-    },
-    {
      "ts": "2026-11-23T03:55:43Z",
      "kind": "adapt",
      "text": "Closing-line value is -0.0% over 58 legs, so the market is beating my picks. Raising the minimum edge to 7.8%."
@@ -940,6 +920,26 @@
      "ts": "2026-11-23T03:55:46Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 14912 left this cycle)."
+    },
+    {
+     "ts": "2026-11-23T05:01:59Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 23: 10 games, 256 players projected, lineups for 7 games."
+    },
+    {
+     "ts": "2026-11-23T05:30:24Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.50% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-23T06:15:21Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.25% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-23T07:00:27Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.00% so I get enough bets to learn from."
     }
    ],
    "curve": [
@@ -1188,7 +1188,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 94.0,
+   "age_days": 94.2,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1198,7 +1198,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 128.0,
+   "age_days": 128.2,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1211,11 +1211,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T23:03-05:00",
+  "checked": "2026-11-23T02:40-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-22T20:05-05:00",
-   "age_hours": 3.0,
+   "age_hours": 6.6,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. The last two upkeep runs (1:35 PM and 7:36 PM) ran on fresh data, so the PR"
   },
@@ -1297,6 +1297,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-23T04:04:05Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45109566359"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1304,22 +1313,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45109121320"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-23T03:57:53Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45108926218"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T04:00:43Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45109211123"
+    "at": "2026-11-23T07:30:44Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45131558981"
    }
   ],
   "ok": true
