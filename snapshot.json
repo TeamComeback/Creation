@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T02:40-05:00",
+ "updated": "2026-11-23T09:10-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 2.5,
+   "age_days": 2.7,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -338,7 +338,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 71,
+   "efficiency": 70,
    "profitability": 36,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -347,7 +347,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.1,
+   "age_days": 6.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -664,7 +664,7 @@
      "health": 75
     }
    ],
-   "efficiency": 49,
+   "efficiency": 48,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -673,7 +673,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 28.7,
+   "age_days": 29.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-23T07:30:27Z",
+   "updated": "2026-11-23T14:00:34Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -751,7 +751,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.07,
+    "min_edge": 0.0675,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -783,9 +783,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14800,
+   "credits": 14793,
    "credits_monthly": 20000,
-   "per_scan": 150,
+   "per_scan": 0,
    "open_bets": [
     {
      "what": "Tenn-Martin Skyhawks",
@@ -912,26 +912,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-23T03:55:43Z",
-     "kind": "adapt",
-     "text": "Closing-line value is -0.0% over 58 legs, so the market is beating my picks. Raising the minimum edge to 7.8%."
-    },
-    {
-     "ts": "2026-11-23T03:55:46Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 14912 left this cycle)."
-    },
-    {
-     "ts": "2026-11-23T05:01:59Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 256 players projected, lineups for 7 games."
-    },
-    {
-     "ts": "2026-11-23T05:30:24Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.50% so I get enough bets to learn from."
-    },
-    {
      "ts": "2026-11-23T06:15:21Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.25% so I get enough bets to learn from."
@@ -940,6 +920,26 @@
      "ts": "2026-11-23T07:00:27Z",
      "kind": "adapt",
      "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.00% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-23T07:45:22Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 6.75% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-23T09:16:31Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+    },
+    {
+     "ts": "2026-11-23T09:44:17Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+    },
+    {
+     "ts": "2026-11-23T13:45:37Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
     }
    ],
    "curve": [
@@ -1188,7 +1188,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 94.2,
+   "age_days": 94.4,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1198,7 +1198,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 128.2,
+   "age_days": 128.4,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1211,13 +1211,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T02:40-05:00",
+  "checked": "2026-11-23T09:10-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-22T20:05-05:00",
-   "age_hours": 6.6,
+   "last": "2026-11-23T09:15-05:00",
+   "age_hours": -0.1,
    "ok": true,
-   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. The last two upkeep runs (1:35 PM and 7:36 PM) ran on fresh data, so the PR"
+   "summary": "Shipping run: fix-hq-data-morning shipped (extra 7:07 AM ET refresh line); fix-value-dog-leak closed as no change (benched playbooks place exploratory bets by d"
   },
   "feeds": [
    {
@@ -1264,8 +1264,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T03:47:22Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45107899653"
+    "at": "2026-11-23T07:43:23Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45133120252"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1300,8 +1300,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T04:04:05Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45109566359"
+    "at": "2026-11-23T07:40:39Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45132753464"
    },
    {
     "repo": "Creation",
@@ -1318,8 +1318,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T07:30:44Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45131558981"
+    "at": "2026-11-23T14:01:06Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45189553257"
    }
   ],
   "ok": true
