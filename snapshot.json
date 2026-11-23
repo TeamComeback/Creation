@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T18:36-05:00",
+ "updated": "2026-11-22T20:07-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-20T15:38-05:00",
-   "age_days": 2.1,
+   "age_days": 2.2,
    "pool_now": 2591.75,
    "pool_start": 3000.0,
    "pool_ret": -13.61,
@@ -723,22 +723,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-22T23:31:20Z",
+   "updated": "2026-11-23T01:00:37Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 46.35,
-    "bets": 86,
-    "won": 27,
-    "lost": 57,
+    "equity": 46.45,
+    "bets": 88,
+    "won": 28,
+    "lost": 58,
     "push": 2,
-    "roi": -0.2961,
-    "clv": -0.0041,
+    "roi": -0.2893,
+    "clv": -0.0044,
     "open": 3,
-    "profit": -145.49,
-    "staked": 491.32
+    "profit": -145.39,
+    "staked": 502.57
    },
    "you": {
     "equity": 125.1,
@@ -751,7 +751,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.085,
+    "min_edge": 0.0825,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -777,40 +777,16 @@
     "value_fav": 0.842,
     "value_dog": 0.422,
     "longshot": 0.444,
-    "arb": 1.095,
+    "arb": 1.098,
     "parlay_ev": 1.0,
     "matchup_over": 1.292,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 15033,
+   "credits": 14992,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 4,
    "open_bets": [
-    {
-     "what": "Nicholls St Colonels +5.5",
-     "odds": 114,
-     "book": "kalshi",
-     "game": "Nicholls St Colonels @ Troy Trojans",
-     "stake": 5.31,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-22T20:00:00Z"
-    },
-    {
-     "what": "Troy Trojans -5.5",
-     "odds": -110,
-     "book": "fanatics",
-     "game": "Nicholls St Colonels @ Troy Trojans",
-     "stake": 5.94,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-22T20:00:00Z"
-    },
     {
      "what": "Tenn-Martin Skyhawks",
      "odds": 330,
@@ -822,9 +798,57 @@
      "playbook": "value_dog",
      "ev": 0.0989,
      "start": "2026-11-23T01:00:00Z"
+    },
+    {
+     "what": "Karl-Anthony Towns Over 15.5",
+     "odds": -123,
+     "book": "betrivers",
+     "game": "Indiana Pacers @ New York Knicks",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_over",
+     "ev": 0.0551,
+     "start": "2026-11-23T01:10:00Z"
+    },
+    {
+     "what": "Jalen Brunson Over 9.5",
+     "odds": 107,
+     "book": "betrivers",
+     "game": "Indiana Pacers @ New York Knicks",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_over",
+     "ev": 0.0378,
+     "start": "2026-11-23T01:10:00Z"
     }
    ],
    "recent": [
+    {
+     "what": "Troy Trojans -5.5",
+     "odds": -110,
+     "book": "fanatics",
+     "game": "Nicholls St Colonels @ Troy Trojans",
+     "stake": 5.94,
+     "profit": -5.94,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.0087,
+     "start": "2026-11-22T20:00:00Z"
+    },
+    {
+     "what": "Nicholls St Colonels +5.5",
+     "odds": 114,
+     "book": "kalshi",
+     "game": "Nicholls St Colonels @ Troy Trojans",
+     "stake": 5.31,
+     "profit": 6.04,
+     "status": "won",
+     "playbook": "arb",
+     "ev": 0.0087,
+     "start": "2026-11-22T20:00:00Z"
+    },
     {
      "what": "Cooper Flagg Under 13.5",
      "odds": -123,
@@ -872,85 +896,41 @@
      "playbook": "matchup_under",
      "ev": 0.102,
      "start": "2026-11-21T00:40:00Z"
-    },
-    {
-     "what": "Nickeil Alexander-Walker Under 6.5",
-     "odds": 115,
-     "book": "betmgm",
-     "game": "Charlotte Hornets @ Atlanta Hawks",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1104,
-     "start": "2026-11-21T00:10:00Z"
-    },
-    {
-     "what": "Michael Porter Jr. Under 8.5",
-     "odds": 110,
-     "book": "hardrockbet",
-     "game": "Orlando Magic @ Brooklyn Nets",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1144,
-     "start": "2026-11-21T00:40:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-22T22:00:46Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 177 players projected, lineups for 7 games."
+     "ts": "2026-11-23T00:01:21Z",
+     "kind": "result",
+     "text": "WON +$6.04: Nicholls St Colonels +5.5 @ +114 (Kalshi) \u2014 WON: Nicholls St Colonels +5.5: covered by 4.5 [beat-closing-line]"
     },
     {
-     "ts": "2026-11-22T22:01:34Z",
-     "kind": "focus",
-     "text": "Skipped 61 assists lines, 100 pts+reb+ast lines, 75 reb+ast lines, 12 threes lines: on the graded record the market alone beats the model in those stats, so the agent only bets stats still being measured."
+     "ts": "2026-11-23T00:01:21Z",
+     "kind": "result",
+     "text": "LOST -$5.94: Troy Trojans -5.5 @ -110 (Fanatics) \u2014 LOST: Troy Trojans -5.5: missed by 4.5 [lost-closing-line]"
     },
     {
-     "ts": "2026-11-22T22:01:34Z",
+     "ts": "2026-11-23T00:01:31Z",
      "kind": "props",
-     "text": "NBA matchups: 6 games, strongest spots: Wendell Carter Jr. ra +15% vs WSH; Jalen Suggs ast +14% vs WSH; Aaron Nesmith ra -12% vs NY. Bought prop odds for ORL@WSH (ra, ast, pra, team totals), IND@NY (ra, pra, ast, team totals), DEN@CHI (ast, ra, pra, team total"
+     "text": "NBA matchups: 2 games, strongest spots: Aaron Nesmith ra -12% vs NY; Karl-Anthony Towns ra +12% vs IND; Jalen Brunson pra +12% vs IND. Bought prop odds for IND@NY (ra, pra, ast, team totals), BOS@GS (ra, pra, ast, team totals) (10 credits). Nothing cleared the"
     },
     {
-     "ts": "2026-11-22T22:30:37Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 177 players projected, lineups for 7 games."
-    },
-    {
-     "ts": "2026-11-22T23:00:42Z",
+     "ts": "2026-11-23T00:02:48Z",
      "kind": "props",
-     "text": "NBA matchups: 5 games, strongest spots: Wendell Carter Jr. ra +15% vs WSH; Jalen Suggs ast +14% vs WSH; Aaron Nesmith ra -12% vs NY. Bought prop odds for ORL@WSH (ra, ast, pra, team totals), IND@NY (ra, pra, ast, team totals), DEN@CHI (ast, ra, pra, team total"
+     "text": "NBA matchups: 2 games, strongest spots: Aaron Nesmith ra -12% vs NY; Karl-Anthony Towns ra +12% vs IND; Jalen Brunson pra +12% vs IND. Bought prop odds for IND@NY (ra, pra, ast, team totals), BOS@GS (ra, pra, ast, team totals) (8 credits). Placed 2: Karl-Antho"
     },
     {
-     "ts": "2026-11-22T23:30:47Z",
-     "kind": "research",
-     "text": "Research refresh for Sun Nov 22: 7 games, 181 players projected, lineups for 7 games."
+     "ts": "2026-11-23T00:30:41Z",
+     "kind": "props",
+     "text": "NBA matchups: 2 games, strongest spots: Aaron Nesmith ra -12% vs NY; Karl-Anthony Towns ra +12% vs IND; Jalen Brunson pra +12% vs IND. Bought prop odds for IND@NY (ra, pra, ast, team totals), BOS@GS (ra, pra, ast, team totals) (8 credits). Nothing cleared the "
+    },
+    {
+     "ts": "2026-11-23T00:44:45Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 14996 left this cycle)."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-19T22:38:22Z",
-     "agent": 101.11,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-20T00:00:59Z",
-     "agent": 101.11,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-20T01:04:19Z",
-     "agent": 101.11,
-     "you": 100.0
-    },
-    {
-     "ts": "2026-11-20T01:45:08Z",
-     "agent": 101.11,
-     "you": 100.0
-    },
     {
      "ts": "2026-11-20T04:12:43Z",
      "agent": 101.22,
@@ -1130,6 +1110,26 @@
      "ts": "2026-11-22T23:00:42Z",
      "agent": 46.35,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T00:01:31Z",
+     "agent": 46.45,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T00:02:48Z",
+     "agent": 46.45,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T00:30:41Z",
+     "agent": 46.45,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T00:44:45Z",
+     "agent": 46.45,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1176,7 +1176,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 93.8,
+   "age_days": 93.9,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1186,7 +1186,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 127.8,
+   "age_days": 127.9,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1199,13 +1199,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T18:36-05:00",
+  "checked": "2026-11-22T20:07-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-22T09:10-05:00",
-   "age_hours": 9.4,
+   "last": "2026-11-22T20:05-05:00",
+   "age_hours": 0.0,
    "ok": true,
-   "summary": "Shipped fix-hq-data-late (Creation PR #17: three refresh slots before each upkeep run) and confirmed a hand-started refresh publishes. The last three upkeep run"
+   "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. The last two upkeep runs (1:35 PM and 7:36 PM) ran on fresh data, so the PR"
   },
   "feeds": [
    {
@@ -1288,8 +1288,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T22:50:29Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45079914745"
+    "at": "2026-11-22T23:37:33Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45084200999"
    },
    {
     "repo": "Creation",
@@ -1306,8 +1306,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T23:31:39Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45083587699"
+    "at": "2026-11-23T01:00:57Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45092037568"
    }
   ],
   "ok": true

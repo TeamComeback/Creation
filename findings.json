@@ -49,7 +49,7 @@
   "agent": "overseer",
   "business": "perseverance",
   "severity": "med",
-  "title": "Betting agent is down to $46.35",
+  "title": "Betting agent is down to $46.45",
   "detail": "Run #2 started at $100. The $5 minimum bet means about 9 bets of runway left.",
   "action": "Review which playbook is losing in its journal."
  },
