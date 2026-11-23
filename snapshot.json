@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-23T09:10-05:00",
+ "updated": "2026-11-23T11:32-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-20T15:38-05:00",
-   "age_days": 2.7,
-   "pool_now": 2591.75,
+   "updated": "2026-11-23T11:08-05:00",
+   "age_days": 0.0,
+   "pool_now": 2604.55,
    "pool_start": 3000.0,
-   "pool_ret": -13.61,
-   "spy_ret": -10.71,
-   "edge": -2.9,
+   "pool_ret": -13.18,
+   "spy_ret": -6.52,
+   "edge": -6.66,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.3,
@@ -33,86 +33,86 @@
      "exhibition": false,
      "risk_adj": -0.7,
      "ret_pct": -37.35,
-     "note": "No trade today: both live candidates (SA, GS) sit in sectors my own record flags as losers, and SPY is in a downtrend with crash radar at 46. Stay in settled cash for a Communication Services trigger (IBN above 35.06 or DIS above 123.34 on "
+     "note": "[weekly] Breakout and breakdown signals have failed in this chop, and option premium losses (CLSX -$164) were far larger than the stock scratches. Keep position risk small relative to equity (~$600), prefer lower-delta, cheaper options, and"
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 963.93,
+     "equity": 976.73,
      "status": "active",
-     "progress_pct": 9.64,
-     "open": 10,
-     "closed": 23,
-     "win_rate": 60.9,
+     "progress_pct": 9.77,
+     "open": 6,
+     "closed": 27,
+     "win_rate": 59.3,
      "max_dd_pct": 6.3,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.57,
-     "ret_pct": -3.61,
-     "note": "Pass at 15:37: the only setups clearing 0.8:1 (BLK, GWW) are Financials adds, which the sector focus says to avoid beyond the watchlist. MRK isn't a candidate today and UTHR is already held. Hold the ten stock positions to their stops and t"
+     "risk_adj": -0.37,
+     "ret_pct": -2.33,
+     "note": "11:07: no candidate reaches the 0.8:1 floor (best is XLE at about 0.29:1), SCHD isn't in today's candidates so its trigger can't be verified, and RSP is already closed. Hold the nine stock positions to their stops and targets and keep the $"
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 891.5,
+     "equity": 895.5,
      "status": "active",
-     "progress_pct": 8.91,
+     "progress_pct": 8.96,
      "open": 1,
      "closed": 6,
      "win_rate": 0.0,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.93,
-     "ret_pct": -10.85,
-     "note": "No new entry today: SPY's natural credit is 0.01 (unfillable at a 0.15 floor), and TLT duplicates the open 78/77 bull put in an avoid sector with crash radar at 46. Hold TLT under default exits and wait for a fillable rich-vol spread on a n"
+     "risk_adj": -0.9,
+     "ret_pct": -10.45,
+     "note": "Passed on TLT 79/78 bull put: it doubles the open TLT 78/77 exposure, SPY is in a downtrend (ROC20 -9.1%), and crash radar is 47 (warning). Wait for a non-duplicate rich-vol setup with crash radar below 40."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 892.86,
+     "equity": 934.82,
      "status": "active",
-     "progress_pct": 8.93,
+     "progress_pct": 9.35,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.99,
-     "ret_pct": -10.71,
+     "risk_adj": -0.6,
+     "ret_pct": -6.52,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 817.95,
+     "equity": 830.8,
      "status": "active",
-     "progress_pct": 8.18,
+     "progress_pct": 8.31,
      "open": 1,
      "closed": 10,
      "win_rate": 40.0,
      "max_dd_pct": 18.3,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -1.0,
-     "ret_pct": -18.2,
+     "risk_adj": -0.93,
+     "ret_pct": -16.92,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -159.26,
+     "equity": -208.26,
      "status": "eliminated",
-     "progress_pct": -1.59,
+     "progress_pct": -2.08,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.82,
-     "ret_pct": -115.93,
+     "risk_adj": -0.86,
+     "ret_pct": -120.83,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -129,7 +129,7 @@
      "exhibition": false,
      "risk_adj": 0.03,
      "ret_pct": 0.13,
-     "note": "[weekly] Edge is still thin and unproven at 23 trades (win rate 43.5%, avg win and loss about equal). Most exits are time limits near 0%, and stop fills slip past the 0.3% setting. This week's entries all had rel volume of 1.5 or more, so t"
+     "note": "[weekly] [weekly] 21 closed trades, win rate 42.9%, avg win 0.70 vs avg loss -0.49, so the edge is marginal and unproven. Several time-limit exits sit near 0% and a few trades gave back gains, which suggests the 0.5% target is a bit far for"
     },
     {
      "id": "hyper",
@@ -322,24 +322,30 @@
      "racing": 2591.75,
      "leader": 1001.3,
      "spy": 892.86
+    },
+    {
+     "date": "2026-11-23",
+     "racing": 2604.55,
+     "leader": 1001.3,
+     "spy": 934.82
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -5.8,
-    "radar": 46,
+    "vs200": -1.4,
+    "radar": 47,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 8,
+    "approved": 0,
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 70,
-   "profitability": 36,
+   "efficiency": 100,
+   "profitability": 17,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -347,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.4,
+   "age_days": 6.5,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -673,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 29.0,
+   "age_days": 29.1,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -723,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-23T14:00:34Z",
+   "updated": "2026-11-23T16:30:27Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 46.45,
-    "bets": 88,
-    "won": 28,
-    "lost": 58,
+    "equity": 50.85,
+    "bets": 91,
+    "won": 30,
+    "lost": 59,
     "push": 2,
-    "roi": -0.2893,
+    "roi": -0.2724,
     "clv": -0.0046,
-    "open": 4,
-    "profit": -145.39,
-    "staked": 502.57
+    "open": 1,
+    "profit": -140.99,
+    "staked": 517.57
    },
    "you": {
     "equity": 125.1,
@@ -775,54 +781,18 @@
    ],
    "weights": {
     "value_fav": 0.842,
-    "value_dog": 0.422,
+    "value_dog": 0.396,
     "longshot": 0.444,
     "arb": 1.098,
     "parlay_ev": 1.0,
-    "matchup_over": 1.292,
+    "matchup_over": 1.428,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14793,
+   "credits": 14755,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
-    {
-     "what": "Tenn-Martin Skyhawks",
-     "odds": 330,
-     "book": "betrivers",
-     "game": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "value_dog",
-     "ev": 0.0989,
-     "start": "2026-11-23T01:00:00Z"
-    },
-    {
-     "what": "Karl-Anthony Towns Over 15.5",
-     "odds": -123,
-     "book": "betrivers",
-     "game": "Indiana Pacers @ New York Knicks",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_over",
-     "ev": 0.0551,
-     "start": "2026-11-23T01:10:00Z"
-    },
-    {
-     "what": "Jalen Brunson Over 9.5",
-     "odds": 107,
-     "book": "betrivers",
-     "game": "Indiana Pacers @ New York Knicks",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_over",
-     "ev": 0.0378,
-     "start": "2026-11-23T01:10:00Z"
-    },
     {
      "what": "Utah Jazz",
      "odds": 570,
@@ -837,6 +807,42 @@
     }
    ],
    "recent": [
+    {
+     "what": "Jalen Brunson Over 9.5",
+     "odds": 107,
+     "book": "betrivers",
+     "game": "Indiana Pacers @ New York Knicks",
+     "stake": 5.0,
+     "profit": 5.35,
+     "status": "won",
+     "playbook": "matchup_over",
+     "ev": 0.0378,
+     "start": "2026-11-23T01:10:00Z"
+    },
+    {
+     "what": "Karl-Anthony Towns Over 15.5",
+     "odds": -123,
+     "book": "betrivers",
+     "game": "Indiana Pacers @ New York Knicks",
+     "stake": 5.0,
+     "profit": 4.05,
+     "status": "won",
+     "playbook": "matchup_over",
+     "ev": 0.0551,
+     "start": "2026-11-23T01:10:00Z"
+    },
+    {
+     "what": "Tenn-Martin Skyhawks",
+     "odds": 330,
+     "book": "betrivers",
+     "game": "Tenn-Martin Skyhawks @ Utah Valley Wolverines",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "value_dog",
+     "ev": 0.0989,
+     "start": "2026-11-23T01:00:00Z"
+    },
     {
      "what": "Troy Trojans -5.5",
      "odds": -110,
@@ -872,82 +878,41 @@
      "playbook": "matchup_under",
      "ev": 0.0847,
      "start": "2026-11-22T01:10:00Z"
-    },
-    {
-     "what": "Southern Miss Golden Eagles",
-     "odds": -149,
-     "book": "espnbet",
-     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
-     "stake": 8.69,
-     "profit": 5.82,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.009,
-     "start": "2026-11-21T22:00:00Z"
-    },
-    {
-     "what": "Nicholls St Colonels",
-     "odds": 155,
-     "book": "betrivers",
-     "game": "Nicholls St Colonels @ Southern Miss Golden Eagles",
-     "stake": 5.69,
-     "profit": -5.69,
-     "status": "lost",
-     "playbook": "arb",
-     "ev": 0.009,
-     "start": "2026-11-21T22:00:00Z"
-    },
-    {
-     "what": "Ivica Zubac Under 10.5",
-     "odds": 101,
-     "book": "draftkings",
-     "game": "Indiana Pacers @ Cleveland Cavaliers",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.102,
-     "start": "2026-11-21T00:40:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-23T06:15:21Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.25% so I get enough bets to learn from."
+     "ts": "2026-11-23T15:00:43Z",
+     "kind": "result",
+     "text": "WON +$5.35: Jalen Brunson Over 9.5 @ +107 (BetRivers) \u2014 WON: 10 reb+ast vs Over 9.5 [lost-closing-line, matchup-read-right, ordinary-variance]"
     },
     {
-     "ts": "2026-11-23T07:00:27Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 7.00% so I get enough bets to learn from."
+     "ts": "2026-11-23T15:00:43Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Tenn-Martin Skyhawks @ +330 (BetRivers) \u2014 LOST: Tenn-Martin Skyhawks lost by 2 [beat-closing-line, near-miss, underdog-lost]"
     },
     {
-     "ts": "2026-11-23T07:45:22Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 6.75% so I get enough bets to learn from."
+     "ts": "2026-11-23T15:00:50Z",
+     "kind": "props",
+     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for MEM@CHA (ra, pra, team totals), LAC@HOU (ra, pra, team totals), MIL@TOR (ra, ast, pra, team totals), CLE@CH"
     },
     {
-     "ts": "2026-11-23T09:16:31Z",
+     "ts": "2026-11-23T15:15:38Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 243 players projected, lineups for 10 games."
     },
     {
-     "ts": "2026-11-23T09:44:17Z",
+     "ts": "2026-11-23T15:45:40Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 245 players projected, lineups for 10 games."
     },
     {
-     "ts": "2026-11-23T13:45:37Z",
+     "ts": "2026-11-23T16:15:39Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 244 players projected, lineups for 10 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-20T17:49:36Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-20T19:00:45Z",
      "agent": 91.22,
@@ -1142,6 +1107,11 @@
      "ts": "2026-11-23T03:55:46Z",
      "agent": 46.45,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T15:00:50Z",
+     "agent": 50.85,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1188,7 +1158,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 94.4,
+   "age_days": 94.5,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1198,7 +1168,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 128.4,
+   "age_days": 128.5,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1207,15 +1177,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 5,
+  "med": 4,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T09:10-05:00",
+  "checked": "2026-11-23T11:32-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-23T09:15-05:00",
-   "age_hours": -0.1,
+   "age_hours": 2.3,
    "ok": true,
    "summary": "Shipping run: fix-hq-data-morning shipped (extra 7:07 AM ET refresh line); fix-value-dog-leak closed as no change (benched playbooks place exploratory bets by d"
   },
@@ -1300,8 +1270,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T07:40:39Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45132753464"
+    "at": "2026-11-23T14:11:23Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45191388900"
    },
    {
     "repo": "Creation",
@@ -1318,8 +1288,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T14:01:06Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45189553257"
+    "at": "2026-11-23T16:30:45Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45217232712"
    }
   ],
   "ok": true
