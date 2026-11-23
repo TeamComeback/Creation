@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:57-05:00",
+ "updated": "2026-11-22T23:03-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -723,7 +723,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-23T03:55:46Z",
+   "updated": "2026-11-23T04:00:26Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1211,11 +1211,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-22T22:57-05:00",
+  "checked": "2026-11-22T23:03-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-22T20:05-05:00",
-   "age_hours": 2.9,
+   "age_hours": 3.0,
    "ok": true,
    "summary": "Shipping run: nothing approved. fix-empty-jobs still waits on the CRON_TOKEN secret. The last two upkeep runs (1:35 PM and 7:36 PM) ran on fresh data, so the PR"
   },
@@ -1297,20 +1297,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T01:07:40Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45092680920"
+    "at": "2026-11-23T03:59:24Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45109121320"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T20:50:35Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45068654468"
+    "at": "2026-11-23T03:57:53Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45108926218"
    },
    {
     "repo": "Perseverance",
@@ -1318,8 +1318,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T03:56:03Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45108786266"
+    "at": "2026-11-23T04:00:43Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45109211123"
    }
   ],
   "ok": true
