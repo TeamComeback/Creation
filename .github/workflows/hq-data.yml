@@ -14,6 +14,9 @@ on:
     # slots above in the hours just before upkeep on several days. After the March 8 2027 clock change
     # the upkeep slots move an hour earlier in UTC: change 12,17,23 to 11,16,22 then.
     - cron: "37 12,17,23 * * *"
+    # Nov 23 2026: the 12:37 UTC slot was dropped again (no run between 2:40 AM and 9:00 AM Eastern), so the
+    # morning upkeep run read stale data. One extra morning line (7:07 AM Eastern); shift to 11 after Mar 8 2027.
+    - cron: "7 12 * * *"
   workflow_dispatch:
 
 permissions:
