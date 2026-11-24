@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:17-05:00",
+ "updated": "2026-11-24T17:43-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T22:15:21Z",
+   "updated": "2026-11-24T22:30:28Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1260,11 +1260,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-24T17:17-05:00",
+  "checked": "2026-11-24T17:43-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-24T09:15-05:00",
-   "age_hours": 8.0,
+   "age_hours": 8.5,
    "ok": true,
    "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep c"
   },
@@ -1349,8 +1349,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T17:50:28Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45452857534"
+    "at": "2026-11-24T22:18:28Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45499540569"
    },
    {
     "repo": "Creation",
@@ -1376,8 +1376,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T22:15:34Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45499147549"
+    "at": "2026-11-24T22:30:43Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45501525174"
    }
   ],
   "ok": false
