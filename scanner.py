@@ -77,6 +77,9 @@ def run_scan() -> dict:
     # produce a silent "found: 0" with nothing in the logs to explain it.
     active = []
     for name, module in (("adzuna", adzuna), ("jsearch", jsearch), ("themuse", muse)):
+        if name == "themuse" and not module.available():
+            log.info("themuse: switched off (its public endpoint is gone); not an error")
+            continue
         if module.available():
             active.append(name)
         else:
@@ -95,7 +98,7 @@ def run_scan() -> dict:
 
     # Second source (owner-approved in HQ): a free, no-key feed, so one dead source cannot empty the board.
     # A failure here is logged and recorded but never stops the other sources.
-    for metro_key in METROS:
+    for metro_key in METROS if muse.available() else ():
         try:
             collected += muse.fetch(metro_key)
         except Exception as e:  # noqa: BLE001

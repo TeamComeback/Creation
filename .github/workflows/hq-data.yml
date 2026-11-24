@@ -17,6 +17,9 @@ on:
     # Nov 23 2026: the 12:37 UTC slot was dropped again (no run between 2:40 AM and 9:00 AM Eastern), so the
     # morning upkeep run read stale data. One extra morning line (7:07 AM Eastern); shift to 11 after Mar 8 2027.
     - cron: "7 12 * * *"
+    # Nov 24 2026: GitHub started none of the 12:07, 12:37 or :17/:47 slots between 04:49 and 14:07 UTC. One more
+    # early slot (6:37 AM Eastern); shift to 10 after Mar 8 2027.
+    - cron: "37 11 * * *"
   workflow_dispatch:
 
 permissions:

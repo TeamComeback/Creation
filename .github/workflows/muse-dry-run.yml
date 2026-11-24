@@ -1,6 +1,6 @@
 # One-off check (HQ item p20261118jobs): run The Muse source from GitHub, which can reach the feed, with saving
 # turned off. Nothing is written to the board or the repo. Run it by hand from the Actions tab.
-name: Muse dry run
+name: Muse dry run (retired)
 
 on:
   workflow_dispatch:
