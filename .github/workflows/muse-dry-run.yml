@@ -1,0 +1,20 @@
+# One-off check (HQ item p20261118jobs): run The Muse source from GitHub, which can reach the feed, with saving
+# turned off. Nothing is written to the board or the repo. Run it by hand from the Actions tab.
+name: Muse dry run
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python muse_dry_run.py

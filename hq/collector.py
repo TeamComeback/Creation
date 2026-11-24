@@ -278,6 +278,8 @@ else:
         elif over:
             ratio = rate / need if need > 0 else 9
             state = "ahead" if ratio >= 1.1 else "on pace" if ratio >= 0.9 else "behind" if ratio >= 0.6 else "far behind"
+            if played >= 2 and need > 3 * rate:     # same 3x rule as the tracker's "Out of reach" label
+                state = "out of reach"
         else:
             ratio = need / rate if rate else 9
             state = "ahead" if ratio >= 1.1 else "on pace" if ratio >= 0.9 else "behind"
@@ -291,7 +293,7 @@ else:
         s.pop("pos")
         live = [l for l in s["legs"] if l["state"] not in ("won",)]
         s["alive"] = not any(l["state"] == "lost" for l in s["legs"])
-        s["weak"] = [l["who"] for l in live if l["state"] in ("far behind", "behind")]
+        s["weak"] = [l["who"] for l in live if l["state"] in ("out of reach", "far behind", "behind")]
         ok = sum(1 if l["state"] in ("won", "ahead", "on pace") else 0.5 if l["state"] == "needs a play" else 0 for l in s["legs"])
         s["health"] = round(100 * ok / len(s["legs"])) if s["legs"] else 0
     upd_age = age_days(fd.get("updated"))
@@ -310,8 +312,9 @@ else:
         for l in s["legs"]:
             if l["settled"] == "win*":
                 pass  # the tracker already shows a cleared over leg as Cashed; nothing to settle by hand
-            elif l["state"] == "far behind":
-                find(f"pace-{l['id']}", "overseer", "nfl", "med", f"{l['who']} is far behind pace on {s['name']}",
+            elif l["state"] in ("far behind", "out of reach"):
+                find(f"pace-{l['id']}", "overseer", "nfl", "med",
+                     f"{l['who']} is {'out of reach' if l['state'] == 'out of reach' else 'far behind pace'} on {s['name']}",
                      f"Producing {l['rate']:g}/game, needs {l['need']:g}/game over {l['rem']} games for {l['dir']} {l['line']:g} {l['stat']}.",
                      "Watch usage and injury news. One more miss likely sinks this slip.")
             elif l["state"] == "needs a play":
