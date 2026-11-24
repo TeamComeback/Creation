@@ -1,134 +1,134 @@
 {
- "updated": "2026-11-24T09:19-05:00",
+ "updated": "2026-11-24T12:49-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-23T15:38-05:00",
-   "age_days": 0.7,
-   "pool_now": 2606.91,
-   "pool_start": 3000.0,
-   "pool_ret": -13.1,
-   "spy_ret": -6.36,
-   "edge": -6.74,
+   "updated": "2026-11-24T12:37-05:00",
+   "age_days": 0.0,
+   "pool_now": 1985.41,
+   "pool_start": 2000.0,
+   "pool_ret": -0.73,
+   "spy_ret": -6.88,
+   "edge": 6.15,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1001.3,
-    "ret_pct": 0.13,
-    "progress_pct": 10.01,
+    "equity": 1001.59,
+    "ret_pct": 0.16,
+    "progress_pct": 10.02,
     "days_to_goal": null
    },
    "agents": [
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 626.52,
+     "equity": 618.02,
      "status": "active",
-     "progress_pct": 6.27,
-     "open": 0,
+     "progress_pct": 6.18,
+     "open": 1,
      "closed": 27,
      "win_rate": 14.8,
-     "max_dd_pct": 53.3,
-     "competing": true,
-     "exhibition": false,
-     "risk_adj": -0.7,
-     "ret_pct": -37.35,
-     "note": "Passed on BOXX: it is Broad market/other (my worst sector at -$221 over 11 trades, and on the avoid list), and its 0.06 stop is too tight to be a real 2-ATR trend setup. Staying in settled cash for the NFLX, IBN, or XLC triggers."
+     "max_dd_pct": 53.9,
+     "competing": false,
+     "exhibition": true,
+     "risk_adj": -0.71,
+     "ret_pct": -38.2,
+     "note": "Passing on the VALE put candidate because the same breakdown is already held as pos-3f3300706c. Keep the existing put under its 10.12 stop and wait for the Communication Services triggers (IBN >36.17, DIS >123.34, NFLX second close <56.56) "
     },
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 979.09,
+     "equity": 983.82,
      "status": "active",
-     "progress_pct": 9.79,
-     "open": 5,
-     "closed": 28,
-     "win_rate": 60.7,
+     "progress_pct": 9.84,
+     "open": 0,
+     "closed": 33,
+     "win_rate": 57.6,
      "max_dd_pct": 6.3,
      "competing": true,
      "exhibition": false,
-     "risk_adj": -0.33,
-     "ret_pct": -2.09,
-     "note": "All six live candidates fail the 0.8:1 reward-to-risk floor (best is EOG at about 0.49:1 on the hints). SCHD is not a candidate, so its 33.94 trigger can't be verified. Hold the nine open stock positions to their stops and targets and keep "
+     "risk_adj": -0.26,
+     "ret_pct": -1.62,
+     "note": "No trade: MPC, VLO and PSX are Energy, a sector I avoid, and all fail the 0.8:1 reward-to-risk floor (about 0.29, 0.26 and 0.19 on the 2x-ATR stops). BJ is not a live candidate, so its trigger can't be verified. Positions are empty, so the "
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 895.5,
+     "equity": 887.5,
      "status": "active",
-     "progress_pct": 8.96,
+     "progress_pct": 8.88,
      "open": 1,
-     "closed": 6,
-     "win_rate": 0.0,
+     "closed": 7,
+     "win_rate": 14.3,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.9,
-     "ret_pct": -10.45,
-     "note": "Passed on the TLT 79.5/78.5 duplicate: it would stack a second same-expiry TLT bull put on the open 78/77 (about $164 combined max loss, roughly 18% of equity) while SPY trends down and crash radar is 47. Hold the existing spread under defa"
+     "risk_adj": -0.97,
+     "ret_pct": -11.25,
+     "note": "Passing on the TLT 79.5/78.5 bull put: it would stack a second same-expiry TLT spread on the open 80/79, crash radar is 47 with SPY below its 200-day, and I'm holding a single contract under the 80.0 underlying stop and default exits."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 936.35,
+     "equity": 931.24,
      "status": "active",
-     "progress_pct": 9.36,
+     "progress_pct": 9.31,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.59,
-     "ret_pct": -6.36,
+     "risk_adj": -0.63,
+     "ret_pct": -6.88,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 830.85,
+     "equity": 830.09,
      "status": "active",
-     "progress_pct": 8.31,
-     "open": 1,
+     "progress_pct": 8.3,
+     "open": 4,
      "closed": 10,
      "win_rate": 40.0,
      "max_dd_pct": 18.3,
      "competing": false,
      "exhibition": false,
      "risk_adj": -0.93,
-     "ret_pct": -16.92,
+     "ret_pct": -16.99,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -338.26,
+     "equity": -307.26,
      "status": "eliminated",
-     "progress_pct": -3.38,
+     "progress_pct": -3.07,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.95,
-     "ret_pct": -133.83,
+     "risk_adj": -0.93,
+     "ret_pct": -130.73,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1001.3,
+     "equity": 1001.59,
      "status": "active",
-     "progress_pct": 10.01,
-     "open": 0,
+     "progress_pct": 10.02,
+     "open": 1,
      "closed": 98,
      "win_rate": 44.9,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
      "risk_adj": 0.03,
-     "ret_pct": 0.13,
+     "ret_pct": 0.16,
      "note": "[weekly] [weekly] 21 closed trades, win rate 42.9%, avg win 0.70 vs avg loss -0.49, so the edge is marginal and unproven. Several time-limit exits sit near 0% and a few trades gave back gains, which suggests the 0.5% target is a bit far for"
     },
     {
@@ -150,202 +150,202 @@
    ],
    "curve": [
     {
-     "date": "2026-10-13",
-     "racing": 2000.24,
-     "leader": null,
-     "spy": 999.95
-    },
-    {
      "date": "2026-10-14",
-     "racing": 3022.22,
+     "racing": 2001.72,
      "leader": 999.67,
      "spy": 994.99
     },
     {
      "date": "2026-10-15",
-     "racing": 2920.16,
+     "racing": 2001.1,
      "leader": 999.66,
      "spy": 998.29
     },
     {
      "date": "2026-10-16",
-     "racing": 3054.37,
+     "racing": 1999.39,
      "leader": 1000.02,
      "spy": 986.28
     },
     {
      "date": "2026-10-19",
-     "racing": 3059.4,
+     "racing": 2008.76,
      "leader": 1003.59,
      "spy": 993.69
     },
     {
      "date": "2026-10-20",
-     "racing": 3059.69,
+     "racing": 2009.39,
      "leader": 1005.15,
      "spy": 993.8
     },
     {
      "date": "2026-10-21",
-     "racing": 3062.11,
+     "racing": 2013.98,
      "leader": 1005.76,
      "spy": 999.81
     },
     {
      "date": "2026-10-22",
-     "racing": 3185.0,
+     "racing": 2012.16,
      "leader": 1004.75,
      "spy": 986.0
     },
     {
      "date": "2026-10-23",
-     "racing": 3216.23,
+     "racing": 2014.39,
      "leader": 1003.6,
      "spy": 983.43
     },
     {
      "date": "2026-10-26",
-     "racing": 3206.69,
+     "racing": 2025.23,
      "leader": 1005.69,
      "spy": 990.25
     },
     {
      "date": "2026-10-27",
-     "racing": 3067.72,
+     "racing": 2024.88,
      "leader": 1006.86,
      "spy": 996.98
     },
     {
      "date": "2026-10-28",
-     "racing": 3041.15,
+     "racing": 2022.0,
      "leader": 1004.78,
      "spy": 997.04
     },
     {
      "date": "2026-10-29",
-     "racing": 3048.37,
+     "racing": 2018.25,
      "leader": 1004.53,
      "spy": 993.77
     },
     {
      "date": "2026-10-30",
-     "racing": 3188.26,
+     "racing": 2022.56,
      "leader": 1003.05,
      "spy": 974.46
     },
     {
      "date": "2026-11-02",
-     "racing": 3069.48,
+     "racing": 2014.88,
      "leader": 1003.41,
      "spy": 973.62
     },
     {
      "date": "2026-11-03",
-     "racing": 3083.33,
+     "racing": 2010.24,
      "leader": 1003.56,
      "spy": 975.23
     },
     {
      "date": "2026-11-04",
-     "racing": 3054.35,
+     "racing": 2031.69,
      "leader": 1004.56,
      "spy": 993.71
     },
     {
      "date": "2026-11-05",
-     "racing": 2894.38,
+     "racing": 1992.28,
      "leader": 1002.98,
      "spy": 950.85
     },
     {
      "date": "2026-11-06",
-     "racing": 2878.76,
+     "racing": 1995.22,
      "leader": 1000.87,
      "spy": 954.03
     },
     {
      "date": "2026-11-09",
-     "racing": 2845.56,
+     "racing": 2002.31,
      "leader": 1002.03,
      "spy": 976.26
     },
     {
      "date": "2026-11-10",
-     "racing": 2816.45,
+     "racing": 1998.93,
      "leader": 1000.74,
      "spy": 969.22
     },
     {
      "date": "2026-11-11",
-     "racing": 2747.61,
+     "racing": 1996.91,
      "leader": 1000.78,
      "spy": 983.41
     },
     {
      "date": "2026-11-12",
-     "racing": 2724.08,
+     "racing": 1996.47,
      "leader": 1001.84,
      "spy": 978.78
     },
     {
      "date": "2026-11-13",
-     "racing": 2714.93,
+     "racing": 1999.41,
      "leader": 1001.97,
      "spy": 974.41
     },
     {
      "date": "2026-11-16",
-     "racing": 2711.35,
+     "racing": 1999.83,
      "leader": 1001.97,
      "spy": 955.85
     },
     {
      "date": "2026-11-17",
-     "racing": 2699.81,
+     "racing": 1996.41,
      "leader": 999.56,
      "spy": 946.01
     },
     {
      "date": "2026-11-18",
-     "racing": 2692.05,
+     "racing": 1987.53,
      "leader": 1001.3,
      "spy": 944.53
     },
     {
      "date": "2026-11-19",
-     "racing": 2597.0,
+     "racing": 1970.48,
      "leader": 1001.3,
      "spy": 927.29
     },
     {
      "date": "2026-11-20",
-     "racing": 2591.75,
+     "racing": 1965.23,
      "leader": 1001.3,
      "spy": 892.86
     },
     {
      "date": "2026-11-23",
-     "racing": 2606.91,
+     "racing": 1980.39,
      "leader": 1001.3,
      "spy": 936.35
+    },
+    {
+     "date": "2026-11-24",
+     "racing": 1985.41,
+     "leader": 1001.59,
+     "spy": 931.24
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -1.2,
+    "vs200": -1.8,
     "radar": 47,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 0,
-    "denied": 1,
-    "last_denied": "already holding TLT"
+    "approved": 7,
+    "denied": 0,
+    "last_denied": null
    },
-   "efficiency": 89,
-   "profitability": 16,
+   "efficiency": 100,
+   "profitability": 81,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 7.4,
+   "age_days": 7.5,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 46,
+   "efficiency": 45,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 30.0,
+   "age_days": 30.1,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T14:15:45Z",
+   "updated": "2026-11-24T17:45:21Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -789,7 +789,7 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14511,
+   "credits": 14499,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [],
@@ -869,42 +869,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-24T07:03:20Z",
-     "kind": "race",
-     "text": "Perseverance run #2 ENDED at $35.85 (peak $108.36, 33 bets). New run started from $100; lessons carry over."
-    },
-    {
-     "ts": "2026-11-24T07:03:21Z",
-     "kind": "scan",
-     "text": "Scanned soccer_uefa_champs_league (11), basketball_ncaab (78), icehockey_nhl (1), icehockey_sweden_hockey_league (2), basketball_nba (3), basketball_euroleague (7), americanfootball_ncaaf (2), soccer_usa_mls (1), cricket_test_match (1) for 27 credits. Nothing "
-    },
-    {
-     "ts": "2026-11-24T07:15:31Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 6.50% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-24T11:00:42Z",
+     "ts": "2026-11-24T14:45:33Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     },
     {
-     "ts": "2026-11-24T11:35:52Z",
+     "ts": "2026-11-24T15:00:45Z",
+     "kind": "props",
+     "text": "NBA matchups: 3 games, strongest spots: Derrick White ast +16% vs WSH; Desmond Bane ast -13% vs DET; Neemias Queta ra +15% vs WSH. Bought prop odds for BOS@WSH (ast, ra, pra, team totals), DET@ORL (ast, ra, pra, team totals), DAL@DEN (ast, ra, pra, team totals"
+    },
+    {
+     "ts": "2026-11-24T15:30:39Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     },
     {
-     "ts": "2026-11-24T14:15:33Z",
+     "ts": "2026-11-24T16:00:42Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
+    },
+    {
+     "ts": "2026-11-24T16:45:33Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
+    },
+    {
+     "ts": "2026-11-24T17:30:39Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-21T16:01:41Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T16:49:20Z",
      "agent": 51.22,
@@ -1099,6 +1094,11 @@
      "ts": "2026-11-24T07:03:21Z",
      "agent": 100.0,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T15:00:45Z",
+     "agent": 100.0,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1164,7 +1164,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 95.4,
+   "age_days": 95.6,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1174,7 +1174,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 129.4,
+   "age_days": 129.6,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1183,15 +1183,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 6,
+  "med": 5,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-24T09:19-05:00",
+  "checked": "2026-11-24T12:49-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-24T09:15-05:00",
-   "age_hours": 0.1,
+   "age_hours": 3.6,
    "ok": true,
    "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep c"
   },
@@ -1240,8 +1240,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T06:59:20Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45344476351"
+    "at": "2026-11-24T15:09:23Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45370043507"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1276,8 +1276,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T14:09:31Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45410892254"
+    "at": "2026-11-24T14:20:11Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45412871673"
    },
    {
     "repo": "Creation",
@@ -1303,8 +1303,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T14:16:00Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45412007970"
+    "at": "2026-11-24T17:45:35Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45452009134"
    }
   ],
   "ok": false

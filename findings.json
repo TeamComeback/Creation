@@ -18,15 +18,6 @@
   "action": "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, Settings, Secrets and variables, Actions, New secret named CRON_TOKEN. Scans start the next morning."
  },
  {
-  "id": "dd-trend",
-  "agent": "overseer",
-  "business": "curiosity",
-  "severity": "med",
-  "title": "Trend Co. is in a 53% drawdown",
-  "detail": "Equity $626.52 (-37.4%). The race rules fail an agent below $10, so this is still alive, but it is dragging the pool.",
-  "action": "Review its thesis and position sizing in the Curiosity journal."
- },
- {
   "id": "inj-bowers",
   "agent": "overseer",
   "business": "nfl",
@@ -85,7 +76,7 @@
   "agent": "memory",
   "business": "screener",
   "severity": "low",
-  "title": "Stock screener has sat undeployed for 129 days",
+  "title": "Stock screener has sat undeployed for 130 days",
   "detail": "Curiosity's agents now scan a 7,000-symbol universe on their own, which covers most of what the screener was for.",
   "action": "Decide: deploy it, fold its charts into Curiosity, or archive it."
  }
