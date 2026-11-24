@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:29-05:00",
+ "updated": "2026-11-23T23:49-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.9,
+   "age_days": 7.0,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 29.5,
+   "age_days": 29.6,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T03:15:43Z",
+   "updated": "2026-11-24T04:45:26Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 2,
    "agent": {
-    "equity": 50.85,
-    "bets": 91,
+    "equity": 40.85,
+    "bets": 93,
     "won": 30,
-    "lost": 59,
+    "lost": 61,
     "push": 2,
-    "roi": -0.2724,
+    "roi": -0.2862,
     "clv": -0.0046,
-    "open": 3,
-    "profit": -140.99,
-    "staked": 517.57
+    "open": 1,
+    "profit": -150.99,
+    "staked": 527.57
    },
    "you": {
     "equity": 125.1,
@@ -785,7 +785,7 @@
     "longshot": 0.444,
     "arb": 1.098,
     "parlay_ev": 1.0,
-    "matchup_over": 1.428,
+    "matchup_over": 1.322,
     "matchup_under": 0.3
    },
    "strategist_on": false,
@@ -804,6 +804,20 @@
      "playbook": "longshot",
      "ev": 0.1386,
      "start": "2026-11-24T03:10:00Z"
+    }
+   ],
+   "recent": [
+    {
+     "what": "Kelly Oubre Jr. Under 1.5",
+     "odds": 116,
+     "book": "draftkings",
+     "game": "Oklahoma City Thunder @ Indiana Pacers",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "matchup_under",
+     "ev": 0.1112,
+     "start": "2026-11-24T00:40:00Z"
     },
     {
      "what": "Saddiq Bey Over 2.5",
@@ -811,26 +825,12 @@
      "book": "draftkings",
      "game": "Phoenix Suns @ New Orleans Pelicans",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "matchup_over",
      "ev": 0.0564,
      "start": "2026-11-24T01:10:00Z"
     },
-    {
-     "what": "Kelly Oubre Jr. Under 1.5",
-     "odds": 116,
-     "book": "draftkings",
-     "game": "Oklahoma City Thunder @ Indiana Pacers",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "matchup_under",
-     "ev": 0.1112,
-     "start": "2026-11-24T00:40:00Z"
-    }
-   ],
-   "recent": [
     {
      "what": "Jalen Brunson Over 9.5",
      "odds": 107,
@@ -878,53 +878,9 @@
      "playbook": "arb",
      "ev": 0.0087,
      "start": "2026-11-22T20:00:00Z"
-    },
-    {
-     "what": "Nicholls St Colonels +5.5",
-     "odds": 114,
-     "book": "kalshi",
-     "game": "Nicholls St Colonels @ Troy Trojans",
-     "stake": 5.31,
-     "profit": 6.04,
-     "status": "won",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-22T20:00:00Z"
-    },
-    {
-     "what": "Cooper Flagg Under 13.5",
-     "odds": -123,
-     "book": "draftkings",
-     "game": "Los Angeles Clippers @ Dallas Mavericks",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.0847,
-     "start": "2026-11-22T01:10:00Z"
     }
    ],
    "journal": [
-    {
-     "ts": "2026-11-24T01:12:07Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 240 players projected, lineups for 10 games."
-    },
-    {
-     "ts": "2026-11-24T01:15:30Z",
-     "kind": "race",
-     "text": "Run #2 is winding down: no new bets, open bets settle, then run #3 starts at $100."
-    },
-    {
-     "ts": "2026-11-24T01:30:44Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 242 players projected, lineups for 10 games."
-    },
-    {
-     "ts": "2026-11-24T02:00:54Z",
-     "kind": "props",
-     "text": "NBA matchups: 2 games, strongest spots: Luka Doncic ast +12% vs UTAH; Josh Okogie ra -10% vs LAL; Stephon Castle ast +10% vs SAC. No credits to price props this run (allowance 0). "
-    },
     {
      "ts": "2026-11-24T02:07:59Z",
      "kind": "scan",
@@ -934,19 +890,29 @@
      "ts": "2026-11-24T03:00:47Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 23: 10 games, 244 players projected, lineups for 10 games."
+    },
+    {
+     "ts": "2026-11-24T04:12:40Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Kelly Oubre Jr. Under 1.5 @ +116 (DraftKings) \u2014 LOST: 4 threes vs Under 1.5 [matchup-read-right, model-miss]"
+    },
+    {
+     "ts": "2026-11-24T04:12:50Z",
+     "kind": "props",
+     "text": "No NBA games left to bet today."
+    },
+    {
+     "ts": "2026-11-24T04:41:44Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Saddiq Bey Over 2.5 @ +148 (DraftKings) \u2014 LOST: 2 threes vs Over 2.5 [matchup-read-right, minutes-long, near-miss, ordinary-variance]"
+    },
+    {
+     "ts": "2026-11-24T04:41:45Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 14634 left this cycle)."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-21T02:00:54Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T04:12:39Z",
-     "agent": 66.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T05:00:47Z",
      "agent": 66.22,
@@ -1136,6 +1102,16 @@
      "ts": "2026-11-24T02:07:59Z",
      "agent": 50.85,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T04:12:50Z",
+     "agent": 45.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T04:41:45Z",
+     "agent": 40.85,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1201,15 +1177,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 5,
+  "med": 6,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T22:29-05:00",
+  "checked": "2026-11-23T23:49-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-23T20:30-05:00",
-   "age_hours": 2.0,
+   "age_hours": 3.3,
    "ok": true,
    "summary": "Shipping run: 7 approved items shipped across Curiosity, Fantasy-Tracker, Creation and Perseverance. The Muse feed is gone (404 on every shape), so that dry run"
   },
@@ -1291,20 +1267,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-24T03:30:19Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45319883430"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
     "at": "2026-11-24T01:53:30Z",
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45308290699"
-   },
-   {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-24T01:13:18Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45303336969"
    },
    {
     "repo": "Creation",
@@ -1321,8 +1297,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T03:16:05Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45318178763"
+    "at": "2026-11-24T04:47:07Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45328719009"
    }
   ],
   "ok": false
