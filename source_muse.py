@@ -26,6 +26,7 @@ log = logging.getLogger(__name__)
 BASE = "https://www.themuse.com/api/public/jobs"
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
            "Accept": "application/json"}   # the feed answered 403 to the default python client on Nov 24 2026
+# The feed's location filter wants "City, ST" ("Tampa, FL"); "Tampa Bay, FL" answered 404 on Nov 24 2026.
 PAGES = 2           # 20 postings a page; two pages per metro keeps this to a few calls a day
 
 
@@ -66,7 +67,7 @@ def fetch(metro_key: str) -> list[Job]:
     jobs: list[Job] = []
     for page in range(1, PAGES + 1):
         try:
-            r = httpx.get(BASE, params={"location": metro["label"], "page": page}, headers=HEADERS, timeout=25)
+            r = httpx.get(BASE, params={"location": metro["adzuna_where"], "page": page}, headers=HEADERS, timeout=25)
             r.raise_for_status()
             payload = r.json()
         except Exception as e:  # noqa: BLE001 -- a dead source must not kill the scan
