@@ -1,39 +1,39 @@
 {
- "updated": "2026-11-24T12:49-05:00",
+ "updated": "2026-11-24T17:17-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-24T12:37-05:00",
-   "age_days": 0.0,
-   "pool_now": 1985.41,
+   "updated": "2026-11-24T15:41-05:00",
+   "age_days": 0.1,
+   "pool_now": 1985.17,
    "pool_start": 2000.0,
-   "pool_ret": -0.73,
-   "spy_ret": -6.88,
-   "edge": 6.15,
+   "pool_ret": -0.74,
+   "spy_ret": -7.41,
+   "edge": 6.67,
    "leader": {
     "name": "Rapid Fire Trading",
-    "equity": 1001.59,
-    "ret_pct": 0.16,
-    "progress_pct": 10.02,
+    "equity": 1001.35,
+    "ret_pct": 0.13,
+    "progress_pct": 10.01,
     "days_to_goal": null
    },
    "agents": [
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 618.02,
+     "equity": 621.02,
      "status": "active",
-     "progress_pct": 6.18,
+     "progress_pct": 6.21,
      "open": 1,
      "closed": 27,
      "win_rate": 14.8,
-     "max_dd_pct": 53.9,
+     "max_dd_pct": 54.2,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.71,
-     "ret_pct": -38.2,
-     "note": "Passing on the VALE put candidate because the same breakdown is already held as pos-3f3300706c. Keep the existing put under its 10.12 stop and wait for the Communication Services triggers (IBN >36.17, DIS >123.34, NFLX second close <56.56) "
+     "risk_adj": -0.7,
+     "ret_pct": -37.9,
+     "note": "No trade: the only candidate, FNGR, has a 0.05 stop against a 0.022 price, too wide to size, and sits in an avoided sector. No Communication Services trigger (IBN >36.17, DIS >123.34, NFLX second close <56.56) has fired. Holding the VALE pu"
     },
     {
      "id": "meanrev",
@@ -49,86 +49,86 @@
      "exhibition": false,
      "risk_adj": -0.26,
      "ret_pct": -1.62,
-     "note": "No trade: MPC, VLO and PSX are Energy, a sector I avoid, and all fail the 0.8:1 reward-to-risk floor (about 0.29, 0.26 and 0.19 on the 2x-ATR stops). BJ is not a live candidate, so its trigger can't be verified. Positions are empty, so the "
+     "note": "MDT is 0.72:1 (3.41 to the 99.67 target vs 4.76 to the 91.51 stop), below the 0.8:1 floor. BJ is not a live candidate, so its trigger can't be checked. Keep the cash until a candidate clears the floor."
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 887.5,
+     "equity": 885.5,
      "status": "active",
-     "progress_pct": 8.88,
+     "progress_pct": 8.86,
      "open": 1,
      "closed": 7,
      "win_rate": 14.3,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.97,
-     "ret_pct": -11.25,
-     "note": "Passing on the TLT 79.5/78.5 bull put: it would stack a second same-expiry TLT spread on the open 80/79, crash radar is 47 with SPY below its 200-day, and I'm holding a single contract under the 80.0 underlying stop and default exits."
+     "risk_adj": -0.98,
+     "ret_pct": -11.45,
+     "note": "Passing again on the TLT 79.5/78.5 bull put: it stacks a same-expiry TLT spread on the open position, which is already under water, with crash radar at 48. Next time a rich-vol setup on a different underlying appears with settled cash avail"
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 931.24,
+     "equity": 925.9,
      "status": "active",
-     "progress_pct": 9.31,
+     "progress_pct": 9.26,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.63,
-     "ret_pct": -6.88,
+     "risk_adj": -0.68,
+     "ret_pct": -7.41,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 830.09,
+     "equity": 826.91,
      "status": "active",
-     "progress_pct": 8.3,
+     "progress_pct": 8.27,
      "open": 4,
      "closed": 10,
      "win_rate": 40.0,
      "max_dd_pct": 18.3,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.93,
-     "ret_pct": -16.99,
+     "risk_adj": -0.95,
+     "ret_pct": -17.31,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -307.26,
+     "equity": -324.26,
      "status": "eliminated",
-     "progress_pct": -3.07,
+     "progress_pct": -3.24,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.93,
-     "ret_pct": -130.73,
+     "risk_adj": -0.94,
+     "ret_pct": -132.43,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
      "id": "scalper",
      "name": "Rapid Fire Trading",
-     "equity": 1001.59,
+     "equity": 1001.35,
      "status": "active",
-     "progress_pct": 10.02,
-     "open": 1,
-     "closed": 98,
-     "win_rate": 44.9,
+     "progress_pct": 10.01,
+     "open": 0,
+     "closed": 99,
+     "win_rate": 45.5,
      "max_dd_pct": 0.7,
      "competing": true,
      "exhibition": false,
      "risk_adj": 0.03,
-     "ret_pct": 0.16,
+     "ret_pct": 0.13,
      "note": "[weekly] [weekly] 21 closed trades, win rate 42.9%, avg win 0.70 vs avg loss -0.49, so the edge is marginal and unproven. Several time-limit exits sit near 0% and a few trades gave back gains, which suggests the 0.5% target is a bit far for"
     },
     {
@@ -325,17 +325,17 @@
     },
     {
      "date": "2026-11-24",
-     "racing": 1985.41,
-     "leader": 1001.59,
-     "spy": 931.24
+     "racing": 1985.17,
+     "leader": 1001.35,
+     "spy": 925.9
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -1.8,
-    "radar": 47,
+    "vs200": -2.3,
+    "radar": 48,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
@@ -344,16 +344,16 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 100,
-   "profitability": 81,
+   "efficiency": 98,
+   "profitability": 83,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
   },
   "nfl": {
-   "updated": "2026-11-17",
-   "through_week": 10,
-   "age_days": 7.5,
+   "updated": "2026-11-24",
+   "through_week": 11,
+   "age_days": 0.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -373,9 +373,9 @@
        "dir": "over",
        "cur": 676,
        "played": 8,
-       "rem": 7,
+       "rem": 6,
        "rate": 84.5,
-       "need": 35.64,
+       "need": 41.58,
        "inj": "O",
        "state": "ahead",
        "settled": null
@@ -388,11 +388,11 @@
        "stat": "passing touchdowns",
        "line": 25.5,
        "dir": "over",
-       "cur": 6,
-       "played": 9,
-       "rem": 8,
-       "rate": 0.67,
-       "need": 2.44,
+       "cur": 8,
+       "played": 10,
+       "rem": 7,
+       "rate": 0.8,
+       "need": 2.5,
        "inj": "Q",
        "state": "out of reach",
        "settled": null
@@ -405,13 +405,13 @@
        "stat": "receiving yards",
        "line": 825.5,
        "dir": "over",
-       "cur": 350,
-       "played": 7,
-       "rem": 8,
-       "rate": 50.0,
-       "need": 59.44,
+       "cur": 441,
+       "played": 8,
+       "rem": 7,
+       "rate": 55.12,
+       "need": 54.93,
        "inj": "",
-       "state": "behind",
+       "state": "on pace",
        "settled": null
       },
       {
@@ -423,19 +423,19 @@
        "line": 5.5,
        "dir": "over",
        "cur": 3,
-       "played": 9,
-       "rem": 7,
-       "rate": 0.33,
-       "need": 0.36,
+       "played": 10,
+       "rem": 6,
+       "rate": 0.3,
+       "need": 0.42,
        "inj": "",
-       "state": "on pace",
+       "state": "behind",
        "settled": null
       }
      ],
      "alive": true,
      "weak": [
       "Justin Herbert",
-      "DJ Moore"
+      "Zay Flowers"
      ],
      "health": 50
     },
@@ -453,13 +453,13 @@
        "stat": "receiving touchdowns",
        "line": 6.5,
        "dir": "over",
-       "cur": 3,
-       "played": 7,
-       "rem": 8,
-       "rate": 0.43,
-       "need": 0.44,
+       "cur": 4,
+       "played": 8,
+       "rem": 7,
+       "rate": 0.5,
+       "need": 0.36,
        "inj": "",
-       "state": "on pace",
+       "state": "ahead",
        "settled": null
       },
       {
@@ -505,10 +505,10 @@
        "line": 5.5,
        "dir": "over",
        "cur": 1,
-       "played": 8,
-       "rem": 8,
-       "rate": 0.12,
-       "need": 0.56,
+       "played": 9,
+       "rem": 7,
+       "rate": 0.11,
+       "need": 0.64,
        "inj": "",
        "state": "out of reach",
        "settled": null
@@ -521,11 +521,11 @@
        "stat": "passing yards",
        "line": 3999.5,
        "dir": "over",
-       "cur": 2724,
-       "played": 10,
-       "rem": 7,
-       "rate": 272.4,
-       "need": 182.21,
+       "cur": 3049,
+       "played": 11,
+       "rem": 6,
+       "rate": 277.18,
+       "need": 158.42,
        "inj": "",
        "state": "ahead",
        "settled": null
@@ -538,11 +538,11 @@
        "stat": "receiving yards",
        "line": 924.5,
        "dir": "over",
-       "cur": 337,
-       "played": 9,
-       "rem": 8,
-       "rate": 37.44,
-       "need": 73.44,
+       "cur": 398,
+       "played": 10,
+       "rem": 7,
+       "rate": 39.8,
+       "need": 75.21,
        "inj": "",
        "state": "far behind",
        "settled": null
@@ -588,10 +588,10 @@
        "line": 0.5,
        "dir": "over",
        "cur": 11,
-       "played": 9,
-       "rem": 8,
-       "rate": 1.22,
-       "need": -1.31,
+       "played": 10,
+       "rem": 7,
+       "rate": 1.1,
+       "need": -1.5,
        "inj": "",
        "state": "won",
        "settled": "win*"
@@ -605,10 +605,10 @@
        "line": 11.5,
        "dir": "over",
        "cur": 0,
-       "played": 8,
-       "rem": 8,
+       "played": 9,
+       "rem": 7,
        "rate": 0.0,
-       "need": 1.44,
+       "need": 1.64,
        "inj": "",
        "state": "needs a play",
        "settled": null
@@ -621,11 +621,11 @@
        "stat": "rushing yards",
        "line": 54.5,
        "dir": "over",
-       "cur": 51,
-       "played": 9,
-       "rem": 7,
-       "rate": 5.67,
-       "need": 0.5,
+       "cur": 38,
+       "played": 10,
+       "rem": 6,
+       "rate": 3.8,
+       "need": 2.75,
        "inj": "",
        "state": "ahead",
        "settled": null
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 45,
+   "efficiency": 73,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 30.1,
+   "age_days": 30.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T17:45:21Z",
+   "updated": "2026-11-24T22:15:21Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -741,8 +741,8 @@
     "lost": 62,
     "push": 2,
     "roi": -0.2929,
-    "clv": -0.0046,
-    "open": 0,
+    "clv": -0.0003,
+    "open": 6,
     "profit": -155.99,
     "staked": 532.57
    },
@@ -757,7 +757,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.065,
+    "min_edge": 0.0625,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -768,7 +768,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.076,
+    "prop_model_weight": 0.053,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -789,10 +789,83 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14499,
+   "credits": 14438,
    "credits_monthly": 20000,
    "per_scan": 0,
-   "open_bets": [],
+   "open_bets": [
+    {
+     "what": "Mississippi St Bulldogs",
+     "odds": -130,
+     "book": "fanatics",
+     "game": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "value_fav",
+     "ev": 0.0628,
+     "start": "2026-11-26T00:30:00Z"
+    },
+    {
+     "what": "Gardner-Webb Bulldogs",
+     "odds": 685,
+     "book": "kalshi",
+     "game": "Gardner-Webb Bulldogs @ Bowling Green Falcons",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.1451,
+     "start": "2026-11-25T00:00:00Z"
+    },
+    {
+     "what": "AS Roma",
+     "odds": 600,
+     "book": "betrivers",
+     "game": "AS Roma @ Paris Saint Germain",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0757,
+     "start": "2026-11-25T20:00:00Z"
+    },
+    {
+     "what": "Duke Blue Devils",
+     "odds": 130,
+     "book": "draftkings",
+     "game": "Duke Blue Devils @ UConn Huskies",
+     "stake": 9.7,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0158,
+     "start": "2026-11-26T00:00:00Z"
+    },
+    {
+     "what": "UConn Huskies",
+     "odds": -122,
+     "book": "fanduel",
+     "game": "Duke Blue Devils @ UConn Huskies",
+     "stake": 12.26,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0158,
+     "start": "2026-11-26T00:00:00Z"
+    },
+    {
+     "what": "South Carolina Gamecocks",
+     "odds": 450,
+     "book": "fanduel",
+     "game": "South Carolina Gamecocks @ USC Trojans",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0956,
+     "start": "2026-11-25T21:30:00Z"
+    }
+   ],
    "recent": [
     {
      "what": "Kelly Oubre Jr. Under 1.5",
@@ -869,67 +942,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-24T14:45:33Z",
+     "ts": "2026-11-24T20:30:36Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     },
     {
-     "ts": "2026-11-24T15:00:45Z",
+     "ts": "2026-11-24T20:45:24Z",
+     "kind": "scan",
+     "text": "Scout: basketball_ncaab (94), soccer_argentina_primera_division (1) for 5 credits. Placed 2: Mississippi St Bulldogs @ -130 (Fanatics); Gardner-Webb Bulldogs @ +685 (Kalshi). Equity $100.00."
+    },
+    {
+     "ts": "2026-11-24T21:00:34Z",
+     "kind": "scan",
+     "text": "Scout: basketball_nba (7), soccer_uefa_champs_league (9) for 5 credits. Placed 1: AS Roma @ +600 (BetRivers). Equity $100.00."
+    },
+    {
+     "ts": "2026-11-24T21:00:45Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
+    },
+    {
+     "ts": "2026-11-24T21:45:28Z",
+     "kind": "scan",
+     "text": "Scout: basketball_ncaab (92) for 3 credits. Placed 3: Duke Blue Devils @ +130 (DraftKings); UConn Huskies @ -122 (FanDuel); South Carolina Gamecocks @ +450 (FanDuel). Equity $100.00."
+    },
+    {
+     "ts": "2026-11-24T22:00:42Z",
      "kind": "props",
      "text": "NBA matchups: 3 games, strongest spots: Derrick White ast +16% vs WSH; Desmond Bane ast -13% vs DET; Neemias Queta ra +15% vs WSH. Bought prop odds for BOS@WSH (ast, ra, pra, team totals), DET@ORL (ast, ra, pra, team totals), DAL@DEN (ast, ra, pra, team totals"
-    },
-    {
-     "ts": "2026-11-24T15:30:39Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
-    },
-    {
-     "ts": "2026-11-24T16:00:42Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
-    },
-    {
-     "ts": "2026-11-24T16:45:33Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
-    },
-    {
-     "ts": "2026-11-24T17:30:39Z",
-     "kind": "research",
-     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-21T16:49:20Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T17:00:45Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T19:00:44Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T20:52:32Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T22:00:54Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T23:30:41Z",
-     "agent": 51.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T23:43:23Z",
      "agent": 51.22,
@@ -1099,6 +1142,36 @@
      "ts": "2026-11-24T15:00:45Z",
      "agent": 100.0,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T18:00:37Z",
+     "agent": 100.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T20:13:11Z",
+     "agent": 100.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T20:45:24Z",
+     "agent": 100.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T21:00:34Z",
+     "agent": 100.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T21:45:28Z",
+     "agent": 100.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T22:00:42Z",
+     "agent": 100.0,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1164,7 +1237,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 95.6,
+   "age_days": 95.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1174,7 +1247,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 129.6,
+   "age_days": 129.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1187,11 +1260,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-24T12:49-05:00",
+  "checked": "2026-11-24T17:17-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-24T09:15-05:00",
-   "age_hours": 3.6,
+   "age_hours": 8.0,
    "ok": true,
    "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep c"
   },
@@ -1240,8 +1313,17 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T15:09:23Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45370043507"
+    "at": "2026-11-24T20:38:16Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45422175324"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-24T21:09:25Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45488140900"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1253,22 +1335,13 @@
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45339770698"
    },
    {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Auto-fill weekly stats",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-20T19:05:23Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/44798827170"
-   },
-   {
     "repo": "Ingenuity",
     "business": "ingenuity",
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T22:39:14Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/45281699823"
+    "at": "2026-11-24T21:11:41Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/45488554908"
    },
    {
     "repo": "Creation",
@@ -1276,8 +1349,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T14:20:11Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45412871673"
+    "at": "2026-11-24T17:50:28Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45452857534"
    },
    {
     "repo": "Creation",
@@ -1303,8 +1376,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T17:45:35Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45452009134"
+    "at": "2026-11-24T22:15:34Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45499147549"
    }
   ],
   "ok": false
