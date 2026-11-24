@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-23T15:14-05:00",
+ "updated": "2026-11-23T19:16-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-23T15:07-05:00",
-   "age_days": 0.0,
-   "pool_now": 2606.9,
+   "updated": "2026-11-23T15:38-05:00",
+   "age_days": 0.2,
+   "pool_now": 2606.91,
    "pool_start": 3000.0,
    "pool_ret": -13.1,
-   "spy_ret": -6.54,
-   "edge": -6.56,
+   "spy_ret": -6.36,
+   "edge": -6.74,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.3,
@@ -38,7 +38,7 @@
     {
      "id": "meanrev",
      "name": "Snapback Partners",
-     "equity": 979.08,
+     "equity": 979.09,
      "status": "active",
      "progress_pct": 9.79,
      "open": 5,
@@ -49,46 +49,46 @@
      "exhibition": false,
      "risk_adj": -0.33,
      "ret_pct": -2.09,
-     "note": "15:07: all six candidates fail the 0.8:1 floor (best is EOG at about 0.43:1), SCHD is not a candidate so its 33.94 trigger can't be verified, and RSP is already closed. Hold the nine open stock positions to their stops and targets and keep "
+     "note": "All six live candidates fail the 0.8:1 reward-to-risk floor (best is EOG at about 0.49:1 on the hints). SCHD is not a candidate, so its 33.94 trigger can't be verified. Hold the nine open stock positions to their stops and targets and keep "
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 894.5,
+     "equity": 895.5,
      "status": "active",
-     "progress_pct": 8.95,
+     "progress_pct": 8.96,
      "open": 1,
      "closed": 6,
      "win_rate": 0.0,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.91,
-     "ret_pct": -10.55,
-     "note": "Passed on the TLT 79.5/78.5 duplicate. It would double the open TLT 78/77 at the same expiry (about $164 combined max loss, roughly 18% of equity) while SPY trends down and crash radar sits at 47. Holding the existing spread under default e"
+     "risk_adj": -0.9,
+     "ret_pct": -10.45,
+     "note": "Passed on the TLT 79.5/78.5 duplicate: it would stack a second same-expiry TLT bull put on the open 78/77 (about $164 combined max loss, roughly 18% of equity) while SPY trends down and crash radar is 47. Hold the existing spread under defa"
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 934.6,
+     "equity": 936.35,
      "status": "active",
-     "progress_pct": 9.35,
+     "progress_pct": 9.36,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.6,
-     "ret_pct": -6.54,
+     "risk_adj": -0.59,
+     "ret_pct": -6.36,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 830.36,
+     "equity": 830.85,
      "status": "active",
-     "progress_pct": 8.3,
+     "progress_pct": 8.31,
      "open": 1,
      "closed": 10,
      "win_rate": 40.0,
@@ -96,15 +96,15 @@
      "competing": false,
      "exhibition": false,
      "risk_adj": -0.93,
-     "ret_pct": -16.96,
+     "ret_pct": -16.92,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -345.26,
+     "equity": -338.26,
      "status": "eliminated",
-     "progress_pct": -3.45,
+     "progress_pct": -3.38,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
@@ -112,7 +112,7 @@
      "competing": false,
      "exhibition": true,
      "risk_adj": -0.95,
-     "ret_pct": -134.53,
+     "ret_pct": -133.83,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -325,16 +325,16 @@
     },
     {
      "date": "2026-11-23",
-     "racing": 2606.9,
+     "racing": 2606.91,
      "leader": 1001.3,
-     "spy": 934.6
+     "spy": 936.35
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -1.4,
+    "vs200": -1.2,
     "radar": 47,
     "tier": "warning"
    },
@@ -344,8 +344,8 @@
     "denied": 1,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 100,
-   "profitability": 17,
+   "efficiency": 96,
+   "profitability": 16,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.6,
+   "age_days": 6.8,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 48,
+   "efficiency": 47,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 29.2,
+   "age_days": 29.4,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-23T20:01:56Z",
+   "updated": "2026-11-24T00:01:33Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -742,7 +742,7 @@
     "push": 2,
     "roi": -0.2724,
     "clv": -0.0046,
-    "open": 2,
+    "open": 3,
     "profit": -140.99,
     "staked": 517.57
    },
@@ -757,7 +757,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.0675,
+    "min_edge": 0.0725,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -768,7 +768,7 @@
     "parlay_enabled": true,
     "props_enabled": true,
     "prop_min_edge": 0.08,
-    "prop_model_weight": 0.087,
+    "prop_model_weight": 0.076,
     "prop_max_bets": 4,
     "w_dvp": 0.45,
     "w_sim": 0.4,
@@ -789,7 +789,7 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14720,
+   "credits": 14634,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -816,6 +816,18 @@
      "playbook": "matchup_over",
      "ev": 0.0564,
      "start": "2026-11-24T01:10:00Z"
+    },
+    {
+     "what": "Kelly Oubre Jr. Under 1.5",
+     "odds": 116,
+     "book": "draftkings",
+     "game": "Oklahoma City Thunder @ Indiana Pacers",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "matchup_under",
+     "ev": 0.1112,
+     "start": "2026-11-24T00:40:00Z"
     }
    ],
    "recent": [
@@ -894,62 +906,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-23T18:00:48Z",
+     "ts": "2026-11-23T22:00:53Z",
      "kind": "props",
-     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for MEM@CHA (ra, pra, team totals), LAC@HOU (ra, pra, team totals), MIL@TOR (ra, ast, pra, team totals), CLE@CH"
+     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for LAC@HOU (ra, pra, team totals), MEM@CHA (ra, pra, ast, team totals), MIL@TOR (ra, ast, pra, team totals), C"
     },
     {
-     "ts": "2026-11-23T18:15:40Z",
+     "ts": "2026-11-23T22:30:52Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 247 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 237 players projected, lineups for 10 games."
     },
     {
-     "ts": "2026-11-23T18:30:40Z",
+     "ts": "2026-11-23T22:45:41Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 249 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 240 players projected, lineups for 10 games."
     },
     {
-     "ts": "2026-11-23T19:00:45Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "ts": "2026-11-23T23:00:44Z",
+     "kind": "props",
+     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for LAC@HOU (ra, pra, team totals), MEM@CHA (ra, pra, ast, team totals), MIL@TOR (ra, ast, pra, team totals), C"
     },
     {
-     "ts": "2026-11-23T19:30:43Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "ts": "2026-11-23T23:30:46Z",
+     "kind": "props",
+     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for LAC@HOU (ra, pra, team totals), MEM@CHA (ra, pra, ast, team totals), MIL@TOR (ra, ast, pra, team totals), C"
     },
     {
-     "ts": "2026-11-23T20:00:51Z",
-     "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 248 players projected, lineups for 10 games."
+     "ts": "2026-11-24T00:00:43Z",
+     "kind": "props",
+     "text": "NBA matchups: 8 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Brook Lopez ra -13% vs HOU; James Harden ast +14% vs CHI. No credits to price props this run (allowance 0). "
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-20T22:00:58Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-20T22:13:32Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-20T23:00:47Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-20T23:30:58Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T00:01:00Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T00:39:58Z",
      "agent": 91.22,
@@ -1124,6 +1111,31 @@
      "ts": "2026-11-23T18:00:48Z",
      "agent": 50.85,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T21:19:32Z",
+     "agent": 50.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T22:00:53Z",
+     "agent": 50.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T23:00:44Z",
+     "agent": 50.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-23T23:30:46Z",
+     "agent": 50.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T00:00:43Z",
+     "agent": 50.85,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1170,7 +1182,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 94.7,
+   "age_days": 94.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1180,7 +1192,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 128.7,
+   "age_days": 128.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1193,11 +1205,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T15:14-05:00",
+  "checked": "2026-11-23T19:16-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-23T09:15-05:00",
-   "age_hours": 6.0,
+   "age_hours": 10.0,
    "ok": true,
    "summary": "Shipping run: fix-hq-data-morning shipped (extra 7:07 AM ET refresh line); fix-value-dog-leak closed as no change (benched playbooks place exploratory bets by d"
   },
@@ -1246,8 +1258,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T17:38:15Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45173036223"
+    "at": "2026-11-23T21:41:12Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45229805209"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1273,8 +1285,8 @@
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T18:30:32Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/45055453337"
+    "at": "2026-11-23T22:39:14Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/45281699823"
    },
    {
     "repo": "Creation",
@@ -1282,8 +1294,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T16:32:53Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45217592317"
+    "at": "2026-11-23T20:15:20Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45257316806"
    },
    {
     "repo": "Creation",
@@ -1300,8 +1312,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-23T20:02:46Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45254768524"
+    "at": "2026-11-24T00:15:54Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45295633189"
    }
   ],
   "ok": true
