@@ -479,6 +479,26 @@
    "note": "Owner's q10 answer: end run #2, start run #3 at $100. config.END_RUNS puts run #2 in wind-down: no new bets, the 3 open $5 bets settle, then the run is archived with record, ROI, CLV and final equity and run #3 starts at $100. Waiting for the open bets keeps run #2's stakes out of run #3's bankroll. The $5 minimum and credit floor are unchanged.",
    "owner_action": "None.",
    "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "fix-hq-data-morning-recheck",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/23",
+   "commit": "767e8e4",
+   "note": "Checked: GitHub started no HQ data run between 04:49 and 14:07 UTC on Nov 24, so the 11:49 PM-era snapshot stood in for the 8:33 AM upkeep; the 12:07 and 12:37 slots and every :17/:47 slot were skipped, nothing failed. Added one more early slot (11:37 UTC, 6:37 AM ET). Dropped slots are GitHub's, so the shipping run's manual dispatch remains the backstop.",
+   "owner_action": "None.",
+   "at": "2026-11-24T09:15-05:00"
+  },
+  {
+   "id": "fix-wf-creation-muse-dry-run",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/23",
+   "commit": "767e8e4",
+   "note": "Muse dry run workflow disabled and renamed (retired); source_muse.ENABLED = False (code kept) and the scan skips it quietly, not as an error. Adzuna and JSearch untouched. A by-hand Job snapshot run at the 10 AM scan slot still fails only on the missing CRON_TOKEN (the known blocker); the non-scan 12:55 UTC snapshot run succeeded.",
+   "owner_action": "None.",
+   "at": "2026-11-24T09:15-05:00"
   }
  ],
  "runs": [
@@ -958,6 +978,16 @@
     "jobs": 30000,
     "perseverance": 30000,
     "hq": 30000
+   }
+  },
+  {
+   "id": "r20261124T1405ship",
+   "time": "2026-11-24T09:15-05:00",
+   "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep check fine (last run 8:41 AM). fix-empty-jobs still waits on CRON_TOKEN.",
+   "tokens": 40000,
+   "by_company": {
+    "hq": 20000,
+    "jobs": 20000
    }
   }
  ]

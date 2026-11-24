@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T23:49-05:00",
+ "updated": "2026-11-24T09:09-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-23T15:38-05:00",
-   "age_days": 0.3,
+   "age_days": 0.7,
    "pool_now": 2606.91,
    "pool_start": 3000.0,
    "pool_ret": -13.1,
@@ -344,7 +344,7 @@
     "denied": 1,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 95,
+   "efficiency": 89,
    "profitability": 16,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 7.0,
+   "age_days": 7.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -393,7 +393,7 @@
        "rem": 8,
        "rate": 0.67,
        "need": 2.44,
-       "inj": "",
+       "inj": "Q",
        "state": "out of reach",
        "settled": null
       },
@@ -458,7 +458,7 @@
        "rem": 8,
        "rate": 0.43,
        "need": 0.44,
-       "inj": "Q",
+       "inj": "",
        "state": "on pace",
        "settled": null
       },
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 29.6,
+   "age_days": 30.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T04:45:26Z",
+   "updated": "2026-11-24T14:00:41Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
-   "run": 2,
+   "run": 3,
    "agent": {
-    "equity": 40.85,
-    "bets": 93,
+    "equity": 100.0,
+    "bets": 94,
     "won": 30,
-    "lost": 61,
+    "lost": 62,
     "push": 2,
-    "roi": -0.2862,
+    "roi": -0.2929,
     "clv": -0.0046,
-    "open": 1,
-    "profit": -150.99,
-    "staked": 527.57
+    "open": 0,
+    "profit": -155.99,
+    "staked": 532.57
    },
    "you": {
     "equity": 125.1,
@@ -757,7 +757,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.0725,
+    "min_edge": 0.065,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -782,30 +782,17 @@
    "weights": {
     "value_fav": 0.842,
     "value_dog": 0.396,
-    "longshot": 0.444,
+    "longshot": 0.362,
     "arb": 1.098,
     "parlay_ev": 1.0,
     "matchup_over": 1.322,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14634,
+   "credits": 14511,
    "credits_monthly": 20000,
    "per_scan": 0,
-   "open_bets": [
-    {
-     "what": "Utah Jazz",
-     "odds": 570,
-     "book": "fanduel",
-     "game": "Utah Jazz @ Los Angeles Lakers",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "longshot",
-     "ev": 0.1386,
-     "start": "2026-11-24T03:10:00Z"
-    }
-   ],
+   "open_bets": [],
    "recent": [
     {
      "what": "Kelly Oubre Jr. Under 1.5",
@@ -830,6 +817,18 @@
      "playbook": "matchup_over",
      "ev": 0.0564,
      "start": "2026-11-24T01:10:00Z"
+    },
+    {
+     "what": "Utah Jazz",
+     "odds": 570,
+     "book": "fanduel",
+     "game": "Utah Jazz @ Los Angeles Lakers",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "longshot",
+     "ev": 0.1386,
+     "start": "2026-11-24T03:10:00Z"
     },
     {
      "what": "Jalen Brunson Over 9.5",
@@ -866,58 +865,41 @@
      "playbook": "value_dog",
      "ev": 0.0989,
      "start": "2026-11-23T01:00:00Z"
-    },
-    {
-     "what": "Troy Trojans -5.5",
-     "odds": -110,
-     "book": "fanatics",
-     "game": "Nicholls St Colonels @ Troy Trojans",
-     "stake": 5.94,
-     "profit": -5.94,
-     "status": "lost",
-     "playbook": "arb",
-     "ev": 0.0087,
-     "start": "2026-11-22T20:00:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-24T02:07:59Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 14634 left this cycle)."
+     "ts": "2026-11-24T07:03:20Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Utah Jazz @ +570 (FanDuel) \u2014 LOST: Utah Jazz lost by 15 [lost-closing-line, underdog-lost]"
     },
     {
-     "ts": "2026-11-24T03:00:47Z",
+     "ts": "2026-11-24T07:03:20Z",
+     "kind": "race",
+     "text": "Perseverance run #2 ENDED at $35.85 (peak $108.36, 33 bets). New run started from $100; lessons carry over."
+    },
+    {
+     "ts": "2026-11-24T07:03:21Z",
+     "kind": "scan",
+     "text": "Scanned soccer_uefa_champs_league (11), basketball_ncaab (78), icehockey_nhl (1), icehockey_sweden_hockey_league (2), basketball_nba (3), basketball_euroleague (7), americanfootball_ncaaf (2), soccer_usa_mls (1), cricket_test_match (1) for 27 credits. Nothing "
+    },
+    {
+     "ts": "2026-11-24T07:15:31Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 6.50% so I get enough bets to learn from."
+    },
+    {
+     "ts": "2026-11-24T11:00:42Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 244 players projected, lineups for 10 games."
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     },
     {
-     "ts": "2026-11-24T04:12:40Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Kelly Oubre Jr. Under 1.5 @ +116 (DraftKings) \u2014 LOST: 4 threes vs Under 1.5 [matchup-read-right, model-miss]"
-    },
-    {
-     "ts": "2026-11-24T04:12:50Z",
-     "kind": "props",
-     "text": "No NBA games left to bet today."
-    },
-    {
-     "ts": "2026-11-24T04:41:44Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Saddiq Bey Over 2.5 @ +148 (DraftKings) \u2014 LOST: 2 threes vs Over 2.5 [matchup-read-right, minutes-long, near-miss, ordinary-variance]"
-    },
-    {
-     "ts": "2026-11-24T04:41:45Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 14634 left this cycle)."
+     "ts": "2026-11-24T11:35:52Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-21T05:00:47Z",
-     "agent": 66.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T16:01:41Z",
      "agent": 51.22,
@@ -1112,6 +1094,11 @@
      "ts": "2026-11-24T04:41:45Z",
      "agent": 40.85,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T07:03:21Z",
+     "agent": 100.0,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1124,6 +1111,25 @@
      "peak": 100.0,
      "bets": 61,
      "note": "Ended by the owner at $8.16; run 1 counted as lost. Bets and record kept."
+    },
+    {
+     "run": 2,
+     "result": "ended",
+     "started": "2026-11-17T13:05:45Z",
+     "ended": "2026-11-24T07:03:20Z",
+     "final": 35.85,
+     "peak": 108.36,
+     "loss": true,
+     "open_at_end": 0,
+     "bets": 33,
+     "won": 10,
+     "lost": 23,
+     "push": 0,
+     "staked": 224.94,
+     "profit": -64.15,
+     "roi": -0.2852,
+     "clv": 0.0429,
+     "note": "Ended by the owner on Nov 23 (HQ q10: end run #2, start run #3 at $100). Open bets settled first; bets and record kept."
     }
    ],
    "efficiency": 95,
@@ -1158,7 +1164,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 95.0,
+   "age_days": 95.4,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1168,7 +1174,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 129.0,
+   "age_days": 129.4,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1181,13 +1187,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T23:49-05:00",
+  "checked": "2026-11-24T09:09-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-23T20:30-05:00",
-   "age_hours": 3.3,
+   "last": "2026-11-24T09:15-05:00",
+   "age_hours": -0.1,
    "ok": true,
-   "summary": "Shipping run: 7 approved items shipped across Curiosity, Fantasy-Tracker, Creation and Perseverance. The Muse feed is gone (404 on every shape), so that dry run"
+   "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep c"
   },
   "feeds": [
    {
@@ -1234,8 +1240,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T01:11:12Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45282446170"
+    "at": "2026-11-24T06:59:20Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45344476351"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1243,8 +1249,8 @@
     "name": "Refresh injury tags",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-22T20:27:39Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45066526983"
+    "at": "2026-11-24T06:21:02Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45339770698"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1267,20 +1273,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-24T03:30:19Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45319883430"
+    "name": "Job snapshot",
+    "ok": false,
+    "conclusion": "failure",
+    "at": "2026-11-24T14:08:43Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45410794398"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T01:53:30Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45308290699"
+    "at": "2026-11-24T04:49:41Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45328992881"
    },
    {
     "repo": "Creation",
@@ -1297,8 +1303,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T04:47:07Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45328719009"
+    "at": "2026-11-24T14:01:07Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45409289176"
    }
   ],
   "ok": false
