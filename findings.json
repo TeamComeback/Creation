@@ -40,7 +40,7 @@
   "agent": "overseer",
   "business": "nfl",
   "severity": "med",
-  "title": "Justin Herbert is far behind pace on Goat Whale",
+  "title": "Justin Herbert is out of reach on Goat Whale",
   "detail": "Producing 0.67/game, needs 2.44/game over 8 games for over 25.5 passing touchdowns.",
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
@@ -52,6 +52,15 @@
   "title": "Week 1 newsletter isn't built yet",
   "detail": "The draft was Oct 18 and the season is underway. The Dan storyline is ready to open with.",
   "action": "Publish issue 1 by Mon Oct 26."
+ },
+ {
+  "id": "wf-creation-muse-dry-run",
+  "agent": "watchdog",
+  "business": "jobs",
+  "severity": "med",
+  "title": "Creation: the \"Muse dry run\" automation failed on its last run",
+  "detail": "Last run ended failure at 2026-11-24T01:11:18Z.",
+  "action": "Have the company agent read the failed run's log and repair it."
  },
  {
   "id": "strategist-perseverance",
