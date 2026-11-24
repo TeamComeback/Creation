@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:09-05:00",
+ "updated": "2026-11-24T09:19-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T14:00:41Z",
+   "updated": "2026-11-24T14:15:45Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -870,11 +870,6 @@
    "journal": [
     {
      "ts": "2026-11-24T07:03:20Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Utah Jazz @ +570 (FanDuel) \u2014 LOST: Utah Jazz lost by 15 [lost-closing-line, underdog-lost]"
-    },
-    {
-     "ts": "2026-11-24T07:03:20Z",
      "kind": "race",
      "text": "Perseverance run #2 ENDED at $35.85 (peak $108.36, 33 bets). New run started from $100; lessons carry over."
     },
@@ -895,6 +890,11 @@
     },
     {
      "ts": "2026-11-24T11:35:52Z",
+     "kind": "research",
+     "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
+    },
+    {
+     "ts": "2026-11-24T14:15:33Z",
      "kind": "research",
      "text": "Research refresh for Tue Nov 24: 3 games, 67 players projected, lineups for 3 games."
     }
@@ -1187,11 +1187,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-24T09:09-05:00",
+  "checked": "2026-11-24T09:19-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-24T09:15-05:00",
-   "age_hours": -0.1,
+   "age_hours": 0.1,
    "ok": true,
    "summary": "Shipping run: 2 repairs shipped (Creation PR #23): Muse source and dry run retired, extra 6:37 AM HQ data slot after GitHub skipped every morning slot. Upkeep c"
   },
@@ -1273,20 +1273,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-24T14:09:31Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45410892254"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": false,
     "conclusion": "failure",
     "at": "2026-11-24T14:08:43Z",
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45410794398"
-   },
-   {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-24T04:49:41Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45328992881"
    },
    {
     "repo": "Creation",
@@ -1303,8 +1303,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T14:01:07Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45409289176"
+    "at": "2026-11-24T14:16:00Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45412007970"
    }
   ],
   "ok": false
