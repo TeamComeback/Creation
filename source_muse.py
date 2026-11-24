@@ -30,8 +30,13 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 PAGES = 2           # 20 postings a page; two pages per metro keeps this to a few calls a day
 
 
+# Nov 24 2026: switched off. The public jobs endpoint answers 404 to every request shape (the dry run in
+# Actions showed it, from GitHub as well as from the sandbox). Set True to try it again; the code is kept.
+ENABLED = False
+
+
 def available() -> bool:
-    return True      # no key needed
+    return ENABLED      # no key needed
 
 
 def _text(html: str) -> str:
