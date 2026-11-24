@@ -409,6 +409,76 @@
    "note": "No code change: the Tenn-Martin value_dog bet (placed Nov 22 02:00 ET, run 2) is the designed exploratory bet. Benched playbooks still place a bet 15% of the time so closing-line value keeps updating (config.py CLV_GATED, owner-approved Nov 13). value_dog is 11 bets, avg CLV -0.33, so it stays benched. Closed as no change; left the open bet and all parameters alone.",
    "owner_action": "None.",
    "at": "2026-11-23T09:15-05:00"
+  },
+  {
+   "id": "p20261118curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/curiosity/pull/14",
+   "commit": "5655023",
+   "note": "Trend Co. is now an exhibition firm (trades on paper, out of the race pool and SPY comparison). Rejoin rule is a config value, rejoin_win_rate 0.30 (min 10 closed trades), checked every run; the reason and rejoin condition show on its dashboard card. Open positions run to their stops as before.",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "p20261119curiosity",
+   "status": "shipped",
+   "repo": "TeamComeback/Curiosity",
+   "link": "https://github.com/TeamComeback/curiosity/pull/14",
+   "commit": "5655023",
+   "note": "Firm cards show average win, average loss (dollars and percent) and the win/loss size ratio from fully closed trades; a dash when a firm has no wins or no losses. Check: Snapback Partners averages +$3.50 (+2.5%) on 17 wins and -$6.91 (-5.3%) on 11 losses in the ledger, a 0.51:1 size ratio, so its exits (losses twice the size of wins), not its entries, are the leak.",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "p20261118nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/6",
+   "commit": "8f49d82",
+   "note": "Over legs needing more than 3x their current per-game rate now read 'Out of reach' (OUT_OF_REACH_MULT, never settles a leg) on the leg and on the slip card. Goat Whale shows Herbert as out of reach (needs 2.50 TD/g, 3.8x his 0.67). The HQ collector (Creation PR #19) reads the same 3x rule as a state, so the pace finding follows.",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "p20261119nfl",
+   "status": "shipped",
+   "repo": "TeamComeback/Fantasy-Tracker",
+   "link": "https://github.com/TeamComeback/Fantasy-Tracker/pull/6",
+   "commit": "8f49d82",
+   "note": "Each live leg shows 'Next: <opponent> allows x/g to <position>s, rank n of 32', from a new allowed block autofill.py writes to data.json (nflverse, position-level, refreshed in the Tue-Fri auto-fill). Examples: Bowers at DEN allows 70 yds/g to TEs (rank 4); Moore vs MIA allows 128 yds/g to WRs (rank 28).",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "p20261118jobs",
+   "status": "shipped",
+   "repo": "TeamComeback/Creation",
+   "link": "https://github.com/TeamComeback/Creation/pull/22",
+   "commit": "211697c",
+   "note": "Dry run added (Muse dry run workflow, saves nothing) and run from GitHub: The Muse returns 0 postings. Cause: 403 to the default python client, then 404 on every request shape (even no filters), so its public jobs endpoint has moved or been shut down. Added browser headers and 'Tampa, FL' form (PRs #20-#21), neither helps. No parser fix possible. The scan stays failure-safe (a dead source is skipped). Next step needs a new source or the Muse's current API address.",
+   "owner_action": "Optional: tell me whether to look for another free job source.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "p20261119perseverance",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/11",
+   "commit": "ab06b49",
+   "note": "Agent tab has a Playbook scorecard (bets, record, staked, profit, ROI, average CLV, paused flag), current run first with an all-runs toggle; written to state.scorecard every run.",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
+  },
+  {
+   "id": "t20261123run3",
+   "status": "shipped",
+   "repo": "TeamComeback/Perseverance",
+   "link": "https://github.com/TeamComeback/Perseverance/pull/11",
+   "commit": "ab06b49",
+   "note": "Owner's q10 answer: end run #2, start run #3 at $100. config.END_RUNS puts run #2 in wind-down: no new bets, the 3 open $5 bets settle, then the run is archived with record, ROI, CLV and final equity and run #3 starts at $100. Waiting for the open bets keeps run #2's stakes out of run #3's bankroll. The $5 minimum and credit floor are unchanged.",
+   "owner_action": "None.",
+   "at": "2026-11-23T20:30-05:00"
   }
  ],
  "runs": [
@@ -875,6 +945,19 @@
    "by_company": {
     "hq": 20000,
     "perseverance": 10000
+   }
+  },
+  {
+   "id": "r20261124T0105ship",
+   "time": "2026-11-23T20:30-05:00",
+   "summary": "Shipping run: 7 approved items shipped across Curiosity, Fantasy-Tracker, Creation and Perseverance. The Muse feed is gone (404 on every shape), so that dry run proved the source can't work. Run #2 winds down, then run #3 starts at $100. fix-empty-jobs still waits on CRON_TOKEN.",
+   "tokens": 150000,
+   "by_company": {
+    "curiosity": 30000,
+    "nfl": 30000,
+    "jobs": 30000,
+    "perseverance": 30000,
+    "hq": 30000
    }
   }
  ]
