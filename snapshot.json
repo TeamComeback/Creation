@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T20:13-05:00",
+ "updated": "2026-11-23T22:29-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-23T15:38-05:00",
-   "age_days": 0.2,
+   "age_days": 0.3,
    "pool_now": 2606.91,
    "pool_start": 3000.0,
    "pool_ret": -13.1,
@@ -344,7 +344,7 @@
     "denied": 1,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 96,
+   "efficiency": 95,
    "profitability": 16,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-17",
    "through_week": 10,
-   "age_days": 6.8,
+   "age_days": 6.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 47,
+   "efficiency": 46,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 29.4,
+   "age_days": 29.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-24T01:01:23Z",
+   "updated": "2026-11-24T03:15:43Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -906,47 +906,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-23T22:45:41Z",
+     "ts": "2026-11-24T01:12:07Z",
      "kind": "research",
      "text": "Research refresh for Mon Nov 23: 10 games, 240 players projected, lineups for 10 games."
     },
     {
-     "ts": "2026-11-23T23:00:44Z",
-     "kind": "props",
-     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for LAC@HOU (ra, pra, team totals), MEM@CHA (ra, pra, ast, team totals), MIL@TOR (ra, ast, pra, team totals), C"
+     "ts": "2026-11-24T01:15:30Z",
+     "kind": "race",
+     "text": "Run #2 is winding down: no new bets, open bets settle, then run #3 starts at $100."
     },
     {
-     "ts": "2026-11-23T23:30:46Z",
-     "kind": "props",
-     "text": "NBA matchups: 10 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Jaylen Wells ra -13% vs CHA; Brook Lopez ra -13% vs HOU. Bought prop odds for LAC@HOU (ra, pra, team totals), MEM@CHA (ra, pra, ast, team totals), MIL@TOR (ra, ast, pra, team totals), C"
-    },
-    {
-     "ts": "2026-11-24T00:00:43Z",
-     "kind": "props",
-     "text": "NBA matchups: 8 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Brook Lopez ra -13% vs HOU; James Harden ast +14% vs CHI. No credits to price props this run (allowance 0). "
-    },
-    {
-     "ts": "2026-11-24T00:30:41Z",
-     "kind": "props",
-     "text": "NBA matchups: 5 games, strongest spots: Derrick Jones Jr. ra -14% vs HOU; Brook Lopez ra -13% vs HOU; James Harden ast +14% vs CHI. No credits to price props this run (allowance 0). "
-    },
-    {
-     "ts": "2026-11-24T01:01:00Z",
+     "ts": "2026-11-24T01:30:44Z",
      "kind": "research",
-     "text": "Research refresh for Mon Nov 23: 10 games, 240 players projected, lineups for 10 games."
+     "text": "Research refresh for Mon Nov 23: 10 games, 242 players projected, lineups for 10 games."
+    },
+    {
+     "ts": "2026-11-24T02:00:54Z",
+     "kind": "props",
+     "text": "NBA matchups: 2 games, strongest spots: Luka Doncic ast +12% vs UTAH; Josh Okogie ra -10% vs LAL; Stephon Castle ast +10% vs SAC. No credits to price props this run (allowance 0). "
+    },
+    {
+     "ts": "2026-11-24T02:07:59Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 14634 left this cycle)."
+    },
+    {
+     "ts": "2026-11-24T03:00:47Z",
+     "kind": "research",
+     "text": "Research refresh for Mon Nov 23: 10 games, 244 players projected, lineups for 10 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-21T01:20:25Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
-    {
-     "ts": "2026-11-21T01:31:17Z",
-     "agent": 91.22,
-     "you": 109.73
-    },
     {
      "ts": "2026-11-21T02:00:54Z",
      "agent": 91.22,
@@ -1136,6 +1126,16 @@
      "ts": "2026-11-24T00:30:41Z",
      "agent": 50.85,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T02:00:54Z",
+     "agent": 50.85,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-24T02:07:59Z",
+     "agent": 50.85,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1182,7 +1182,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 94.9,
+   "age_days": 95.0,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1192,7 +1192,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 128.9,
+   "age_days": 129.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1205,11 +1205,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-23T20:13-05:00",
+  "checked": "2026-11-23T22:29-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-23T20:30-05:00",
-   "age_hours": -0.3,
+   "age_hours": 2.0,
    "ok": true,
    "summary": "Shipping run: 7 approved items shipped across Curiosity, Fantasy-Tracker, Creation and Perseverance. The Muse feed is gone (404 on every shape), so that dry run"
   },
@@ -1291,11 +1291,11 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Muse dry run",
-    "ok": false,
-    "conclusion": "failure",
-    "at": "2026-11-24T01:11:18Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45303087862"
+    "name": "Job snapshot",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-24T01:53:30Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45308290699"
    },
    {
     "repo": "Creation",
@@ -1303,17 +1303,17 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T00:17:12Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45295798168"
+    "at": "2026-11-24T01:13:18Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45303336969"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-23T03:59:24Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45109121320"
+    "name": "Muse dry run",
+    "ok": false,
+    "conclusion": "failure",
+    "at": "2026-11-24T01:11:18Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45303087862"
    },
    {
     "repo": "Perseverance",
@@ -1321,8 +1321,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-24T01:12:48Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45303179439"
+    "at": "2026-11-24T03:16:05Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45318178763"
    }
   ],
   "ok": false
