@@ -45,15 +45,6 @@
   "action": "Publish issue 1 by Mon Oct 26."
  },
  {
-  "id": "wf-creation-job-snapshot",
-  "agent": "watchdog",
-  "business": "jobs",
-  "severity": "med",
-  "title": "Creation: the \"Job snapshot\" automation failed on its last run",
-  "detail": "Last run ended failure at 2026-11-24T14:08:43Z.",
-  "action": "Have the company agent read the failed run's log and repair it."
- },
- {
   "id": "wf-creation-muse-dry-run",
   "agent": "watchdog",
   "business": "jobs",
