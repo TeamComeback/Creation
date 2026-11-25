@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:07-05:00",
+ "updated": "2026-11-25T09:23-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-25T14:00:37Z",
+   "updated": "2026-11-25T14:16:27Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -942,11 +942,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-25T05:37:27Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Gardner-Webb Bulldogs @ +685 (Kalshi) \u2014 LOST: Gardner-Webb Bulldogs lost by 26 [beat-closing-line, blowout, underdog-lost]"
-    },
-    {
      "ts": "2026-11-25T05:37:32Z",
      "kind": "scan",
      "text": "Scanned icehockey_nhl (14), soccer_uefa_champs_league (9), basketball_ncaab (53), americanfootball_nfl (1), basketball_nba (9), basketball_euroleague (4), soccer_italy_serie_b (4), soccer_argentina_primera_division (1) for 23 credits. Placed 1: Under 165.5 @ +"
@@ -968,6 +963,11 @@
     },
     {
      "ts": "2026-11-25T10:27:12Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 25: 9 games, 212 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-25T14:15:41Z",
      "kind": "research",
      "text": "Research refresh for Wed Nov 25: 9 games, 212 players projected, lineups for 9 games."
     }
@@ -1260,11 +1260,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-25T09:07-05:00",
+  "checked": "2026-11-25T09:23-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-25T09:08-05:00",
-   "age_hours": -0.0,
+   "age_hours": 0.3,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:36 AM) was on slightly stale data but ran. fix-empty-jobs still waits on the CRON_TOKEN secret. Next ship"
   },
@@ -1349,8 +1349,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T10:33:33Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45596009392"
+    "at": "2026-11-25T14:07:49Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45630555098"
    },
    {
     "repo": "Creation",
@@ -1376,8 +1376,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T14:01:18Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45629337721"
+    "at": "2026-11-25T14:16:44Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45632014841"
    }
   ],
   "ok": false
