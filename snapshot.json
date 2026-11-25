@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-25T15:37-05:00",
+ "updated": "2026-11-25T15:41-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-25T15:07-05:00",
+   "updated": "2026-11-25T15:38-05:00",
    "age_days": 0.0,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
-   "spy_ret": -7.33,
-   "edge": 6.59,
+   "spy_ret": -7.61,
+   "edge": 6.87,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.35,
@@ -22,9 +22,9 @@
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 603.02,
+     "equity": 598.02,
      "status": "active",
-     "progress_pct": 6.03,
+     "progress_pct": 5.98,
      "open": 1,
      "closed": 27,
      "win_rate": 14.8,
@@ -32,8 +32,8 @@
      "competing": false,
      "exhibition": true,
      "risk_adj": -0.72,
-     "ret_pct": -39.7,
-     "note": "Passed on SNXX: the 3.51 underlying stop is about 144% above the 1.44 price, too wide to size on $563, and Broad market/other is on the avoid list. Holding the VALE put under its 10.12 stop and waiting for a Communication Services trigger a"
+     "ret_pct": -40.2,
+     "note": "Passed on SNXX: the 3.47 underlying stop is about 149% above the 1.395 price, too wide to size on $563, and Broad market/other is on the avoid list. Holding the VALE put under its 10.12 stop and waiting for a Communication Services setup at"
     },
     {
      "id": "meanrev",
@@ -49,70 +49,70 @@
      "exhibition": false,
      "risk_adj": -0.26,
      "ret_pct": -1.62,
-     "note": "No trade at 15:07. All five candidates fail the 0.8:1 reward-to-risk floor (MPC ~0.31, VLO ~0.18, PSX ~0.10, MDT ~0.48, WST ~0.67), and none are Financials. Crash radar is 47 (warning), so stay in cash for a Financials RSI(2)<=10 setup that"
+     "note": "No trade. All five candidates fail the 0.8:1 reward-to-risk floor (MPC ~0.37, VLO ~0.22, PSX ~0.14, MDT ~0.57, WST ~0.71), none are Financials, and crash radar is 48 (warning). Stay in cash for a Financials RSI(2)<=10 setup that clears 0.8:"
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 897.5,
+     "equity": 898.5,
      "status": "active",
-     "progress_pct": 8.97,
+     "progress_pct": 8.98,
      "open": 1,
      "closed": 7,
      "win_rate": 14.3,
      "max_dd_pct": 11.7,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.88,
-     "ret_pct": -10.25,
-     "note": "No candidates today and the only open position is a TLT bull put spread (0.16 mark vs 0.20 entry). Holding under default exits. Next entry needs a rich-vol setup on a different underlying, with crash radar below 40 or a clean setup that isn"
+     "risk_adj": -0.87,
+     "ret_pct": -10.15,
+     "note": "Holding the TLT 80/79 bull put under default exits (take profit near 0.07 mark, stop at 2x credit). The only candidate is a second TLT spread, which is blocked while TLT is held, so I'm passing. Next entry needs a rich-vol setup on a differ"
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 926.73,
+     "equity": 923.92,
      "status": "active",
-     "progress_pct": 9.27,
+     "progress_pct": 9.24,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.68,
-     "ret_pct": -7.33,
+     "risk_adj": -0.7,
+     "ret_pct": -7.61,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 816.9,
+     "equity": 814.17,
      "status": "active",
-     "progress_pct": 8.17,
+     "progress_pct": 8.14,
      "open": 3,
      "closed": 11,
      "win_rate": 36.4,
      "max_dd_pct": 19.3,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.95,
-     "ret_pct": -18.31,
+     "risk_adj": -0.96,
+     "ret_pct": -18.58,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -282.26,
+     "equity": -273.26,
      "status": "eliminated",
-     "progress_pct": -2.82,
+     "progress_pct": -2.73,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.91,
-     "ret_pct": -128.23,
+     "risk_adj": -0.9,
+     "ret_pct": -127.33,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -327,15 +327,15 @@
      "date": "2026-11-25",
      "racing": 1985.17,
      "leader": 1001.35,
-     "spy": 926.73
+     "spy": 923.92
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -2.3,
-    "radar": 47,
+    "vs200": -2.6,
+    "radar": 48,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
@@ -345,7 +345,7 @@
     "last_denied": "already holding TLT"
    },
    "efficiency": 100,
-   "profitability": 83,
+   "profitability": 84,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
@@ -1260,11 +1260,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-25T15:37-05:00",
+  "checked": "2026-11-25T15:41-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-25T09:08-05:00",
-   "age_hours": 6.5,
+   "age_hours": 6.6,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:36 AM) was on slightly stale data but ran. fix-empty-jobs still waits on the CRON_TOKEN secret. Next ship"
   },
@@ -1349,8 +1349,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T14:24:12Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45633513276"
+    "at": "2026-11-25T20:38:00Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45696702230"
    },
    {
     "repo": "Creation",
