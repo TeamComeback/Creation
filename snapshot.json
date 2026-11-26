@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T00:23-05:00",
+ "updated": "2026-11-26T05:54-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-25T15:38-05:00",
-   "age_days": 0.4,
+   "age_days": 0.6,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 2,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 94,
+   "efficiency": 90,
    "profitability": 84,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-24",
    "through_week": 11,
-   "age_days": 2.0,
+   "age_days": 2.2,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 66,
+   "efficiency": 64,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 31.6,
+   "age_days": 31.8,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-26T05:00:30Z",
+   "updated": "2026-11-26T10:45:25Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 3,
    "agent": {
-    "equity": 90.46,
-    "bets": 98,
-    "won": 31,
-    "lost": 65,
+    "equity": 85.81,
+    "bets": 101,
+    "won": 32,
+    "lost": 67,
     "push": 2,
-    "roi": -0.2996,
-    "clv": 0.0009,
-    "open": 3,
-    "profit": -165.53,
-    "staked": 552.57
+    "roi": -0.2937,
+    "clv": 0.0011,
+    "open": 5,
+    "profit": -170.18,
+    "staked": 579.53
    },
    "you": {
     "equity": 125.1,
@@ -757,7 +757,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.0275,
+    "min_edge": 0.025,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -780,54 +780,78 @@
     "matchup_under"
    ],
    "weights": {
-    "value_fav": 1.005,
+    "value_fav": 0.882,
     "value_dog": 0.396,
     "longshot": 0.3,
-    "arb": 1.098,
+    "arb": 1.107,
     "parlay_ev": 1.0,
     "matchup_over": 1.322,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 13885,
+   "credits": 13795,
    "credits_monthly": 20000,
-   "per_scan": 150,
+   "per_scan": 0,
    "open_bets": [
     {
-     "what": "Mississippi St Bulldogs",
-     "odds": -130,
-     "book": "fanatics",
-     "game": "Wake Forest Demon Deacons @ Mississippi St Bulldogs",
+     "what": "Under 2.5",
+     "odds": 102,
+     "book": "betrivers",
+     "game": "Guadalajara @ Pachuca",
      "stake": 5.0,
      "profit": null,
      "status": "open",
      "playbook": "value_fav",
-     "ev": 0.0628,
-     "start": "2026-11-26T00:30:00Z"
+     "ev": 0.0302,
+     "start": "2026-11-27T01:00:00Z"
     },
     {
-     "what": "Duke Blue Devils",
-     "odds": 130,
+     "what": "Calgary Flames",
+     "odds": 240,
+     "book": "betrivers",
+     "game": "Calgary Flames @ New Jersey Devils",
+     "stake": 5.63,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0066,
+     "start": "2026-11-27T18:00:00Z"
+    },
+    {
+     "what": "New Jersey Devils",
+     "odds": -233,
+     "book": "fanatics",
+     "game": "Calgary Flames @ New Jersey Devils",
+     "stake": 13.38,
+     "profit": null,
+     "status": "open",
+     "playbook": "arb",
+     "ev": 0.0066,
+     "start": "2026-11-27T18:00:00Z"
+    },
+    {
+     "what": "Under 6.5",
+     "odds": 100,
+     "book": "fanatics",
+     "game": "Utah Mammoth @ Nashville Predators",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "value_fav",
+     "ev": 0.0315,
+     "start": "2026-11-27T18:00:00Z"
+    },
+    {
+     "what": "KooKoo",
+     "odds": 100,
      "book": "draftkings",
-     "game": "Duke Blue Devils @ UConn Huskies",
-     "stake": 9.7,
+     "game": "HPK @ KooKoo",
+     "stake": 5.0,
      "profit": null,
      "status": "open",
-     "playbook": "arb",
-     "ev": 0.0158,
-     "start": "2026-11-26T00:00:00Z"
-    },
-    {
-     "what": "UConn Huskies",
-     "odds": -122,
-     "book": "fanduel",
-     "game": "Duke Blue Devils @ UConn Huskies",
-     "stake": 12.26,
-     "profit": null,
-     "status": "open",
-     "playbook": "arb",
-     "ev": 0.0158,
-     "start": "2026-11-26T00:00:00Z"
+     "playbook": "value_fav",
+     "ev": 0.0319,
+     "start": "2026-11-27T16:30:00Z"
     }
    ],
    "recent": [
@@ -856,6 +880,30 @@
      "start": "2026-11-25T21:30:00Z"
     },
     {
+     "what": "UConn Huskies",
+     "odds": -122,
+     "book": "fanduel",
+     "game": "Duke Blue Devils @ UConn Huskies",
+     "stake": 12.26,
+     "profit": -12.26,
+     "status": "lost",
+     "playbook": "arb",
+     "ev": 0.0158,
+     "start": "2026-11-26T00:00:00Z"
+    },
+    {
+     "what": "Duke Blue Devils",
+     "odds": 130,
+     "book": "draftkings",
+     "game": "Duke Blue Devils @ UConn Huskies",
+     "stake": 9.7,
+     "profit": 12.61,
+     "status": "won",
+     "playbook": "arb",
+     "ev": 0.0158,
+     "start": "2026-11-26T00:00:00Z"
+    },
+    {
      "what": "AS Roma",
      "odds": 600,
      "book": "betrivers",
@@ -878,80 +926,41 @@
      "playbook": "longshot",
      "ev": 0.1451,
      "start": "2026-11-25T00:00:00Z"
-    },
-    {
-     "what": "Kelly Oubre Jr. Under 1.5",
-     "odds": 116,
-     "book": "draftkings",
-     "game": "Oklahoma City Thunder @ Indiana Pacers",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_under",
-     "ev": 0.1112,
-     "start": "2026-11-24T00:40:00Z"
-    },
-    {
-     "what": "Saddiq Bey Over 2.5",
-     "odds": 148,
-     "book": "draftkings",
-     "game": "Phoenix Suns @ New Orleans Pelicans",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "matchup_over",
-     "ev": 0.0564,
-     "start": "2026-11-24T01:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-26T02:15:33Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 217 players projected, lineups for 9 games."
+     "ts": "2026-11-26T05:25:06Z",
+     "kind": "result",
+     "text": "LOST -$12.26: UConn Huskies @ -122 (FanDuel) \u2014 LOST: UConn Huskies lost by 14 [favorite-upset, lost-closing-line]"
     },
     {
-     "ts": "2026-11-26T02:44:29Z",
+     "ts": "2026-11-26T05:25:11Z",
      "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 13902 left this cycle)."
+     "text": "Scanned americanfootball_nfl (3), basketball_ncaab (22), mma_mixed_martial_arts (1), icehockey_liiga (5), americanfootball_ncaaf (6), cricket_test_match (1), aussierules_aflw (1), soccer_mexico_ligamx (2) for 23 credits. Placed 1: Under 2.5 @ +102 (BetRivers) "
     },
     {
-     "ts": "2026-11-26T03:00:46Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 215 players projected, lineups for 9 games."
+     "ts": "2026-11-26T06:00:28Z",
+     "kind": "scan",
+     "text": "Scout: icehockey_nhl (3) for 3 credits. Placed 3: Calgary Flames @ +240 (BetRivers); New Jersey Devils @ -233 (Fanatics); Under 6.5 @ +100 (Fanatics). Equity $85.81."
     },
     {
-     "ts": "2026-11-26T03:12:58Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 216 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-26T03:30:40Z",
+     "ts": "2026-11-26T06:45:21Z",
      "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 2.75% so I get enough bets to learn from."
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 2.50% so I get enough bets to learn from."
     },
     {
-     "ts": "2026-11-26T05:00:30Z",
-     "kind": "error",
-     "text": "Self-check failed: Slate date (players.json is for 2026-11-25, today is 2026-11-26); Sims for every game (missing: SA@POR); DraftKings lines (no dk/2026-11-26.json)"
+     "ts": "2026-11-26T07:30:28Z",
+     "kind": "scan",
+     "text": "Scout: soccer_germany_bundesliga (1), basketball_ncaab (21), americanfootball_nfl (3), soccer_saudi_arabia_pro_league (6), americanfootball_ncaaf (6), mma_mixed_martial_arts (4), soccer_germany_bundesliga2 (2), icehockey_liiga (6), icehockey_mestis (4) for 22 "
+    },
+    {
+     "ts": "2026-11-26T10:02:26Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 258 players projected, lineups for 0 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-23T15:00:50Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T18:00:48Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T21:19:32Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-23T22:00:53Z",
      "agent": 50.85,
@@ -1136,6 +1145,21 @@
      "ts": "2026-11-26T02:44:29Z",
      "agent": 90.46,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T05:25:11Z",
+     "agent": 85.81,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T06:00:28Z",
+     "agent": 85.81,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T07:30:28Z",
+     "agent": 85.81,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1201,7 +1225,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 97.1,
+   "age_days": 97.3,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1211,7 +1235,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 131.1,
+   "age_days": 131.3,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1224,11 +1248,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-26T00:23-05:00",
+  "checked": "2026-11-26T05:54-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-25T20:06-05:00",
-   "age_hours": 4.3,
+   "age_hours": 9.8,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:38 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1277,8 +1301,8 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-26T03:39:00Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45750225969"
+    "at": "2026-11-26T08:24:47Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45782883847"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1310,20 +1334,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-26T03:49:09Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45751241894"
+    "at": "2026-11-26T05:26:57Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45761648632"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T23:18:23Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45720235706"
+    "at": "2026-11-26T05:23:46Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45761238136"
    },
    {
     "repo": "Creation",
@@ -1339,9 +1363,9 @@
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
-    "conclusion": "cancelled",
-    "at": "2026-11-26T05:21:17Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45760359229"
+    "conclusion": "success",
+    "at": "2026-11-26T10:45:43Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45804228075"
    }
   ],
   "ok": false
