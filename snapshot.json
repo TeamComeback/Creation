@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T16:56-05:00",
+ "updated": "2026-11-25T19:21-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-25T15:38-05:00",
-   "age_days": 0.1,
+   "age_days": 0.2,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 2,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 98,
+   "efficiency": 96,
    "profitability": 84,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-24",
    "through_week": 11,
-   "age_days": 1.7,
+   "age_days": 1.8,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 67,
+   "efficiency": 66,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 31.3,
+   "age_days": 31.4,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-25T21:45:38Z",
+   "updated": "2026-11-26T00:15:26Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 3,
    "agent": {
-    "equity": 95.0,
-    "bets": 95,
+    "equity": 90.0,
+    "bets": 96,
     "won": 30,
-    "lost": 63,
+    "lost": 64,
     "push": 2,
-    "roi": -0.2995,
+    "roi": -0.3059,
     "clv": 0.0009,
-    "open": 6,
-    "profit": -160.99,
-    "staked": 537.57
+    "open": 5,
+    "profit": -165.99,
+    "staked": 542.57
    },
    "you": {
     "equity": 125.1,
@@ -782,14 +782,14 @@
    "weights": {
     "value_fav": 0.842,
     "value_dog": 0.396,
-    "longshot": 0.31,
+    "longshot": 0.3,
     "arb": 1.098,
     "parlay_ev": 1.0,
     "matchup_over": 1.322,
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 14050,
+   "credits": 13932,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -804,18 +804,6 @@
      "playbook": "value_fav",
      "ev": 0.0628,
      "start": "2026-11-26T00:30:00Z"
-    },
-    {
-     "what": "AS Roma",
-     "odds": 600,
-     "book": "betrivers",
-     "game": "AS Roma @ Paris Saint Germain",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "longshot",
-     "ev": 0.0757,
-     "start": "2026-11-25T20:00:00Z"
     },
     {
      "what": "Duke Blue Devils",
@@ -867,6 +855,18 @@
     }
    ],
    "recent": [
+    {
+     "what": "AS Roma",
+     "odds": 600,
+     "book": "betrivers",
+     "game": "AS Roma @ Paris Saint Germain",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "longshot",
+     "ev": 0.0757,
+     "start": "2026-11-25T20:00:00Z"
+    },
     {
      "what": "Gardner-Webb Bulldogs",
      "odds": 685,
@@ -926,78 +926,41 @@
      "playbook": "matchup_over",
      "ev": 0.0378,
      "start": "2026-11-23T01:10:00Z"
-    },
-    {
-     "what": "Karl-Anthony Towns Over 15.5",
-     "odds": -123,
-     "book": "betrivers",
-     "game": "Indiana Pacers @ New York Knicks",
-     "stake": 5.0,
-     "profit": 4.05,
-     "status": "won",
-     "playbook": "matchup_over",
-     "ev": 0.0551,
-     "start": "2026-11-23T01:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-25T20:00:40Z",
-     "kind": "error",
-     "text": "Couldn't list sports: HTTP Error 502: Bad Gateway"
-    },
-    {
-     "ts": "2026-11-25T20:00:54Z",
+     "ts": "2026-11-25T22:44:38Z",
      "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 213 players projected, lineups for 9 games."
+     "text": "Research refresh for Wed Nov 25: 9 games, 216 players projected, lineups for 9 games."
     },
     {
-     "ts": "2026-11-25T20:30:37Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 3.00% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-25T20:30:45Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 213 players projected, lineups for 9 games."
-    },
-    {
-     "ts": "2026-11-25T21:01:11Z",
+     "ts": "2026-11-25T23:00:52Z",
      "kind": "props",
-     "text": "NBA matchups: 9 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), CHI@CHA (ast, ra, pra, team totals), MIA@PH"
+     "text": "NBA matchups: 8 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), CHI@CHA (ast, ra, pra, team totals), BKN@MI"
     },
     {
-     "ts": "2026-11-25T21:30:42Z",
-     "kind": "research",
-     "text": "Research refresh for Wed Nov 25: 9 games, 213 players projected, lineups for 9 games."
+     "ts": "2026-11-25T23:30:44Z",
+     "kind": "result",
+     "text": "LOST -$5.00: AS Roma @ +600 (BetRivers) \u2014 LOST: AS Roma tied by 0 [beat-closing-line]"
+    },
+    {
+     "ts": "2026-11-25T23:30:53Z",
+     "kind": "props",
+     "text": "NBA matchups: 8 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), CHI@CHA (ast, ra, pra, team totals), BKN@MI"
+    },
+    {
+     "ts": "2026-11-25T23:34:14Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 13958 left this cycle)."
+    },
+    {
+     "ts": "2026-11-26T00:01:30Z",
+     "kind": "props",
+     "text": "NBA matchups: 7 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), BKN@MIL (pra, ra, ast, tpm, team totals), M"
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-22T21:00:29Z",
-     "agent": 46.35,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-22T22:01:34Z",
-     "agent": 46.35,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-22T23:00:42Z",
-     "agent": 46.35,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T00:01:31Z",
-     "agent": 46.45,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T00:02:48Z",
-     "agent": 46.45,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-23T00:30:41Z",
      "agent": 46.45,
@@ -1172,6 +1135,31 @@
      "ts": "2026-11-25T21:01:11Z",
      "agent": 95.0,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-25T22:01:59Z",
+     "agent": 95.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-25T23:00:52Z",
+     "agent": 95.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-25T23:30:53Z",
+     "agent": 90.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-25T23:34:14Z",
+     "agent": 90.0,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T00:01:30Z",
+     "agent": 90.0,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1237,7 +1225,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 96.7,
+   "age_days": 96.8,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1247,7 +1235,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 130.7,
+   "age_days": 130.8,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1260,11 +1248,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-25T16:56-05:00",
+  "checked": "2026-11-25T19:21-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-25T09:08-05:00",
-   "age_hours": 7.8,
+   "age_hours": 10.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:36 AM) was on slightly stale data but ran. fix-empty-jobs still waits on the CRON_TOKEN secret. Next ship"
   },
@@ -1346,20 +1334,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T21:35:37Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45705649293"
+    "at": "2026-11-25T23:18:23Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45720235706"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T05:40:07Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45555146732"
+    "at": "2026-11-25T21:57:18Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45708883026"
    },
    {
     "repo": "Creation",
@@ -1376,8 +1364,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-25T21:46:05Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45707198245"
+    "at": "2026-11-26T00:15:49Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45727391906"
    }
   ],
   "ok": false
