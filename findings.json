@@ -58,7 +58,7 @@
   "agent": "memory",
   "business": "screener",
   "severity": "low",
-  "title": "Stock screener has sat undeployed for 131 days",
+  "title": "Stock screener has sat undeployed for 132 days",
   "detail": "Curiosity's agents now scan a 7,000-symbol universe on their own, which covers most of what the screener was for.",
   "action": "Decide: deploy it, fold its charts into Curiosity, or archive it."
  }
