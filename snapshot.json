@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T20:06-05:00",
+ "updated": "2026-11-25T22:48-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-25T15:38-05:00",
-   "age_days": 0.2,
+   "age_days": 0.3,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 2,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 96,
+   "efficiency": 95,
    "profitability": 84,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-24",
    "through_week": 11,
-   "age_days": 1.8,
+   "age_days": 2.0,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -376,7 +376,7 @@
        "rem": 6,
        "rate": 84.5,
        "need": 41.58,
-       "inj": "O",
+       "inj": "Q",
        "state": "ahead",
        "settled": null
       },
@@ -427,7 +427,7 @@
        "rem": 6,
        "rate": 0.3,
        "need": 0.42,
-       "inj": "",
+       "inj": "Q",
        "state": "behind",
        "settled": null
       }
@@ -458,7 +458,7 @@
        "rem": 7,
        "rate": 0.5,
        "need": 0.36,
-       "inj": "",
+       "inj": "Q",
        "state": "ahead",
        "settled": null
       },
@@ -626,7 +626,7 @@
        "rem": 6,
        "rate": 3.8,
        "need": 2.75,
-       "inj": "",
+       "inj": "Q",
        "state": "ahead",
        "settled": null
       },
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 31.4,
+   "age_days": 31.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-26T01:01:17Z",
+   "updated": "2026-11-26T03:45:28Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 3,
    "agent": {
-    "equity": 90.0,
-    "bets": 96,
-    "won": 30,
-    "lost": 64,
+    "equity": 90.46,
+    "bets": 98,
+    "won": 31,
+    "lost": 65,
     "push": 2,
-    "roi": -0.3059,
+    "roi": -0.2996,
     "clv": 0.0009,
-    "open": 5,
-    "profit": -165.99,
-    "staked": 542.57
+    "open": 3,
+    "profit": -165.53,
+    "staked": 552.57
    },
    "you": {
     "equity": 125.1,
@@ -757,7 +757,7 @@
     "profit": 25.1
    },
    "params": {
-    "min_edge": 0.03,
+    "min_edge": 0.0275,
     "kelly_mult": 0.05,
     "max_bet_pct": 0.08,
     "max_exposure_pct": 0.45,
@@ -780,7 +780,7 @@
     "matchup_under"
    ],
    "weights": {
-    "value_fav": 0.842,
+    "value_fav": 1.005,
     "value_dog": 0.396,
     "longshot": 0.3,
     "arb": 1.098,
@@ -789,9 +789,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 13914,
+   "credits": 13894,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 3,
    "open_bets": [
     {
      "what": "Mississippi St Bulldogs",
@@ -828,6 +828,20 @@
      "playbook": "arb",
      "ev": 0.0158,
      "start": "2026-11-26T00:00:00Z"
+    }
+   ],
+   "recent": [
+    {
+     "what": "Under 165.5",
+     "odds": 109,
+     "book": "kalshi",
+     "game": "CSU Northridge Matadors @ Weber State Wildcats",
+     "stake": 5.0,
+     "profit": 5.46,
+     "status": "won",
+     "playbook": "value_fav",
+     "ev": 0.0565,
+     "start": "2026-11-25T23:00:00Z"
     },
     {
      "what": "South Carolina Gamecocks",
@@ -835,26 +849,12 @@
      "book": "fanduel",
      "game": "South Carolina Gamecocks @ USC Trojans",
      "stake": 5.0,
-     "profit": null,
-     "status": "open",
+     "profit": -5.0,
+     "status": "lost",
      "playbook": "longshot",
      "ev": 0.0956,
      "start": "2026-11-25T21:30:00Z"
     },
-    {
-     "what": "Under 165.5",
-     "odds": 109,
-     "book": "kalshi",
-     "game": "CSU Northridge Matadors @ Weber State Wildcats",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "value_fav",
-     "ev": 0.0565,
-     "start": "2026-11-25T23:00:00Z"
-    }
-   ],
-   "recent": [
     {
      "what": "AS Roma",
      "odds": 600,
@@ -902,80 +902,41 @@
      "playbook": "matchup_over",
      "ev": 0.0564,
      "start": "2026-11-24T01:10:00Z"
-    },
-    {
-     "what": "Utah Jazz",
-     "odds": 570,
-     "book": "fanduel",
-     "game": "Utah Jazz @ Los Angeles Lakers",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "longshot",
-     "ev": 0.1386,
-     "start": "2026-11-24T03:10:00Z"
-    },
-    {
-     "what": "Jalen Brunson Over 9.5",
-     "odds": 107,
-     "book": "betrivers",
-     "game": "Indiana Pacers @ New York Knicks",
-     "stake": 5.0,
-     "profit": 5.35,
-     "status": "won",
-     "playbook": "matchup_over",
-     "ev": 0.0378,
-     "start": "2026-11-23T01:10:00Z"
     }
    ],
    "journal": [
     {
-     "ts": "2026-11-25T23:30:44Z",
-     "kind": "result",
-     "text": "LOST -$5.00: AS Roma @ +600 (BetRivers) \u2014 LOST: AS Roma tied by 0 [beat-closing-line]"
-    },
-    {
-     "ts": "2026-11-25T23:30:53Z",
+     "ts": "2026-11-26T02:04:21Z",
      "kind": "props",
-     "text": "NBA matchups: 8 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), CHI@CHA (ast, ra, pra, team totals), BKN@MI"
+     "text": "NBA matchups: 2 games, strongest spots: Toumani Camara pra -7% vs SA; Brandin Podziemski ast +6% vs SAC; Jrue Holiday ra -6% vs SA. Bought prop odds for SAC@GS (ast, pra, tpm, ra, team totals) (5 credits). Nothing cleared the bar."
     },
     {
-     "ts": "2026-11-25T23:34:14Z",
+     "ts": "2026-11-26T02:15:33Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 25: 9 games, 217 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-26T02:44:29Z",
      "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 13958 left this cycle)."
+     "text": "No scan this run (allowance 0 credits, 13902 left this cycle)."
     },
     {
-     "ts": "2026-11-26T00:01:30Z",
-     "kind": "props",
-     "text": "NBA matchups: 7 games, strongest spots: Sam Merrill ast -14% vs NY; Jaylon Tyson ra -13% vs NY; Sam Merrill ra -13% vs NY. Bought prop odds for CLE@NY (ast, ra, pra, team totals), PHX@HOU (ra, pra, ast, team totals), BKN@MIL (pra, ra, ast, tpm, team totals), M"
-    },
-    {
-     "ts": "2026-11-26T00:30:43Z",
-     "kind": "props",
-     "text": "NBA matchups: 5 games, strongest spots: Devin Booker ra -13% vs HOU; Jordan Goodwin ra -11% vs HOU; Dillon Brooks pra -11% vs HOU. Bought prop odds for PHX@HOU (ra, pra, ast, team totals), BKN@MIL (pra, ra, ast, tpm, team totals), LAC@MEM (ast, ra, pra, team t"
-    },
-    {
-     "ts": "2026-11-26T01:00:54Z",
+     "ts": "2026-11-26T03:00:46Z",
      "kind": "research",
      "text": "Research refresh for Wed Nov 25: 9 games, 215 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-26T03:12:58Z",
+     "kind": "research",
+     "text": "Research refresh for Wed Nov 25: 9 games, 216 players projected, lineups for 9 games."
+    },
+    {
+     "ts": "2026-11-26T03:30:40Z",
+     "kind": "adapt",
+     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 2.75% so I get enough bets to learn from."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-23T00:44:45Z",
-     "agent": 46.45,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T01:30:35Z",
-     "agent": 46.45,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-23T03:55:46Z",
-     "agent": 46.45,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-23T15:00:50Z",
      "agent": 50.85,
@@ -1160,6 +1121,21 @@
      "ts": "2026-11-26T00:30:43Z",
      "agent": 90.0,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T02:00:55Z",
+     "agent": 90.46,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T02:04:21Z",
+     "agent": 90.46,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-26T02:44:29Z",
+     "agent": 90.46,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1225,7 +1201,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 96.9,
+   "age_days": 97.0,
    "efficiency": 36,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1235,7 +1211,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 130.9,
+   "age_days": 131.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1244,15 +1220,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 4,
+  "med": 3,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-25T20:06-05:00",
+  "checked": "2026-11-25T22:48-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-25T20:06-05:00",
-   "age_hours": 0.0,
+   "age_hours": 2.7,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:38 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1300,9 +1276,18 @@
     "business": "curiosity",
     "name": "Trading agent race",
     "ok": true,
-    "conclusion": "cancelled",
-    "at": "2026-11-25T21:40:34Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45695621828"
+    "conclusion": "success",
+    "at": "2026-11-26T03:39:00Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45750225969"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Refresh injury tags",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-26T03:46:42Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45751045293"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1312,15 +1297,6 @@
     "conclusion": "success",
     "at": "2026-11-25T20:27:38Z",
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45695137607"
-   },
-   {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Refresh injury tags",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-24T06:21:02Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45339770698"
    },
    {
     "repo": "Ingenuity",
@@ -1337,8 +1313,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-26T00:21:57Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45728133344"
+    "at": "2026-11-26T01:06:39Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45733387140"
    },
    {
     "repo": "Creation",
@@ -1364,8 +1340,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-26T01:01:37Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45732710073"
+    "at": "2026-11-26T03:45:41Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45750900186"
    }
   ],
   "ok": false

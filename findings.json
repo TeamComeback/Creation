@@ -18,15 +18,6 @@
   "action": "At a computer: copy CRON_TOKEN from Render (creation-lc6a, Environment) into GitHub: TeamComeback/Creation, Settings, Secrets and variables, Actions, New secret named CRON_TOKEN. Scans start the next morning."
  },
  {
-  "id": "inj-bowers",
-  "agent": "overseer",
-  "business": "nfl",
-  "severity": "med",
-  "title": "Brock Bowers injury designation: O",
-  "detail": "Leg on Goat Whale (receiving yards).",
-  "action": "Check practice reports before the weekend."
- },
- {
   "id": "pace-herbert",
   "agent": "overseer",
   "business": "nfl",
