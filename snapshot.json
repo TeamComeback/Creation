@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-27T09:06-05:00",
+ "updated": "2026-11-27T15:15-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
-   "updated": "2026-11-25T15:38-05:00",
-   "age_days": 1.7,
+   "updated": "2026-11-27T12:39-05:00",
+   "age_days": 0.1,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
-   "spy_ret": -7.61,
-   "edge": 6.87,
+   "spy_ret": -5.97,
+   "edge": 5.23,
    "leader": {
     "name": "Rapid Fire Trading",
     "equity": 1001.35,
@@ -22,18 +22,18 @@
     {
      "id": "trend",
      "name": "Trend Co.",
-     "equity": 598.02,
+     "equity": 569.02,
      "status": "active",
-     "progress_pct": 5.98,
-     "open": 1,
-     "closed": 27,
-     "win_rate": 14.8,
-     "max_dd_pct": 55.5,
+     "progress_pct": 5.69,
+     "open": 0,
+     "closed": 28,
+     "win_rate": 14.3,
+     "max_dd_pct": 57.6,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.72,
-     "ret_pct": -40.2,
-     "note": "Passed on SNXX: the 3.47 underlying stop is about 149% above the 1.395 price, too wide to size on $563, and Broad market/other is on the avoid list. Holding the VALE put under its 10.12 stop and waiting for a Communication Services setup at"
+     "risk_adj": -0.75,
+     "ret_pct": -43.1,
+     "note": "No candidates and no game plan at 12:07. Holding the VALE put under its 10.12 underlying stop and keeping $563 settled for a Communication Services breakout at 3x+ volume."
     },
     {
      "id": "meanrev",
@@ -49,70 +49,70 @@
      "exhibition": false,
      "risk_adj": -0.26,
      "ret_pct": -1.62,
-     "note": "No trade. All five candidates fail the 0.8:1 reward-to-risk floor (MPC ~0.37, VLO ~0.22, PSX ~0.14, MDT ~0.57, WST ~0.71), none are Financials, and crash radar is 48 (warning). Stay in cash for a Financials RSI(2)<=10 setup that clears 0.8:"
+     "note": "No trade. WST is about 0.68:1 (16.21 reward vs 23.94 risk) and MDT about 0.39:1 (2.07 vs 5.35), both below the 0.8:1 floor and in avoid-list sectors. Stay in cash for a Financials RSI(2)<=10 setup above the 200-day that clears 0.8:1."
     },
     {
      "id": "volsell",
      "name": "Premium House",
-     "equity": 898.5,
+     "equity": 883.5,
      "status": "active",
-     "progress_pct": 8.98,
+     "progress_pct": 8.83,
      "open": 1,
      "closed": 7,
      "win_rate": 14.3,
-     "max_dd_pct": 11.7,
+     "max_dd_pct": 11.9,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.87,
-     "ret_pct": -10.15,
-     "note": "Holding the TLT 80/79 bull put under default exits (take profit near 0.07 mark, stop at 2x credit). The only candidate is a second TLT spread, which is blocked while TLT is held, so I'm passing. Next entry needs a rich-vol setup on a differ"
+     "risk_adj": -0.97,
+     "ret_pct": -11.65,
+     "note": "No candidates and the only open TLT spread is a duplicate-underlying block. Holding under default exits (mark 0.30 vs 0.20 entry, stop near 0.40). Next entry needs a rich-vol setup on a non-TLT underlying with crash radar under 40."
     },
     {
      "id": "baseline",
      "name": "Index Booth (SPY)",
-     "equity": 923.92,
+     "equity": 940.27,
      "status": "active",
-     "progress_pct": 9.24,
+     "progress_pct": 9.4,
      "open": 3,
      "closed": 0,
      "win_rate": null,
      "max_dd_pct": 10.8,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.7,
-     "ret_pct": -7.61,
+     "risk_adj": -0.55,
+     "ret_pct": -5.97,
      "note": ""
     },
     {
      "id": "monkey",
      "name": "Monkey Business",
-     "equity": 814.17,
+     "equity": 816.02,
      "status": "active",
-     "progress_pct": 8.14,
-     "open": 3,
-     "closed": 11,
-     "win_rate": 36.4,
+     "progress_pct": 8.16,
+     "open": 2,
+     "closed": 13,
+     "win_rate": 46.2,
      "max_dd_pct": 19.3,
      "competing": false,
      "exhibition": false,
-     "risk_adj": -0.96,
-     "ret_pct": -18.58,
+     "risk_adj": -0.95,
+     "ret_pct": -18.4,
      "note": ""
     },
     {
      "id": "blackswan",
      "name": "Black Swan & Co.",
-     "equity": -273.26,
+     "equity": -391.26,
      "status": "eliminated",
-     "progress_pct": -2.73,
+     "progress_pct": -3.91,
      "open": 2,
      "closed": 5,
      "win_rate": 20.0,
      "max_dd_pct": 141.1,
      "competing": false,
      "exhibition": true,
-     "risk_adj": -0.9,
-     "ret_pct": -127.33,
+     "risk_adj": -0.99,
+     "ret_pct": -139.13,
      "note": "Per-trade cap is now $61.91. Skip SH and TLT: SH would double the PSQ hedge and TLT costs more than the cap. If the ALNY spread is blocked for cost, the next step is a cheaper, narrower spread rather than a larger budget."
     },
     {
@@ -149,12 +149,6 @@
     }
    ],
    "curve": [
-    {
-     "date": "2026-10-15",
-     "racing": 2001.1,
-     "leader": 999.66,
-     "spy": 998.29
-    },
     {
      "date": "2026-10-16",
      "racing": 1999.39,
@@ -328,32 +322,38 @@
      "racing": 1985.17,
      "leader": 1001.35,
      "spy": 923.92
+    },
+    {
+     "date": "2026-11-27",
+     "racing": 1985.17,
+     "leader": 1001.35,
+     "spy": 940.27
     }
    ],
    "health_ok": true,
    "health_bad": [],
    "regime": {
     "trend": "down",
-    "vs200": -2.6,
-    "radar": 48,
+    "vs200": -0.9,
+    "radar": 49,
     "tier": "warning"
    },
    "brain": "AI (claude-haiku-5-5)",
    "compliance": {
-    "approved": 0,
-    "denied": 2,
-    "last_denied": "already holding TLT"
+    "approved": 1,
+    "denied": 0,
+    "last_denied": null
    },
-   "efficiency": 78,
-   "profitability": 84,
+   "efficiency": 98,
+   "profitability": 76,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
    "stage_note": "Paper money: proving a strategy before real capital"
   },
   "nfl": {
-   "updated": "2026-11-26",
+   "updated": "2026-11-27",
    "through_week": 12,
-   "age_days": 1.4,
+   "age_days": 0.6,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -405,13 +405,13 @@
        "stat": "receiving yards",
        "line": 825.5,
        "dir": "over",
-       "cur": 441,
-       "played": 8,
-       "rem": 7,
-       "rate": 55.12,
-       "need": 54.93,
+       "cur": 456,
+       "played": 9,
+       "rem": 6,
+       "rate": 50.67,
+       "need": 61.58,
        "inj": "",
-       "state": "on pace",
+       "state": "behind",
        "settled": null
       },
       {
@@ -435,9 +435,10 @@
      "alive": true,
      "weak": [
       "Justin Herbert",
+      "DJ Moore",
       "Zay Flowers"
      ],
-     "health": 50
+     "health": 25
     },
     {
      "key": "new",
@@ -521,11 +522,11 @@
        "stat": "passing yards",
        "line": 3999.5,
        "dir": "over",
-       "cur": 3049,
-       "played": 11,
-       "rem": 6,
-       "rate": 277.18,
-       "need": 158.42,
+       "cur": 3340,
+       "played": 12,
+       "rem": 5,
+       "rate": 278.33,
+       "need": 131.9,
        "inj": "",
        "state": "ahead",
        "settled": null
@@ -588,10 +589,10 @@
        "line": 0.5,
        "dir": "over",
        "cur": 11,
-       "played": 10,
-       "rem": 7,
-       "rate": 1.1,
-       "need": -1.5,
+       "played": 11,
+       "rem": 6,
+       "rate": 1.0,
+       "need": -1.75,
        "inj": "",
        "state": "won",
        "settled": "win*"
@@ -670,8 +671,8 @@
      "health": 75
     }
    ],
-   "efficiency": 68,
-   "profitability": 53,
+   "efficiency": 74,
+   "profitability": 44,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
    "stage_note": "Real money on three PrizePicks slips"
@@ -679,7 +680,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 33.0,
+   "age_days": 33.2,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T14:00:30Z",
+   "updated": "2026-11-27T20:00:32Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -789,7 +790,7 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 13223,
+   "credits": 13136,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -930,52 +931,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-27T05:00:42Z",
-     "kind": "research",
-     "text": "Self-checks pass again: DraftKings lines, Sims for every game, Slate date recovered."
-    },
-    {
-     "ts": "2026-11-27T05:02:23Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 257 players projected, lineups for 0 games."
-    },
-    {
-     "ts": "2026-11-27T05:16:37Z",
-     "kind": "result",
-     "text": "LOST -$5.00: Under 2.5 @ +102 (BetRivers) \u2014 LOST: Total 3 vs Under 2.5 [beat-closing-line, near-miss]"
-    },
-    {
-     "ts": "2026-11-27T05:16:42Z",
-     "kind": "scan",
-     "text": "Scanned icehockey_nhl (15), basketball_ncaab (44), americanfootball_nfl (1), soccer_epl (3), mma_mixed_martial_arts (12), basketball_nba (11), soccer_germany_bundesliga (5), americanfootball_ncaaf (22), soccer_italy_serie_a (3), soccer_spl (4), soccer_spain_la"
-    },
-    {
-     "ts": "2026-11-27T09:15:32Z",
+     "ts": "2026-11-27T18:30:46Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 246 players projected, lineups for 11 games."
     },
     {
-     "ts": "2026-11-27T10:06:50Z",
+     "ts": "2026-11-27T18:45:36Z",
      "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 246 players projected, lineups for 11 games."
+     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-27T19:00:10Z",
+     "kind": "focus",
+     "text": "Prop prices start from the market; the model moves them in no stat yet (walk-forward test, 10,381 graded props)."
+    },
+    {
+     "ts": "2026-11-27T19:00:10Z",
+     "kind": "daily",
+     "text": "Day close \u2014 equity $80.81 (run #3), 32-68-2, ROI -30.0%, CLV +0.2%."
+    },
+    {
+     "ts": "2026-11-27T19:15:32Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-27T19:45:31Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-24T02:00:54Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-24T02:07:59Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-24T04:12:50Z",
-     "agent": 45.85,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-24T04:41:45Z",
      "agent": 40.85,
@@ -1160,6 +1146,21 @@
      "ts": "2026-11-27T05:16:42Z",
      "agent": 80.81,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-27T15:00:49Z",
+     "agent": 80.81,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-27T18:00:44Z",
+     "agent": 80.81,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-27T19:00:10Z",
+     "agent": 80.81,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1225,7 +1226,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 98.4,
+   "age_days": 98.7,
    "efficiency": 35,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1235,7 +1236,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 132.4,
+   "age_days": 132.7,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1248,11 +1249,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T09:06-05:00",
+  "checked": "2026-11-27T15:15-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-27T09:07-05:00",
-   "age_hours": -0.0,
+   "age_hours": 6.1,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:40 AM) ran on slightly stale data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping run"
   },
@@ -1301,8 +1302,17 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T08:39:12Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45967283545"
+    "at": "2026-11-27T17:37:09Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/45997218468"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Auto-fill weekly stats",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-27T19:55:54Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/46060087795"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1314,22 +1324,13 @@
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45936186408"
    },
    {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Auto-fill weekly stats",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-26T20:09:01Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45888877532"
-   },
-   {
     "repo": "Ingenuity",
     "business": "ingenuity",
     "name": "Refresh stats",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-26T20:10:49Z",
-    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/45889102406"
+    "at": "2026-11-27T19:56:47Z",
+    "url": "https://github.com/TeamComeback/Ingenuity/actions/runs/46060192297"
    },
    {
     "repo": "Creation",
@@ -1337,8 +1338,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T13:59:07Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46011696602"
+    "at": "2026-11-27T14:06:50Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46012921641"
    },
    {
     "repo": "Creation",
@@ -1355,8 +1356,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T14:01:19Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46011975410"
+    "at": "2026-11-27T20:01:13Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46060585820"
    }
   ],
   "ok": true
