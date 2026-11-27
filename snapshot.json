@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:15-05:00",
+ "updated": "2026-11-27T15:20-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -730,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T20:00:32Z",
+   "updated": "2026-11-27T20:16:36Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -931,11 +931,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-27T18:30:46Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 246 players projected, lineups for 11 games."
-    },
-    {
      "ts": "2026-11-27T18:45:36Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
@@ -957,6 +952,11 @@
     },
     {
      "ts": "2026-11-27T19:45:31Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-27T20:15:41Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
     }
@@ -1249,11 +1249,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T15:15-05:00",
+  "checked": "2026-11-27T15:20-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-27T09:07-05:00",
-   "age_hours": 6.1,
+   "age_hours": 6.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:40 AM) ran on slightly stale data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping run"
   },
@@ -1338,8 +1338,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T14:06:50Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46012921641"
+    "at": "2026-11-27T20:16:06Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46062379037"
    },
    {
     "repo": "Creation",
@@ -1356,8 +1356,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T20:01:13Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46060585820"
+    "at": "2026-11-27T20:16:54Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46062346298"
    }
   ],
   "ok": true
