@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:58-05:00",
+ "updated": "2026-11-27T09:06-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T13:45:25Z",
+   "updated": "2026-11-27T14:00:30Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1248,13 +1248,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T08:58-05:00",
+  "checked": "2026-11-27T09:06-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-26T20:07-05:00",
-   "age_hours": 12.9,
+   "last": "2026-11-27T09:07-05:00",
+   "age_hours": -0.0,
    "ok": true,
-   "summary": "Shipping run: nothing approved. The last upkeep run (7:36 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
+   "summary": "Shipping run: nothing approved. The last upkeep run (8:40 AM) ran on slightly stale data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping run"
   },
   "feeds": [
    {
@@ -1337,8 +1337,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T10:11:03Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45979823296"
+    "at": "2026-11-27T13:59:07Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46011696602"
    },
    {
     "repo": "Creation",
@@ -1355,8 +1355,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T13:45:50Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46009804083"
+    "at": "2026-11-27T14:01:19Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46011975410"
    }
   ],
   "ok": true
