@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T23:15-05:00",
+ "updated": "2026-11-27T00:17-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-25T15:38-05:00",
-   "age_days": 1.3,
+   "age_days": 1.4,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 2,
     "last_denied": "already holding TLT"
    },
-   "efficiency": 82,
+   "efficiency": 81,
    "profitability": 84,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -729,22 +729,22 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T04:00:37Z",
+   "updated": "2026-11-27T05:16:42Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
    "run": 3,
    "agent": {
-    "equity": 85.81,
-    "bets": 101,
+    "equity": 80.81,
+    "bets": 102,
     "won": 32,
-    "lost": 67,
+    "lost": 68,
     "push": 2,
-    "roi": -0.2937,
-    "clv": 0.0018,
+    "roi": -0.2997,
+    "clv": 0.0017,
     "open": 5,
-    "profit": -170.18,
-    "staked": 579.53
+    "profit": -175.18,
+    "staked": 584.53
    },
    "you": {
     "equity": 125.1,
@@ -780,7 +780,7 @@
     "matchup_under"
    ],
    "weights": {
-    "value_fav": 0.882,
+    "value_fav": 0.769,
     "value_dog": 0.396,
     "longshot": 0.3,
     "arb": 1.107,
@@ -789,22 +789,10 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 13439,
+   "credits": 13352,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 150,
    "open_bets": [
-    {
-     "what": "Under 2.5",
-     "odds": 102,
-     "book": "betrivers",
-     "game": "Guadalajara @ Pachuca",
-     "stake": 5.0,
-     "profit": null,
-     "status": "open",
-     "playbook": "value_fav",
-     "ev": 0.0302,
-     "start": "2026-11-27T01:00:00Z"
-    },
     {
      "what": "Calgary Flames",
      "odds": 240,
@@ -852,9 +840,33 @@
      "playbook": "value_fav",
      "ev": 0.0319,
      "start": "2026-11-27T16:30:00Z"
+    },
+    {
+     "what": "Over 128.5",
+     "odds": -115,
+     "book": "espnbet",
+     "game": "Vermont Catamounts @ Merrimack Warriors",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "value_fav",
+     "ev": 0.0419,
+     "start": "2026-11-27T18:00:00Z"
     }
    ],
    "recent": [
+    {
+     "what": "Under 2.5",
+     "odds": 102,
+     "book": "betrivers",
+     "game": "Guadalajara @ Pachuca",
+     "stake": 5.0,
+     "profit": -5.0,
+     "status": "lost",
+     "playbook": "value_fav",
+     "ev": 0.0302,
+     "start": "2026-11-27T01:00:00Z"
+    },
     {
      "what": "Under 165.5",
      "odds": 109,
@@ -914,41 +926,9 @@
      "playbook": "longshot",
      "ev": 0.0757,
      "start": "2026-11-25T20:00:00Z"
-    },
-    {
-     "what": "Gardner-Webb Bulldogs",
-     "odds": 685,
-     "book": "kalshi",
-     "game": "Gardner-Webb Bulldogs @ Bowling Green Falcons",
-     "stake": 5.0,
-     "profit": -5.0,
-     "status": "lost",
-     "playbook": "longshot",
-     "ev": 0.1451,
-     "start": "2026-11-25T00:00:00Z"
     }
    ],
    "journal": [
-    {
-     "ts": "2026-11-26T21:00:38Z",
-     "kind": "adapt",
-     "text": "Three scans in a row with nothing worth betting. Easing the minimum edge to 0.50% so I get enough bets to learn from."
-    },
-    {
-     "ts": "2026-11-26T22:35:06Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 256 players projected, lineups for 0 games."
-    },
-    {
-     "ts": "2026-11-26T23:44:31Z",
-     "kind": "scan",
-     "text": "Scanned icehockey_nhl (15), americanfootball_nfl (2), mma_mixed_martial_arts (12) for 7 credits. Nothing cleared the bar. Equity $85.81."
-    },
-    {
-     "ts": "2026-11-27T02:03:37Z",
-     "kind": "props",
-     "text": "NBA matchups: 11 games, strongest spots: Klay Thompson ast -13% vs NY; Keldon Johnson ast -13% vs LAL; Darius Garland ast +15% vs NO. Bought prop odds for MIA@NY (ast, ra, pra, team totals), PHI@IND (ra, pra, ast, tpm, team totals), NO@LAC (ast, ra, pra, team "
-    },
     {
      "ts": "2026-11-27T02:45:18Z",
      "kind": "scan",
@@ -958,14 +938,29 @@
      "ts": "2026-11-27T03:18:15Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 255 players projected, lineups for 0 games."
+    },
+    {
+     "ts": "2026-11-27T05:00:42Z",
+     "kind": "research",
+     "text": "Self-checks pass again: DraftKings lines, Sims for every game, Slate date recovered."
+    },
+    {
+     "ts": "2026-11-27T05:02:23Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 257 players projected, lineups for 0 games."
+    },
+    {
+     "ts": "2026-11-27T05:16:37Z",
+     "kind": "result",
+     "text": "LOST -$5.00: Under 2.5 @ +102 (BetRivers) \u2014 LOST: Total 3 vs Under 2.5 [beat-closing-line, near-miss]"
+    },
+    {
+     "ts": "2026-11-27T05:16:42Z",
+     "kind": "scan",
+     "text": "Scanned icehockey_nhl (15), basketball_ncaab (44), americanfootball_nfl (1), soccer_epl (3), mma_mixed_martial_arts (12), basketball_nba (11), soccer_germany_bundesliga (5), americanfootball_ncaaf (22), soccer_italy_serie_a (3), soccer_spl (4), soccer_spain_la"
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-24T00:30:41Z",
-     "agent": 50.85,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-24T02:00:54Z",
      "agent": 50.85,
@@ -1160,6 +1155,11 @@
      "ts": "2026-11-27T02:45:18Z",
      "agent": 85.81,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-27T05:16:42Z",
+     "agent": 80.81,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1225,7 +1225,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 98.0,
+   "age_days": 98.1,
    "efficiency": 35,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1235,7 +1235,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 132.0,
+   "age_days": 132.1,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1248,11 +1248,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-26T23:15-05:00",
+  "checked": "2026-11-27T00:17-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-26T20:07-05:00",
-   "age_hours": 3.1,
+   "age_hours": 4.2,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:36 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1337,8 +1337,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T01:10:15Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45920987593"
+    "at": "2026-11-27T04:16:27Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45938914299"
    },
    {
     "repo": "Creation",
@@ -1355,8 +1355,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T04:15:50Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45938842261"
+    "at": "2026-11-27T05:17:04Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45944810412"
    }
   ],
   "ok": true
