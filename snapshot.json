@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:20-05:00",
+ "updated": "2026-11-27T16:03-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-27",
    "through_week": 12,
-   "age_days": 0.6,
+   "age_days": 0.7,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -671,7 +671,7 @@
      "health": 75
     }
    ],
-   "efficiency": 74,
+   "efficiency": 73,
    "profitability": 44,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -680,7 +680,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 33.2,
+   "age_days": 33.3,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -730,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T20:16:36Z",
+   "updated": "2026-11-27T21:00:32Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -931,11 +931,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-27T18:45:36Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
-    },
-    {
      "ts": "2026-11-27T19:00:10Z",
      "kind": "focus",
      "text": "Prop prices start from the market; the model moves them in no stat yet (walk-forward test, 10,381 graded props)."
@@ -957,6 +952,11 @@
     },
     {
      "ts": "2026-11-27T20:15:41Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-27T20:45:40Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
     }
@@ -1249,11 +1249,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T15:20-05:00",
+  "checked": "2026-11-27T16:03-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-27T09:07-05:00",
-   "age_hours": 6.2,
+   "age_hours": 6.9,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (8:40 AM) ran on slightly stale data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping run"
   },
@@ -1338,8 +1338,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T20:16:06Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46062379037"
+    "at": "2026-11-27T20:21:09Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46062998712"
    },
    {
     "repo": "Creation",
@@ -1356,8 +1356,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T20:16:54Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46062346298"
+    "at": "2026-11-27T21:00:49Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46067382645"
    }
   ],
   "ok": true
