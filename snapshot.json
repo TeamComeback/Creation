@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T05:10-05:00",
+ "updated": "2026-11-27T08:58-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-25T15:38-05:00",
-   "age_days": 1.6,
+   "age_days": 1.7,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-26",
    "through_week": 12,
-   "age_days": 1.2,
+   "age_days": 1.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -670,7 +670,7 @@
      "health": 75
     }
    ],
-   "efficiency": 70,
+   "efficiency": 68,
    "profitability": 53,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -679,7 +679,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 32.8,
+   "age_days": 33.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -729,7 +729,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-27T10:07:56Z",
+   "updated": "2026-11-27T13:45:25Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -1225,7 +1225,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 98.3,
+   "age_days": 98.4,
    "efficiency": 35,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1235,7 +1235,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 132.3,
+   "age_days": 132.4,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1248,11 +1248,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T05:10-05:00",
+  "checked": "2026-11-27T08:58-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-26T20:07-05:00",
-   "age_hours": 9.1,
+   "age_hours": 12.9,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:36 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1334,6 +1334,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-27T10:11:03Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/45979823296"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1341,22 +1350,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/45945205156"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-27T05:18:13Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/45944925797"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T10:08:16Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/45979253983"
+    "at": "2026-11-27T13:45:50Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46009804083"
    }
   ],
   "ok": true
