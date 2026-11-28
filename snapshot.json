@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T23:54-05:00",
+ "updated": "2026-11-28T02:50-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-27T12:39-05:00",
-   "age_days": 0.5,
+   "age_days": 0.6,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 92,
+   "efficiency": 90,
    "profitability": 76,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-27",
    "through_week": 12,
-   "age_days": 1.0,
+   "age_days": 1.1,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -671,7 +671,7 @@
      "health": 75
     }
    ],
-   "efficiency": 71,
+   "efficiency": 70,
    "profitability": 44,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -680,7 +680,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 33.6,
+   "age_days": 33.7,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -730,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-28T04:53:57Z",
+   "updated": "2026-11-28T07:45:29Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -742,8 +742,8 @@
     "lost": 70,
     "push": 2,
     "roi": -0.2751,
-    "clv": 0.0016,
-    "open": 1,
+    "clv": 0.0033,
+    "open": 7,
     "profit": -170.16,
     "staked": 618.54
    },
@@ -790,9 +790,9 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 12972,
+   "credits": 12764,
    "credits_monthly": 20000,
-   "per_scan": 0,
+   "per_scan": 150,
    "open_bets": [
     {
      "what": "KooKoo",
@@ -805,6 +805,78 @@
      "playbook": "value_fav",
      "ev": 0.0319,
      "start": "2026-11-27T16:30:00Z"
+    },
+    {
+     "what": "Coastal Carolina Chanticleers",
+     "odds": 685,
+     "book": "kalshi",
+     "game": "Coastal Carolina Chanticleers @ James Madison Dukes",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0707,
+     "start": "2026-11-28T19:00:00Z"
+    },
+    {
+     "what": "Over 141.5",
+     "odds": 105,
+     "book": "kalshi",
+     "game": "Fordham Rams @ Harvard Crimson",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "value_fav",
+     "ev": 0.0269,
+     "start": "2026-11-28T19:00:00Z"
+    },
+    {
+     "what": "FC Zwolle",
+     "odds": 475,
+     "book": "betrivers",
+     "game": "AZ Alkmaar @ FC Zwolle",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0595,
+     "start": "2026-11-29T15:45:00Z"
+    },
+    {
+     "what": "Draw",
+     "odds": 685,
+     "book": "kalshi",
+     "game": "Barcelona @ Deportivo La Coru\u00f1a",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0394,
+     "start": "2026-11-29T15:15:00Z"
+    },
+    {
+     "what": "New England Revolution",
+     "odds": 460,
+     "book": "betrivers",
+     "game": "New England Revolution @ Philadelphia Union",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.0349,
+     "start": "2026-11-28T21:30:00Z"
+    },
+    {
+     "what": "UT Rio Grande Valley Vaqueros",
+     "odds": 475,
+     "book": "betmgm",
+     "game": "UT Rio Grande Valley Vaqueros @ UNLV Rebels",
+     "stake": 5.0,
+     "profit": null,
+     "status": "open",
+     "playbook": "longshot",
+     "ev": 0.034,
+     "start": "2026-11-28T20:00:00Z"
     }
    ],
    "recent": [
@@ -883,21 +955,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-28T02:32:23Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 247 players projected, lineups for 11 games."
-    },
-    {
-     "ts": "2026-11-28T02:35:18Z",
-     "kind": "scan",
-     "text": "No scan this run (allowance 0 credits, 12974 left this cycle)."
-    },
-    {
-     "ts": "2026-11-28T02:58:34Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 248 players projected, lineups for 11 games."
-    },
-    {
      "ts": "2026-11-28T04:44:31Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 256 players projected, lineups for 11 games."
@@ -911,14 +968,24 @@
      "ts": "2026-11-28T04:53:57Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 12972 left this cycle)."
+    },
+    {
+     "ts": "2026-11-28T05:00:35Z",
+     "kind": "scan",
+     "text": "Scout: icehockey_nhl (13), soccer_epl (9), basketball_ncaab (62), soccer_germany_bundesliga (7), soccer_spain_la_liga (6), soccer_italy_serie_a (6), mma_mixed_martial_arts (21), americanfootball_ncaaf (53), basketball_nba (5), soccer_usa_mls (6), soccer_englan"
+    },
+    {
+     "ts": "2026-11-28T05:03:05Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 28: 5 games, 113 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-28T07:37:14Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 28: 5 games, 115 players projected, lineups for 11 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-25T00:00:43Z",
-     "agent": 100.0,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-25T02:00:44Z",
      "agent": 100.0,
@@ -1113,6 +1180,11 @@
      "ts": "2026-11-28T04:53:57Z",
      "agent": 85.83,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-28T05:00:35Z",
+     "agent": 85.83,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1178,7 +1250,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 99.0,
+   "age_days": 99.2,
    "efficiency": 35,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1188,7 +1260,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 133.0,
+   "age_days": 133.2,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1201,11 +1273,11 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T23:54-05:00",
+  "checked": "2026-11-28T02:50-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-27T20:07-05:00",
-   "age_hours": 3.8,
+   "age_hours": 6.7,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:35 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1287,20 +1359,20 @@
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "HQ data",
+    "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-28T03:35:19Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46103523956"
+    "at": "2026-11-28T04:57:02Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46109835660"
    },
    {
     "repo": "Creation",
     "business": "jobs",
-    "name": "Job snapshot",
+    "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T22:55:39Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46079515200"
+    "at": "2026-11-28T04:55:22Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46109695797"
    },
    {
     "repo": "Perseverance",
@@ -1308,8 +1380,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-28T04:54:23Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46109611038"
+    "at": "2026-11-28T07:45:57Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46122636341"
    }
   ],
   "ok": true
