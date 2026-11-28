@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-28T07:27-05:00",
+ "updated": "2026-11-28T09:06-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-27T12:39-05:00",
-   "age_days": 0.8,
+   "age_days": 0.9,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 88,
+   "efficiency": 86,
    "profitability": 76,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-27",
    "through_week": 12,
-   "age_days": 1.3,
+   "age_days": 1.4,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -671,7 +671,7 @@
      "health": 75
     }
    ],
-   "efficiency": 70,
+   "efficiency": 68,
    "profitability": 44,
    "automation": "Partial: weekly stats entered by hand, site publishes from data.json",
    "stage": "Live bets",
@@ -680,7 +680,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 33.9,
+   "age_days": 34.0,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -730,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-28T12:15:24Z",
+   "updated": "2026-11-28T14:00:28Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -955,11 +955,6 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-28T04:53:53Z",
-     "kind": "result",
-     "text": "WON +$5.55: Jalen Brunson Over 6.5 @ +111 (DraftKings) \u2014 WON: 8 assists vs Over 6.5 [matchup-read-right, ordinary-variance]"
-    },
-    {
      "ts": "2026-11-28T04:53:57Z",
      "kind": "scan",
      "text": "No scan this run (allowance 0 credits, 12972 left this cycle)."
@@ -981,6 +976,11 @@
     },
     {
      "ts": "2026-11-28T09:25:28Z",
+     "kind": "research",
+     "text": "Research refresh for Sat Nov 28: 5 games, 115 players projected, lineups for 5 games."
+    },
+    {
+     "ts": "2026-11-28T13:30:37Z",
      "kind": "research",
      "text": "Research refresh for Sat Nov 28: 5 games, 115 players projected, lineups for 5 games."
     }
@@ -1273,13 +1273,13 @@
   "low": 2
  },
  "health": {
-  "checked": "2026-11-28T07:27-05:00",
+  "checked": "2026-11-28T09:06-05:00",
   "mode": "action",
   "shipping": {
-   "last": "2026-11-27T20:07-05:00",
-   "age_hours": 11.3,
+   "last": "2026-11-28T09:07-05:00",
+   "age_hours": -0.0,
    "ok": true,
-   "summary": "Shipping run: nothing approved. The last upkeep run (7:35 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
+   "summary": "Shipping run: nothing approved. The last upkeep run (8:45 AM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
   "feeds": [
    {
@@ -1362,8 +1362,8 @@
     "name": "HQ data",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-28T07:50:54Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46123008748"
+    "at": "2026-11-28T12:28:26Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46144772857"
    },
    {
     "repo": "Creation",
@@ -1380,8 +1380,8 @@
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-28T12:15:46Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46143716504"
+    "at": "2026-11-28T14:01:03Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46152393762"
    }
   ],
   "ok": true
