@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T20:06-05:00",
+ "updated": "2026-11-27T22:34-05:00",
  "businesses": {
   "curiosity": {
    "start": 1000.0,
    "goal": 10000.0,
    "updated": "2026-11-27T12:39-05:00",
-   "age_days": 0.3,
+   "age_days": 0.4,
    "pool_now": 1985.17,
    "pool_start": 2000.0,
    "pool_ret": -0.74,
@@ -344,7 +344,7 @@
     "denied": 0,
     "last_denied": null
    },
-   "efficiency": 95,
+   "efficiency": 94,
    "profitability": 76,
    "automation": "Full: GitHub Actions trade, plan and recap on schedule",
    "stage": "Testing",
@@ -353,7 +353,7 @@
   "nfl": {
    "updated": "2026-11-27",
    "through_week": 12,
-   "age_days": 0.8,
+   "age_days": 0.9,
    "stake": 50.01,
    "payout": 1437.88,
    "slips": [
@@ -393,7 +393,7 @@
        "rem": 7,
        "rate": 0.8,
        "need": 2.5,
-       "inj": "Q",
+       "inj": "O",
        "state": "out of reach",
        "settled": null
       },
@@ -680,7 +680,7 @@
   "ingenuity": {
    "generated": "2026-10-25T14:57:58Z",
    "data_through": "2026-09-27",
-   "age_days": 33.4,
+   "age_days": 33.5,
    "datasets": [
     {
      "label": "Batters \u00b7 season",
@@ -730,7 +730,7 @@
    "stage_note": "Feeds the day job search"
   },
   "perseverance": {
-   "updated": "2026-11-28T01:02:49Z",
+   "updated": "2026-11-28T03:30:34Z",
    "age_days": 0.0,
    "start": 100.0,
    "goal": 1000.0,
@@ -790,7 +790,7 @@
     "matchup_under": 0.3
    },
    "strategist_on": false,
-   "credits": 12980,
+   "credits": 12974,
    "credits_monthly": 20000,
    "per_scan": 0,
    "open_bets": [
@@ -895,52 +895,37 @@
    ],
    "journal": [
     {
-     "ts": "2026-11-27T23:33:29Z",
-     "kind": "props",
-     "text": "NBA matchups: 11 games, strongest spots: Klay Thompson ast -13% vs NY; Darius Garland ast +15% vs NO; Tyrese Maxey ra +13% vs IND. Bought prop odds for MIA@NY (ast, ra, pra, team totals), PHI@IND (ra, pra, ast, tpm, team totals), NO@LAC (ast, ra, pra, team tot"
-    },
-    {
-     "ts": "2026-11-28T00:00:48Z",
-     "kind": "props",
-     "text": "NBA matchups: 10 games, strongest spots: Darius Garland ast +15% vs NO; Tyrese Maxey ra +13% vs IND; Tyrese Maxey pra +12% vs IND. Bought prop odds for PHI@IND (ra, pra, ast, tpm, team totals), NO@LAC (ast, ra, pra, team totals), MIL@DET (ast, ra, pra) (14 cre"
-    },
-    {
-     "ts": "2026-11-28T00:30:38Z",
-     "kind": "props",
-     "text": "NBA matchups: 7 games, strongest spots: Darius Garland ast +15% vs NO; Devin Booker ast +12% vs DAL; Brook Lopez ra +11% vs NO. No credits to price props this run (allowance 0). "
-    },
-    {
-     "ts": "2026-11-28T00:45:34Z",
-     "kind": "research",
-     "text": "Research refresh for Fri Nov 27: 11 games, 245 players projected, lineups for 11 games."
-    },
-    {
-     "ts": "2026-11-28T01:01:25Z",
+     "ts": "2026-11-28T01:30:53Z",
      "kind": "research",
      "text": "Research refresh for Fri Nov 27: 11 games, 246 players projected, lineups for 11 games."
     },
     {
-     "ts": "2026-11-28T01:02:17Z",
+     "ts": "2026-11-28T01:31:57Z",
      "kind": "props",
-     "text": "NBA matchups: 6 games, strongest spots: Darius Garland ast +15% vs NO; Devin Booker ast +12% vs DAL; Brook Lopez ra +11% vs NO. No credits to price props this run (allowance 0). "
+     "text": "NBA matchups: 5 games, strongest spots: Darius Garland ast +15% vs NO; Devin Booker ast +12% vs DAL; Brook Lopez ra +11% vs NO. No credits to price props this run (allowance 0). "
+    },
+    {
+     "ts": "2026-11-28T01:47:53Z",
+     "kind": "props",
+     "text": "NBA matchups: 4 games, strongest spots: Darius Garland ast +15% vs NO; Brook Lopez ra +11% vs NO; Jamal Murray ast +11% vs UTAH. No credits to price props this run (allowance 0). "
+    },
+    {
+     "ts": "2026-11-28T02:32:23Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 247 players projected, lineups for 11 games."
+    },
+    {
+     "ts": "2026-11-28T02:35:18Z",
+     "kind": "scan",
+     "text": "No scan this run (allowance 0 credits, 12974 left this cycle)."
+    },
+    {
+     "ts": "2026-11-28T02:58:34Z",
+     "kind": "research",
+     "text": "Research refresh for Fri Nov 27: 11 games, 248 players projected, lineups for 11 games."
     }
    ],
    "curve": [
-    {
-     "ts": "2026-11-24T21:45:28Z",
-     "agent": 100.0,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-24T22:00:42Z",
-     "agent": 100.0,
-     "you": 125.1
-    },
-    {
-     "ts": "2026-11-24T23:00:43Z",
-     "agent": 100.0,
-     "you": 125.1
-    },
     {
      "ts": "2026-11-24T23:51:15Z",
      "agent": 100.0,
@@ -1125,6 +1110,21 @@
      "ts": "2026-11-28T01:02:17Z",
      "agent": 80.28,
      "you": 125.1
+    },
+    {
+     "ts": "2026-11-28T01:31:57Z",
+     "agent": 80.28,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-28T01:47:53Z",
+     "agent": 80.28,
+     "you": 125.1
+    },
+    {
+     "ts": "2026-11-28T02:35:18Z",
+     "agent": 80.28,
+     "you": 125.1
     }
    ],
    "runs": [
@@ -1190,7 +1190,7 @@
     "Premium package contents",
     "Burn Heart Cake price"
    ],
-   "age_days": 98.9,
+   "age_days": 99.0,
    "efficiency": 35,
    "profitability": 35,
    "automation": "Netlify forms take orders; site handed off for self-editing",
@@ -1200,7 +1200,7 @@
    "as_of": "2026-07-18",
    "stage": "Parked",
    "blocker": "Polygon.io key needs MacBook",
-   "age_days": 132.9,
+   "age_days": 133.0,
    "efficiency": 15,
    "profitability": 20,
    "automation": "None: never deployed",
@@ -1209,15 +1209,15 @@
  },
  "counts": {
   "high": 2,
-  "med": 2,
+  "med": 3,
   "low": 2
  },
  "health": {
-  "checked": "2026-11-27T20:06-05:00",
+  "checked": "2026-11-27T22:34-05:00",
   "mode": "action",
   "shipping": {
    "last": "2026-11-27T20:07-05:00",
-   "age_hours": -0.0,
+   "age_hours": 2.5,
    "ok": true,
    "summary": "Shipping run: nothing approved. The last upkeep run (7:35 PM) was on fresh data. fix-empty-jobs still waits on the CRON_TOKEN secret. Next shipping runs are sch"
   },
@@ -1266,8 +1266,17 @@
     "name": "Trading agent race",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-27T22:30:48Z",
-    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/46060909612"
+    "at": "2026-11-28T02:47:49Z",
+    "url": "https://github.com/TeamComeback/Curiosity/actions/runs/46099776439"
+   },
+   {
+    "repo": "Fantasy-Tracker",
+    "business": "nfl",
+    "name": "Refresh injury tags",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-28T03:31:31Z",
+    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/46103253299"
    },
    {
     "repo": "Fantasy-Tracker",
@@ -1277,15 +1286,6 @@
     "conclusion": "success",
     "at": "2026-11-27T19:55:54Z",
     "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/46060087795"
-   },
-   {
-    "repo": "Fantasy-Tracker",
-    "business": "nfl",
-    "name": "Refresh injury tags",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-27T03:47:34Z",
-    "url": "https://github.com/TeamComeback/Fantasy-Tracker/actions/runs/45936186408"
    },
    {
     "repo": "Ingenuity",
@@ -1299,6 +1299,15 @@
    {
     "repo": "Creation",
     "business": "jobs",
+    "name": "HQ data",
+    "ok": true,
+    "conclusion": "success",
+    "at": "2026-11-28T01:06:50Z",
+    "url": "https://github.com/TeamComeback/Creation/actions/runs/46091370032"
+   },
+   {
+    "repo": "Creation",
+    "business": "jobs",
     "name": "Job snapshot",
     "ok": true,
     "conclusion": "success",
@@ -1306,22 +1315,13 @@
     "url": "https://github.com/TeamComeback/Creation/actions/runs/46079515200"
    },
    {
-    "repo": "Creation",
-    "business": "jobs",
-    "name": "HQ data",
-    "ok": true,
-    "conclusion": "success",
-    "at": "2026-11-27T22:44:22Z",
-    "url": "https://github.com/TeamComeback/Creation/actions/runs/46078369084"
-   },
-   {
     "repo": "Perseverance",
     "business": "perseverance",
     "name": "Agent",
     "ok": true,
     "conclusion": "success",
-    "at": "2026-11-28T01:03:09Z",
-    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46090860568"
+    "at": "2026-11-28T03:30:54Z",
+    "url": "https://github.com/TeamComeback/Perseverance/actions/runs/46103153066"
    }
   ],
   "ok": true

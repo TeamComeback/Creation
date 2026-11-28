@@ -27,6 +27,15 @@
   "action": "Watch usage and injury news. One more miss likely sinks this slip."
  },
  {
+  "id": "inj-herbert",
+  "agent": "overseer",
+  "business": "nfl",
+  "severity": "med",
+  "title": "Justin Herbert injury designation: O",
+  "detail": "Leg on Goat Whale (passing touchdowns).",
+  "action": "Check practice reports before the weekend."
+ },
+ {
   "id": "bdl-issue1",
   "agent": "deadline",
   "business": "balldontlie",
